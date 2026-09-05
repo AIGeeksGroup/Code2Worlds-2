@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Code2Worlds-2 MuJoCo simulation demonstrations.">
+  <title>Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation</title>
+  <style>
+    :root {
+      --ink: #111514;
+      --paper: #f2f0e9;
+      --muted: #68716d;
+      --line: #cbd0ca;
+      --accent: #d65331;
+      --accent-dark: #a73c24;
+      --max-width: 1440px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page-shell {
+      width: min(var(--max-width), 90vw);
+      margin: 0 auto;
+    }
+
+    .topbar {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar-inner {
+      display: flex;
+      min-height: 70px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .wordmark {
+      color: var(--accent-dark);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .title-accent {
+      color: var(--accent);
+    }
+
+    .topbar-label {
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      padding: clamp(74px, 10vw, 150px) 0 clamp(70px, 9vw, 120px);
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 24px;
+      color: var(--accent-dark);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 36px;
+      height: 3px;
+      content: "";
+      background: var(--accent);
+    }
+
+    h1 {
+      max-width: 1180px;
+      margin: 0;
+      font-size: clamp(2.45rem, 5.2vw, 6.6rem);
+      font-weight: 850;
+      letter-spacing: -0.06em;
+      line-height: 0.96;
+    }
+
+    .hero-rule {
+      width: min(620px, 100%);
+      height: 1px;
+      margin-top: clamp(34px, 5vw, 64px);
+      background: var(--ink);
+      opacity: 0.2;
+    }
+
+    main {
+      border-top: 1px solid var(--line);
+    }
+
+    .simulation-section {
+      padding: clamp(56px, 8vw, 110px) 0 120px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 42px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 4.6rem);
+      font-weight: 820;
+      letter-spacing: -0.055em;
+      line-height: 1;
+    }
+
+    .section-note {
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .scene-list {
+      display: grid;
+      gap: 44px;
+    }
+
+    .scene {
+      border-top: 1px solid var(--line);
+      padding-top: 22px;
+    }
+
+    .scene-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .scene-number {
+      color: var(--accent-dark);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: clamp(1.15rem, 1.8vw, 1.6rem);
+      font-weight: 780;
+      letter-spacing: -0.025em;
+    }
+
+    .video-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .video-card {
+      min-width: 0;
+      border: 1px solid var(--line);
+      background: #000;
+    }
+
+    .video-card video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      object-fit: cover;
+    }
+
+    .video-label {
+      display: block;
+      padding: 10px 12px;
+      color: var(--paper);
+      background: var(--ink);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 26px 0 38px;
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 780px) {
+      .page-shell { width: 88vw; }
+      .topbar-inner,
+      .section-heading { align-items: flex-start; flex-direction: column; }
+      .topbar-inner { justify-content: center; padding: 18px 0; }
+      .section-note { white-space: normal; }
+      .video-row { grid-template-columns: 1fr; gap: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner page-shell">
+      <span class="wordmark">Code2Worlds-<span class="title-accent">2</span></span>
+      <span class="topbar-label">Embodied world simulation</span>
+    </div>
+  </header>
+
+  <section class="hero page-shell" aria-labelledby="page-title">
+    <p class="eyebrow">Physically Plausible Agent Harness</p>
+    <h1 id="page-title">Code2Worlds-<span class="title-accent">2</span>: Physically Plausible Agent Harness for Embodied World Simulation</h1>
+    <div class="hero-rule" aria-hidden="true"></div>
+  </section>
+
+  <main>
+    <section class="simulation-section page-shell" aria-labelledby="simulation-title">
+      <div class="section-heading">
+        <h2 id="simulation-title">MuJoCo Simulation</h2>
+        <span class="section-note">Five environments · three views each</span>
+      </div>
+      <div class="scene-list">
+        <article class="scene">
+          <div class="scene-heading"><span class="scene-number">01 /</span><h3>Indoors</h3></div>
+          <div class="video-row">
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/indoors/go2lr_walk_fixed.mp4" type="video/mp4"></video><span class="video-label">Go2LR Walk</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/indoors/indoor2_v2.mp4" type="video/mp4"></video><span class="video-label">Indoor Scene 02</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/indoors/vacuum_real.mp4" type="video/mp4"></video><span class="video-label">Vacuum Task</span></div>
+          </div>
+        </article>
+
+        <article class="scene">
+          <div class="scene-heading"><span class="scene-number">02 /</span><h3>Industrial</h3></div>
+          <div class="video-row">
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/industrial/agv_cargo_industry.mp4" type="video/mp4"></video><span class="video-label">AGV Cargo</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/industrial/agv_industry.mp4" type="video/mp4"></video><span class="video-label">AGV Industry</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/industrial/weld_v4_full.mp4" type="video/mp4"></video><span class="video-label">Welding</span></div>
+          </div>
+        </article>
+
+        <article class="scene">
+          <div class="scene-heading"><span class="scene-number">03 /</span><h3>Nature Outdoors</h3></div>
+          <div class="video-row">
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/nature_outdoors/outdoor1.mp4" type="video/mp4"></video><span class="video-label">Outdoor Scene 01</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/nature_outdoors/outdoor_scene1.mp4" type="video/mp4"></video><span class="video-label">Outdoor Scene 02</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/nature_outdoors/outdoor_scene10.mp4" type="video/mp4"></video><span class="video-label">Outdoor Scene 10</span></div>
+          </div>
+        </article>
+
+        <article class="scene">
+          <div class="scene-heading"><span class="scene-number">04 /</span><h3>Service</h3></div>
+          <div class="video-row">
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/service/indoor1_service.mp4" type="video/mp4"></video><span class="video-label">Service Interior</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/service/indoor2_airport.mp4" type="video/mp4"></video><span class="video-label">Airport</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/service/indoor3_hotel.mp4" type="video/mp4"></video><span class="video-label">Hotel</span></div>
+          </div>
+        </article>
+
+        <article class="scene">
+          <div class="scene-heading"><span class="scene-number">05 /</span><h3>Urban Outdoors</h3></div>
+          <div class="video-row">
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/urban_outdoors/agv_city.mp4" type="video/mp4"></video><span class="video-label">City AGV</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/urban_outdoors/intersection_full.mp4" type="video/mp4"></video><span class="video-label">Intersection</span></div>
+            <div class="video-card"><video controls autoplay muted loop playsinline preload="metadata"><source src="video/urban_outdoors/urban_delivery.mp4" type="video/mp4"></video><span class="video-label">Urban Delivery</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="page-shell">Code2Worlds-2 · MuJoCo Simulation</div>
+  </footer>
+</body>
+</html>
