@@ -13,6 +13,8 @@
       --line: #cbd0ca;
       --accent: #d65331;
       --accent-dark: #a73c24;
+      --brand: #c48218;
+      --brand-dark: #95600f;
       --max-width: 1440px;
     }
 
@@ -47,7 +49,6 @@
     }
 
     .wordmark {
-      color: var(--accent-dark);
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-size: 0.78rem;
       font-weight: 800;
@@ -55,7 +56,15 @@
       text-transform: uppercase;
     }
 
-    .title-accent {
+    .title-name {
+      color: var(--brand);
+    }
+
+    .wordmark .title-name {
+      color: var(--brand-dark);
+    }
+
+    .title-version {
       color: var(--accent);
     }
 
@@ -229,14 +238,14 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner page-shell">
-      <span class="wordmark">Code2Worlds-<span class="title-accent">2</span></span>
+      <span class="wordmark"><span class="title-name">Code2Worlds</span><span class="title-version">-2</span></span>
       <span class="topbar-label">Embodied world simulation</span>
     </div>
   </header>
 
   <section class="hero page-shell" aria-labelledby="page-title">
     <p class="eyebrow">Physically Plausible Agent Harness</p>
-    <h1 id="page-title">Code2Worlds-<span class="title-accent">2</span>: Physically Plausible Agent Harness for Embodied World Simulation</h1>
+    <h1 id="page-title"><span class="title-name">Code2Worlds</span><span class="title-version">-2</span>: Physically Plausible Agent Harness for Embodied World Simulation</h1>
     <div class="hero-rule" aria-hidden="true"></div>
   </section>
 
