@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://simcode4d.org/schemas/rc3a-dev1/case-gold.json",
+  "title": "SimCode4D RC3A development case gold",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "case_spec_sha256", "gold_visibility",
+    "initialization", "regions", "thresholds", "event_dag",
+    "contact_policy", "perturbations", "integrity_rules", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": "simcode4d.rc3a-dev1.case-gold"},
+    "case_id": {"type": "string"},
+    "case_spec_sha256": {"$ref": "#/$defs/sha256"},
+    "gold_visibility": {"const": "development_private_placeholder"},
+    "initialization": {"type": "object"},
+    "regions": {"type": "object"},
+    "thresholds": {
+      "type": "object",
+      "required": ["illegal_penetration_m", "terminal_hold_s"],
+      "properties": {
+        "illegal_penetration_m": {"const": 0.001},
+        "terminal_hold_s": {"const": 0.5}
+      }
+    },
+    "event_dag": {
+      "type": "object",
+      "required": ["nodes", "edges"],
+      "properties": {
+        "nodes": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "prefixItems": [{"type": "string"}, {"type": "string"}],
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
+    },
+    "contact_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowed", "forbidden", "penetration_exemptions", "groups"],
+      "properties": {
+        "allowed": {"type": "array", "items": {"$ref": "#/$defs/semantic_pair"}},
+        "forbidden": {"type": "array", "items": {"$ref": "#/$defs/semantic_pair"}},
+        "penetration_exemptions": {"type": "array", "maxItems": 0},
+        "groups": {"type": "object", "minProperties": 1, "additionalProperties": {"$ref": "#/$defs/group_binding"}}
+      }
+    },
+    "perturbations": {
+      "type": "object",
+      "required": ["401", "409", "419", "421", "431"],
+      "additionalProperties": false,
+      "properties": {
+        "401": {"type": "object"},
+        "409": {"type": "object"},
+        "419": {"type": "object"},
+        "421": {"type": "object"},
+        "431": {"type": "object"}
+      }
+    },
+    "integrity_rules": {
+      "type": "object",
+      "required": [
+        "forbid_probe_model_handle", "forbid_qpos_qvel_write",
+        "forbid_runtime_model_mutation", "allow_benchmark_grasp_api",
+        "allow_static_field_adapter"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status", "formal_annotator_count", "adjudicated",
+        "thresholds_frozen_before_reference_runs", "official_use"
+      ],
+      "properties": {
+        "status": {"const": "development_frozen"},
+        "formal_annotator_count": {"const": 0},
+        "adjudicated": {"const": false},
+        "thresholds_frozen_before_reference_runs": {"const": true},
+        "official_use": {"const": false},
+        "note": {"type": "string"}
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "semantic_pair": {"type": "array", "prefixItems": [{"type": "string"}, {"type": "string"}], "minItems": 2, "maxItems": 2},
+    "group_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "geoms": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "bodies": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "active_when": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["joint"],
+          "properties": {"joint": {"type": "string"}, "minimum_position": {"type": "number"}, "maximum_position": {"type": "number"}},
+          "anyOf": [{"required": ["minimum_position"]}, {"required": ["maximum_position"]}]
+        }
+      },
+      "anyOf": [{"required": ["geoms"]}, {"required": ["bodies"]}]
+    }
+  }
+}

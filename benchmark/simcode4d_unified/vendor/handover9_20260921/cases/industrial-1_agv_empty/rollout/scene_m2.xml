@@ -1,0 +1,249 @@
+<mujoco model="scene_enriched">
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720"/>
+  </visual>
+  <asset>
+    
+  
+<mesh name="rover_body"  file="../../../rover_assets/rover_body.obj"/>
+    <mesh name="rover_wheel" file="../../../rover_assets/rover_wheel.obj"/>
+    <material name="rover_chassis" rgba="0.15 0.35 0.55 1"/>
+    <material name="rover_wheel"   rgba="0.12 0.12 0.12 1"/>
+    <material name="rover_detail"  rgba="0.80 0.60 0.10 1"/>
+</asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true"
+           diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2"/>
+    <geom name="floor_00" type="box" pos="4.000000 0.000000 -0.050000" size="17.000000 13.000000 0.050000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_00" type="box" pos="4.000000 0.000000 5.100000" size="17.000000 13.000000 0.075000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="prop_convex_small_000_barrel_0" type="box" pos="7.600000 -2.400000 0.425000" size="0.260000 0.260000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_001_barrel_1" type="box" pos="7.600000 -3.000000 0.425000" size="0.260000 0.260000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_002_barrel_2" type="box" pos="8.150000 -2.700000 0.425000" size="0.260000 0.260000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_003_beam_-2_0_0_55_-1" type="box" pos="8.850000 -2.000000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_004_beam_-2_0_0_55_1" type="box" pos="9.150000 -2.000000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_005_beam_-2_0_1_55_-1" type="box" pos="8.850000 -2.000000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_006_beam_-2_0_1_55_1" type="box" pos="9.150000 -2.000000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_007_beam_-2_0_2_55_-1" type="box" pos="8.850000 -2.000000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_008_beam_-2_0_2_55_1" type="box" pos="9.150000 -2.000000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_009_beam_-4_6_0_55_-1" type="box" pos="8.850000 -4.600000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_010_beam_-4_6_0_55_1" type="box" pos="9.150000 -4.600000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_011_beam_-4_6_1_55_-1" type="box" pos="8.850000 -4.600000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_012_beam_-4_6_1_55_1" type="box" pos="9.150000 -4.600000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_013_beam_-4_6_2_55_-1" type="box" pos="8.850000 -4.600000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_014_beam_-4_6_2_55_1" type="box" pos="9.150000 -4.600000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_015_beam_2_0_0_55_-1" type="box" pos="8.850000 2.000000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_016_beam_2_0_0_55_1" type="box" pos="9.150000 2.000000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_017_beam_2_0_1_55_-1" type="box" pos="8.850000 2.000000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_018_beam_2_0_1_55_1" type="box" pos="9.150000 2.000000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_019_beam_2_0_2_55_-1" type="box" pos="8.850000 2.000000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_020_beam_2_0_2_55_1" type="box" pos="9.150000 2.000000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_021_beam_4_6_0_55_-1" type="box" pos="8.850000 4.600000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_022_beam_4_6_0_55_1" type="box" pos="9.150000 4.600000 0.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_023_beam_4_6_1_55_-1" type="box" pos="8.850000 4.600000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_024_beam_4_6_1_55_1" type="box" pos="9.150000 4.600000 1.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_025_beam_4_6_2_55_-1" type="box" pos="8.850000 4.600000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_026_beam_4_6_2_55_1" type="box" pos="9.150000 4.600000 2.550000" size="0.025000 0.450000 0.035000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_027_blid_0" type="box" pos="7.600000 -2.400000 0.870000" size="0.270000 0.270000 0.020000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_028_blid_1" type="box" pos="7.600000 -3.000000 0.870000" size="0.270000 0.270000 0.020000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_029_blid_2" type="box" pos="8.150000 -2.700000 0.870000" size="0.270000 0.270000 0.020000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_030_col_1_0_-5_4" type="box" pos="1.000000 -5.400000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_031_col_1_0_5_6" type="box" pos="1.000000 5.600000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_032_col_12_5_0_0" type="box" pos="12.500000 0.000000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_033_col_7_0_5_6" type="box" pos="7.000000 5.600000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_034_cone_0" type="box" pos="3.600000 -1.900000 0.240000" size="0.100000 0.100000 0.210000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_035_cone_1" type="box" pos="6.800000 1.800000 0.240000" size="0.100000 0.100000 0.210000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_036_conebase_0" type="box" pos="3.600000 -1.900000 0.015000" size="0.140000 0.140000 0.015000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_037_conebase_1" type="box" pos="6.800000 1.800000 0.015000" size="0.140000 0.140000 0.015000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_038_dock" type="box" pos="-1.650000 2.550000 0.275000" size="0.125000 0.250000 0.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_039_dock_led" type="box" pos="-1.520000 2.550000 0.420000" size="0.015000 0.150000 0.030000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_040_fl_body" type="box" pos="6.600000 2.550000 0.420000" size="0.525000 0.375000 0.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_041_fl_cab" type="box" pos="6.450000 2.550000 0.950000" size="0.275000 0.325000 0.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_042_fl_fork_-1" type="box" pos="7.650000 2.350000 0.060000" size="0.375000 0.045000 0.017500" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_043_fl_fork_1" type="box" pos="7.650000 2.750000 0.060000" size="0.375000 0.045000 0.017500" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_044_fl_mast" type="box" pos="7.220000 2.550000 0.850000" size="0.040000 0.300000 0.850000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_045_fl_wheel_-1_-0_35" type="box" pos="6.250000 2.170000 0.155000" size="0.155000 0.050000 0.155000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_046_fl_wheel_-1_0_35" type="box" pos="6.950000 2.170000 0.155000" size="0.155000 0.050000 0.155000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_047_fl_wheel_1_-0_35" type="box" pos="6.250000 2.930000 0.155000" size="0.155000 0.050000 0.155000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_048_fl_wheel_1_0_35" type="box" pos="6.950000 2.930000 0.155000" size="0.155000 0.050000 0.155000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_049_lbeam2_-1_6_0_5" type="box" pos="-1.600000 3.850000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_050_lbeam2_-1_6_1_4" type="box" pos="-1.600000 3.850000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_051_lbeam2_-1_6_2_3" type="box" pos="-1.600000 3.850000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_052_lbeam2_0_8_0_5" type="box" pos="0.800000 3.850000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_053_lbeam2_0_8_1_4" type="box" pos="0.800000 3.850000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_054_lbeam2_0_8_2_3" type="box" pos="0.800000 3.850000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_055_lbeam2_3_2_0_5" type="box" pos="3.200000 3.850000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_056_lbeam2_3_2_1_4" type="box" pos="3.200000 3.850000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_057_lbeam2_3_2_2_3" type="box" pos="3.200000 3.850000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_058_lbeam2_5_6_0_5" type="box" pos="5.600000 3.850000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_059_lbeam2_5_6_1_4" type="box" pos="5.600000 3.850000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_060_lbeam2_5_6_2_3" type="box" pos="5.600000 3.850000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_061_lbeam2_8_0_0_5" type="box" pos="8.000000 3.850000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_062_lbeam2_8_0_1_4" type="box" pos="8.000000 3.850000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_063_lbeam2_8_0_2_3" type="box" pos="8.000000 3.850000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_064_lbeam_-1_6_0_5" type="box" pos="-1.600000 3.150000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_065_lbeam_-1_6_1_4" type="box" pos="-1.600000 3.150000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_066_lbeam_-1_6_2_3" type="box" pos="-1.600000 3.150000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_067_lbeam_0_8_0_5" type="box" pos="0.800000 3.150000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_068_lbeam_0_8_1_4" type="box" pos="0.800000 3.150000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_069_lbeam_0_8_2_3" type="box" pos="0.800000 3.150000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_070_lbeam_3_2_0_5" type="box" pos="3.200000 3.150000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_071_lbeam_3_2_1_4" type="box" pos="3.200000 3.150000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_072_lbeam_3_2_2_3" type="box" pos="3.200000 3.150000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_073_lbeam_5_6_0_5" type="box" pos="5.600000 3.150000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_074_lbeam_5_6_1_4" type="box" pos="5.600000 3.150000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_075_lbeam_5_6_2_3" type="box" pos="5.600000 3.150000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_076_lbeam_8_0_0_5" type="box" pos="8.000000 3.150000 0.500000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_077_lbeam_8_0_1_4" type="box" pos="8.000000 3.150000 1.400000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_078_lbeam_8_0_2_3" type="box" pos="8.000000 3.150000 2.300000" size="1.050000 0.030000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_079_lbox_-1_6_0_5_0" type="box" pos="-2.100000 3.500000 0.760000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_080_lbox_-1_6_0_5_1" type="box" pos="-1.150000 3.500000 0.720000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_081_lbox_-1_6_1_4_0" type="box" pos="-2.100000 3.500000 1.660000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_082_lbox_-1_6_1_4_1" type="box" pos="-1.150000 3.500000 1.620000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_083_lbox_-1_6_2_3_0" type="box" pos="-2.100000 3.500000 2.560000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_084_lbox_-1_6_2_3_1" type="box" pos="-1.150000 3.500000 2.520000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_085_lbox_0_8_0_5_0" type="box" pos="0.300000 3.500000 0.720000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_086_lbox_0_8_0_5_1" type="box" pos="1.250000 3.500000 0.760000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_087_lbox_0_8_1_4_0" type="box" pos="0.300000 3.500000 1.620000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_088_lbox_0_8_1_4_1" type="box" pos="1.250000 3.500000 1.660000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_089_lbox_0_8_2_3_0" type="box" pos="0.300000 3.500000 2.520000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_090_lbox_0_8_2_3_1" type="box" pos="1.250000 3.500000 2.560000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_091_lbox_3_2_0_5_0" type="box" pos="2.700000 3.500000 0.760000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_092_lbox_3_2_0_5_1" type="box" pos="3.650000 3.500000 0.720000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_093_lbox_3_2_1_4_0" type="box" pos="2.700000 3.500000 1.660000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_094_lbox_3_2_1_4_1" type="box" pos="3.650000 3.500000 1.620000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_095_lbox_3_2_2_3_0" type="box" pos="2.700000 3.500000 2.560000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_096_lbox_3_2_2_3_1" type="box" pos="3.650000 3.500000 2.520000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_097_lbox_5_6_0_5_0" type="box" pos="5.100000 3.500000 0.760000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_098_lbox_5_6_0_5_1" type="box" pos="6.050000 3.500000 0.720000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_099_lbox_5_6_1_4_0" type="box" pos="5.100000 3.500000 1.660000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_100_lbox_5_6_1_4_1" type="box" pos="6.050000 3.500000 1.620000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_101_lbox_5_6_2_3_0" type="box" pos="5.100000 3.500000 2.560000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_102_lbox_5_6_2_3_1" type="box" pos="6.050000 3.500000 2.520000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_103_lbox_8_0_0_5_0" type="box" pos="7.500000 3.500000 0.720000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_104_lbox_8_0_0_5_1" type="box" pos="8.450000 3.500000 0.760000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_105_lbox_8_0_1_4_0" type="box" pos="7.500000 3.500000 1.620000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_106_lbox_8_0_1_4_1" type="box" pos="8.450000 3.500000 1.660000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_107_lbox_8_0_2_3_0" type="box" pos="7.500000 3.500000 2.520000" size="0.360000 0.275000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_108_lbox_8_0_2_3_1" type="box" pos="8.450000 3.500000 2.560000" size="0.360000 0.275000 0.220000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_109_lpost_-1_6_-1_-1" type="box" pos="-2.650000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_110_lpost_-1_6_-1_1" type="box" pos="-2.650000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_111_lpost_-1_6_1_-1" type="box" pos="-0.550000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_112_lpost_-1_6_1_1" type="box" pos="-0.550000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_113_lpost_0_8_-1_-1" type="box" pos="-0.250000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_114_lpost_0_8_-1_1" type="box" pos="-0.250000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_115_lpost_0_8_1_-1" type="box" pos="1.850000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_116_lpost_0_8_1_1" type="box" pos="1.850000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_117_lpost_3_2_-1_-1" type="box" pos="2.150000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_118_lpost_3_2_-1_1" type="box" pos="2.150000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_119_lpost_3_2_1_-1" type="box" pos="4.250000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_120_lpost_3_2_1_1" type="box" pos="4.250000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_121_lpost_5_6_-1_-1" type="box" pos="4.550000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_122_lpost_5_6_-1_1" type="box" pos="4.550000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_123_lpost_5_6_1_-1" type="box" pos="6.650000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_124_lpost_5_6_1_1" type="box" pos="6.650000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_125_lpost_8_0_-1_-1" type="box" pos="6.950000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_126_lpost_8_0_-1_1" type="box" pos="6.950000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_127_lpost_8_0_1_-1" type="box" pos="9.050000 3.150000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_128_lpost_8_0_1_1" type="box" pos="9.050000 3.850000 1.300000" size="0.040000 0.150000 1.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_129_palbox2_2_2" type="box" pos="2.250000 -3.060000 0.840000" size="0.210000 0.210000 0.170000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_130_palbox2_5_2" type="box" pos="5.250000 -2.860000 0.840000" size="0.210000 0.210000 0.170000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_131_palbox_2_2" type="box" pos="2.200000 -3.100000 0.395000" size="0.300000 0.300000 0.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_132_palbox_5_2" type="box" pos="5.200000 -2.900000 0.395000" size="0.300000 0.300000 0.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_133_pallet_2_2" type="box" pos="2.200000 -3.100000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_134_pallet_5_2" type="box" pos="5.200000 -2.900000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_135_pk_body" type="box" pos="-0.900000 2.550000 0.290000" size="0.460000 0.290000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_136_pk_deck" type="box" pos="-0.900000 2.550000 0.392500" size="0.430000 0.260000 0.012500" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_137_pk_skirt" type="box" pos="-0.900000 2.550000 0.160000" size="0.470000 0.300000 0.040000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_138_pk_wheel_-1_-1" type="box" pos="-1.200000 2.310000 0.096000" size="0.100000 0.035000 0.100000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_139_pk_wheel_-1_1" type="box" pos="-1.200000 2.790000 0.096000" size="0.100000 0.035000 0.100000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_140_pk_wheel_1_-1" type="box" pos="-0.600000 2.310000 0.096000" size="0.100000 0.035000 0.100000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_141_pk_wheel_1_1" type="box" pos="-0.600000 2.790000 0.096000" size="0.100000 0.035000 0.100000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_142_post_-2_0_-1" type="box" pos="9.000000 -2.450000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_143_post_-2_0_1" type="box" pos="9.000000 -1.550000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_144_post_-4_6_-1" type="box" pos="9.000000 -5.050000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_145_post_-4_6_1" type="box" pos="9.000000 -4.150000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_146_post_2_0_-1" type="box" pos="9.000000 1.550000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_147_post_2_0_1" type="box" pos="9.000000 2.450000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_148_post_4_6_-1" type="box" pos="9.000000 4.150000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_149_post_4_6_1" type="box" pos="9.000000 5.050000 1.500000" size="0.170000 0.040000 1.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_150_qbox1_0" type="box" pos="10.600000 -2.300000 0.370000" size="0.330000 0.300000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_151_qbox1_1" type="box" pos="12.400000 -3.000000 0.370000" size="0.330000 0.300000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_152_qbox2_0" type="box" pos="10.630000 -2.330000 0.800000" size="0.250000 0.225000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_153_qbox2_1" type="box" pos="12.430000 -3.030000 0.800000" size="0.250000 0.225000 0.180000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_154_qpal_0" type="box" pos="10.600000 -2.300000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_155_qpal_1" type="box" pos="12.400000 -3.000000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_156_rbox_-2_0_0_55" type="box" pos="9.000000 -2.000000 0.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_157_rbox_-2_0_1_55" type="box" pos="9.000000 -2.000000 1.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_158_rbox_-2_0_2_55" type="box" pos="9.000000 -2.000000 2.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_159_rbox_-4_6_0_55" type="box" pos="9.000000 -4.600000 0.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_160_rbox_-4_6_1_55" type="box" pos="9.000000 -4.600000 1.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_161_rbox_-4_6_2_55" type="box" pos="9.000000 -4.600000 2.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_162_rbox_2_0_0_55" type="box" pos="9.000000 2.000000 0.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_163_rbox_2_0_1_55" type="box" pos="9.000000 2.000000 1.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_164_rbox_2_0_2_55" type="box" pos="9.000000 2.000000 2.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_165_rbox_4_6_0_55" type="box" pos="9.000000 4.600000 0.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_166_rbox_4_6_1_55" type="box" pos="9.000000 4.600000 1.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_167_rbox_4_6_2_55" type="box" pos="9.000000 4.600000 2.785000" size="0.210000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_168_wcol_-2" type="box" pos="-2.000000 -12.050000 2.300000" size="0.300000 0.150000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_169_wcol_-8" type="box" pos="-8.000000 -12.050000 2.300000" size="0.300000 0.150000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_170_wcol_14" type="box" pos="14.000000 -12.050000 2.300000" size="0.300000 0.150000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_171_wcol_3" type="box" pos="3.000000 -12.050000 2.300000" size="0.300000 0.150000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_172_wcol_9" type="box" pos="9.000000 -12.050000 2.300000" size="0.300000 0.150000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+  
+<!-- spawn z = terrain_z + 0.22 (wheel_radius + body_half_height) -->
+    <body name="rover_base" pos="0 0 0.22">
+      <freejoint name="rover_freejoint"/>
+      <inertial mass="18.0" pos="0 0 0" diaginertia="0.35 0.55 0.65"/>
+
+      <!-- visual body -->
+      <geom class="rover_visual" mesh="rover_body" material="rover_chassis"/>
+
+      <!-- collision body box -->
+      <geom type="box" size="0.40 0.25 0.10" friction="0.5 0.01 0.001"/>
+
+      <!-- wheels: x=±0.32, y=±0.27, z=-0.10 (flush with body bottom) -->
+      <body name="rover_fl_wheel" pos=" 0.32  0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005"/>
+        <joint name="fl_wheel_joint" axis="0 1 0"/>
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel"/>
+        <geom class="rover_wheel"/>
+      </body>
+      <body name="rover_fr_wheel" pos=" 0.32 -0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005"/>
+        <joint name="fr_wheel_joint" axis="0 1 0"/>
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel"/>
+        <geom class="rover_wheel"/>
+      </body>
+      <body name="rover_rl_wheel" pos="-0.32  0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005"/>
+        <joint name="rl_wheel_joint" axis="0 1 0"/>
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel"/>
+        <geom class="rover_wheel"/>
+      </body>
+      <body name="rover_rr_wheel" pos="-0.32 -0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005"/>
+        <joint name="rr_wheel_joint" axis="0 1 0"/>
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel"/>
+        <geom class="rover_wheel"/>
+      </body>
+    </body>
+</worldbody>
+  <keyframe><key name="m2_init" qpos="-2.000000 0.000000 0.220000 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000" qvel="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000"/></keyframe>
+  <default>
+<default class="rover_visual">
+      <geom contype="0" conaffinity="0" group="2" type="mesh"/>
+    </default>
+    <default class="rover_wheel">
+      <geom friction="1.4 0.02 0.01" condim="3" type="cylinder"
+            size="0.12 0.03"/>
+    </default>
+  </default>
+  <actuator>
+<velocity name="fl_wheel" joint="fl_wheel_joint" kv="60"/>
+    <velocity name="fr_wheel" joint="fr_wheel_joint" kv="60"/>
+    <velocity name="rl_wheel" joint="rl_wheel_joint" kv="60"/>
+    <velocity name="rr_wheel" joint="rr_wheel_joint" kv="60"/>
+  </actuator>
+</mujoco>

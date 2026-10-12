@@ -1,0 +1,28 @@
+{
+  "case_id": "INS-03-weld",
+  "m1_base_sha256": "755b4c586bc7dafac3aa334345fbe93ef44ced61f61649fa2b9225ec0567140c",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1082,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-03-weld/repair_report.json",
+    "sha256": "233aafd25bd2b403c24982e881c330700e447aedbf573430fc80997a8e1ac96f"
+  },
+  "repairs": [
+    "constructed missing combined M1+UR5e M2",
+    "added fixed robot mount and collision-capable tool tip",
+    "bound 150 source joint targets",
+    "generated frozen kinematic seam reference"
+  ],
+  "runtime_model": {
+    "bytes": 13929,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-03-weld/runtime_model.xml",
+    "sha256": "a63c226c122adf592e29ae6c8963ce07e1c9b166b4845d72d140b660017b30bf"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 589150,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-3_weld/rollout/ind_traj_150.json",
+    "sha256": "fd8250a8e9dbc0c9b9146d27147b798294223053e6cdb7db03b18ed0ba00e8f6"
+  },
+  "task_independent": true
+}

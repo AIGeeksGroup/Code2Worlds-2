@@ -1,0 +1,212 @@
+{
+  "case_id": "NAT-02-hills-turn-stop",
+  "case_spec_sha256": "d44a6dac7d6652601365cfb918cdffd9843141738da5a34b29de730cd9f786ba",
+  "contact_policy": {
+    "allowed": [
+      [
+        "jackal_wheels",
+        "hill_terrain"
+      ]
+    ],
+    "forbidden": [
+      [
+        "jackal_chassis",
+        "route_obstacles"
+      ]
+    ],
+    "groups": {
+      "hill_terrain": {
+        "geoms": [
+          "terrain_hfield"
+        ]
+      },
+      "jackal_chassis": {
+        "geoms": [
+          "jackal_chassis_collision"
+        ]
+      },
+      "jackal_wheels": {
+        "geoms": [
+          "jackal_front_left_collision",
+          "jackal_front_right_collision",
+          "jackal_rear_left_collision",
+          "jackal_rear_right_collision"
+        ]
+      },
+      "route_obstacles": {
+        "geoms": [
+          "prop_concave_large_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "hill_checkpoint",
+        "left_turn"
+      ],
+      [
+        "left_turn",
+        "goal_entry"
+      ],
+      [
+        "goal_entry",
+        "stop"
+      ]
+    ],
+    "nodes": [
+      "hill_checkpoint",
+      "left_turn",
+      "goal_entry",
+      "stop"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "hfield_vehicle": {
+      "body": "jackal_base",
+      "clearance_m": 0.01,
+      "hfield_geom": "terrain_hfield",
+      "wheel_bodies": [
+        "jackal_front_left_wheel",
+        "jackal_front_right_wheel",
+        "jackal_rear_left_wheel",
+        "jackal_rear_right_wheel"
+      ],
+      "wheel_center_z_m": 0.139725,
+      "wheel_radius_m": 0.3969,
+      "wheel_xy_m": [
+        [
+          0.53055,
+          0.76056975
+        ],
+        [
+          0.53055,
+          -0.76056975
+        ],
+        [
+          -0.53055,
+          0.76056975
+        ],
+        [
+          -0.53055,
+          -0.76056975
+        ]
+      ],
+      "xy": [
+        -5.0,
+        -2.0
+      ],
+      "yaw_rad": -3.141592653589793
+    }
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "jackal_base": 0.95
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "jackal_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "jackal_base": 1.05
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "jackal_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "jackal_base": 1.08
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "jackal_base": 0.92
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "jackal_base": 0.012
+      }
+    }
+  },
+  "regions": {
+    "goal": {
+      "max_xyz_m": [
+        -5.830337062422816,
+        -3.7186161704298555,
+        8.0
+      ],
+      "min_xyz_m": [
+        -7.630337062422817,
+        -5.518616170429856,
+        -2.0
+      ],
+      "type": "aabb"
+    },
+    "hill_checkpoint": {
+      "max_xyz_m": [
+        -5.2,
+        -2.2,
+        8.0
+      ],
+      "min_xyz_m": [
+        -7.0,
+        -4.2,
+        -2.0
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "Left turn is mandatory because it is explicit in both the prompt and retained program.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_terminal_speed_mps": 0.1,
+    "maximum_tilt_rad": 0.7,
+    "minimum_heading_change_rad": 0.6,
+    "terminal_hold_s": 0.5
+  }
+}

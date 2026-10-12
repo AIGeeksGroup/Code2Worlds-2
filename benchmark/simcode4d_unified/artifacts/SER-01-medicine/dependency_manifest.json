@@ -1,0 +1,11 @@
+{
+  "case_id": "SER-01-medicine",
+  "files": [
+    {
+      "bytes": 8656,
+      "path": "benchmark/simcode4d_unified/artifacts/SER-01-medicine/m1_world.xml",
+      "sha256": "3b16d95758e29a6c5e8c044e975feaf505866c324774755fe714fc8cafd51733"
+    }
+  ],
+  "schema_version": "simcode4d.rc3a-dev1.dependency-manifest"
+}

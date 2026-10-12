@@ -1,0 +1,34 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "IND-03-vacuum-west",
+  "legacy_case_id": "indoor-3_indoor2_v2",
+  "pruned_unmatched_contact_patterns": [
+    {
+      "group": "static_obstacles",
+      "pattern": "lr_wall_*",
+      "selector": "geoms"
+    }
+  ],
+  "repairs": [
+    "shifted initialization 0.15 m in y to preserve vacuum-radius clearance from wall_43",
+    "declared and bounded six-axis free-joint actuator interface",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 7729,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-3_indoor2_v2/M1/module1/scene_enriched.xml",
+    "sha256": "5524156fcf2deab787b01c52e38e17f4e472fb66d8604fa4271f31e4d50cd10f"
+  },
+  "source_runtime": {
+    "bytes": 8219,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-3_indoor2_v2/M1/module1/scene_m2_vacuum.xml",
+    "sha256": "bebf39eeb58d170be21ec58fa7e3c81f888b3e5f96700aedfcd36cd1f7530fd8"
+  }
+}

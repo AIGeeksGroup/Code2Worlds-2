@@ -1,0 +1,100 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: SER-02-airport-luggage
+world_id: ser02-airport
+canonical_source:
+  bytes: 2609386
+  path: deliverables/final_scene_revision_i04_2026-08-16/blends/indoor2_airport_final_i04.blend
+  sha256: d4013c4dea0714a738a88a15f776699d69c8ff617bfde664eefe6bf9084f499f
+  lineage_status: verified
+robot:
+  name: differential-drive airport luggage robot with lift
+  entity_id: airport_robot
+  model_binding: robot
+  mobility: articulated
+task: Approach the blue luggage assembly, legally grasp and lift it, then deliver it to the authored airport goal while retaining
+  a stable grasp.
+task_family: pick_and_place
+dynamic_subtype: null
+start_state: {}
+goal:
+  goal:
+    max_xyz_m:
+    - 5.25
+    - 4.0
+    - 1.1
+    min_xyz_m:
+    - 4.35
+    - 3.1
+    - 0.4
+    type: aabb
+required_event_order:
+  edges:
+  - - approach
+    - grasp
+  - - grasp
+    - lift
+  - - lift
+    - transport
+  - - transport
+    - goal_hold
+  nodes:
+  - approach
+  - grasp
+  - lift
+  - transport
+  - goal_hold
+allowed_contacts:
+- - luggage_lift
+  - blue_luggage
+- - robot_wheels
+  - floor
+forbidden_contacts:
+- - robot_body
+  - seats
+- - blue_luggage
+  - floor_after_lift
+contact_group_bindings:
+  blue_luggage:
+    bodies:
+    - task_item
+  floor:
+    geoms:
+    - floor
+  floor_after_lift:
+    active_when:
+      joint: lift_joint
+      minimum_position: 0.2
+    geoms:
+    - floor
+  luggage_lift:
+    geoms:
+    - lift_fork_*
+    - clamp_*
+  robot_body:
+    geoms:
+    - robot_base_collision
+    - robot_body_collision
+  robot_wheels:
+    geoms:
+    - wheel_*_geom
+    - caster_*_geom
+  seats:
+    geoms:
+    - seat_*
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_terminal_speed_mps: 0.1
+  minimum_lift_m: 0.25
+  minimum_transport_m: 5.0
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - source Blender animation and source object hierarchy
+  - retained legacy rollout used only to recover intent, not to tune post-freeze scores
+  - task_semantics_confirmation_2026-09-08.csv development draft
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: The entire blue Empty-root assembly is one dynamic target. Source animation retains it; release is not required.

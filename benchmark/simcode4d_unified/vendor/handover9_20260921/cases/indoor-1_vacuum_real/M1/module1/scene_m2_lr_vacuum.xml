@@ -1,0 +1,77 @@
+<mujoco model="scene_enriched">
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720"/>
+  </visual>
+  <asset>
+    
+  </asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true"
+           diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2"/>
+    <geom name="floor_00" type="box" pos="8.067328 -0.250000 0.134657" size="0.932672 2.115343 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_01" type="box" pos="3.750000 1.567329 0.128334" size="3.115343 3.432671 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_02" type="box" pos="7.932672 11.682672 0.134657" size="2.932672 2.682672 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_03" type="box" pos="2.567328 12.000000 0.134657" size="2.432672 2.865343 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_04" type="box" pos="6.067328 4.567328 0.134671" size="5.932672 4.432672 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_00" type="box" pos="8.000000 -0.250000 2.841525" size="0.865343 2.115343 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_03" type="box" pos="3.750000 1.500000 2.847848" size="3.115343 3.365343 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_06" type="box" pos="0.000000 0.000000 -0.037991" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_07" type="box" pos="0.000000 0.000000 -0.037991" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_08" type="box" pos="0.000000 0.000000 -0.037991" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_09" type="box" pos="0.000000 0.000000 -0.037991" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_10" type="box" pos="1.508270 7.784414 2.803499" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_11" type="box" pos="7.864501 7.822870 2.803533" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_12" type="box" pos="8.858983 6.494686 2.803618" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_13" type="box" pos="10.484507 3.336327 2.803633" size="0.207192 0.207192 0.037991" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_14" type="box" pos="8.000000 11.750000 2.841525" size="2.865343 2.615343 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_20" type="box" pos="2.500000 12.000000 2.841525" size="2.365343 2.865343 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_27" type="box" pos="6.000014 4.500028 2.841511" size="5.865357 4.365371 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_46" type="box" pos="0.200246 12.606551 1.612692" size="0.113633 1.724704 0.577052" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_47" type="box" pos="10.268782 0.221279 1.612692" size="1.032094 0.123587 0.567085" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_48" type="box" pos="11.504667 8.865343 1.612692" size="0.310587 0.048224 0.566347" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_49" type="box" pos="-0.134657 6.616748 1.612692" size="0.047080 0.554498 0.578489" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_50" type="box" pos="10.865343 12.017402 1.612692" size="0.051632 0.980857 0.580569" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_51" type="box" pos="8.657573 14.301145 1.612692" size="1.115823 0.093839 0.571772" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_52" type="box" pos="1.779625 14.865343 1.612692" size="1.255290 0.036613 0.579883" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_53" type="box" pos="0.719665 0.973875 1.612692" size="0.098047 0.347702 0.564146" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_55" type="box" pos="8.145028 -2.365343 1.612692" size="0.539432 0.038521 0.575122" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_56" type="box" pos="8.865343 -1.584380 1.612692" size="0.044263 0.675119 0.583133" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_59" type="box" pos="3.468543 -1.779490 1.612692" size="0.366064 0.095106 0.565052" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_60" type="box" pos="5.448463 -1.865343 1.612692" size="1.010812 0.045593 0.569298" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_61" type="box" pos="0.634657 3.379360 1.612692" size="0.049008 0.447093 0.570971" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="prop_concave_large_000_CellShelfFactory(2594816)_spawn_asset(6129099)" type="box" pos="2.207316 5.204681 0.134673" size="0.924416 0.198892 0.923665" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_001_CellShelfFactory(3658341)_spawn_asset(2973726)" type="box" pos="8.028561 2.204621 0.135059" size="0.699549 0.223240 0.922099" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_002_CellShelfFactory(919564)_spawn_asset(4008509)" type="box" pos="11.795400 3.224719 0.134657" size="0.162436 1.066539 1.065789" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_003_LargePlantContainerFactory(8956576)_spawn_asset(5265333)" type="box" pos="0.673025 8.332573 0.154657" size="0.263277 0.263277 0.732637" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_004_LargeShelfFactory(1909210)_spawn_asset(4134768)" type="box" pos="9.070370 8.660480 0.134744" size="0.785156 0.130812 1.015761" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_005_MirrorFactory(8331394)_spawn_asset(7883318)" type="box" pos="7.144657 4.277977 1.641470" size="0.008518 0.442231 0.258499" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_006_NatureShelfTrinketsFactory(1091087)_spawn_asset(7297279)" type="box" pos="9.710155 8.672622 1.594450" size="0.072735 0.059492 0.057425" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_007_NatureShelfTrinketsFactory(2360152)_spawn_asset(6010769)" type="box" pos="11.671710 3.321193 1.078800" size="0.074880 0.022258 0.040052" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_008_NatureShelfTrinketsFactory(2993447)_spawn_asset(8887566)" type="box" pos="11.594666 1.845038 0.715467" size="0.017762 0.056553 0.065661" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_009_NatureShelfTrinketsFactory(5228049)_spawn_asset(7578459)" type="box" pos="9.648227 8.685778 1.902127" size="0.057532 0.044511 0.059137" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_010_NatureShelfTrinketsFactory(7330329)_spawn_asset(5605441)" type="box" pos="11.683038 1.699951 0.715253" size="0.065448 0.057043 0.019313" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_011_NatureShelfTrinketsFactory(7597836)_spawn_asset(9528118)" type="box" pos="11.619063 3.970124 0.644887" size="0.047371 0.055515 0.040226" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_012_NatureShelfTrinketsFactory(7775217)_spawn_asset(2021457)" type="box" pos="11.735563 2.745263 1.883516" size="0.035466 0.050498 0.028979" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_013_NatureShelfTrinketsFactory(7835494)_spawn_asset(7490480)" type="box" pos="11.583894 1.996402 0.391821" size="0.069399 0.045650 0.043623" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_014_NatureShelfTrinketsFactory(8323276)_spawn_asset(9064779)" type="box" pos="11.648866 3.229121 2.331721" size="0.015791 0.065988 0.033128" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_015_NatureShelfTrinketsFactory(8326211)_spawn_asset(5145731)" type="box" pos="11.642181 2.850970 1.479555" size="0.016264 0.061085 0.034089" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_016_SideTableFactory(1977044)_spawn_asset(8198684)" type="box" pos="7.603278 5.435551 0.146102" size="0.279684 0.279684 0.233686" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_017_SimpleBookcaseFactory(9201065)_spawn_asset(4193220)" type="box" pos="11.632156 1.829523 0.134616" size="0.157192 0.271506 0.421471" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_018_SimpleDeskFactory(4333946)_spawn_asset(6424688)" type="box" pos="4.190810 8.432079 0.134958" size="0.548730 0.363213 0.372470" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_019_SofaFactory(4061307)_spawn_asset(1597680)" type="box" pos="7.240608 3.890232 0.240755" size="0.834969 1.215595 0.511808" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_020_TVStandFactory(8574063)_spawn_asset(5206710)" type="box" pos="11.794870 6.351633 0.134654" size="0.171654 0.708832 0.258656" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="lr_wall_0" type="box" pos="6.0 9.05 1.4" size="6.0 0.05 1.4" contype="2" conaffinity="1" friction="0.5 0.005 0.0001" condim="3"/>
+  <geom name="lr_wall_1" type="box" pos="6.0 0.08 1.4" size="6.0 0.05 1.4" contype="2" conaffinity="1" friction="0.5 0.005 0.0001" condim="3"/>
+  <geom name="lr_wall_2" type="box" pos="0.08 4.5 1.4" size="0.05 4.5 1.4" contype="2" conaffinity="1" friction="0.5 0.005 0.0001" condim="3"/>
+  <geom name="lr_wall_3" type="box" pos="12.05 4.5 1.4" size="0.05 4.5 1.4" contype="2" conaffinity="1" friction="0.5 0.005 0.0001" condim="3"/>
+  <geom name="lr_wall_4" type="box" pos="3.63 5.13 1.4" size="3.5 0.05 1.4" contype="2" conaffinity="1" friction="0.5 0.005 0.0001" condim="3"/>
+  <body name="robot" pos="8.5 5.5 0.16">
+    <freejoint/>
+    <geom name="robot_chassis" type="cylinder" size="0.19 0.025" pos="0 0 0.025" rgba="0.09 0.10 0.12 1" friction="0.8" condim="3" density="800"/>
+    <geom name="robot_lid" type="cylinder" size="0.15 0.015" pos="0 0 0.065" rgba="0.75 0.76 0.78 1" condim="3" density="200"/>
+    <geom name="robot_bumper" type="cylinder" size="0.19 0.012" pos="0 0 0.012" rgba="0.28 0.29 0.28 1" friction="0.9" condim="3" density="200" contype="0" conaffinity="0"/>
+  </body>
+  </worldbody>
+</mujoco>

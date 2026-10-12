@@ -1,0 +1,9 @@
+{
+  "allowed_dynamic_channels": [],
+  "case_id": "SER-01-medicine",
+  "kind": "noop",
+  "m1_base_sha256": "3b16d95758e29a6c5e8c044e975feaf505866c324774755fe714fc8cafd51733",
+  "note": "No source-declared time-varying M2 component is required. Static contacts and fields remain M1-owned.",
+  "schema_version": "simcode4d.rc3a-dev1.m2-overlay",
+  "task_independent": true
+}

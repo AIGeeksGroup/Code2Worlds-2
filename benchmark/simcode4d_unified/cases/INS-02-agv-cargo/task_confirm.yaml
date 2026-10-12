@@ -1,0 +1,90 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: INS-02-agv-cargo
+world_id: ins02-industrial-cargo
+canonical_source:
+  bytes: 5831669
+  path: benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-2_agv_cargo/scene.blend
+  sha256: 76cdaa72052c338c98184dbb01cad5b7ce78d08034754c2f750b5abf9a29c5f3
+  lineage_status: verified
+robot:
+  name: four-wheel AGV with welded cargo
+  entity_id: agv
+  model_binding: rover_base
+  mobility: articulated
+task: Transport the physically modeled cargo east with the AGV, retain the declared weld attachment, enter the cargo goal,
+  and stop.
+task_family: dynamic_interaction
+dynamic_subtype: contact_dynamic
+start_state:
+  keyframe: m2_init
+goal:
+  cargo_goal:
+    max_xyz_m:
+    - 1.3
+    - -1.7
+    - 0.8
+    min_xyz_m:
+    - 0.7
+    - -2.3
+    - 0.25
+    type: aabb
+required_event_order:
+  edges:
+  - - cargo_attached
+    - transport_progress
+  - - transport_progress
+    - cargo_goal
+  - - cargo_goal
+    - stop
+  nodes:
+  - cargo_attached
+  - transport_progress
+  - cargo_goal
+  - stop
+allowed_contacts:
+- - rover_wheels
+  - ground
+- - cargo
+  - rover_base
+forbidden_contacts:
+- - rover_base
+  - static_obstacles
+- - cargo
+  - ground
+contact_group_bindings:
+  cargo:
+    bodies:
+    - cargo
+  ground:
+    geoms:
+    - floor_*
+  rover_base:
+    bodies:
+    - rover_base
+  rover_wheels:
+    bodies:
+    - rover_*_wheel
+  static_obstacles:
+    geoms:
+    - prop_*
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_relative_orientation_error_rad: 0.02
+  maximum_relative_pose_error_m: 0.02
+  maximum_terminal_speed_mps: 0.12
+  maximum_tilt_rad: 0.5
+  minimum_travel_m: 0.75
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - supplied M1 scene, robot assets, source trajectory, and retained rollout provenance
+  - benchmark-owned live-simulation probe and independent validator
+  - handover defects recorded in config/handover9_audit.json
+  - thresholds frozen before Dev15 reference matrix execution
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: Development-only benchmark-authored semantics; source evidence is retained, thresholds are frozen before the reference
+    matrix, and official Core15 admission remains false.

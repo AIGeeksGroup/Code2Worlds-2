@@ -1,0 +1,31 @@
+{
+  "case_id": "IND-01-vacuum-living-room",
+  "files": [
+    {
+      "bytes": 1183,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-01-vacuum-living-room/m2_overlay.json",
+      "sha256": "36c0c7ed058d02773e33fedbce1b2029b585c486629241490c19cbdb58d28be1"
+    },
+    {
+      "bytes": 1060,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-01-vacuum-living-room/repair_report.json",
+      "sha256": "55b37ecd32fc37b4c2066820c1502140bf7fe7bf1608388a5dcba180c686e184"
+    },
+    {
+      "bytes": 16877,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-01-vacuum-living-room/runtime_model.xml",
+      "sha256": "c8790dc30c5fd4d82dd863f2089f218d4689b9c5ef9de5595cdd799676f1b1e6"
+    },
+    {
+      "bytes": 11652,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/M1/module1/scene_enriched.xml",
+      "sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50"
+    },
+    {
+      "bytes": 12893,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/M1/module1/scene_m2_lr_vacuum.xml",
+      "sha256": "777f861f43a468017cee694f25b1c94ac18e3e3aad4ac16135cf9e5b0c1caad3"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

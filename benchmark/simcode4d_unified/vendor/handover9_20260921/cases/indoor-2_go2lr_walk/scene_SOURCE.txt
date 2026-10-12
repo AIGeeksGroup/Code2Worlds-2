@@ -1,0 +1,4 @@
+Original scene.blend (BEFORE Module-1) lives at:
+../../infinigen/outputs/scene_singleroom_lr/coarse/scene.blend (shared with indoor-1)
+(Not copied here because it is large / shared; Module-1 output above is what
+SimCode4D consumes and is fully self-contained.)

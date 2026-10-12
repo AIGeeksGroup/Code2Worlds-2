@@ -1,0 +1,40 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "URB-01-agv-city",
+  "legacy_case_id": "urban-1_agv_city",
+  "pruned_unmatched_contact_patterns": [
+    {
+      "group": "ground",
+      "pattern": "floor_*",
+      "selector": "geoms"
+    },
+    {
+      "group": "static_obstacles",
+      "pattern": "wall_*",
+      "selector": "geoms"
+    }
+  ],
+  "repairs": [
+    "declared bounded free-joint stabilization while preserving wheel velocity actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep",
+    "aligned wheel collision cylinders with the y-axis hinges",
+    "initialized wheel tread with 1 mm clearance to avoid exact-tangent box contact degeneracy"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 11802,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/M1/module1/scene_enriched.xml",
+    "sha256": "37db2ed5ad9d00bb53144b4732234796873a55770bd10b640c6681a0f30e6c6f"
+  },
+  "source_runtime": {
+    "bytes": 14711,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/rollout/scene_m2.xml",
+    "sha256": "321043ab978fcba4084c40959c413b6248f86952140b9e854098bb019522a7b5"
+  }
+}

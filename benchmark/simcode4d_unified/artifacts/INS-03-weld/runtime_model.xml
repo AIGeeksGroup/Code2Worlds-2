@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="scene_enriched">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" solver="Newton" iterations="100" tolerance="1e-10" cone="elliptic" />
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0" />
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720" />
+  </visual>
+  <asset>
+    <material class="ur5e" name="black" rgba="0.033 0.033 0.033 1" />
+    <material class="ur5e" name="jointgray" rgba="0.278 0.278 0.278 1" />
+    <material class="ur5e" name="linkgray" rgba="0.82 0.82 0.82 1" />
+    <material class="ur5e" name="urblue" rgba="0.49 0.678 0.8 1" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/base_0.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/base_1.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/shoulder_0.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/shoulder_1.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/shoulder_2.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_0.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_1.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_2.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_3.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_0.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_1.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_2.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_3.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist1_0.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist1_1.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist1_2.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist2_0.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist2_1.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist2_2.obj" />
+    <mesh file="../../vendor/handover9_20260921/universal_robots_ur5e/assets/wrist3.obj" />
+  </asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true" diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2" />
+    <geom name="floor_00" type="box" pos="3.000000 3.000000 0.000000" size="3.000000 3.000000 0.100000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_01" type="box" pos="1.000000 5.500000 0.010000" size="0.750000 0.500000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_02" type="box" pos="3.000000 1.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_03" type="box" pos="3.000000 2.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_04" type="box" pos="3.000000 2.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_05" type="box" pos="3.000000 3.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_06" type="box" pos="3.000000 3.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_07" type="box" pos="3.000000 4.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_08" type="box" pos="3.000000 4.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_09" type="box" pos="3.000000 5.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="floor_10" type="box" pos="2.500000 3.000000 0.050000" size="0.030000 1.000000 0.030000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_00" type="box" pos="0.000000 0.000000 0.000000" size="3.000000 0.100000 2.000000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_01" type="box" pos="3.000000 3.000000 4.010000" size="0.650000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_02" type="box" pos="3.000000 3.000000 3.950000" size="0.750000 0.150000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_03" type="box" pos="1.000000 5.500000 4.010000" size="0.400000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_04" type="box" pos="1.000000 5.500000 3.950000" size="0.500000 0.150000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_05" type="box" pos="3.000000 3.000000 4.000000" size="3.000000 3.000000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_06" type="box" pos="5.500000 3.000000 3.800000" size="3.000000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_07" type="box" pos="0.000000 3.000000 2.000000" size="0.100000 3.000000 2.000000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="wall_08" type="box" pos="6.000000 3.000000 2.000000" size="0.100000 3.000000 2.000000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" />
+    <geom name="prop_concave_large_000_control_panel" type="box" pos="1.000000 5.200000 0.700000" size="0.445343 0.445343 0.700000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" />
+    <geom name="prop_concave_large_001_fume_extraction_hood" type="box" pos="3.000000 3.800000 2.900000" size="0.600000 0.600000 0.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" />
+    <geom name="prop_concave_large_002_gas_cylinder_rack" type="box" pos="5.000000 5.200000 0.700000" size="0.400000 0.222500 0.725000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" />
+    <geom name="prop_concave_large_003_welding_helmet" type="box" pos="1.200000 5.150000 1.575000" size="0.125000 0.212500 0.125000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" />
+    <geom name="prop_concave_large_004_welding_robot_base" type="box" pos="3.000000 2.000000 0.900000" size="0.600000 0.600000 0.900000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" />
+    <geom name="prop_concave_large_005_welding_table" type="box" pos="2.500000 3.500000 0.800000" size="0.800000 0.500000 0.450000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" />
+    <body name="ur5e_mount" pos="3.6 3.65 0.445">
+      <geom name="ur5e_mount_geom" type="box" size="0.18 0.18 0.445" rgba="0.20 0.22 0.25 1" friction="0.8 0.02 0.005" condim="6" />
+    </body>
+    <body name="ur5e_base" quat="1 0 0 0" childclass="ur5e" pos="3.6 3.65 0.89">
+      <inertial mass="4.0" pos="0 0 0" diaginertia="0.00443333156 0.00443333156 0.0072" />
+      <geom mesh="base_0" material="black" class="visual" />
+      <geom mesh="base_1" material="jointgray" class="visual" />
+      <body name="shoulder_link" pos="0 0 0.163">
+        <inertial mass="3.7" pos="0 0 0" diaginertia="0.0102675 0.0102675 0.00666" />
+        <joint name="shoulder_pan_joint" class="size3" axis="0 0 1" />
+        <geom mesh="shoulder_0" material="urblue" class="visual" />
+        <geom mesh="shoulder_1" material="black" class="visual" />
+        <geom mesh="shoulder_2" material="jointgray" class="visual" />
+        <geom class="collision" size="0.06 0.06" pos="0 0 -0.04" />
+        <body name="upper_arm_link" pos="0 0.138 0" quat="1 0 1 0">
+          <inertial mass="8.393" pos="0 0 0.2125" diaginertia="0.133886 0.133886 0.0151074" />
+          <joint name="shoulder_lift_joint" class="size3" />
+          <geom mesh="upperarm_0" material="linkgray" class="visual" />
+          <geom mesh="upperarm_1" material="black" class="visual" />
+          <geom mesh="upperarm_2" material="jointgray" class="visual" />
+          <geom mesh="upperarm_3" material="urblue" class="visual" />
+          <geom class="collision" pos="0 -0.04 0" quat="1 1 0 0" size="0.06 0.06" />
+          <geom class="collision" size="0.05 0.2" pos="0 0 0.2" />
+          <body name="forearm_link" pos="0 -0.131 0.425">
+            <inertial mass="2.275" pos="0 0 0.196" diaginertia="0.0311796 0.0311796 0.004095" />
+            <joint name="elbow_joint" class="size3_limited" />
+            <geom mesh="forearm_0" material="urblue" class="visual" />
+            <geom mesh="forearm_1" material="linkgray" class="visual" />
+            <geom mesh="forearm_2" material="black" class="visual" />
+            <geom mesh="forearm_3" material="jointgray" class="visual" />
+            <geom class="collision" pos="0 0.08 0" quat="1 1 0 0" size="0.055 0.06" />
+            <geom class="collision" size="0.038 0.19" pos="0 0 0.2" />
+            <body name="wrist_1_link" pos="0 0 0.392" quat="1 0 1 0">
+              <inertial mass="1.219" pos="0 0.127 0" diaginertia="0.0025599 0.0025599 0.0021942" />
+              <joint name="wrist_1_joint" class="size1" />
+              <geom mesh="wrist1_0" material="black" class="visual" />
+              <geom mesh="wrist1_1" material="urblue" class="visual" />
+              <geom mesh="wrist1_2" material="jointgray" class="visual" />
+              <geom class="collision" pos="0 0.05 0" quat="1 1 0 0" size="0.04 0.07" />
+              <body name="wrist_2_link" pos="0 0.127 0">
+                <inertial mass="1.219" pos="0 0 0.1" diaginertia="0.0025599 0.0025599 0.0021942" />
+                <joint name="wrist_2_joint" axis="0 0 1" class="size1" />
+                <geom mesh="wrist2_0" material="black" class="visual" />
+                <geom mesh="wrist2_1" material="urblue" class="visual" />
+                <geom mesh="wrist2_2" material="jointgray" class="visual" />
+                <geom class="collision" size="0.04 0.06" pos="0 0 0.04" />
+                <geom class="collision" pos="0 0.02 0.1" quat="1 1 0 0" size="0.04 0.04" />
+                <body name="wrist_3_link" pos="0 0 0.1">
+                  <inertial mass="0.1889" pos="0 0.0771683 0" quat="1 0 0 1" diaginertia="0.000132134 9.90863e-05 9.90863e-05" />
+                  <joint name="wrist_3_joint" class="size1" />
+                  <geom material="linkgray" mesh="wrist3" class="visual" />
+                  <geom class="eef_collision" pos="0 0.08 0" quat="1 1 0 0" size="0.04 0.02" />
+                  <site name="attachment_site" pos="0 0.1 0" quat="-1 1 0 0" />
+                  <body name="weld_tool_tip" pos="0 0.1 0">
+                    <geom name="weld_tool_tip_geom" type="sphere" size="0.004" mass="0.02" friction="0.6 0.01 0.002" condim="6" rgba="1 0.35 0.05 1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <default>
+    <default class="ur5e">
+      <material specular="0.5" shininess="0.25" />
+      <joint axis="0 1 0" range="-6.28319 6.28319" armature="0.1" />
+      <general gaintype="fixed" biastype="affine" ctrlrange="-6.2831 6.2831" gainprm="2000" biasprm="0 -2000 -400" forcerange="-150 150" />
+      <default class="size3">
+        <default class="size3_limited">
+          <joint range="-3.1415 3.1415" />
+          <general ctrlrange="-3.1415 3.1415" />
+        </default>
+      </default>
+      <default class="size1">
+        <general gainprm="500" biasprm="0 -500 -100" forcerange="-28 28" />
+      </default>
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="collision">
+        <geom type="capsule" group="3" />
+        <default class="eef_collision">
+          <geom type="cylinder" />
+        </default>
+      </default>
+      <site size="0.001" rgba="0.5 0.5 0.5 0.3" group="4" />
+    </default>
+  </default>
+  <actuator>
+    <general class="size3" name="shoulder_pan" joint="shoulder_pan_joint" />
+    <general class="size3" name="shoulder_lift" joint="shoulder_lift_joint" />
+    <general class="size3_limited" name="elbow" joint="elbow_joint" />
+    <general class="size1" name="wrist_1" joint="wrist_1_joint" />
+    <general class="size1" name="wrist_2" joint="wrist_2_joint" />
+    <general class="size1" name="wrist_3" joint="wrist_3_joint" />
+  </actuator>
+  <keyframe>
+    <key name="m2_init" qpos="0 -1.45 1.75 -1.85 -1.57 0" qvel="0 0 0 0 0 0" ctrl="0 -1.45 1.75 -1.85 -1.57 0" />
+  </keyframe>
+</mujoco>

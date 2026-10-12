@@ -1,0 +1,9 @@
+{
+  "allowed_dynamic_channels": [],
+  "case_id": "SER-02-airport-luggage",
+  "kind": "noop",
+  "m1_base_sha256": "489b3aed9707ed7e16ec2530668b3c93fe9d04836afb4a9c86eb83fe84342184",
+  "note": "No source-declared time-varying M2 component is required. Static contacts and fields remain M1-owned.",
+  "schema_version": "simcode4d.rc3a-dev1.m2-overlay",
+  "task_independent": true
+}

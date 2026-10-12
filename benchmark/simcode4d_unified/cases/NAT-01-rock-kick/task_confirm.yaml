@@ -1,0 +1,74 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: NAT-01-rock-kick
+world_id: nat01-canyon
+canonical_source:
+  bytes: 2149691568
+  path: scene_1.blend
+  sha256: b406f9b08c75870f2c9efedf6b2d6398d30640fd10e0c9807d2b7bc8eda39f85
+  lineage_status: verified
+robot:
+  name: Unitree Go2 quadruped
+  entity_id: go2
+  model_binding: base
+  mobility: articulated
+task: Use the Go2 feet to make the source-bound rock move physically in the uneven canyon, then let it settle.
+task_family: dynamic_interaction
+dynamic_subtype: contact_dynamic
+start_state:
+  keyframe: m2_init
+goal:
+  goal:
+    minimum_planar_displacement_m: 0.03
+    type: relative_displacement
+required_event_order:
+  edges:
+  - - foot_rock_contact
+    - rock_displaced
+  - - rock_displaced
+    - rock_settled
+  nodes:
+  - foot_rock_contact
+  - rock_displaced
+  - rock_settled
+allowed_contacts:
+- - go2_feet
+  - rock
+- - rock
+  - canyon_terrain
+- - go2_feet
+  - canyon_terrain
+forbidden_contacts:
+- - go2_base
+  - rock
+contact_group_bindings:
+  canyon_terrain:
+    geoms:
+    - terrain_*
+  go2_base:
+    bodies:
+    - base
+  go2_feet:
+    geoms:
+    - FL
+    - FR
+    - RL
+    - RR
+  rock:
+    bodies:
+    - stone
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_terminal_speed_mps: 0.05
+  minimum_planar_displacement_m: 0.03
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - source Blender animation and source object hierarchy
+  - retained legacy rollout used only to recover intent, not to tune post-freeze scores
+  - task_semantics_confirmation_2026-09-08.csv development draft
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: The rock is explicitly bound to the 0.07-scale source boulder named in dynamics_program.json.

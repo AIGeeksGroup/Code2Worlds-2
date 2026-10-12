@@ -1,0 +1,131 @@
+{
+  "case_id": "INS-03-weld",
+  "files": [
+    {
+      "bytes": 1184,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-03-weld/m2_overlay.json",
+      "sha256": "ff96f91e01fc0f0a1125f77604b92e4d221ed6795e57ffec0353ec7e89aef0d7"
+    },
+    {
+      "bytes": 1082,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-03-weld/repair_report.json",
+      "sha256": "233aafd25bd2b403c24982e881c330700e447aedbf573430fc80997a8e1ac96f"
+    },
+    {
+      "bytes": 13929,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-03-weld/runtime_model.xml",
+      "sha256": "a63c226c122adf592e29ae6c8963ce07e1c9b166b4845d72d140b660017b30bf"
+    },
+    {
+      "bytes": 5660,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-3_weld/M1/module1/scene_enriched.xml",
+      "sha256": "755b4c586bc7dafac3aa334345fbe93ef44ced61f61649fa2b9225ec0567140c"
+    },
+    {
+      "bytes": 589150,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-3_weld/rollout/ind_traj_150.json",
+      "sha256": "fd8250a8e9dbc0c9b9146d27147b798294223053e6cdb7db03b18ed0ba00e8f6"
+    },
+    {
+      "bytes": 556543,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/base_0.obj",
+      "sha256": "9a3b21f1524baef6af8a52d7af90b6e94b79f7e3c2b04a0f6581f74d22291b0b"
+    },
+    {
+      "bytes": 638415,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/base_1.obj",
+      "sha256": "cf7d54691a2c1eeda280955ebd6bd83c2dbecfc46fb53c10198f05d107511b50"
+    },
+    {
+      "bytes": 1691648,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_0.obj",
+      "sha256": "64c049a55149c2ab355594d52302b53d3e34da3677ceaa1917c427cde7743146"
+    },
+    {
+      "bytes": 76202,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_1.obj",
+      "sha256": "a96fe203015cf532b193f414cd01268c7c36795e51a837dd33afd122334f81f2"
+    },
+    {
+      "bytes": 932534,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_2.obj",
+      "sha256": "05b436505fc595aeab26675590c2b56b88a65b2d52d6352096fed9f07cb4c4ca"
+    },
+    {
+      "bytes": 1095775,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/forearm_3.obj",
+      "sha256": "fa31af19cfad7a765b62e8a2d5931cb014b88de84195a7850b4e5ee902112e9a"
+    },
+    {
+      "bytes": 2947794,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/shoulder_0.obj",
+      "sha256": "477387a7e7312782a6040484a3c2c2fcee33f40109f419076e31b6f6e1692c68"
+    },
+    {
+      "bytes": 569646,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/shoulder_1.obj",
+      "sha256": "8537bba02804640ddf6e260f79fe66e895b3229ed3d44298a95e8e027eb5d435"
+    },
+    {
+      "bytes": 2440344,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/shoulder_2.obj",
+      "sha256": "291714518416bb8f0bafbf123867db011ecbf5146a05245ca5893ee8c57d4e21"
+    },
+    {
+      "bytes": 156252,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_0.obj",
+      "sha256": "14143d4f1175a7dbacc8e2f2f98f1cac5a2b2e238cd46cd03654d31f2610eb53"
+    },
+    {
+      "bytes": 1090164,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_1.obj",
+      "sha256": "272899e927f4a32b7c25e34560ec70654c0346cc8ed1c616c0555f3f53b32d14"
+    },
+    {
+      "bytes": 3677923,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_2.obj",
+      "sha256": "86c05350d60eb0e7e28a81b544267478b7db997baba41cef19088ebbeffecfa1"
+    },
+    {
+      "bytes": 5346165,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/upperarm_3.obj",
+      "sha256": "b257dab441e6fab64ea03b4b87029d8a96554ad1a513cce944d56acba0ad948a"
+    },
+    {
+      "bytes": 278871,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist1_0.obj",
+      "sha256": "7ef0c59b5c5d56a9902435c9a058b27d2a38c85fe2bae02d00a9284dd1f4d519"
+    },
+    {
+      "bytes": 2470967,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist1_1.obj",
+      "sha256": "ee6d5c562e6becef94109b0543329080d285d1aef521a01ed98e18a5bf1e8684"
+    },
+    {
+      "bytes": 1657638,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist1_2.obj",
+      "sha256": "88c66dc64f15391287147d50add37729a3f41dadd80b1f859cf2cb6d45daf32a"
+    },
+    {
+      "bytes": 846741,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist2_0.obj",
+      "sha256": "2ac2e2e39d8f7005bc3b3ab26cd61634be2e14930074615da5318b9ee7c569a8"
+    },
+    {
+      "bytes": 2156900,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist2_1.obj",
+      "sha256": "a721d06dc61d3b3a8ec58c035c9e3358ed30d6991a72e077d8abf3c3c203b633"
+    },
+    {
+      "bytes": 2141392,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist2_2.obj",
+      "sha256": "6df4335c8bd5e881fda2c224f770115ffe9ddd0cd321ebe3c0a4a310796f0987"
+    },
+    {
+      "bytes": 211390,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/universal_robots_ur5e/assets/wrist3.obj",
+      "sha256": "0e51748f9c93bd66604360a5cf7e2e8a6e754550be64076333ff4fc19ec90c61"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

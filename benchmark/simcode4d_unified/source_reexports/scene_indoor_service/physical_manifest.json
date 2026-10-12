@@ -1,0 +1,8901 @@
+{
+  "schema": "code2worlds2.simready_manifest.v1",
+  "scene_id": "scene_indoor_service",
+  "source_blend": "/root/autodl-tmp/tpami/module_handoff_v3.0/deliverables/final_scene_revision_i04_2026-08-16/blends/scene_indoor_service_final_i04.blend",
+  "compiler_policy": {
+    "visual_mesh": "preserve original Blender asset",
+    "collision_mesh": "primitive/convex proxies for key fixtures and all interactive bodies",
+    "physical_attributes": [
+      "mass",
+      "friction",
+      "inertia",
+      "center_of_mass",
+      "restitution",
+      "material",
+      "joint_information"
+    ],
+    "settling": "MuJoCo gravity settling before rollout"
+  },
+  "objects": [
+    {
+      "name": "Bench_service_-4.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.800000190734863,
+          -1.100000023841858,
+          0.47999998927116394
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.950000286102295,
+          -1.5800000429153442,
+          0.3799999952316284
+        ],
+        "max": [
+          -3.6500000953674316,
+          -0.6200000047683716,
+          0.5799999833106995
+        ],
+        "center": [
+          -4.800000190734863,
+          -1.100000023841858,
+          0.47999998927116394
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.48000001907348633,
+          0.09999999403953552
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Bench_service_4.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.800000190734863,
+          -1.100000023841858,
+          0.47999998927116394
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.6500000953674316,
+          -1.5800000429153442,
+          0.3799999952316284
+        ],
+        "max": [
+          5.950000286102295,
+          -0.6200000047683716,
+          0.5799999833106995
+        ],
+        "center": [
+          4.800000190734863,
+          -1.100000023841858,
+          0.47999998927116394
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.48000001907348633,
+          0.09999999403953552
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Bench_service_back_-4.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.800000190734863,
+          -0.6800000071525574,
+          0.9200000166893005
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.950000286102295,
+          -0.7800000309944153,
+          0.4400000274181366
+        ],
+        "max": [
+          -3.6500000953674316,
+          -0.5799999833106995,
+          1.399999976158142
+        ],
+        "center": [
+          -4.800000190734863,
+          -0.6800000071525574,
+          0.9200000017881393
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.10000002384185791,
+          0.47999997437000275
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Bench_service_back_4.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.800000190734863,
+          -0.6800000071525574,
+          0.9200000166893005
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.6500000953674316,
+          -0.7800000309944153,
+          0.4400000274181366
+        ],
+        "max": [
+          5.950000286102295,
+          -0.5799999833106995,
+          1.399999976158142
+        ],
+        "center": [
+          4.800000190734863,
+          -0.6800000071525574,
+          0.9200000017881393
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.10000002384185791,
+          0.47999997437000275
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "CabinetFactory_backwall",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          6.550000190734863,
+          1.4500000476837158
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.700000047683716,
+          6.25,
+          0.0
+        ],
+        "max": [
+          2.700000047683716,
+          6.850000381469727,
+          2.9000000953674316
+        ],
+        "center": [
+          0.0,
+          6.550000190734863,
+          1.4500000476837158
+        ],
+        "half_size": [
+          2.700000047683716,
+          0.3000001907348633,
+          1.4500000476837158
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Ceiling_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          5.400000095367432
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.0,
+          -7.0,
+          5.320000171661377
+        ],
+        "max": [
+          7.0,
+          7.0,
+          5.480000019073486
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.400000095367432
+        ],
+        "half_size": [
+          7.0,
+          7.0,
+          0.07999992370605469
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "counter_pen_cup_left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.6500000953674316,
+          2.2799999713897705,
+          1.5
+        ],
+        "quat_wxyz": [
+          0.9975640773773193,
+          0.0,
+          0.0,
+          -0.06975648552179337
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.734708070755005,
+          2.1952919960021973,
+          1.399999976158142
+        ],
+        "max": [
+          -3.5652921199798584,
+          2.3647079467773438,
+          1.600000023841858
+        ],
+        "center": [
+          -3.6500000953674316,
+          2.2799999713897705,
+          1.5
+        ],
+        "half_size": [
+          0.08470797538757324,
+          0.08470797538757324,
+          0.10000002384185791
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "counter_pen_cup_right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.549999952316284,
+          2.2200000286102295,
+          1.5
+        ],
+        "quat_wxyz": [
+          0.9945219159126282,
+          0.0,
+          0.0,
+          0.10452847182750702
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.461045503616333,
+          2.1310455799102783,
+          1.399999976158142
+        ],
+        "max": [
+          2.6389544010162354,
+          2.3089544773101807,
+          1.600000023841858
+        ],
+        "center": [
+          2.549999952316284,
+          2.2200000286102295,
+          1.5
+        ],
+        "half_size": [
+          0.08895444869995117,
+          0.08895444869995117,
+          0.10000002384185791
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "floor_mark_robot_docking_zone",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          1.899999976158142,
+          0.00800000037997961
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.0,
+          0.7999999523162842,
+          -0.0009999992325901985
+        ],
+        "max": [
+          1.0,
+          3.0,
+          0.017000000923871994
+        ],
+        "center": [
+          0.0,
+          1.899999976158142,
+          0.008000000845640898
+        ],
+        "half_size": [
+          1.0,
+          1.100000023841858,
+          0.009000000078231096
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Floor_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.0,
+          -7.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          7.0,
+          7.0,
+          0.0
+        ],
+        "center": [
+          0.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        "half_size": [
+          7.0,
+          7.0,
+          0.10000000149011612
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_key_row_left_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.075000047683716,
+          1.4119999408721924
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.369999885559082,
+          2.065000057220459,
+          1.4079999923706055
+        ],
+        "max": [
+          -2.8299999237060547,
+          2.0850000381469727,
+          1.4159998893737793
+        ],
+        "center": [
+          -3.0999999046325684,
+          2.075000047683716,
+          1.4119999408721924
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.009999990463256836,
+          0.003999948501586914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_key_row_left_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.0199999809265137,
+          1.4119999408721924
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.369999885559082,
+          2.009999990463257,
+          1.4079999923706055
+        ],
+        "max": [
+          -2.8299999237060547,
+          2.0299999713897705,
+          1.4159998893737793
+        ],
+        "center": [
+          -3.0999999046325684,
+          2.0199999809265137,
+          1.4119999408721924
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.009999990463256836,
+          0.003999948501586914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_key_row_left_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          1.965000033378601,
+          1.4119999408721924
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.369999885559082,
+          1.9550000429153442,
+          1.4079999923706055
+        ],
+        "max": [
+          -2.8299999237060547,
+          1.975000023841858,
+          1.4159998893737793
+        ],
+        "center": [
+          -3.0999999046325684,
+          1.965000033378601,
+          1.4119999408721924
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.009999990463256836,
+          0.003999948501586914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_key_row_right_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          2.075000047683716,
+          1.4119999408721924
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.8299999237060547,
+          2.065000057220459,
+          1.4079999923706055
+        ],
+        "max": [
+          3.369999885559082,
+          2.0850000381469727,
+          1.4159998893737793
+        ],
+        "center": [
+          3.0999999046325684,
+          2.075000047683716,
+          1.4119999408721924
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.009999990463256836,
+          0.003999948501586914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_key_row_right_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          2.0199999809265137,
+          1.4119999408721924
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.8299999237060547,
+          2.009999990463257,
+          1.4079999923706055
+        ],
+        "max": [
+          3.369999885559082,
+          2.0299999713897705,
+          1.4159998893737793
+        ],
+        "center": [
+          3.0999999046325684,
+          2.0199999809265137,
+          1.4119999408721924
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.009999990463256836,
+          0.003999948501586914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_key_row_right_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          1.965000033378601,
+          1.4119999408721924
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.8299999237060547,
+          1.9550000429153442,
+          1.4079999923706055
+        ],
+        "max": [
+          3.369999885559082,
+          1.975000023841858,
+          1.4159998893737793
+        ],
+        "center": [
+          3.0999999046325684,
+          1.965000033378601,
+          1.4119999408721924
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.009999990463256836,
+          0.003999948501586914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.0799999237060547,
+          1.3899999856948853
+        ],
+        "quat_wxyz": [
+          0.9998477101325989,
+          0.0,
+          0.0,
+          0.017452405765652657
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.444678783416748,
+          1.9282193183898926,
+          1.371999979019165
+        ],
+        "max": [
+          -2.7553210258483887,
+          2.231780529022217,
+          1.4079999923706055
+        ],
+        "center": [
+          -3.0999999046325684,
+          2.0799999237060547,
+          1.3899999856948853
+        ],
+        "half_size": [
+          0.3446788787841797,
+          0.1517806053161621,
+          0.018000006675720215
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "keyboard_right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          2.0799999237060547,
+          1.3899999856948853
+        ],
+        "quat_wxyz": [
+          0.9996573328971863,
+          0.0,
+          0.0,
+          -0.026176948100328445
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.753138780593872,
+          1.9223976135253906,
+          1.371999979019165
+        ],
+        "max": [
+          3.4468610286712646,
+          2.2376022338867188,
+          1.4079999923706055
+        ],
+        "center": [
+          3.0999999046325684,
+          2.0799999237060547,
+          1.3899999856948853
+        ],
+        "half_size": [
+          0.3468611240386963,
+          0.15760231018066406,
+          0.018000006675720215
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Kiosk_Service_Left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.0,
+          1.75
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.5799999237060547,
+          1.9199999570846558,
+          1.440000057220459
+        ],
+        "max": [
+          -2.619999885559082,
+          2.0799999237060547,
+          2.059999942779541
+        ],
+        "center": [
+          -3.0999999046325684,
+          1.9999999403953552,
+          1.75
+        ],
+        "half_size": [
+          0.48000001907348633,
+          0.07999998331069946,
+          0.309999942779541
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Kiosk_Service_Right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          2.0,
+          1.75
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.619999885559082,
+          1.9199999570846558,
+          1.440000057220459
+        ],
+        "max": [
+          3.5799999237060547,
+          2.0799999237060547,
+          2.059999942779541
+        ],
+        "center": [
+          3.0999999046325684,
+          1.9999999403953552,
+          1.75
+        ],
+        "half_size": [
+          0.48000001907348633,
+          0.07999998331069946,
+          0.309999942779541
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_-4.5_-3.5",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.650000095367432,
+          -3.950000047683716,
+          5.275000095367432
+        ],
+        "max": [
+          -3.3499999046325684,
+          -3.049999952316284,
+          5.325000286102295
+        ],
+        "center": [
+          -4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_-4.5_2.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.650000095367432,
+          1.5499999523162842,
+          5.275000095367432
+        ],
+        "max": [
+          -3.3499999046325684,
+          2.450000047683716,
+          5.325000286102295
+        ],
+        "center": [
+          -4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_0_-3.5",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -3.5,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.149999976158142,
+          -3.950000047683716,
+          5.275000095367432
+        ],
+        "max": [
+          1.149999976158142,
+          -3.049999952316284,
+          5.325000286102295
+        ],
+        "center": [
+          0.0,
+          -3.5,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.149999976158142,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_0_2.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          2.0,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.149999976158142,
+          1.5499999523162842,
+          5.275000095367432
+        ],
+        "max": [
+          1.149999976158142,
+          2.450000047683716,
+          5.325000286102295
+        ],
+        "center": [
+          0.0,
+          2.0,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.149999976158142,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_4.5_-3.5",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.3499999046325684,
+          -3.950000047683716,
+          5.275000095367432
+        ],
+        "max": [
+          5.650000095367432,
+          -3.049999952316284,
+          5.325000286102295
+        ],
+        "center": [
+          4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_4.5_2.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.3499999046325684,
+          1.5499999523162842,
+          5.275000095367432
+        ],
+        "max": [
+          5.650000095367432,
+          2.450000047683716,
+          5.325000286102295
+        ],
+        "center": [
+          4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "paper_stack_left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.2799999713897705,
+          2.1500000953674316,
+          1.3899999856948853
+        ],
+        "quat_wxyz": [
+          0.9981347918510437,
+          0.0,
+          0.0,
+          0.06104854494333267
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.5166404247283936,
+          1.9743069410324097,
+          1.375999927520752
+        ],
+        "max": [
+          -2.0433595180511475,
+          2.325693368911743,
+          1.4040000438690186
+        ],
+        "center": [
+          -2.2799999713897705,
+          2.1500001549720764,
+          1.3899999856948853
+        ],
+        "half_size": [
+          0.23664045333862305,
+          0.17569321393966675,
+          0.0140000581741333
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "paper_stack_right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.7200000286102295,
+          2.200000047683716,
+          1.3899999856948853
+        ],
+        "quat_wxyz": [
+          0.9990482330322266,
+          0.0,
+          0.0,
+          -0.04361938685178757
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.4877638816833496,
+          2.0313966274261475,
+          1.375999927520752
+        ],
+        "max": [
+          3.9522361755371094,
+          2.368603467941284,
+          1.4040000438690186
+        ],
+        "center": [
+          3.7200000286102295,
+          2.200000047683716,
+          1.3899999856948853
+        ],
+        "half_size": [
+          0.23223614692687988,
+          0.16860342025756836,
+          0.0140000581741333
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_left_0",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.663093566894531,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9537169933319092,
+          0.0,
+          -0.30070579051971436,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.081454277038574,
+          4.671249866485596,
+          0.4498780369758606
+        ],
+        "max": [
+          -5.244732856750488,
+          4.728749752044678,
+          1.5351219177246094
+        ],
+        "center": [
+          -5.663093566894531,
+          4.699999809265137,
+          0.992499977350235
+        ],
+        "half_size": [
+          0.41836071014404297,
+          0.028749942779541016,
+          0.5426219403743744
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_left_1",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.628469944000244,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9914448857307434,
+          0.0,
+          -0.13052619993686676,
+          0.0
+        ],
+        "scale": [
+          0.9999999403953552,
+          1.0,
+          0.9999999403953552
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.8721089363098145,
+          4.671249866485596,
+          0.3910651206970215
+        ],
+        "max": [
+          -5.384830951690674,
+          4.728749752044678,
+          1.5939348936080933
+        ],
+        "center": [
+          -5.628469944000244,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.2436389923095703,
+          0.028749942779541016,
+          0.6014348864555359
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_left_2",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.599999904632568,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.691999912261963,
+          4.671249866485596,
+          0.3945000171661377
+        ],
+        "max": [
+          -5.507999897003174,
+          4.728749752044678,
+          1.590499997138977
+        ],
+        "center": [
+          -5.599999904632568,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.09200000762939453,
+          0.028749942779541016,
+          0.5979999899864197
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_left_3",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.5660080909729,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9876883029937744,
+          0.0,
+          0.15643446147441864,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.838297367095947,
+          4.671249866485596,
+          0.39533865451812744
+        ],
+        "max": [
+          -5.2937188148498535,
+          4.728749752044678,
+          1.5896613597869873
+        ],
+        "center": [
+          -5.5660080909729,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.2722892761230469,
+          0.028749942779541016,
+          0.5971613526344299
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_left_4",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.5322771072387695,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9455186128616333,
+          0.0,
+          0.32556816935539246,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.972939491271973,
+          4.671249866485596,
+          0.4646286964416504
+        ],
+        "max": [
+          -5.091614723205566,
+          4.728749752044678,
+          1.5203713178634644
+        ],
+        "center": [
+          -5.5322771072387695,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.4406623840332031,
+          0.028749942779541016,
+          0.527871310710907
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_right_0",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          5.536906719207764,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9537169933319092,
+          0.0,
+          -0.30070579051971436,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.118546009063721,
+          4.671249866485596,
+          0.4498780369758606
+        ],
+        "max": [
+          5.955267429351807,
+          4.728749752044678,
+          1.5351219177246094
+        ],
+        "center": [
+          5.536906719207764,
+          4.699999809265137,
+          0.992499977350235
+        ],
+        "half_size": [
+          0.41836071014404297,
+          0.028749942779541016,
+          0.5426219403743744
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_right_1",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          5.571529865264893,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9914448857307434,
+          0.0,
+          -0.13052619993686676,
+          0.0
+        ],
+        "scale": [
+          0.9999999403953552,
+          1.0,
+          0.9999999403953552
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.327890872955322,
+          4.671249866485596,
+          0.3910651206970215
+        ],
+        "max": [
+          5.815168857574463,
+          4.728749752044678,
+          1.5939348936080933
+        ],
+        "center": [
+          5.571529865264893,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.2436389923095703,
+          0.028749942779541016,
+          0.6014348864555359
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_right_2",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          5.599999904632568,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.507999897003174,
+          4.671249866485596,
+          0.3945000171661377
+        ],
+        "max": [
+          5.691999912261963,
+          4.728749752044678,
+          1.590499997138977
+        ],
+        "center": [
+          5.599999904632568,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.09200000762939453,
+          0.028749942779541016,
+          0.5979999899864197
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_right_3",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          5.633991718292236,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9876883029937744,
+          0.0,
+          0.15643446147441864,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.3617024421691895,
+          4.671249866485596,
+          0.39533865451812744
+        ],
+        "max": [
+          5.906280994415283,
+          4.728749752044678,
+          1.5896613597869873
+        ],
+        "center": [
+          5.633991718292236,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.2722892761230469,
+          0.028749942779541016,
+          0.5971613526344299
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_right_4",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          5.667722702026367,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "quat_wxyz": [
+          0.9455186128616333,
+          0.0,
+          0.32556816935539246,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.227060317993164,
+          4.671249866485596,
+          0.4646286964416504
+        ],
+        "max": [
+          6.10838508605957,
+          4.728749752044678,
+          1.5203713178634644
+        ],
+        "center": [
+          5.667722702026367,
+          4.699999809265137,
+          0.9925000071525574
+        ],
+        "half_size": [
+          0.4406623840332031,
+          0.028749942779541016,
+          0.527871310710907
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Planter_left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.599999904632568,
+          4.699999809265137,
+          0.36000001430511475
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.0829997062683105,
+          4.2170000076293945,
+          -0.05399999022483826
+        ],
+        "max": [
+          -5.117000102996826,
+          5.182999610900879,
+          0.7740000486373901
+        ],
+        "center": [
+          -5.599999904632568,
+          4.699999809265137,
+          0.36000002920627594
+        ],
+        "half_size": [
+          0.4829998016357422,
+          0.4829998016357422,
+          0.4140000194311142
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Planter_right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.599999904632568,
+          4.699999809265137,
+          0.36000001430511475
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.117000102996826,
+          4.2170000076293945,
+          -0.05399999022483826
+        ],
+        "max": [
+          6.0829997062683105,
+          5.182999610900879,
+          0.7740000486373901
+        ],
+        "center": [
+          5.599999904632568,
+          4.699999809265137,
+          0.36000002920627594
+        ],
+        "half_size": [
+          0.4829998016357422,
+          0.4829998016357422,
+          0.4140000194311142
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "queue_rail_-2.2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.200000047683716,
+          -1.399999976158142,
+          1.0
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.2350001335144043,
+          -2.799999952316284,
+          0.9649999737739563
+        ],
+        "max": [
+          -2.1649999618530273,
+          0.0,
+          1.034999966621399
+        ],
+        "center": [
+          -2.200000047683716,
+          -1.399999976158142,
+          0.9999999701976776
+        ],
+        "half_size": [
+          0.03500008583068848,
+          1.399999976158142,
+          0.034999996423721313
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "queue_rail_2.2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.200000047683716,
+          -1.399999976158142,
+          1.0
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.1649999618530273,
+          -2.799999952316284,
+          0.9649999737739563
+        ],
+        "max": [
+          2.2350001335144043,
+          0.0,
+          1.034999966621399
+        ],
+        "center": [
+          2.200000047683716,
+          -1.399999976158142,
+          0.9999999701976776
+        ],
+        "half_size": [
+          0.03500008583068848,
+          1.399999976158142,
+          0.034999996423721313
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePost_-2.2_-2.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.200000047683716,
+          -2.799999952316284,
+          0.550000011920929
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.2750000953674316,
+          -2.875,
+          0.0
+        ],
+        "max": [
+          -2.125,
+          -2.7249999046325684,
+          1.100000023841858
+        ],
+        "center": [
+          -2.200000047683716,
+          -2.799999952316284,
+          0.550000011920929
+        ],
+        "half_size": [
+          0.07500004768371582,
+          0.07500004768371582,
+          0.550000011920929
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePost_-2.2_0.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.200000047683716,
+          0.0,
+          0.550000011920929
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.2750000953674316,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          -2.125,
+          0.07500000298023224,
+          1.100000023841858
+        ],
+        "center": [
+          -2.200000047683716,
+          0.0,
+          0.550000011920929
+        ],
+        "half_size": [
+          0.07500004768371582,
+          0.07500000298023224,
+          0.550000011920929
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePost_2.2_-2.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.200000047683716,
+          -2.799999952316284,
+          0.550000011920929
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.125,
+          -2.875,
+          0.0
+        ],
+        "max": [
+          2.2750000953674316,
+          -2.7249999046325684,
+          1.100000023841858
+        ],
+        "center": [
+          2.200000047683716,
+          -2.799999952316284,
+          0.550000011920929
+        ],
+        "half_size": [
+          0.07500004768371582,
+          0.07500004768371582,
+          0.550000011920929
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePost_2.2_0.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.200000047683716,
+          0.0,
+          0.550000011920929
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.125,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          2.2750000953674316,
+          0.07500000298023224,
+          1.100000023841858
+        ],
+        "center": [
+          2.200000047683716,
+          0.0,
+          0.550000011920929
+        ],
+        "half_size": [
+          0.07500004768371582,
+          0.07500000298023224,
+          0.550000011920929
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePostBase_-2.2_-2.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.200000047683716,
+          -2.799999952316284,
+          0.03999999910593033
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.4800000190734863,
+          -3.0799999237060547,
+          0.0
+        ],
+        "max": [
+          -1.9200000762939453,
+          -2.5199999809265137,
+          0.07999999821186066
+        ],
+        "center": [
+          -2.200000047683716,
+          -2.799999952316284,
+          0.03999999910593033
+        ],
+        "half_size": [
+          0.2799999713897705,
+          0.2799999713897705,
+          0.03999999910593033
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePostBase_-2.2_0.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.200000047683716,
+          0.0,
+          0.03999999910593033
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.4800000190734863,
+          -0.2800000011920929,
+          0.0
+        ],
+        "max": [
+          -1.9200000762939453,
+          0.2800000011920929,
+          0.07999999821186066
+        ],
+        "center": [
+          -2.200000047683716,
+          0.0,
+          0.03999999910593033
+        ],
+        "half_size": [
+          0.2799999713897705,
+          0.2800000011920929,
+          0.03999999910593033
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePostBase_2.2_-2.8",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.200000047683716,
+          -2.799999952316284,
+          0.03999999910593033
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9200000762939453,
+          -3.0799999237060547,
+          0.0
+        ],
+        "max": [
+          2.4800000190734863,
+          -2.5199999809265137,
+          0.07999999821186066
+        ],
+        "center": [
+          2.200000047683716,
+          -2.799999952316284,
+          0.03999999910593033
+        ],
+        "half_size": [
+          0.2799999713897705,
+          0.2799999713897705,
+          0.03999999910593033
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "QueuePostBase_2.2_0.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.200000047683716,
+          0.0,
+          0.03999999910593033
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9200000762939453,
+          -0.2800000011920929,
+          0.0
+        ],
+        "max": [
+          2.4800000190734863,
+          0.2800000011920929,
+          0.07999999821186066
+        ],
+        "center": [
+          2.200000047683716,
+          0.0,
+          0.03999999910593033
+        ],
+        "half_size": [
+          0.2799999713897705,
+          0.2800000011920929,
+          0.03999999910593033
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_base",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.0,
+          -3.799999952316284,
+          0.20000000298023224
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.520515441894531,
+          -4.2668328285217285,
+          0.040000006556510925
+        ],
+        "max": [
+          -3.4794845581054688,
+          -3.33316707611084,
+          0.36000001430511475
+        ],
+        "center": [
+          -4.0,
+          -3.799999952316284,
+          0.20000001043081284
+        ],
+        "half_size": [
+          0.5205154418945312,
+          0.46683287620544434,
+          0.1600000038743019
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 250.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_body",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.0,
+          -3.799999952316284,
+          0.5
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.437614440917969,
+          -4.195861339569092,
+          0.25
+        ],
+        "max": [
+          -3.5623855590820312,
+          -3.4041385650634766,
+          0.75
+        ],
+        "center": [
+          -4.0,
+          -3.799999952316284,
+          0.5
+        ],
+        "half_size": [
+          0.43761444091796875,
+          0.3958613872528076,
+          0.25
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 250.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_depth_camera",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.9382784366607666,
+          -3.6309127807617188,
+          1.7300000190734863
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.050181865692139,
+          -3.6921157836914062,
+          1.6850000619888306
+        ],
+        "max": [
+          -3.8263750076293945,
+          -3.5697097778320312,
+          1.774999976158142
+        ],
+        "center": [
+          -3.9382784366607666,
+          -3.6309127807617188,
+          1.7300000190734863
+        ],
+        "half_size": [
+          0.11190342903137207,
+          0.0612030029296875,
+          0.04499995708465576
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 2.2190174737091315,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_gripper_finger_-0.12",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.8315484523773193,
+          -2.9885666370391846,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.8996095657348633,
+          -3.1192574501037598,
+          1.0149999856948853
+        ],
+        "max": [
+          -3.7634873390197754,
+          -2.8578758239746094,
+          1.084999918937683
+        ],
+        "center": [
+          -3.8315484523773193,
+          -2.9885666370391846,
+          1.0499999523162842
+        ],
+        "half_size": [
+          0.06806111335754395,
+          0.1306908130645752,
+          0.034999966621398926
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 6.724585042469735,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_gripper_finger_0.12",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.6060991287231445,
+          -3.070862054824829,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.6741602420806885,
+          -3.2015528678894043,
+          1.0149999856948853
+        ],
+        "max": [
+          -3.5380380153656006,
+          -2.940171241760254,
+          1.084999918937683
+        ],
+        "center": [
+          -3.6060991287231445,
+          -3.070862054824829,
+          1.0499999523162842
+        ],
+        "half_size": [
+          0.06806111335754395,
+          0.1306908130645752,
+          0.034999966621398926
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 6.724585042469735,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_gripper_palm",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.6779637336730957,
+          -3.151083469390869,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.818120241165161,
+          -3.267380952835083,
+          0.9799999594688416
+        ],
+        "max": [
+          -3.5378072261810303,
+          -3.0347859859466553,
+          1.1200000047683716
+        ],
+        "center": [
+          -3.6779637336730957,
+          -3.151083469390869,
+          1.0499999821186066
+        ],
+        "half_size": [
+          0.14015650749206543,
+          0.11629748344421387,
+          0.07000002264976501
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 8.215126609419102,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_head",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.9931421279907227,
+          -3.781212568283081,
+          1.7300000190734863
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.226486682891846,
+          -3.9966628551483154,
+          1.600000023841858
+        ],
+        "max": [
+          -3.7597975730895996,
+          -3.5657622814178467,
+          1.8600000143051147
+        ],
+        "center": [
+          -3.9931421279907227,
+          -3.781212568283081,
+          1.7300000190734863
+        ],
+        "half_size": [
+          0.23334455490112305,
+          0.21545028686523438,
+          0.12999999523162842
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 47.05660388318059,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_lidar",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.169086933135986,
+          -3.738278388977051,
+          0.7900000214576721
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.284491062164307,
+          -3.85368275642395,
+          0.7549999952316284
+        ],
+        "max": [
+          -4.053682804107666,
+          -3.6228740215301514,
+          0.8250000476837158
+        ],
+        "center": [
+          -4.169086933135986,
+          -3.738278388977051,
+          0.7900000214576721
+        ],
+        "half_size": [
+          0.11540412902832031,
+          0.11540436744689941,
+          0.0350000262260437
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 3.356173923672337,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_lift_carriage",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.786479949951172,
+          -3.8566501140594482,
+          1.0199999809265137
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.9497461318969727,
+          -4.013951778411865,
+          0.8600000143051147
+        ],
+        "max": [
+          -3.623213768005371,
+          -3.6993486881256104,
+          1.1799999475479126
+        ],
+        "center": [
+          -3.786479949951172,
+          -3.856650233268738,
+          1.0199999809265137
+        ],
+        "half_size": [
+          0.16326618194580078,
+          0.15730154514312744,
+          0.15999996662139893
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 29.585683966470913,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_mast",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.786479949951172,
+          -3.8566501140594482,
+          1.149999976158142
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.882650136947632,
+          -3.952820301055908,
+          0.4299999475479126
+        ],
+        "max": [
+          -3.690309762954712,
+          -3.7604799270629883,
+          1.8700000047683716
+        ],
+        "center": [
+          -3.786479949951172,
+          -3.8566501140594482,
+          1.149999976158142
+        ],
+        "half_size": [
+          0.09617018699645996,
+          0.09617018699645996,
+          0.7200000286102295
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 143.83586380608224,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_telescoping_arm",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.8014070987701416,
+          -3.489257574081421,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.011929512023926,
+          -3.8429341316223145,
+          0.9599999189376831
+        ],
+        "max": [
+          -3.5908846855163574,
+          -3.1355810165405273,
+          1.1399999856948853
+        ],
+        "center": [
+          -3.8014070987701416,
+          -3.489257574081421,
+          1.0499999523162842
+        ],
+        "half_size": [
+          0.21052241325378418,
+          0.35367655754089355,
+          0.09000003337860107
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 48.24805177221998,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_wheel_-0.39",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.3663554191589355,
+          -3.6662697792053223,
+          0.20000000298023224
+        ],
+        "quat_wxyz": [
+          0.6963068842887878,
+          0.6963067650794983,
+          -0.12311303615570068,
+          -0.12311304360628128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.574803829193115,
+          -3.7912116050720215,
+          -4.529873809389073e-09
+        ],
+        "max": [
+          -4.157907009124756,
+          -3.541327953338623,
+          0.4000000059604645
+        ],
+        "center": [
+          -4.3663554191589355,
+          -3.6662697792053223,
+          0.20000000071529533
+        ],
+        "half_size": [
+          0.2084484100341797,
+          0.12494182586669922,
+          0.20000000524516914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "rubber",
+      "mass_kg": 45.83730911180037,
+      "friction": [
+        1.2,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.02,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_wheel_0.39",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.6336445808410645,
+          -3.933730125427246,
+          0.20000000298023224
+        ],
+        "quat_wxyz": [
+          0.6963068842887878,
+          0.6963067650794983,
+          -0.12311303615570068,
+          -0.12311304360628128
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.842092990875244,
+          -4.058671951293945,
+          -4.529873809389073e-09
+        ],
+        "max": [
+          -3.4251961708068848,
+          -3.808788299560547,
+          0.4000000059604645
+        ],
+        "center": [
+          -3.6336445808410645,
+          -3.933730125427246,
+          0.20000000071529533
+        ],
+        "half_size": [
+          0.2084484100341797,
+          0.12494182586669922,
+          0.20000000524516914
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "rubber",
+      "mass_kg": 45.83730911180037,
+      "friction": [
+        1.2,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.02,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Stretch3_Service_Prototype_wrist_link",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.6608190536499023,
+          -3.1041147708892822,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          0.9847265481948853,
+          0.0,
+          0.0,
+          -0.1741081327199936
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.775848627090454,
+          -3.25195050239563,
+          0.9899999499320984
+        ],
+        "max": [
+          -3.5457894802093506,
+          -2.9562790393829346,
+          1.1099998950958252
+        ],
+        "center": [
+          -3.6608190536499023,
+          -3.1041147708892822,
+          1.0499999225139618
+        ],
+        "half_size": [
+          0.11502957344055176,
+          0.14783573150634766,
+          0.0599999725818634
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 22.039093479057595,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_air_vent_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0,
+          -0.800000011920929,
+          5.275000095367432
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.5999999046325684,
+          -1.1800000667572021,
+          5.256999969482422
+        ],
+        "max": [
+          -2.4000000953674316,
+          -0.42000001668930054,
+          5.293000221252441
+        ],
+        "center": [
+          -3.0,
+          -0.8000000417232513,
+          5.275000095367432
+        ],
+        "half_size": [
+          0.5999999046325684,
+          0.3800000250339508,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_air_vent_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.200000047683716,
+          3.299999952316284,
+          5.275000095367432
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.5999999046325684,
+          2.9200000762939453,
+          5.256999969482422
+        ],
+        "max": [
+          3.8000001907348633,
+          3.679999828338623,
+          5.293000221252441
+        ],
+        "center": [
+          3.200000047683716,
+          3.299999952316284,
+          5.275000095367432
+        ],
+        "half_size": [
+          0.6000001430511475,
+          0.37999987602233887,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_baseboard_back",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          6.869999885559082,
+          0.10499999672174454
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.849999904632568,
+          6.824999809265137,
+          0.0
+        ],
+        "max": [
+          6.849999904632568,
+          6.914999961853027,
+          0.20999999344348907
+        ],
+        "center": [
+          0.0,
+          6.869999885559082,
+          0.10499999672174454
+        ],
+        "half_size": [
+          6.849999904632568,
+          0.04500007629394531,
+          0.10499999672174454
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_baseboard_side_-1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.914999961853027,
+          -6.849999904632568,
+          0.0
+        ],
+        "max": [
+          -6.824999809265137,
+          6.849999904632568,
+          0.20999999344348907
+        ],
+        "center": [
+          -6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "half_size": [
+          0.04500007629394531,
+          6.849999904632568,
+          0.10499999672174454
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_baseboard_side_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.824999809265137,
+          -6.849999904632568,
+          0.0
+        ],
+        "max": [
+          6.914999961853027,
+          6.849999904632568,
+          0.20999999344348907
+        ],
+        "center": [
+          6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "half_size": [
+          0.04500007629394531,
+          6.849999904632568,
+          0.10499999672174454
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_x_-3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.0179998874664307,
+          -6.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          -2.9820001125335693,
+          6.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          -3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.017999887466430664,
+          6.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_x_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.01800012588501,
+          -6.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          -5.98199987411499,
+          6.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          -6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.018000125885009766,
+          6.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_x_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.017999999225139618,
+          -6.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          0.017999999225139618,
+          6.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.017999999225139618,
+          6.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_x_3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.9820001125335693,
+          -6.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          3.0179998874664307,
+          6.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.017999887466430664,
+          6.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_x_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.98199987411499,
+          -6.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          6.01800012588501,
+          6.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.018000125885009766,
+          6.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_y_-3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -3.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -3.0179998874664307,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          -2.9820001125335693,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          -3.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.017999887466430664,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_y_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -6.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -6.01800012588501,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          -5.98199987411499,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          -6.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.018000125885009766,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_y_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -0.017999999225139618,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          0.017999999225139618,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.017999999225139618,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_y_3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          3.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          2.9820001125335693,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          3.0179998874664307,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          3.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.017999887466430664,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_ceiling_grid_y_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          6.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          5.98199987411499,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          6.01800012588501,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          6.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.018000125885009766,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_clock_hand_hour",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.900000095367432,
+          6.324999809265137,
+          3.990000009536743
+        ],
+        "quat_wxyz": [
+          0.9702957272529602,
+          0.0,
+          -0.24192194640636444,
+          0.0
+        ],
+        "scale": [
+          0.9999999403953552,
+          1.0,
+          0.9999999403953552
+        ]
+      },
+      "aabb": {
+        "min": [
+          4.823075771331787,
+          6.316999912261963,
+          3.8667664527893066
+        ],
+        "max": [
+          4.976924419403076,
+          6.3329997062683105,
+          4.11323356628418
+        ],
+        "center": [
+          4.900000095367432,
+          6.324999809265137,
+          3.990000009536743
+        ],
+        "half_size": [
+          0.07692432403564453,
+          0.007999897003173828,
+          0.12323355674743652
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_clock_hand_minute",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.900000095367432,
+          6.320000171661377,
+          3.950000047683716
+        ],
+        "quat_wxyz": [
+          0.8910065293312073,
+          0.0,
+          0.45399051904678345,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          4.727616786956787,
+          6.312000274658203,
+          3.817880630493164
+        ],
+        "max": [
+          5.072383403778076,
+          6.328000068664551,
+          4.082119464874268
+        ],
+        "center": [
+          4.900000095367432,
+          6.320000171661377,
+          3.950000047683716
+        ],
+        "half_size": [
+          0.17238330841064453,
+          0.007999897003173828,
+          0.13211941719055176
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_fire_panel",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.820000171661377,
+          5.400000095367432,
+          1.4500000476837158
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.855000019073486,
+          5.119999885559082,
+          1.03000009059906
+        ],
+        "max": [
+          -6.785000324249268,
+          5.680000305175781,
+          1.8700000047683716
+        ],
+        "center": [
+          -6.820000171661377,
+          5.400000095367432,
+          1.4500000476837158
+        ],
+        "half_size": [
+          0.034999847412109375,
+          0.2800002098083496,
+          0.41999995708465576
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_-2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.007999897003174,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          -1.9919999837875366,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          -1.9999999403953552,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999956607818604,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_-4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.007999897003174,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          -3.992000102996826,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          -4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.007999897003174,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          -5.992000102996826,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          -6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.00800000037997961,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          0.00800000037997961,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.00800000037997961,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9919999837875366,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          2.007999897003174,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          1.9999999403953552,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999956607818604,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.992000102996826,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          4.007999897003174,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_x_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.992000102996826,
+          -6.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.007999897003174,
+          6.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          6.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_-2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -2.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -2.007999897003174,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          -1.9919999837875366,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          -1.9999999403953552,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999956607818604,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_-4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -4.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -4.007999897003174,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          -3.992000102996826,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          -4.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -6.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -6.007999897003174,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          -5.992000102996826,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          -6.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -0.00800000037997961,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          0.00800000037997961,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.00800000037997961,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          2.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          1.9919999837875366,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          2.007999897003174,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          1.9999999403953552,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999956607818604,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          4.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          3.992000102996826,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          4.007999897003174,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          4.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_joint_y_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          6.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          5.992000102996826,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          6.007999897003174,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          6.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_00",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.145294189453125,
+          -4.883774280548096,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.42205458879470825,
+          -0.0,
+          -0.0,
+          -0.9065704345703125
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.19222354888916,
+          -4.936315536499023,
+          0.015000000596046448
+        ],
+        "max": [
+          -6.09836483001709,
+          -4.831233024597168,
+          0.01900000125169754
+        ],
+        "center": [
+          -6.145294189453125,
+          -4.883774280548096,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.046929359436035156,
+          0.052541255950927734,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_01",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.883211135864258,
+          -3.3792903423309326,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.7275580167770386,
+          0.0,
+          0.0,
+          0.6860461235046387
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.894216060638428,
+          -3.468870162963867,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.872206211090088,
+          -3.289710521697998,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.883211135864258,
+          -3.3792903423309326,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.011004924774169922,
+          0.08957982063293457,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_02",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.043299913406372,
+          -4.579110622406006,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9625149965286255,
+          0.0,
+          0.0,
+          -0.27122852206230164
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9782520532608032,
+          -4.62393045425415,
+          0.015000000596046448
+        ],
+        "max": [
+          2.1083478927612305,
+          -4.534290790557861,
+          0.01900000125169754
+        ],
+        "center": [
+          2.043299973011017,
+          -4.579110622406006,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06504791975021362,
+          0.04481983184814453,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_03",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.253930568695068,
+          -5.126796722412109,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9538756012916565,
+          0.0,
+          0.0,
+          -0.30020231008529663
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.223268032073975,
+          -5.154629707336426,
+          0.015000000596046448
+        ],
+        "max": [
+          6.284593105316162,
+          -5.098963737487793,
+          0.01900000125169754
+        ],
+        "center": [
+          6.253930568695068,
+          -5.126796722412109,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.03066253662109375,
+          0.027832984924316406,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_04",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.7989299297332764,
+          -2.13810133934021,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.6137316226959229,
+          -0.0,
+          -0.0,
+          -0.7895147800445557
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.827730894088745,
+          -2.196200370788574,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.7701289653778076,
+          -2.0800023078918457,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.7989299297332764,
+          -2.13810133934021,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.02880096435546875,
+          0.05809903144836426,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_05",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.5667319297790527,
+          1.0697518587112427,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.48537567257881165,
+          0.0,
+          0.0,
+          0.8743057250976562
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.6176657676696777,
+          1.000876545906067,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.5157980918884277,
+          1.1386271715164185,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.5667319297790527,
+          1.0697518587112427,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.050933837890625,
+          0.06887531280517578,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_06",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.820648193359375,
+          -3.731391668319702,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.09526456147432327,
+          -0.0,
+          -0.0,
+          -0.9954519867897034
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.9180086851119995,
+          -3.7651970386505127,
+          0.015000000596046448
+        ],
+        "max": [
+          -1.7232877016067505,
+          -3.6975862979888916,
+          0.01900000125169754
+        ],
+        "center": [
+          -1.820648193359375,
+          -3.731391668319702,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.09736049175262451,
+          0.03380537033081055,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_07",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.9615771770477295,
+          4.6412811279296875,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.5964074730873108,
+          0.0,
+          0.0,
+          0.8026818633079529
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.9320504665374756,
+          4.562441349029541,
+          0.015000000596046448
+        ],
+        "max": [
+          2.9911038875579834,
+          4.720120906829834,
+          0.01900000125169754
+        ],
+        "center": [
+          2.9615771770477295,
+          4.6412811279296875,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.029526710510253906,
+          0.07883977890014648,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_08",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.895709991455078,
+          -3.8579702377319336,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.12973740696907043,
+          -0.0,
+          -0.0,
+          -0.9915484189987183
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.817204236984253,
+          -3.884824752807617,
+          0.015000000596046448
+        ],
+        "max": [
+          2.9742157459259033,
+          -3.83111572265625,
+          0.01900000125169754
+        ],
+        "center": [
+          2.895709991455078,
+          -3.8579702377319336,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.0785057544708252,
+          0.026854515075683594,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_09",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.0662734508514404,
+          -2.0872809886932373,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.49225372076034546,
+          0.0,
+          0.0,
+          0.8704517483711243
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.1065914630889893,
+          -2.1436240673065186,
+          0.015000000596046448
+        ],
+        "max": [
+          -2.0259554386138916,
+          -2.030937910079956,
+          0.01900000125169754
+        ],
+        "center": [
+          -2.0662734508514404,
+          -2.0872809886932373,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.04031801223754883,
+          0.05634307861328125,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_10",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.812675952911377,
+          6.00302791595459,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8205148577690125,
+          0.0,
+          0.0,
+          -0.5716252326965332
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.762110233306885,
+          5.895689964294434,
+          0.015000000596046448
+        ],
+        "max": [
+          5.863241672515869,
+          6.110365867614746,
+          0.01900000125169754
+        ],
+        "center": [
+          5.812675952911377,
+          6.00302791595459,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.05056571960449219,
+          0.10733795166015625,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_11",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.078643798828125,
+          1.5592727661132812,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.2896045744419098,
+          -0.0,
+          -0.0,
+          -0.957146406173706
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.1447672843933105,
+          1.5096269845962524,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.0125203132629395,
+          1.60891854763031,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.078643798828125,
+          1.5592727661132812,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06612348556518555,
+          0.04964578151702881,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_12",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.870832920074463,
+          5.304815769195557,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.29597708582878113,
+          -0.0,
+          -0.0,
+          -0.9551950097084045
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.9405946731567383,
+          5.251594543457031,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.8010711669921875,
+          5.358036994934082,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.870832920074463,
+          5.304815769195557,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06976175308227539,
+          0.05322122573852539,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_13",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.2704293727874756,
+          5.167174816131592,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.5798612236976624,
+          -0.0,
+          -0.0,
+          -0.8147152662277222
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.3117172718048096,
+          5.086197376251221,
+          0.015000000596046448
+        ],
+        "max": [
+          -1.2291414737701416,
+          5.248152256011963,
+          0.01900000125169754
+        ],
+        "center": [
+          -1.2704293727874756,
+          5.167174816131592,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.041287899017333984,
+          0.0809774398803711,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_14",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.5695194602012634,
+          3.7868664264678955,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9812849164009094,
+          0.0,
+          0.0,
+          0.19256150722503662
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.6327493190765381,
+          3.7506659030914307,
+          0.015000000596046448
+        ],
+        "max": [
+          -0.5062896013259888,
+          3.8230669498443604,
+          0.01900000125169754
+        ],
+        "center": [
+          -0.5695194602012634,
+          3.7868664264678955,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06322985887527466,
+          0.036200523376464844,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_15",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.812729835510254,
+          -5.054288864135742,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.5727083683013916,
+          -0.0,
+          -0.0,
+          -0.81975919008255
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.8551740646362305,
+          -5.158086776733398,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.770285606384277,
+          -4.950490951538086,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.812729835510254,
+          -5.054288864135742,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.04244422912597656,
+          0.10379791259765625,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_16",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.0763132572174072,
+          2.6895928382873535,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9999830722808838,
+          0.0,
+          0.0,
+          -0.005819370970129967
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.1740171909332275,
+          2.6787493228912354,
+          0.015000000596046448
+        ],
+        "max": [
+          -1.978609323501587,
+          2.7004363536834717,
+          0.01900000125169754
+        ],
+        "center": [
+          -2.0763132572174072,
+          2.6895928382873535,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.09770393371582031,
+          0.010843515396118164,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.6343092918395996,
+          -2.797180414199829,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9098131656646729,
+          0.0,
+          0.0,
+          0.41501811146736145
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.5885982513427734,
+          -2.8474061489105225,
+          0.015000000596046448
+        ],
+        "max": [
+          3.680020332336426,
+          -2.7469546794891357,
+          0.01900000125169754
+        ],
+        "center": [
+          3.6343092918395996,
+          -2.797180414199829,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.04571104049682617,
+          0.05022573471069336,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_18",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.820241451263428,
+          -4.888549327850342,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8218889236450195,
+          0.0,
+          0.0,
+          0.5696477890014648
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.845025062561035,
+          -4.927395343780518,
+          0.015000000596046448
+        ],
+        "max": [
+          -5.79545783996582,
+          -4.849703311920166,
+          0.01900000125169754
+        ],
+        "center": [
+          -5.820241451263428,
+          -4.888549327850342,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.024783611297607422,
+          0.03884601593017578,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_19",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.9617462158203125,
+          3.371019124984741,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.04700413718819618,
+          0.0,
+          0.0,
+          0.9988946914672852
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.914060115814209,
+          3.3535103797912598,
+          0.015000000596046448
+        ],
+        "max": [
+          6.009432315826416,
+          3.3885278701782227,
+          0.01900000125169754
+        ],
+        "center": [
+          5.9617462158203125,
+          3.371019124984741,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.047686100006103516,
+          0.017508745193481445,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_20",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.9064486026763916,
+          -6.1590495109558105,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.5254774689674377,
+          -0.0,
+          -0.0,
+          -0.8508074879646301
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.9385294914245605,
+          -6.213228225708008,
+          0.015000000596046448
+        ],
+        "max": [
+          -1.8743677139282227,
+          -6.104870796203613,
+          0.01900000125169754
+        ],
+        "center": [
+          -1.9064486026763916,
+          -6.1590495109558105,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.032080888748168945,
+          0.054178714752197266,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_21",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.731845378875732,
+          -4.726855278015137,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9366039633750916,
+          0.0,
+          0.0,
+          0.3503897786140442
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.80920934677124,
+          -4.795003414154053,
+          0.015000000596046448
+        ],
+        "max": [
+          -5.654481410980225,
+          -4.658707141876221,
+          0.01900000125169754
+        ],
+        "center": [
+          -5.731845378875732,
+          -4.726855278015137,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.07736396789550781,
+          0.06814813613891602,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_22",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.698012590408325,
+          -3.8642263412475586,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.5459336042404175,
+          -0.0,
+          -0.0,
+          -0.8378284573554993
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.7432265281677246,
+          -3.9539778232574463,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.652798652648926,
+          -3.774474859237671,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.698012590408325,
+          -3.8642263412475586,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.045213937759399414,
+          0.0897514820098877,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_23",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.5688727498054504,
+          2.4561753273010254,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9524052143096924,
+          0.0,
+          0.0,
+          -0.30483493208885193
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.633828341960907,
+          2.4041218757629395,
+          0.015000000596046448
+        ],
+        "max": [
+          -0.5039171576499939,
+          2.5082287788391113,
+          0.01900000125169754
+        ],
+        "center": [
+          -0.5688727498054504,
+          2.4561753273010254,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06495559215545654,
+          0.05205345153808594,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_24",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.30290353298187256,
+          2.735429525375366,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.994597315788269,
+          0.0,
+          0.0,
+          -0.10380884259939194
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.23745420575141907,
+          2.7098336219787598,
+          0.015000000596046448
+        ],
+        "max": [
+          0.36835286021232605,
+          2.7610254287719727,
+          0.01900000125169754
+        ],
+        "center": [
+          0.30290353298187256,
+          2.735429525375366,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06544932723045349,
+          0.025595903396606445,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_floor_scuff_25",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.616183280944824,
+          -4.744162082672119,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.17887605726718903,
+          0.0,
+          0.0,
+          0.9838716387748718
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.706442832946777,
+          -4.788501739501953,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.525923728942871,
+          -4.699822425842285,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.616183280944824,
+          -4.744162082672119,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.09025955200195312,
+          0.044339656829833984,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_security_camera",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.519999980926514,
+          6.519999980926514,
+          4.760000228881836
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.659999847412109,
+          6.380000114440918,
+          4.62000036239624
+        ],
+        "max": [
+          -6.380000114440918,
+          6.659999847412109,
+          4.900000095367432
+        ],
+        "center": [
+          -6.519999980926514,
+          6.519999980926514,
+          4.760000228881836
+        ],
+        "half_size": [
+          0.1399998664855957,
+          0.1399998664855957,
+          0.1399998664855957
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_security_camera_mount",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.679999828338623,
+          6.650000095367432,
+          4.849999904632568
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.0,
+          0.7071067690849304,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.789999961853027,
+          6.550000190734863,
+          4.75
+        ],
+        "max": [
+          -6.569999694824219,
+          6.75,
+          4.949999809265137
+        ],
+        "center": [
+          -6.679999828338623,
+          6.650000095367432,
+          4.849999904632568
+        ],
+        "half_size": [
+          0.1100001335144043,
+          0.09999990463256836,
+          0.09999990463256836
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_sprinkler_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.5,
+          -2.0,
+          5.230000019073486
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.5549999475479126,
+          -2.055000066757202,
+          5.190000057220459
+        ],
+        "max": [
+          -1.4450000524520874,
+          -1.9450000524520874,
+          5.269999980926514
+        ],
+        "center": [
+          -1.5,
+          -2.0000000596046448,
+          5.230000019073486
+        ],
+        "half_size": [
+          0.0549999475479126,
+          0.05500000715255737,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_sprinkler_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.0,
+          1.5,
+          5.230000019073486
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9450000524520874,
+          1.4450000524520874,
+          5.190000057220459
+        ],
+        "max": [
+          2.055000066757202,
+          1.5549999475479126,
+          5.269999980926514
+        ],
+        "center": [
+          2.0000000596046448,
+          1.5,
+          5.230000019073486
+        ],
+        "half_size": [
+          0.05500000715255737,
+          0.0549999475479126,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_sprinkler_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.5,
+          4.0,
+          5.230000019073486
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.554999828338623,
+          3.944999933242798,
+          5.190000057220459
+        ],
+        "max": [
+          -4.445000171661377,
+          4.054999828338623,
+          5.269999980926514
+        ],
+        "center": [
+          -4.5,
+          3.9999998807907104,
+          5.230000019073486
+        ],
+        "half_size": [
+          0.05499982833862305,
+          0.0549999475479126,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_0_-0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.1700000762939453,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.187999963760376,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -3.1520001888275146,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -3.1700000762939453,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_0_-0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.3499999046325684,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.367999792098999,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -3.3320000171661377,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -3.3499999046325684,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_0_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.0179998874664307,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -2.9820001125335693,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -3.0,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_0_0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.8299999237060547,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.8479998111724854,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -2.812000036239624,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -2.8299999237060547,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_0_0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.6500000953674316,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.6679999828338623,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -2.632000207901001,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -2.6500000953674316,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_1_-0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0299999713897705,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.01200008392334,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.047999858856201,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.0299999713897705,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_1_-0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.8499999046325684,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.8320000171661377,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          2.867999792098999,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          2.8499999046325684,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_1_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.200000047683716,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.182000160217285,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.2179999351501465,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.200000047683716,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_1_0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.369999885559082,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.3519999980926514,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.3879997730255127,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.369999885559082,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_vent_slot_1_0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.549999952316284,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.5320000648498535,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.567999839782715,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.549999952316284,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_wall_clock",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.900000095367432,
+          6.360000133514404,
+          3.950000047683716
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          4.559999942779541,
+          6.332499980926514,
+          3.6100001335144043
+        ],
+        "max": [
+          5.240000247955322,
+          6.387500286102295,
+          4.289999961853027
+        ],
+        "center": [
+          4.900000095367432,
+          6.360000133514404,
+          3.950000047683716
+        ],
+        "half_size": [
+          0.3400001525878906,
+          0.027500152587890625,
+          0.3399999141693115
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "service_waste_bin",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.28000020980835,
+          6.349999904632568,
+          0.36000001430511475
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.0,
+          6.069999694824219,
+          0.0
+        ],
+        "max": [
+          6.560000419616699,
+          6.630000114440918,
+          0.7200000286102295
+        ],
+        "center": [
+          6.28000020980835,
+          6.349999904632568,
+          0.36000001430511475
+        ],
+        "half_size": [
+          0.2800002098083496,
+          0.2800002098083496,
+          0.36000001430511475
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ServiceCounterFactory_left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.799999952316284,
+          0.6200000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.300000190734863,
+          2.1500000953674316,
+          0.0
+        ],
+        "max": [
+          -0.8999998569488525,
+          3.4499998092651367,
+          1.2400000095367432
+        ],
+        "center": [
+          -3.100000023841858,
+          2.799999952316284,
+          0.6200000047683716
+        ],
+        "half_size": [
+          2.2000001668930054,
+          0.6499998569488525,
+          0.6200000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ServiceCounterFactory_right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          2.799999952316284,
+          0.6200000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.8999998569488525,
+          2.1500000953674316,
+          0.0
+        ],
+        "max": [
+          5.300000190734863,
+          3.4499998092651367,
+          1.2400000095367432
+        ],
+        "center": [
+          3.100000023841858,
+          2.799999952316284,
+          0.6200000047683716
+        ],
+        "half_size": [
+          2.2000001668930054,
+          0.6499998569488525,
+          0.6200000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ServiceCounterFactory_top_left",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.6500000953674316,
+          1.2799999713897705
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.349999904632568,
+          1.8700001239776611,
+          1.209999918937683
+        ],
+        "max": [
+          -0.8499999046325684,
+          3.430000066757202,
+          1.350000023841858
+        ],
+        "center": [
+          -3.0999999046325684,
+          2.6500000953674316,
+          1.2799999713897705
+        ],
+        "half_size": [
+          2.25,
+          0.7799999713897705,
+          0.0700000524520874
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ServiceCounterFactory_top_right",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0999999046325684,
+          2.6500000953674316,
+          1.2799999713897705
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.8499999046325684,
+          1.8700001239776611,
+          1.209999918937683
+        ],
+        "max": [
+          5.349999904632568,
+          3.430000066757202,
+          1.350000023841858
+        ],
+        "center": [
+          3.0999999046325684,
+          2.6500000953674316,
+          1.2799999713897705
+        ],
+        "half_size": [
+          2.25,
+          0.7799999713897705,
+          0.0700000524520874
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ServiceTaskItem_MedicinePouch",
+      "role": "dynamic_rigid",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          2.0,
+          1.4299999475479126
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.2300000190734863,
+          1.909999966621399,
+          1.375
+        ],
+        "max": [
+          -2.9699997901916504,
+          2.0899999141693115,
+          1.4849998950958252
+        ],
+        "center": [
+          -3.0999999046325684,
+          1.9999999403953552,
+          1.4299999475479126
+        ],
+        "half_size": [
+          0.13000011444091797,
+          0.0899999737739563,
+          0.0549999475479126
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "polymer_or_fabric",
+      "mass_kg": 2.471039098661308,
+      "friction": [
+        0.62,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ServiceTaskItem_MedicinePouch_Label",
+      "role": "dynamic_rigid",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0999999046325684,
+          1.9049999713897705,
+          1.4299999475479126
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.174999952316284,
+          1.8989999294281006,
+          1.3949999809265137
+        ],
+        "max": [
+          -3.0249998569488525,
+          1.9110000133514404,
+          1.4649999141693115
+        ],
+        "center": [
+          -3.0999999046325684,
+          1.9049999713897705,
+          1.4299999475479126
+        ],
+        "half_size": [
+          0.07500004768371582,
+          0.006000041961669922,
+          0.034999966621398926
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "polymer_or_fabric",
+      "mass_kg": 0.06048040374738746,
+      "friction": [
+        0.62,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Wall_Back_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          7.0,
+          2.700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.0,
+          6.900000095367432,
+          0.0
+        ],
+        "max": [
+          7.0,
+          7.099999904632568,
+          5.400000095367432
+        ],
+        "center": [
+          0.0,
+          7.0,
+          2.700000047683716
+        ],
+        "half_size": [
+          7.0,
+          0.09999990463256836,
+          2.700000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Wall_Left_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.099999904632568,
+          -7.0,
+          0.0
+        ],
+        "max": [
+          -6.900000095367432,
+          7.0,
+          5.400000095367432
+        ],
+        "center": [
+          -7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "half_size": [
+          0.09999990463256836,
+          7.0,
+          2.700000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Wall_Right_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.900000095367432,
+          -7.0,
+          0.0
+        ],
+        "max": [
+          7.099999904632568,
+          7.0,
+          5.400000095367432
+        ],
+        "center": [
+          7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "half_size": [
+          0.09999990463256836,
+          7.0,
+          2.700000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    }
+  ]
+}

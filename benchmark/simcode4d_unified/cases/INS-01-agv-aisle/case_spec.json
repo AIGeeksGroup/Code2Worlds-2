@@ -1,0 +1,196 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 1655,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/dependency_manifest.json",
+      "sha256": "9a77fa9fc0cfb3954877a93d30421c8e1625855fd91b6d0ef937fc5770eab6f5"
+    },
+    "m1_base": {
+      "bytes": 35526,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/M1/module1/scene_enriched.xml",
+      "sha256": "8a527bd66ecf77612bdba141e3ab822f8ae07648bca1c5184a3236c9151bb3e3"
+    },
+    "m2_overlay": {
+      "bytes": 1330,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/m2_overlay.json",
+      "sha256": "2d34a38e8461f006abf0d172ea2b470907939a4ea576b428f2421e63a37c343f"
+    },
+    "runtime_model": {
+      "bytes": 48857,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/runtime_model.xml",
+      "sha256": "c9c9774d85b62ef97bc00ea9094bdce4a451de30b38f56864fd6b5aa9229444a"
+    }
+  },
+  "case_id": "INS-01-agv-aisle",
+  "domain": "industrial",
+  "dynamic_subtype": null,
+  "entities": [
+    {
+      "entity_id": "agv",
+      "mobility": "articulated",
+      "model_binding": "rover_base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "aisle_ground",
+      "mobility": "fixed",
+      "model_binding": "floor_*",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "aisle_obstacles",
+      "mobility": "fixed",
+      "model_binding": "prop_*",
+      "required": true,
+      "role": "obstacle"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "rover_base"
+    ],
+    "joints": [
+      "fl_wheel_joint",
+      "fr_wheel_joint",
+      "rl_wheel_joint",
+      "rr_wheel_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_y_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_z_ctrl": [
+        -180.0,
+        180.0
+      ],
+      "base_pitch_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_roll_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_yaw_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "fl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "fr_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rr_wheel": [
+        -8.0,
+        8.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "move_duration_s": 6.5,
+    "owner": "benchmark",
+    "path": "probes/ins01_agv_aisle.py",
+    "sha256": "2bfc84de2a7df1f5218a0b0e8dbc97f2915e155d2812b2b1a1b645764bfc79ab",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        -2.0,
+        0.0
+      ],
+      [
+        -0.3,
+        0.0
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        -2.0,
+        0.0,
+        0.221
+      ],
+      [
+        -0.3,
+        0.0,
+        0.221
+      ]
+    ]
+  },
+  "prompt": "Drive the four-wheel AGV east along the industrial aisle, hold the lane, enter the goal, and stop.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 7563869,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/scene.blend",
+    "sha256": "e3d9e40550ba10e3f0bcfa28a74113275504da57b7f4f5814fd31b86be59ee6d"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 161993,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/M1/manifest.json",
+    "sha256": "4c79e37dde3d5e3f5f2419eb85160e236976429697981c979857759e3db91021"
+  },
+  "split": "development",
+  "task_family": "obstacle_navigation",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/ins01_agv_aisle.py",
+    "sha256": "b7da75aeb19b8cca3763456ed53c3ebb34ce07ce75445d53eea5eca88f1c9362",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "ins01-industrial-aisle"
+}

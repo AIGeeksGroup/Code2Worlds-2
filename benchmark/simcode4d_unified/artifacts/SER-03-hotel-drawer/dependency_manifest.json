@@ -1,0 +1,11 @@
+{
+  "case_id": "SER-03-hotel-drawer",
+  "files": [
+    {
+      "bytes": 7659,
+      "path": "benchmark/simcode4d_unified/artifacts/SER-03-hotel-drawer/m1_world.xml",
+      "sha256": "72b72ef3deeb3664e7c08293340e8b05f9ad7f64a13acd27c2c6bdbb4e18d954"
+    }
+  ],
+  "schema_version": "simcode4d.rc3a-dev1.dependency-manifest"
+}

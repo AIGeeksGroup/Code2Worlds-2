@@ -1,0 +1,66 @@
+{
+  "case_id": "URB-01-agv-city",
+  "files": [
+    {
+      "bytes": 1321,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-01-agv-city/m2_overlay.json",
+      "sha256": "3405716b76603e9de11195a895e48e4c386287a754d6b6837ecc61646701cd72"
+    },
+    {
+      "bytes": 1405,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-01-agv-city/repair_report.json",
+      "sha256": "37b653e1779295a857d8f108538152d67d4079994636ec034a46b54fdea756f9"
+    },
+    {
+      "bytes": 19242,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-01-agv-city/runtime_model.xml",
+      "sha256": "d775c48df7bf181d91270e61c6fe0b7a23a5913929014748c2529c3b42b73ea5"
+    },
+    {
+      "bytes": 11802,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/M1/module1/scene_enriched.xml",
+      "sha256": "37db2ed5ad9d00bb53144b4732234796873a55770bd10b640c6681a0f30e6c6f"
+    },
+    {
+      "bytes": 14711,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/rollout/scene_m2.xml",
+      "sha256": "321043ab978fcba4084c40959c413b6248f86952140b9e854098bb019522a7b5"
+    },
+    {
+      "bytes": 423,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/rover_assets/rover_body.obj",
+      "sha256": "8b002e7368471aa73bec2666c1c64447b0da6428738c3bdba38e9981188bdad2"
+    },
+    {
+      "bytes": 2831,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/rover_assets/rover_wheel.obj",
+      "sha256": "476216758f15309039ff1d265b9a8e4cbbdacfe46876b6ad39017aa71f9a8811"
+    },
+    {
+      "bytes": 346,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_agv_city_export2/background_terrain_00_collision.obj",
+      "sha256": "9ee796a9fa9c76131ae5691591a2793f02ce4e4098f0005a3a88dc8489346628"
+    },
+    {
+      "bytes": 337,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_agv_city_export2/background_terrain_01_collision.obj",
+      "sha256": "cce567ea6abef3cfd791827fdaeffd9c07a90c668737b6bffb58361707f05d96"
+    },
+    {
+      "bytes": 343,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_agv_city_export2/background_terrain_02_collision.obj",
+      "sha256": "727c123cadf0624c87785f6639f615833f9e30d9de61654765d75d4a8069aa4b"
+    },
+    {
+      "bytes": 350,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_agv_city_export2/background_terrain_03_collision.obj",
+      "sha256": "6eb05f56da9cfa319a675223b14d9c419fe8887c0abbc9941b7bb6e45c7c47c6"
+    },
+    {
+      "bytes": 341,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_agv_city_export2/background_terrain_04_collision.obj",
+      "sha256": "fc54fa10e1a1852121fee103e934625fe538eba60f594a1aae536ac42cfe788c"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

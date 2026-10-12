@@ -1,0 +1,187 @@
+{
+  "case_id": "SER-03-hotel-drawer",
+  "case_spec_sha256": "14561443d0e5fa415761c77ef6f4dd739e659a2486430c2d39f7cf377ecaca10",
+  "contact_policy": {
+    "allowed": [
+      [
+        "meal_parcel",
+        "payload_drawer"
+      ],
+      [
+        "robot_wheels",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "robot_body",
+        "room_door"
+      ],
+      [
+        "meal_parcel",
+        "floor"
+      ]
+    ],
+    "groups": {
+      "floor": {
+        "geoms": [
+          "floor"
+        ]
+      },
+      "meal_parcel": {
+        "bodies": [
+          "meal_parcel"
+        ]
+      },
+      "payload_drawer": {
+        "bodies": [
+          "upper_drawer"
+        ]
+      },
+      "robot_body": {
+        "geoms": [
+          "robot_base_collision",
+          "robot_body_collision"
+        ]
+      },
+      "robot_wheels": {
+        "geoms": [
+          "wheel_*_geom",
+          "caster_*_geom"
+        ]
+      },
+      "room_door": {
+        "geoms": [
+          "room_door_1208"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "robot_goal_arrival",
+        "drawer_open"
+      ],
+      [
+        "drawer_open",
+        "parcel_supported"
+      ]
+    ],
+    "nodes": [
+      "robot_goal_arrival",
+      "drawer_open",
+      "parcel_supported"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {},
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "robot": 0.95
+      },
+      "body_mass_scale": {
+        "meal_parcel": 0.95
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "robot": 1.05
+      },
+      "body_mass_scale": {
+        "meal_parcel": 1.05
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "robot": 1.08
+      },
+      "body_mass_scale": {
+        "meal_parcel": 0.9
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "robot": 0.92
+      },
+      "body_mass_scale": {
+        "meal_parcel": 1.1
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.012
+      }
+    }
+  },
+  "regions": {
+    "robot_goal": {
+      "max_xyz_m": [
+        6.15,
+        5.1,
+        1.0
+      ],
+      "min_xyz_m": [
+        5.15,
+        4.1,
+        -0.1
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "This is the robot's own payload drawer; opening uses its declared actuator, not a remote equality unlock.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_parcel_drawer_z_offset_m": 0.2,
+    "maximum_terminal_speed_mps": 0.1,
+    "minimum_drawer_extension_m": 0.27,
+    "minimum_parcel_height_m": 0.85,
+    "terminal_hold_s": 0.5
+  }
+}

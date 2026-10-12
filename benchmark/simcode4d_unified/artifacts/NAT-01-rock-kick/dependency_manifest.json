@@ -1,0 +1,2886 @@
+{
+  "case_id": "NAT-01-rock-kick",
+  "files": [
+    {
+      "bytes": 15593,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-01-rock-kick/go2_runtime.xml",
+      "sha256": "9a578c3ad95cedb746ce2e19f7cf37491f9801c4ed641644fce8faf451542233"
+    },
+    {
+      "bytes": 290488,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-01-rock-kick/m1_world.xml",
+      "sha256": "d80a9a32eb686fce093d7b1a7cb5d9b006b55edfc9335dc5c2df7725d2644711"
+    },
+    {
+      "bytes": 6598,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_00.obj",
+      "sha256": "22339f73877b5806f185891c7362472542e82a7de83570c92521da88234564c8"
+    },
+    {
+      "bytes": 27591,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_01.obj",
+      "sha256": "549ba7c6ce94d3f25b8f4790637f0b1b3de6c98863bb75a80bc9862610d4e0a1"
+    },
+    {
+      "bytes": 16637,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_02.obj",
+      "sha256": "9a2627bfabf71455848a5497f5987d23c3fa4066551024a5328463463e65dfe8"
+    },
+    {
+      "bytes": 10954,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_03.obj",
+      "sha256": "d187ab7a47208afdeaa182caf874620e44dfae18061ee7a47b0f6443b9738ea2"
+    },
+    {
+      "bytes": 27150,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_04.obj",
+      "sha256": "a7692a80e50aa8db9525db3d6838ed68bf8da4239d71acf8ee52f545485fce43"
+    },
+    {
+      "bytes": 4507,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_05.obj",
+      "sha256": "cccc3fc0a2f6665ba45213fc2996de23f49c55433def9ba470a4a353532c7059"
+    },
+    {
+      "bytes": 26351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_06.obj",
+      "sha256": "3aebcf3709aaa6f5215699ad98068103b18e920b6e7f10507d269597d7436ee5"
+    },
+    {
+      "bytes": 3811,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_07.obj",
+      "sha256": "c1dd4d3ff354765b460612e133b8d4c9321209cbe2f5ab9554727691410d4c6b"
+    },
+    {
+      "bytes": 17721,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_08.obj",
+      "sha256": "706aeaeddcca1859b3ba78b1e2aa3e353b087d09bac1c4bb737402870704bf45"
+    },
+    {
+      "bytes": 2765,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_09.obj",
+      "sha256": "4ad504ac52473a7de820507d956349b88e21de2f5c4a238a6e5799546980d813"
+    },
+    {
+      "bytes": 7118,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_10.obj",
+      "sha256": "313c341bb71887fb21d4c5d30cd8205bfee39b58cdee98727ee5bb68c5d7e33f"
+    },
+    {
+      "bytes": 7327,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_11.obj",
+      "sha256": "66f03af17293e71790c5003ebd0f6f663bef31b658bb685133ee07b0ba6ced82"
+    },
+    {
+      "bytes": 20502,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_12.obj",
+      "sha256": "e1c8ddcfad54b2c9e74f10f4fe5708af6425005d250515f1f013e31116656518"
+    },
+    {
+      "bytes": 8964,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_13.obj",
+      "sha256": "6f1bcadf06633ace80d7e3341bd1a39895196359e2834ca1d35de50c6c284cf8"
+    },
+    {
+      "bytes": 7033,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_14.obj",
+      "sha256": "dc69a23eb438b2c5a987ac7d3f32aba808b37be8045cb583aabb22210e06507d"
+    },
+    {
+      "bytes": 5156,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_15.obj",
+      "sha256": "0dcc4f8de0fd611e7e999f01766d1c8c07e142cb2a3cf7086e28137c28f6a6c4"
+    },
+    {
+      "bytes": 3869,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_16.obj",
+      "sha256": "3c90c4d377840faa08cf51dee87c70ef00b70f2ff0e34f0e074bd9dbd5387df0"
+    },
+    {
+      "bytes": 2556,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_17.obj",
+      "sha256": "d462d2f2d248088d26c5d11169d194f8defb198013e1e49eb19a8106f4341ece"
+    },
+    {
+      "bytes": 1922,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_18.obj",
+      "sha256": "bfccf08b845e6f21e3bc63de9f116815cc8bc41beaa7bf37279466551291590f"
+    },
+    {
+      "bytes": 425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_19.obj",
+      "sha256": "9ea800c99df68b905fffbc2e607f0fb0abbc5feb50c628604b4876277140513b"
+    },
+    {
+      "bytes": 5327,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_20.obj",
+      "sha256": "47914d23eca1a2f9ae952c9b2901de254feb743acfb2eb6c4d9141be590727c5"
+    },
+    {
+      "bytes": 7867,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_21.obj",
+      "sha256": "bb8ed49ec4bb4284a1b6c639fe778c7d951385b2ca4c2456bafb9879a16c5e4a"
+    },
+    {
+      "bytes": 2238,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_22.obj",
+      "sha256": "44eabec37b04191f8bcf8a851e15520e12b409548eddc52ee67aab408e2be8f1"
+    },
+    {
+      "bytes": 2492,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_000_BoulderFactory(543568399)_spawn_asset(0)_col_23.obj",
+      "sha256": "5fbdd4a86105478b14092ef5f8438b6d6aa3dc80336b89ce99e428a451215af2"
+    },
+    {
+      "bytes": 3641,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_00.obj",
+      "sha256": "453413869d3d62045599a3d03b6c656031b869685b51abd54f9e0bfd24b95339"
+    },
+    {
+      "bytes": 14662,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_01.obj",
+      "sha256": "3df1620c6456f192f8970e8dd450bb58d23a6a5f3659c281ff963c5fd1e42324"
+    },
+    {
+      "bytes": 2764,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_02.obj",
+      "sha256": "5e2633903dd706c8862175cacfa44442c42a41743d53bc9f639affa74ce91282"
+    },
+    {
+      "bytes": 3739,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_03.obj",
+      "sha256": "d1f306e06fcff6917d6774cc80df01256703ea84b512cb163e06f30bd036dc1f"
+    },
+    {
+      "bytes": 529,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_04.obj",
+      "sha256": "01fc5fca79f40fcbd9dc0f22c8cc6f07989e2ee66e8670077dd8de0cafbf8f9d"
+    },
+    {
+      "bytes": 1382,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_05.obj",
+      "sha256": "db86d9728c9b5b9614af3d2490f337c01b9598a349cc06f4c772f2a14d954799"
+    },
+    {
+      "bytes": 4877,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_06.obj",
+      "sha256": "bb81e36fd47743b9025f0af768f666024060711fbf9a8a13d73057c2d4571cd5"
+    },
+    {
+      "bytes": 3752,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_07.obj",
+      "sha256": "ad324deed00a44d08cfbad7d04fdf7cd7a8901316cf1dbe34d2630484bd54485"
+    },
+    {
+      "bytes": 5922,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_08.obj",
+      "sha256": "6bb091b233e1b9907e3769977a61039617fbe3a0e9fc0c09d030456db76c0fe7"
+    },
+    {
+      "bytes": 5263,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_09.obj",
+      "sha256": "2649df640a2e6f476123b50994c791cb59fa054fdd8c43b0f05fef21fbf15930"
+    },
+    {
+      "bytes": 9020,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_10.obj",
+      "sha256": "96182ad43cca6603a0393349d31d30b67332df8a608695d212af1d4fd5103ac7"
+    },
+    {
+      "bytes": 26150,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_11.obj",
+      "sha256": "c52eabb9dcc0588382eef7afb99695d000b21d204aae379bcfca029139914a38"
+    },
+    {
+      "bytes": 2960,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_12.obj",
+      "sha256": "e96cf49c303839c989c42034f365eda0e396e91ed8c5994a656fc09719f81396"
+    },
+    {
+      "bytes": 4322,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_13.obj",
+      "sha256": "606772e0bc063455aaa16e6cf687a04ace5cf322713cb7fe23dfac3c2b7948fb"
+    },
+    {
+      "bytes": 3226,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_14.obj",
+      "sha256": "e0ea3ee01d4024ce40255ef08afba1e7c81beb7a9c2f893c63b35086d4194969"
+    },
+    {
+      "bytes": 1706,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_15.obj",
+      "sha256": "87b88abdcd1a69f545a448aaa5065199dac1d55eadecaebdbdd93c2ded5e16a1"
+    },
+    {
+      "bytes": 3459,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_16.obj",
+      "sha256": "e05052dab4421e68578f35dfa8721c008c4ed364761245be211d1a0012963f6f"
+    },
+    {
+      "bytes": 5849,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_17.obj",
+      "sha256": "b415410c66ec89775981dbd77f81c37a4d09e9cc1b7bb91a79e8a2983a17873b"
+    },
+    {
+      "bytes": 3201,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_18.obj",
+      "sha256": "f69fd2839ac238629e021a2222bad7bad7ccfa84f198b97aeeb00c9ca7519cb7"
+    },
+    {
+      "bytes": 692,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_19.obj",
+      "sha256": "dd14a864a7c4c1bb37b382c318260e84a76bf4bbde2ce81ac4e3bb9057128436"
+    },
+    {
+      "bytes": 3300,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_20.obj",
+      "sha256": "54c71a00ee99b66cf9219b588d124d7fa7d558e016e7298c3541af158e8cea3d"
+    },
+    {
+      "bytes": 3071,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_21.obj",
+      "sha256": "4c4ddf95601c57294ac1125836e73e971ac96f39204ed1018259bcfa2f18d614"
+    },
+    {
+      "bytes": 8147,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_22.obj",
+      "sha256": "2cd356950022039a93d25ae736c48e7f8a5d744198cac230280a7f3ab73837c5"
+    },
+    {
+      "bytes": 3405,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(51)_col_23.obj",
+      "sha256": "f55e5b8d98fc0fa365c8253612e3ae1e9fd627875200851ea77fc7f4734918ca"
+    },
+    {
+      "bytes": 1337,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_00.obj",
+      "sha256": "e90a15da14d477ec738602e33369a8d030c640f8b355a90ed3c1966550068409"
+    },
+    {
+      "bytes": 1664,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_01.obj",
+      "sha256": "333a92ae259898a6db1bb23ff16606ddee926af932cfbed8b5ac219c8141ad76"
+    },
+    {
+      "bytes": 973,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_02.obj",
+      "sha256": "5cc47a1b5cb12b48b74dbee5802cfbae66143847b64bedcc764773982ea0c3f7"
+    },
+    {
+      "bytes": 1807,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_03.obj",
+      "sha256": "2e3d8497ec8c463d811ca42c7b6e41678f8d69d3d424a5537e3afb7aeb91312e"
+    },
+    {
+      "bytes": 1831,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_04.obj",
+      "sha256": "096358593552eac42842e2e3f39be3a2b50dda66ad4e303e6cd27a387c56234b"
+    },
+    {
+      "bytes": 590,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_05.obj",
+      "sha256": "3e297b6f8cce0c724641694bb2ea78422cd72cb350821afdccac245f9b98d42f"
+    },
+    {
+      "bytes": 1389,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_06.obj",
+      "sha256": "dc7b61c5c27c49380cd3936c11695d996e2f9af89fc8e8afef28d8b5bcf6bae8"
+    },
+    {
+      "bytes": 1883,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_07.obj",
+      "sha256": "8c93e5d5ae3930488e1f899bb61d6501c6a6efd1dafdbdc30eb4bc9c6abcca3b"
+    },
+    {
+      "bytes": 867,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_08.obj",
+      "sha256": "a5dce232d369473592cfd9ba54d6df9702f1d402818c78cc37733fdbec53360e"
+    },
+    {
+      "bytes": 930,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_09.obj",
+      "sha256": "827c04a0377cf5b421e5f3d15d21c32467093afd324d394e1e4ebbdd842413a0"
+    },
+    {
+      "bytes": 1521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_10.obj",
+      "sha256": "1334ce980c134b5afbd474ae5692ac9c69eeca11d8c865d2f8a90ef8d7c25125"
+    },
+    {
+      "bytes": 2385,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_11.obj",
+      "sha256": "e6c87dacd58d6941c29bf80caf6d8c339d8862ef4b06b3e14a2b278f558c7ee9"
+    },
+    {
+      "bytes": 2367,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_12.obj",
+      "sha256": "25649c6117fd3922fa77118afc4c9a6849b8a36c6842c0b310031193315e93d8"
+    },
+    {
+      "bytes": 1049,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_13.obj",
+      "sha256": "12e46a054cc9cf876e33072519c712150fcf49aba71428a7aa982213c4d9c53e"
+    },
+    {
+      "bytes": 1188,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_14.obj",
+      "sha256": "afb50b2e382deb79e67476ff9380250b4f2f05d7aaa82da7c69cc543614eec8c"
+    },
+    {
+      "bytes": 2007,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_15.obj",
+      "sha256": "c8c83f7cadb08e20c54f25d7548a53a8b5844970588d64b7c1b85b25c5842d7e"
+    },
+    {
+      "bytes": 3933,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_16.obj",
+      "sha256": "3ed65dc88727b640d83eb65d3e6bb56a5ce62ccaf36894fcb3460ff8d1490ba4"
+    },
+    {
+      "bytes": 1057,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_17.obj",
+      "sha256": "ddbcb161a9aa1d0e40ac49c31df133ba037c56e7252b2b28670e0d6af3cd6530"
+    },
+    {
+      "bytes": 1292,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_18.obj",
+      "sha256": "dd44c8e810256bd52b489a115c50d584b6c0dd3a841eaa3eb28ccd77334990d3"
+    },
+    {
+      "bytes": 1460,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_19.obj",
+      "sha256": "d0d6013715367395c91a26155b7dc7755a825ac99f21dea1504881cff722dc9c"
+    },
+    {
+      "bytes": 714,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_20.obj",
+      "sha256": "2baf4fc840345d0ba8609bf78f143c8995626a9ef7d8e69568ef3569b63e0fdd"
+    },
+    {
+      "bytes": 817,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_21.obj",
+      "sha256": "8bac80bda18698fd3b16942bbdeb65541606e1e3f79385cb09fcea2c10da142e"
+    },
+    {
+      "bytes": 586,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_22.obj",
+      "sha256": "4449e8a747cb7930111c1fdc70348222191bd45cb3c230442348cb1c23ab91f7"
+    },
+    {
+      "bytes": 994,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(62)_col_23.obj",
+      "sha256": "5a8f8f8f8eb636f58d865ca1e308d1dfe67e632f24ba0a8250a30cb53214d867"
+    },
+    {
+      "bytes": 11170,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_00.obj",
+      "sha256": "c4b80a6808e2bd33c74e4997a033ea1bc510926f5b55ce1476fc3c0468bd4a73"
+    },
+    {
+      "bytes": 18658,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_01.obj",
+      "sha256": "9d7b795c940fed7f076f46d535405489b5bd85bef5e965f0fb4aecee93d5ff92"
+    },
+    {
+      "bytes": 5396,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_02.obj",
+      "sha256": "71e66395d13a634542c5ee48ffe0c8fdd83cdf7faed771e5addda882ceea7a26"
+    },
+    {
+      "bytes": 4751,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_03.obj",
+      "sha256": "8659cd710c06c3f29ec31808314992da161d71c5e376f1d6fc72ae91bba1efa6"
+    },
+    {
+      "bytes": 16996,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_04.obj",
+      "sha256": "f1fcfcc092eb8b051797f407ea84a245a78600bbbd465489682a0932028c8880"
+    },
+    {
+      "bytes": 15244,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_05.obj",
+      "sha256": "62791b8fa32eb239a61153b7bb30f376e64b96afcfdfa1cc2d34cf7824b05826"
+    },
+    {
+      "bytes": 22422,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_06.obj",
+      "sha256": "b9334a3389ace726099bf50471eac4e5e8448457377e6a5a4b251727ab328a1c"
+    },
+    {
+      "bytes": 9178,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_07.obj",
+      "sha256": "ad5b362393f36f5c3d21997ac3b632bbe8cbbc77bd10974168950df4cff200a8"
+    },
+    {
+      "bytes": 8445,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_08.obj",
+      "sha256": "4b9fddff372cf73786b9a137e3ae0d0470ea2ca9a196f6f86f7f1fa6f586ca12"
+    },
+    {
+      "bytes": 1102,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_09.obj",
+      "sha256": "db90431116dacecf6c80ad8c21692fd0ee53436e7c78d12936a8201398f10482"
+    },
+    {
+      "bytes": 3777,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_10.obj",
+      "sha256": "311198ae39f890e3f0e7063a16de715ed29f752973aa980ff6f16a818a8c9cca"
+    },
+    {
+      "bytes": 7239,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_11.obj",
+      "sha256": "45beab930a4c22abe63488dbbd6664eb8db75b24a2bd7171c62cafe96b4029bb"
+    },
+    {
+      "bytes": 6510,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_12.obj",
+      "sha256": "0dcc82b9461a68c92cc920804ac0f1105b09758ad802c7f38d79b4db10989935"
+    },
+    {
+      "bytes": 2159,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_13.obj",
+      "sha256": "ad605084ce680cd6eae8202ae1e741fff1b69c7c0cae2a85ea06b883495dbf98"
+    },
+    {
+      "bytes": 6563,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_14.obj",
+      "sha256": "bdec5063235bedfa7634ea1ed2ee20a88d44d42f1435de773fc2fe5f765234bc"
+    },
+    {
+      "bytes": 1306,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_15.obj",
+      "sha256": "7f7ee48874a86def677998cc65e19e163350fbd7ab236c98bed2c57f7262fb27"
+    },
+    {
+      "bytes": 2571,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_16.obj",
+      "sha256": "db2593a303d1fccd93ce50c1ebad7b5e3bc2b22107c9bce6a435a669769ae6a0"
+    },
+    {
+      "bytes": 4180,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_17.obj",
+      "sha256": "2f5f38f1fa2a7b654be507b50c3065b4c843080d5bb7708438d1811b8a06a021"
+    },
+    {
+      "bytes": 1629,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_18.obj",
+      "sha256": "184ee93071eea82ecfee6cea0324668d089126eebd7070b82a0c2f0f190bcbbe"
+    },
+    {
+      "bytes": 2604,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_19.obj",
+      "sha256": "5e2013e0d438f561e245a49ac16ed0a074746001b6acc4fc21715a8a133610aa"
+    },
+    {
+      "bytes": 9366,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_20.obj",
+      "sha256": "fcb270b31845e01dc9f6b8c6f7a1c0471df5fb02b4e4b3667ee1a7afeb4d8a11"
+    },
+    {
+      "bytes": 8975,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_21.obj",
+      "sha256": "461c4bf38b950bf9b8558d5108ab1649965b798b4ca3aa9d0f17d41676e43bd9"
+    },
+    {
+      "bytes": 429,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_22.obj",
+      "sha256": "30ad6605ab98c7342e4b1471b345cbdbdbe024f7237feaa821254f8a8377505c"
+    },
+    {
+      "bytes": 2102,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(63)_col_23.obj",
+      "sha256": "fe56b3a51ae364d6448992cf2489e9ea1829736d4f5edc0fee683eb1ea546f2b"
+    },
+    {
+      "bytes": 6842,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_00.obj",
+      "sha256": "02b993db720737a85c558bc91a02aec1e8218444ac0f336c13efb9a61bec0ef9"
+    },
+    {
+      "bytes": 16299,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_01.obj",
+      "sha256": "678f86e7fe62e322aa7c883c51e9abe085d59eaff9635a3f0f3441c453373a9b"
+    },
+    {
+      "bytes": 5189,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_02.obj",
+      "sha256": "f562a0de182fbcfa065cafda8c042e4f74dec8c0666b4b887c9a739161b2071a"
+    },
+    {
+      "bytes": 10266,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_03.obj",
+      "sha256": "a7663eea428dec8b4af8a6579fa2a533486530ddfc02122449cb4b7bea481e97"
+    },
+    {
+      "bytes": 3787,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_04.obj",
+      "sha256": "7785e86814e6c78d6d1a4bc72512fb34f4551bc6fab5da688c5ed3ef5aeabea4"
+    },
+    {
+      "bytes": 8111,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_05.obj",
+      "sha256": "314f683aac64594c5f800500776d5184548e784c2c9b5200a2eea7914ddc675c"
+    },
+    {
+      "bytes": 24377,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_06.obj",
+      "sha256": "931b5a0d12baecc235f41de8d3963eb155729e9fe0508fe6f241a9ddcd83da0b"
+    },
+    {
+      "bytes": 2391,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_07.obj",
+      "sha256": "84cbf301433947aea13c631533efa713fbf70cbf0bcea97c7973454407deeee8"
+    },
+    {
+      "bytes": 5755,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_08.obj",
+      "sha256": "d99266632b8d040ab8c18e4ea17672b992d29658c88650de78f19f5916f129c6"
+    },
+    {
+      "bytes": 18668,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_09.obj",
+      "sha256": "e3e7787103c5072a61cdd3074f167e498a51cfcf2ed86883e93ceb90b9804b71"
+    },
+    {
+      "bytes": 18224,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_10.obj",
+      "sha256": "2406443c27bf544342794a6462766393de6a5e42ff533b79d1750fd58169103c"
+    },
+    {
+      "bytes": 7031,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_11.obj",
+      "sha256": "4d41afaf4a72381080f3d8dd1ae71abb4569ebb7bf7c4ee2022dd8e16e92ecd7"
+    },
+    {
+      "bytes": 1059,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_12.obj",
+      "sha256": "77168d9405e79f8a2f6988479eac81fc4790aee6bd106589812c96dad4181be9"
+    },
+    {
+      "bytes": 1277,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_13.obj",
+      "sha256": "91521861bc4dab130af44949ab6e0a47f18649b439773997574ff58fee2ed65f"
+    },
+    {
+      "bytes": 21677,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_14.obj",
+      "sha256": "44fa563bb99a8adb5329c53f9a1e26b00f9043a7ba3397ae26b8c4c9cf529ab8"
+    },
+    {
+      "bytes": 2168,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_15.obj",
+      "sha256": "aa29601cb0908f1978063b4a4e623ac6deece19df289c708e940478dbf8d4be1"
+    },
+    {
+      "bytes": 3868,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_16.obj",
+      "sha256": "b41633d93e279b75730d663ebbb04eaeaa0a3d2aa8694c746d3951dd0563aabc"
+    },
+    {
+      "bytes": 1794,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_17.obj",
+      "sha256": "41d38bc01f43f92898d669f1df97a9bae65d9bcb43e095d423243822ec0fd6b3"
+    },
+    {
+      "bytes": 2205,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_18.obj",
+      "sha256": "04dba2aac41e4bc22ac7e3bf6a923e6551745765843215603d7dc410bce14c55"
+    },
+    {
+      "bytes": 3409,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_19.obj",
+      "sha256": "18d20bdbaa89fdf4f046a3d5015bacc3d709ced98fdf6b10243d9a130943be62"
+    },
+    {
+      "bytes": 3800,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_20.obj",
+      "sha256": "31f6b8638a8f4d0533d0dc35100479809f390c9460496834316fee88a55aaa8b"
+    },
+    {
+      "bytes": 6489,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_21.obj",
+      "sha256": "b2cbebc1dea83c7ac4366157c1b57857c5212026df59b2968e261011471d4b7c"
+    },
+    {
+      "bytes": 10944,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_22.obj",
+      "sha256": "25f91a2dd316b05cf8db240af47428003fcb7414d356a8607525c57403e8d3a1"
+    },
+    {
+      "bytes": 5550,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(66)_col_23.obj",
+      "sha256": "329818bc326803b0d3bbc2b26ded4b9a9665956a2e909c1bd7b53bb2574f91d3"
+    },
+    {
+      "bytes": 19133,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_00.obj",
+      "sha256": "12220c8c84da5c34eaeddb0fa7dd9fa8d5130a832b8f8125db6c5938f29ea37e"
+    },
+    {
+      "bytes": 4649,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_01.obj",
+      "sha256": "228035d1a6fac6739f0406035533aaa30a12def2558badbab85386eae65ef05c"
+    },
+    {
+      "bytes": 19394,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_02.obj",
+      "sha256": "2ffc3d49f1f06d60fa7df19f48f0d66aec41d56ed77004433ee4ea7cab32dfbf"
+    },
+    {
+      "bytes": 10115,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_03.obj",
+      "sha256": "27682600a3f9b6ae2af348c5e46cf6a0765c938cd0389e45c6e7d010bb49391c"
+    },
+    {
+      "bytes": 17373,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_04.obj",
+      "sha256": "ac6bcc3c24f8bcdd1c4e5ed9b189b4e5128a1e0ed975d572e9c058637c88ebb0"
+    },
+    {
+      "bytes": 15974,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_05.obj",
+      "sha256": "ae03450296b9ef8866a6570aeb0a35106821f6c0f44e389c4cb6d604f528fd2e"
+    },
+    {
+      "bytes": 1682,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_06.obj",
+      "sha256": "c3587461bdc389c212445cec1345dcaafa34bd865bed5dd6a79c1ef20aaa411b"
+    },
+    {
+      "bytes": 4094,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_07.obj",
+      "sha256": "71204ee57569ed11f4cf786f3fec4775f87e18413fae374760856dbf5e13049b"
+    },
+    {
+      "bytes": 8771,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_08.obj",
+      "sha256": "7278d9fc8ec01e4a9bd78034dccc2c858fbddf9f98f4ebbeef41b8b83ec344bc"
+    },
+    {
+      "bytes": 3913,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_09.obj",
+      "sha256": "c8b0175514a359f6f72a4722a0204dc31fc62bb6f9afed7e62bdec8d6fceb4cd"
+    },
+    {
+      "bytes": 11376,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_10.obj",
+      "sha256": "4e53146ad097a21aed584404bae18dae20eacd49fecc473aad42e0673277dfd7"
+    },
+    {
+      "bytes": 5769,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_11.obj",
+      "sha256": "e1fc1d3f9a505736f0fd86d7d6d0b0f3b7b1c502cc8afd69abc3d2ad09b4fab5"
+    },
+    {
+      "bytes": 4419,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_12.obj",
+      "sha256": "faaf667615378dff1926c9d6b213f9b4d9874068d77bb56ad63aacfd6b0abcdd"
+    },
+    {
+      "bytes": 23213,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_13.obj",
+      "sha256": "e8e643eb00156c2cf4e97e8e48e5d56f37547798811043ef971234ad830fcf2e"
+    },
+    {
+      "bytes": 2495,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_14.obj",
+      "sha256": "65bf00b2a47d99f477e389f2875711e1263e3ffa7cc4f0fd34160c9388e0c810"
+    },
+    {
+      "bytes": 3319,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_15.obj",
+      "sha256": "0f65eab144d285c169372e2b16849d8f899e4362c3900f035252a87e97b0265d"
+    },
+    {
+      "bytes": 2971,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_16.obj",
+      "sha256": "0191f92368f2f66fa5fc0971fc3ee47c16c8431c73b7f1e7ffd2b2e496ef5169"
+    },
+    {
+      "bytes": 13009,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_17.obj",
+      "sha256": "998a9e4a5917b65e83691bd9ff5d40e66236ea2d5dc60a97039d1aef25894c22"
+    },
+    {
+      "bytes": 2521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_18.obj",
+      "sha256": "5c577acae0b87eaf005768a375e91405d7e89288682fb1de535c26fe1cbb458e"
+    },
+    {
+      "bytes": 8335,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_19.obj",
+      "sha256": "2862e7441df687fb935aa121b78bc312824a7a91797ba4b0943b7e00bf0e53f6"
+    },
+    {
+      "bytes": 984,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_20.obj",
+      "sha256": "7990a161773ca7df903023194ad42ade83bea739bf616d86aa0a301a085ca1c9"
+    },
+    {
+      "bytes": 464,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_21.obj",
+      "sha256": "2ae06a7e8cf7ce17c6e85fe25f21e06a3f079cb0f24d0dcaa455a47b5573884f"
+    },
+    {
+      "bytes": 9700,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_22.obj",
+      "sha256": "eb9016033a4c9221d1c00123238ac31b126ae4b5995913efa5ac440063cb4eba"
+    },
+    {
+      "bytes": 6548,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(71)_col_23.obj",
+      "sha256": "339fae9f880fb34e7f3393512eb70688b9078546de6c0685881399f8b34db229"
+    },
+    {
+      "bytes": 20519,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_00.obj",
+      "sha256": "d361ba7fabf83203ae56799216314eb1f3c4c9042ff3101c49c9e1eebe6ca0ac"
+    },
+    {
+      "bytes": 7027,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_01.obj",
+      "sha256": "98d398be671e80ed9bd2ee7c0bd397ec8d0406e540aad278bf0fbd70af185cde"
+    },
+    {
+      "bytes": 10324,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_02.obj",
+      "sha256": "054cae6e809f57d2a3a498889955d4435ecdaea71b4c4f3807b8f53a31ffb57b"
+    },
+    {
+      "bytes": 15653,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_03.obj",
+      "sha256": "3ea7067846a8bbe6887efab90857a6cd0c85c4262c7c171470661dd6f423c8d8"
+    },
+    {
+      "bytes": 19319,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_04.obj",
+      "sha256": "e900e3892f5c4379fbba22f20d28bcb38b3aea1ea210a07f7c2a0eeddd6fddb0"
+    },
+    {
+      "bytes": 6482,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_05.obj",
+      "sha256": "f25b0a81bfc4840b01b3ec9ff45db06b3cda749bdd48ba4f09bb8d15ae5cfb6b"
+    },
+    {
+      "bytes": 5632,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_06.obj",
+      "sha256": "b28bd4697ac2783130ac809f53f93a6404948a39e1107bb23fa7d180021cdf11"
+    },
+    {
+      "bytes": 6848,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_07.obj",
+      "sha256": "d1d04ed59250a12bbaf79d15aa5bfb56026bd0d5c1adf008eb5ccc532518b04b"
+    },
+    {
+      "bytes": 20224,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(85)_col_08.obj",
+      "sha256": "0adadcc03295a117f4a5222130fcb82f424c5ed16ff8859cb1f45f456eecab3f"
+    },
+    {
+      "bytes": 28455,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_00.obj",
+      "sha256": "4330f0fd47e181961fed0a375d7c207a8f4a1f544feba3a7c25da68acdcfa271"
+    },
+    {
+      "bytes": 11461,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_01.obj",
+      "sha256": "a267745a4fb5c900394e0b1e257f2b2ee05c159bebbf83e61c7e59cdff3e303b"
+    },
+    {
+      "bytes": 2698,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_02.obj",
+      "sha256": "946138eee5c33ce880fe075dd307cb531a9f49ea0108359cd2422e0e35b729bb"
+    },
+    {
+      "bytes": 2184,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_03.obj",
+      "sha256": "e5ea46f4fb9f6427380088930f887a5f45ffd7c86ffdfd69b96e813e5360e989"
+    },
+    {
+      "bytes": 3249,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_04.obj",
+      "sha256": "df288d757b0c8d94bb355340db9a7bf4f6cf5b0b2d2b24710e2af3250ac13f94"
+    },
+    {
+      "bytes": 10622,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_05.obj",
+      "sha256": "854e5e0024722590e5cb9a0869f8cd73bc43b486cce507f737a990e7694005ed"
+    },
+    {
+      "bytes": 2709,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_06.obj",
+      "sha256": "e7beff6539a3ca2e5dfa5ec481dc8a9fcac60cc9405dd7c98ce4277428ff45b1"
+    },
+    {
+      "bytes": 9311,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_07.obj",
+      "sha256": "d0bd8ad37bbdde092fc8510f90032201467f0201a48fa1831e4ebe5819186fce"
+    },
+    {
+      "bytes": 10473,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_08.obj",
+      "sha256": "256d9988249cce6b0614443944f0e714f3841196550189aa43207a768549bc09"
+    },
+    {
+      "bytes": 3559,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_09.obj",
+      "sha256": "0f143bc80de3a701f99e93f2ea1463805fb15ce73402a1491d85a0d32fd7d366"
+    },
+    {
+      "bytes": 4470,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_10.obj",
+      "sha256": "0b4a4b9dfc0b094963c5933b6767109145a61c77abe80df937a2a5e5386f168e"
+    },
+    {
+      "bytes": 5277,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_11.obj",
+      "sha256": "4f91cb7ee037fd6dd062df852299042c3e00a3ce1569ab8470e20f9c05fd3454"
+    },
+    {
+      "bytes": 7211,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_12.obj",
+      "sha256": "2ba3387483e359899ed58af4965adf2c054ab756f46872f1a98048332a1e1f65"
+    },
+    {
+      "bytes": 4426,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_13.obj",
+      "sha256": "f49c6d4e21d9ca77b61a4cf2c7e2fa16545372b4eb0be5992e44911acfdb45fc"
+    },
+    {
+      "bytes": 4696,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_14.obj",
+      "sha256": "efe6667e0ab7a2ece2f6e6b6fee01330e5c554dc0b23a8ab14781978470af1a2"
+    },
+    {
+      "bytes": 421,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_15.obj",
+      "sha256": "e2ac20b4ec32a36f8c05ec9af625f6a14882b7b30a72668b27f4063b292ffa70"
+    },
+    {
+      "bytes": 1177,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_16.obj",
+      "sha256": "4e108d7913828baa491ee08e9efe655917a7adf43b2d4415853bcede1020dffb"
+    },
+    {
+      "bytes": 13371,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_17.obj",
+      "sha256": "af9e4bdfa990b8f5aa7aa5eb520c47709c761640736aaed0a27e7ccfb0695d43"
+    },
+    {
+      "bytes": 4826,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_18.obj",
+      "sha256": "ecd1dda9c6f919557571e50b13335a10aa33796909ba8b9fddbba3016f399907"
+    },
+    {
+      "bytes": 8463,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_19.obj",
+      "sha256": "46b7f3b1809f33958b0657f0d0b897f2aa7d27a4c85cf8d7e9ce1b322afd9a05"
+    },
+    {
+      "bytes": 4076,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_20.obj",
+      "sha256": "02924ea3401f789bfacd284caa726ac44adaa60d650cbfd67ad230ee2bd48d24"
+    },
+    {
+      "bytes": 7940,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_21.obj",
+      "sha256": "5082c7c9887b34a7e866ad095633d0de6566669dc35f612be80b1692507a24cf"
+    },
+    {
+      "bytes": 2825,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_22.obj",
+      "sha256": "b727b01229ccfd809944f5e7fe9be1bca0c673129b8714df243184956290caa0"
+    },
+    {
+      "bytes": 8152,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(86)_col_23.obj",
+      "sha256": "8e915e8ba79a60bcb7ea4042a1da9281b5413c73e2239ef94e87aac24d6aab75"
+    },
+    {
+      "bytes": 928,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_00.obj",
+      "sha256": "0f2233e8aa35d3bcf66bed21f0b1b022948b65eaf2a0fe8f19224e2abdcbe0bd"
+    },
+    {
+      "bytes": 1052,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_01.obj",
+      "sha256": "08ebcb1c7557e0536662a3ad2b9b24b28d73642833b950f023ae53a35cc150e9"
+    },
+    {
+      "bytes": 1867,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_02.obj",
+      "sha256": "73ddce9477b091067b93e3e80f475ef417d380af060dc03a4eb4e4012191c2bb"
+    },
+    {
+      "bytes": 2084,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_03.obj",
+      "sha256": "b2793a1b877ff5ebc08a3b3e7f2d9dd24915f7399712e1cc26efa72e266f0b71"
+    },
+    {
+      "bytes": 1152,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_04.obj",
+      "sha256": "bbcb06d5c438c6c454a17a91e038d5a3528cdf68e1dd66e08478c4e0ebd66efb"
+    },
+    {
+      "bytes": 2126,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_05.obj",
+      "sha256": "de9a0212bcdbaa4abb948cfe9089851bf1e89f05ca7fcc5c34921afd2cbc5e14"
+    },
+    {
+      "bytes": 1962,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_06.obj",
+      "sha256": "24f5eb6eb4849f8590b887a01589372f26d64ba816b1eb8377d36ff59507dd4d"
+    },
+    {
+      "bytes": 823,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_07.obj",
+      "sha256": "a108a942026c95eabee4d3201c641a3223aa18819790251875008ec37795e762"
+    },
+    {
+      "bytes": 1784,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_08.obj",
+      "sha256": "deb0651bcea99482e988e84f4ea55aef12f0be308cf4397014c8a81aa4db3f8a"
+    },
+    {
+      "bytes": 1613,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_09.obj",
+      "sha256": "db4a93298f49947fca484758f1ee4b50226603ba6de6360509e538a01b7b69d1"
+    },
+    {
+      "bytes": 2066,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_10.obj",
+      "sha256": "0468202958575666cce4a3d7b7d887eaa77863168c11333516a4d8054dd4f44b"
+    },
+    {
+      "bytes": 520,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_11.obj",
+      "sha256": "91de9f9a091962bbf4777e2a49c517397d1be93d76ef92567cbea3e6d418df1e"
+    },
+    {
+      "bytes": 1234,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_12.obj",
+      "sha256": "60e415f156657d13fcc731b69e7025f52b9c8b141c728aa978919af68b5117fd"
+    },
+    {
+      "bytes": 977,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_13.obj",
+      "sha256": "ccc2b7caf025af74e9a2af795201e511b16d6d6dfc469f04efa2c46785f86c43"
+    },
+    {
+      "bytes": 534,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(88)_col_14.obj",
+      "sha256": "991cc07b270f3acaca4afaac9877107893e2fa1900dde64345e188c4bd7b6989"
+    },
+    {
+      "bytes": 18688,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_00.obj",
+      "sha256": "2d3c045b2ef1fe4579bc80fe6f002fd30019b582226d27bcb7b047424bafa7d3"
+    },
+    {
+      "bytes": 10808,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_01.obj",
+      "sha256": "79176126c1c74fce3190e1b17dd60db2f7ed095ab0d904f00cbb9686f5b607a0"
+    },
+    {
+      "bytes": 14819,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_02.obj",
+      "sha256": "3253309185570a663ac63aba627ed3da5db8f4aba65a0302889411b20577706e"
+    },
+    {
+      "bytes": 1926,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_03.obj",
+      "sha256": "9b1dcb7b2d0bd4e673e6ae836d6356c831199875a073962bd2ad468650f335eb"
+    },
+    {
+      "bytes": 2975,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_04.obj",
+      "sha256": "2431889b5a4db996fe51b120c96fc994ac6e9faec79403994c7da1b2df41f241"
+    },
+    {
+      "bytes": 1387,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_05.obj",
+      "sha256": "623336a7298a4a1d9f80bfe5a3023994111138d11ab1319d0db98a4214e6777b"
+    },
+    {
+      "bytes": 7637,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_06.obj",
+      "sha256": "8705aadf555854dc4f4ec4e02927488381c888dd0ab47774ae5880a96f50ac30"
+    },
+    {
+      "bytes": 17400,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_07.obj",
+      "sha256": "06e8156547415cedde864a97c6dba701b6f1183ec192030c62fbe4b540df838b"
+    },
+    {
+      "bytes": 5691,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_08.obj",
+      "sha256": "a6062db55a2d9f332e3228d5e889cdc93b324f55b8d28504775fede35b2a50cf"
+    },
+    {
+      "bytes": 12277,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_09.obj",
+      "sha256": "e4725d0d5b6dbc66c378e3d06deeaf1739ef5c8dc5ee1a8eab146974c40fb8a8"
+    },
+    {
+      "bytes": 3682,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_10.obj",
+      "sha256": "db922b90abbb804a7dddd4e07c2694ea3f59a3f3912016f31ec268f4eef0dc5a"
+    },
+    {
+      "bytes": 6960,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_11.obj",
+      "sha256": "3e347745599dbe2bc4d77734c605bf24de627c353f84d36b67a2c5488306e99b"
+    },
+    {
+      "bytes": 5724,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_12.obj",
+      "sha256": "f97ca3d9c5311de7b3ebffb85fb69a854a6403834958ff752cdb4c28477ff4de"
+    },
+    {
+      "bytes": 2109,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_13.obj",
+      "sha256": "d45f508e1a50e075bac3818780951e21e4b80a63d8c442ef578bd1d2f9c737da"
+    },
+    {
+      "bytes": 7423,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_14.obj",
+      "sha256": "cb45ffb5a2238677f4e7a50db1ac3f14a7ce3105305667dc31108a7f01daecff"
+    },
+    {
+      "bytes": 6584,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_15.obj",
+      "sha256": "cfd5b394a435cef073b9877b3ff434e100561e9cc26d52b30a82b6c9ad8ec5e9"
+    },
+    {
+      "bytes": 4839,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_16.obj",
+      "sha256": "1432e2ee2508a2a67885cce3a5f12deb92b9ef8b2ae93aca63ee126a7c1f2ae3"
+    },
+    {
+      "bytes": 539,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_17.obj",
+      "sha256": "efdaf7e2220b90e417ef358e88e5211357dd7e9f6811818a592f67b9dee9cea1"
+    },
+    {
+      "bytes": 18164,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_18.obj",
+      "sha256": "d70f89ae46e0de9e64106386799aa84006c2278a6cae51d253d8256fbc46ee38"
+    },
+    {
+      "bytes": 13191,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_19.obj",
+      "sha256": "3c9a688658d640bb1a5372510cba2219b83dab6de106a55406cf327e8d837397"
+    },
+    {
+      "bytes": 4264,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_20.obj",
+      "sha256": "851f1ff938dc978051a751cbced06a85f9cdfcac2041504fcdb6575d9767bdc2"
+    },
+    {
+      "bytes": 6890,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_21.obj",
+      "sha256": "bb7873f7aa121fa390bfab5b5244bc20b462bb1fcf2aa9a9fe69104d15b5caa2"
+    },
+    {
+      "bytes": 11474,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_22.obj",
+      "sha256": "de505d283732a8e452a8e528d5a5dbca145c3a1c888b6bec8708e1194be2b241"
+    },
+    {
+      "bytes": 8578,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/collision/prop_concave_large_108_BoulderFactory(543568399)_spawn_placeholder(96)_col_23.obj",
+      "sha256": "7b9b2cd35e598e8f0ff524067e1937f9736a8db56910a50b50f991b3f5c53d3f"
+    },
+    {
+      "bytes": 5457,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_00.obj",
+      "sha256": "7f340b34dd24e870e099a68db8ff296533a824546d28b04036e974c3b70dde7e"
+    },
+    {
+      "bytes": 5449,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_01.obj",
+      "sha256": "78bdca01f357e05821acdfc96fcacb77cf5ef357c11eb28db2f3ce65637f3143"
+    },
+    {
+      "bytes": 5449,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_02.obj",
+      "sha256": "3ea53fe14f66b9ad5cd353f2b05da4795a538b6ee3b27d2921a1c3c0eba80dd5"
+    },
+    {
+      "bytes": 5454,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_03.obj",
+      "sha256": "4d8d18480e0bfce5407c9a5c26889b63be34bd46735ed01b517632d896988937"
+    },
+    {
+      "bytes": 5511,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_04.obj",
+      "sha256": "606e2a7f624024430b7cdb56c4b757025b835589035a5b95aa16a1c22ddb3255"
+    },
+    {
+      "bytes": 5484,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_05.obj",
+      "sha256": "80a0d91db58af2ce5943d28e02970ce4805fa57e6e70fc9a380ad91d31565db2"
+    },
+    {
+      "bytes": 5438,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_06.obj",
+      "sha256": "8a1ceb470534f0fc2e9e9457fea09fa3b7d8da16c7ec0919a829f634b61fa072"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_07.obj",
+      "sha256": "849640bed5b085fa31084d2dccc021a353dfa0ffabcd80cc46751faa238bc863"
+    },
+    {
+      "bytes": 5290,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_08.obj",
+      "sha256": "919f977f43314645fcad6fd174a487e30ee6bc5119500f41dca69b18e99811c4"
+    },
+    {
+      "bytes": 5353,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_09.obj",
+      "sha256": "5e714a3d6919cce63af4a701090ed8c079ef759e41be997c9ff4737612dfa9fc"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_10.obj",
+      "sha256": "0f854a20451ab503c5c64de6bb178569e4a7e366b671d5e7cfcbef7d05168041"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_11.obj",
+      "sha256": "771e4ebd95acb95ae57702aadacc6c5527d61e788fd3f913cc274ce6a30b25c7"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_12.obj",
+      "sha256": "c2b2b837d8f1f9fefecc37a5515bbce432d31243594690bc2df028229a9592cf"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_13.obj",
+      "sha256": "52d1bc87e820d1ef74b90fc5ea0fa95f4e212d8c6526edfc676a3214d7a3a25e"
+    },
+    {
+      "bytes": 5367,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_14.obj",
+      "sha256": "d8af51e214f3f64015edd24d982dbbbe3512804a1c658967489e6ffdddc52acc"
+    },
+    {
+      "bytes": 5406,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_00_15.obj",
+      "sha256": "4408ef92a6f10a1dd2071bbb5f6db771c56eca5f46c9fe1a2d19b9777a0bed2e"
+    },
+    {
+      "bytes": 5449,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_00.obj",
+      "sha256": "e013af47dca2d7a3e2adeeb96a748b9ca265f1f08e5f590758fd600734f057db"
+    },
+    {
+      "bytes": 5440,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_01.obj",
+      "sha256": "91c652dfb8b991d9a74206078158aa37ebdd0bc64041f145091122cf23281c97"
+    },
+    {
+      "bytes": 5440,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_02.obj",
+      "sha256": "d2dfdc2fc80039c4cac712ac6c5e10aea1d693227c07c380661fe05a64a828ff"
+    },
+    {
+      "bytes": 5440,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_03.obj",
+      "sha256": "171a6b33b4bf6ff097a779642b5f56816480e443f54907d04cefd653726d4d33"
+    },
+    {
+      "bytes": 5459,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_04.obj",
+      "sha256": "5a20fa739f0e02bbe627bc601f8312eed08dc243c6950eaa371aa44b6ad8340d"
+    },
+    {
+      "bytes": 5498,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_05.obj",
+      "sha256": "857a88e96a6842b537196c170c0148ae1e45da33275dad2dd362a4140d41b76b"
+    },
+    {
+      "bytes": 5437,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_06.obj",
+      "sha256": "d6efccf07927af855ae60bf0c8af3b4bfb6d07bf8c9e6694feae155a5288d317"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_07.obj",
+      "sha256": "ecca36a45856944fbefa0d44d870deda4670dbe5ebb785e3a744a9c4e302cf20"
+    },
+    {
+      "bytes": 5281,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_08.obj",
+      "sha256": "8914493df7943bdeb43a24b9a2c26881647324ec0b237d18a51b7638de1b1a24"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_09.obj",
+      "sha256": "f2900032c7784726d9f2ed8daf7eedff8ceabe356b2bb04bf2e4c8a07867a6be"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_10.obj",
+      "sha256": "cb4fcfddadd7fb11dba9b9bd99078aaf12436b16b22c460a325711d7c0127f9b"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_11.obj",
+      "sha256": "fac3a567f865dca1cb9572a55d9a05be086b3288fc190fc9df0ef5c111919149"
+    },
+    {
+      "bytes": 5357,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_12.obj",
+      "sha256": "9fa4468a8b88c8ff3d83f779d652660c5d050bce4f3d51d186875616b8f16aa9"
+    },
+    {
+      "bytes": 5369,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_13.obj",
+      "sha256": "dabdbcb4d0bbdda7b95f727ff897121b071022204585b59401ad717580683078"
+    },
+    {
+      "bytes": 5368,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_14.obj",
+      "sha256": "a7b0c753d387e7faeb8ae2bcab76e06b9b7a58608a5db5b20d55d42dbd543a4f"
+    },
+    {
+      "bytes": 5423,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_01_15.obj",
+      "sha256": "d6c06ef8b74ef841ac4ad69d5073857dcddd90bf62dc6f8a4cbb6284e71311a4"
+    },
+    {
+      "bytes": 5450,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_00.obj",
+      "sha256": "4681bd30802177caeb3a93ab0520ea8b3662659d8e0c133f0f112f82a26c705e"
+    },
+    {
+      "bytes": 5443,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_01.obj",
+      "sha256": "d7c2c895569e32ca23a6593cb5be6cce00c232882b31bf3d527e02c65259d2aa"
+    },
+    {
+      "bytes": 5440,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_02.obj",
+      "sha256": "c25f3a474cd78979db76ab08db1560bd280edcf8a35bef0c424d9d6f5e2f7bc5"
+    },
+    {
+      "bytes": 5441,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_03.obj",
+      "sha256": "63aaa9e3dd41377b60a6259e66784c4fafd0601bfa6a1e8681c59427f8b684a9"
+    },
+    {
+      "bytes": 5490,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_04.obj",
+      "sha256": "11b394967c32cb58b39fc3cc96e8e8af7f71c1164a0f9d1eb93be4542cb301c6"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_05.obj",
+      "sha256": "74dbc45e0e2810abed0087ce3b6ab87b5485701ac005d76632d2dcc2e9e3140b"
+    },
+    {
+      "bytes": 5449,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_06.obj",
+      "sha256": "3166290185076ceee0ebe7cc8462237c7ada438492848e6ba76045c0e39f4eb4"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_07.obj",
+      "sha256": "276c4d177c9e52f4ae23a51bc982e723e26065799795779b21136187236d2417"
+    },
+    {
+      "bytes": 5316,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_08.obj",
+      "sha256": "815a44c9cf4cab6ba3af27d8888ebd3c37ca11c5b7f78c24aee9bc0fa96fa4d6"
+    },
+    {
+      "bytes": 5381,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_09.obj",
+      "sha256": "c712be49ff7ddf3242de718b1205c9cbaa4b7b6026a6369a95b6b87eeba0c5fe"
+    },
+    {
+      "bytes": 5404,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_10.obj",
+      "sha256": "e5778307a8c001f00150f5418deb0f498c79953c202bf9512bd81bfd35c9f689"
+    },
+    {
+      "bytes": 5407,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_11.obj",
+      "sha256": "f32e0b7f479fe36fe8249ee3fc40a812758b3cdb0d80693e6f69c2048ab1582a"
+    },
+    {
+      "bytes": 5424,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_12.obj",
+      "sha256": "53c4697748ceb0e4f65c7a7f455d742e1494e214e79182845d64f6dddabc2eaf"
+    },
+    {
+      "bytes": 5424,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_13.obj",
+      "sha256": "24baaa076fd100e236078404c34ab33d4866c97036e302c328adfdf34b413773"
+    },
+    {
+      "bytes": 5419,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_14.obj",
+      "sha256": "c73557483cfdeee3fdc6e8bacc65c9dd019d390bac7427909af5e88b7bcac8f4"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_02_15.obj",
+      "sha256": "3631a0358b524deea3cd726849758a2720510d71a41cd5d4ecc289000e085942"
+    },
+    {
+      "bytes": 5514,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_00.obj",
+      "sha256": "28f1eede4d9f182c171512be4500c00f70188f9c6e8a26302b362fc12a25eaf0"
+    },
+    {
+      "bytes": 5515,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_01.obj",
+      "sha256": "5d7c8577d655c395a5ff06f19c4bfc81c1962b66be113d29fd19116407836995"
+    },
+    {
+      "bytes": 5503,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_02.obj",
+      "sha256": "d2d4c6c51ac767cae2bdaafacc12be70033459ba6570b79830e0ea8568651ac5"
+    },
+    {
+      "bytes": 5504,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_03.obj",
+      "sha256": "4257fe04e52edc9a9c48cba9e8fadf30c99ff7ce9f97e6a184273d99640b5086"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_04.obj",
+      "sha256": "88eea87dad11ca60528def4f8987533ebf6c206dc5d4da6e688d6283d7ea266b"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_05.obj",
+      "sha256": "6834ea925dc1bce348bca7360cbcab86d69e089b9d650718ef902b670ae0858a"
+    },
+    {
+      "bytes": 5488,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_06.obj",
+      "sha256": "769ff172d9dd0631b6a3cd46e1b390598125ba4e469d05fdb685f14bce3b3512"
+    },
+    {
+      "bytes": 5385,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_07.obj",
+      "sha256": "c4da2aadc3059c6b0d94cda3edcbcfcab2e3424590f31db5eeb7e27b416849fa"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_08.obj",
+      "sha256": "47c81e266f01fa0ca4f99a31f8ab70c9edf1cf52f496e4be8fe6ed61396b3e09"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_09.obj",
+      "sha256": "28e3e693f8d5c9910c08a45716c0bcc053a3d6d98be80758be894da07f517ced"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_10.obj",
+      "sha256": "b4c012c99d2ad7e84828ca6da660b96fcec92bacd518ea5db11d1fd01a545a5b"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_11.obj",
+      "sha256": "6009d9fab76d6e6bfa99d3c54103e4528cf30610f905cda7516d66b6d53df2f8"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_12.obj",
+      "sha256": "869621e405b4bc232ff60cca3eed061f8cf97c11ff39c2acec05c894baa1b156"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_13.obj",
+      "sha256": "78e6e2e0dc21f34289acc83d1699bab4d8420f73a6df823fbba466cc2e204add"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_14.obj",
+      "sha256": "363402306ae2fe053afcbe56a4b178954238cfd91a1d5ae89f6bf9e7102cb63e"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_03_15.obj",
+      "sha256": "f940d4bd4002f3e9ca627bbe1d37a27e30fc04e8b64f17f7edc08c46c3c74876"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_00.obj",
+      "sha256": "31037afd43b57d6092126bb7cc816416c7fa08c39f03ddf41d3c5faccf951799"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_01.obj",
+      "sha256": "08103d9bf27e5cdce9354821f2e1aafd59bb2c23b818bb18cbc672bd393d243a"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_02.obj",
+      "sha256": "142dfb6b002075ec9ee20d7a56bcc29a931364f15fd1f78acadb834e717b6037"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_03.obj",
+      "sha256": "42daad85be1708da4ec0af14f16fc707589202d1805fcf48c849842954531f0e"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_04.obj",
+      "sha256": "5791eea4e828ba65b4b7bc6a10e33b1309b8fd0f9b478e0a0b382e6c6a2126d6"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_05.obj",
+      "sha256": "1e6efd5d13a2b80b17dee12d03ff6f4b0e9ba72784ad497923f004923216bbaf"
+    },
+    {
+      "bytes": 5510,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_06.obj",
+      "sha256": "108ae0c25033e12c33528adc7dfb57b179f99b23c87b3bad5a8b17b5c8608deb"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_07.obj",
+      "sha256": "7137b1f1e9277e09c5a1c16cb819d39611038689d12387eff14d926ca290d7ac"
+    },
+    {
+      "bytes": 5362,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_08.obj",
+      "sha256": "1b50754ba7625f0d7bf901e2d82711bbc66cfaedb4e11e9508fb0d90a9510c1d"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_09.obj",
+      "sha256": "4bb5d4f9277f0325447d061e0046a94df4f23741457b8cf7ad1ca0d44aabd1b1"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_10.obj",
+      "sha256": "c72dadbd1c6eb35521a0aa96f1b417dcb27c80f7bdcae9eea61aa401ea1c5913"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_11.obj",
+      "sha256": "d763594858cc02e073d9b4d702629b2117524dbe247f9533f8166a85cad1d893"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_12.obj",
+      "sha256": "8cc1fcea157b3e0c4f49f6103e394c2e01699f9b6ef4057efb5b67e116b83e99"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_13.obj",
+      "sha256": "6b2d2098a1068fe453ebec3ac1cb2d05e5bd6b8851d369966fed1a429d7e08de"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_14.obj",
+      "sha256": "1e8126440362e12941b49cb90b6ac71fc05ce87f32612ad59a1cce2e80a81bbd"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_04_15.obj",
+      "sha256": "a91c413bc383a0be2f559a6d0210426a307c9123d35d279291728a348bbcb40d"
+    },
+    {
+      "bytes": 5520,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_00.obj",
+      "sha256": "963fc8d0c748baf3181a6ebc47fb67c13f310a4f81f1a9c27c5643bf3944864e"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_01.obj",
+      "sha256": "11c813f716ab9ca493a13ce189871cd282a07a5728af0797b21120992c8d4288"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_02.obj",
+      "sha256": "b28fce03968dc58d5e9252f29dea5fc6a90d34000a84d4885c0f25f0467bf81a"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_03.obj",
+      "sha256": "07a3fc1af0f86332673b83fcfaae6899498cac277765267cbc2b8a670c1e2119"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_04.obj",
+      "sha256": "e8301b93daab1aac264cb4d7f586ef08e71648bac4e66a4a8c03a0ae1084c7ad"
+    },
+    {
+      "bytes": 5521,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_05.obj",
+      "sha256": "e0ba91bccc6dfc836eecf8b4900321fff3411b7ecd8c37aafb8ce1d7ed22a45f"
+    },
+    {
+      "bytes": 5503,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_06.obj",
+      "sha256": "91c7409767ca2829273570659e74c1e982cb50bb8a23dc04fd0c2eb62123d8bf"
+    },
+    {
+      "bytes": 5412,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_07.obj",
+      "sha256": "913d4efb4badc09635e3962a053827b71151190356a087bfa160954024317865"
+    },
+    {
+      "bytes": 5358,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_08.obj",
+      "sha256": "e9e43f292e6c310af4714825e4ab6d4e88ef37ee8cd01c070788e0ce8529f684"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_09.obj",
+      "sha256": "ff143722a12053413f375e3737f4710b6c78914cd49208a74f1ec23e3261928b"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_10.obj",
+      "sha256": "f6236c7e10cb3f506df2dd4fbd61c23e12c349b4e47b67753a395d1949c89ae9"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_11.obj",
+      "sha256": "4e34ecd8664b59e7a5e6526098dc90a3c56f71a599d10fcab6670729531dc228"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_12.obj",
+      "sha256": "d274944d72beff4f221771e3ca9b39630e8f80fcb013312c148ba40d2998959c"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_13.obj",
+      "sha256": "fe6ef838d0ef7168d3bc06aea52c6d35b9c4874b69d643db1e30ebbbead4c489"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_14.obj",
+      "sha256": "369a19523b336b18b1fef09017e592d812984aae84f59d4929929acb77b44404"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_05_15.obj",
+      "sha256": "541e0dfaa0b95f01db4c792c3388231e1e7dcd20ef94d5983fc42da9938d574e"
+    },
+    {
+      "bytes": 5455,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_00.obj",
+      "sha256": "82443c1f71bd4ff0b45154fb9944d87ac99f0364042d46491afc0d12de3c508c"
+    },
+    {
+      "bytes": 5507,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_01.obj",
+      "sha256": "c9d2052f8d39d12a602023e64ab128b41393b92d441171a1315e437d9654f9fc"
+    },
+    {
+      "bytes": 5510,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_02.obj",
+      "sha256": "9259b6034de478b72c72260fd35e317ec5b9f30e5608fd4f894fad21f0ea94da"
+    },
+    {
+      "bytes": 5510,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_03.obj",
+      "sha256": "2c5bb3e191f1b32f85657f69f426348b0073fab96a81c52d8dc17f789c905ce6"
+    },
+    {
+      "bytes": 5510,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_04.obj",
+      "sha256": "ed055f7c24ce9a3d382bd456ebb152f8d75c2ffd13a6c39eed336a5fb2939931"
+    },
+    {
+      "bytes": 5510,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_05.obj",
+      "sha256": "cdf77e84c2a1a3c9f518b79b165bc5b8fa66b59c93a0decf3fc4cc293bd2f2f5"
+    },
+    {
+      "bytes": 5479,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_06.obj",
+      "sha256": "4cdaa589e38b6449f005196974ebd12c104860d1b5f7a982de59388bf8437a5e"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_07.obj",
+      "sha256": "67ccda4fb12e062dc028e902fd547fc10499731db436ebdca0ee09e9cf5b07ae"
+    },
+    {
+      "bytes": 5313,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_08.obj",
+      "sha256": "9a3a6eaa1909c54c3573974681e4c940da4c772343eb04afaba27ff9cb2dc6fe"
+    },
+    {
+      "bytes": 5414,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_09.obj",
+      "sha256": "9ea8a672feff89cd7123801c78373f8ca335a7a94bf7a0da591d4f7be42c798b"
+    },
+    {
+      "bytes": 5424,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_10.obj",
+      "sha256": "032ca5cf5dd2b1414fe62ea8449bddf45152806f09e5d11917b1d84dab452732"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_11.obj",
+      "sha256": "64b3310970bababdeeed982fec0b7121add6dcd023c9f199c538e179fdce4640"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_12.obj",
+      "sha256": "948afee5d933f471f8b19f82d2d2a441376b23c20c5e710207351ac2df20e1ac"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_13.obj",
+      "sha256": "91111a9e6aa4c0e62b6e0a888d723ff03a5b8744d7ea08682a86429764ebc7d6"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_14.obj",
+      "sha256": "2a5662e24d41f0bb022011bb816601d3fab63220b4edbea681d11bf5ebdaa8f1"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_06_15.obj",
+      "sha256": "99e08b6b910a91a2daa138ce78611008d4db624a36e2b288806cbdd1742f9ffe"
+    },
+    {
+      "bytes": 5366,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_00.obj",
+      "sha256": "76373f3517db43f2b1118be698df57279d7b25f44c0752707500bab960b20106"
+    },
+    {
+      "bytes": 5422,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_01.obj",
+      "sha256": "6833e1e5e9c09a7aaf96b97b060ca4444389ae3e0a5f661989377779526352ce"
+    },
+    {
+      "bytes": 5421,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_02.obj",
+      "sha256": "ea26d6ab56e981bc4cab799b8b78074188e0250e20be0ca18b9b049aa60900a7"
+    },
+    {
+      "bytes": 5400,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_03.obj",
+      "sha256": "fb561ed6e670881c5a979b528b2034ff4ea2655df0bee7f2bbe12732926a1efd"
+    },
+    {
+      "bytes": 5404,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_04.obj",
+      "sha256": "8848dee1f6e7f796b5e64ce1e4beb064fdfaa9f38c1cf6f22fc07e7bd42527e7"
+    },
+    {
+      "bytes": 5425,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_05.obj",
+      "sha256": "b5e25d0a05c4513837a713e5f38a0216c4c2e5d9d3c0c05512b8f73a861536fc"
+    },
+    {
+      "bytes": 5406,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_06.obj",
+      "sha256": "cb2ea76213db07f64b311f56b2db927a2e8d877ea4171cd8dd5f7adb8a669b71"
+    },
+    {
+      "bytes": 5262,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_07.obj",
+      "sha256": "397263aba8517439a94c3bf2d7ccf72515415b6803ed8699b8de4de6816ce204"
+    },
+    {
+      "bytes": 5255,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_08.obj",
+      "sha256": "6f396907f55b2df5dcacfc35b2d7f3f1c8b4164ac3c5772daea016bbc92d0126"
+    },
+    {
+      "bytes": 5324,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_09.obj",
+      "sha256": "1275c0981c18c396674b2ed1311b09e2e82dcbe0a80424701cd23f13d36f4433"
+    },
+    {
+      "bytes": 5277,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_10.obj",
+      "sha256": "7a49758975ede94757186c977501086e591b6dee8d1e35aaac89fb7b9307d488"
+    },
+    {
+      "bytes": 5303,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_11.obj",
+      "sha256": "69498aeaec032bb21357296ea92e72f2e33c49db8032ed8faa84200764d1d285"
+    },
+    {
+      "bytes": 5335,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_12.obj",
+      "sha256": "eb80a113b9b5b902bd98c8685d043e468a5941de55ad4e9b706bbeb95d8298b2"
+    },
+    {
+      "bytes": 5340,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_13.obj",
+      "sha256": "17ec1265f9e8d92bff22ce38b3a72b5dab852f6de297a3dc54f5410d8f7efd9e"
+    },
+    {
+      "bytes": 5340,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_14.obj",
+      "sha256": "bf3679999086a55c71933202c1ee0a4a768757cf45b2affa80df5715bede351c"
+    },
+    {
+      "bytes": 5340,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_07_15.obj",
+      "sha256": "fe8379a8f319ab4a0bad039e14e40808724e293877f1d7ca96bf1d270c4e2ed8"
+    },
+    {
+      "bytes": 5300,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_00.obj",
+      "sha256": "d7d0ada535fdae4557ddd292a5e5022ba2755a880079f867f7ddb6e888d0fdb6"
+    },
+    {
+      "bytes": 5285,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_01.obj",
+      "sha256": "f22aeb2ed08194504ad54f62e76d315d035f6f7dd4cdbef283b812120c4eb327"
+    },
+    {
+      "bytes": 5278,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_02.obj",
+      "sha256": "7560adf0af4a8bc6803320b8d0795e3e8168fd341a332d371fcf0f2ea90a1074"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_03.obj",
+      "sha256": "8e82fcac3d19335fcb5f0ca3b6178c69fe000243c91185844f2633587e4c26e5"
+    },
+    {
+      "bytes": 5302,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_04.obj",
+      "sha256": "35b69f6c1aeb9649d787eb93547cb4edd6170b3a4804471c5572f6e9e33bad0c"
+    },
+    {
+      "bytes": 5350,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_05.obj",
+      "sha256": "9ce80325902d3c174a25e240c5fe0001cfcd38456f528c4507482130735e3329"
+    },
+    {
+      "bytes": 5299,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_06.obj",
+      "sha256": "8479f075698e09e17fe629976bfafac6e7b65fbce11aa7e112c2774542dc6454"
+    },
+    {
+      "bytes": 5185,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_07.obj",
+      "sha256": "4e78fae94cfa0ec3114b7dd32bdebbb1e197c933235054fb6b912f2a385edeb8"
+    },
+    {
+      "bytes": 5179,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_08.obj",
+      "sha256": "274b86a37a1bc499d95aeeee12e06cb21417288b1c0d4d97a34b3e84ae98c91d"
+    },
+    {
+      "bytes": 5225,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_09.obj",
+      "sha256": "7c07cf2e221e968399e7783235f69d71dda3ca6c9d23f3e6cafe8a73aaa1c995"
+    },
+    {
+      "bytes": 5188,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_10.obj",
+      "sha256": "0e17d5238117ba8aa5ca5c80264509b5a7af2ec2c20fb13d36e04b30f8ba756e"
+    },
+    {
+      "bytes": 5185,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_11.obj",
+      "sha256": "896239b2ab39ca7ea74486aff07e33d4269557c59fbc48c798f9c21d3393e1b1"
+    },
+    {
+      "bytes": 5244,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_12.obj",
+      "sha256": "6a54b46136aaf927ffbd50223867c98ecb38c2e07132e71526d6c02b978e52ed"
+    },
+    {
+      "bytes": 5266,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_13.obj",
+      "sha256": "6b788b904b61bbc7d7d2ce0fc82012bade5dd3ba6f31753ebaea2737e4d9cfb8"
+    },
+    {
+      "bytes": 5266,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_14.obj",
+      "sha256": "5444d2dc4775ad19948db32180ad7a7d0187b8c1687e75528b7abc244a23fecd"
+    },
+    {
+      "bytes": 5266,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_08_15.obj",
+      "sha256": "38512cc6a427c62e3f711e59312fd5f8ffc58ff713b518f1f2a7d4c00777a6bb"
+    },
+    {
+      "bytes": 5380,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_00.obj",
+      "sha256": "8c6ffbe7927b8333ee3ce50fd11be1919f51dbd947b15cf205218cd861d7d61a"
+    },
+    {
+      "bytes": 5345,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_01.obj",
+      "sha256": "07a0770a32afadecac0b288f332f5c4a5aab1c0f0f1b7e7e5c5c962ef394ad79"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_02.obj",
+      "sha256": "9080d7e4ca83e36d508c93054e1e2fbe1d0a49c40d3393894433c8822ad2f15e"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_03.obj",
+      "sha256": "8f6a40644d2eeeab74f8b3959071edc1dde021c1495925985ead70d6a5c92fda"
+    },
+    {
+      "bytes": 5358,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_04.obj",
+      "sha256": "a9e91f79a3652700bbd113cde6314b102b036639a67d89e6cade68bb268962c9"
+    },
+    {
+      "bytes": 5358,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_05.obj",
+      "sha256": "4fdc9ee408724cd812594190c4700cac1f93f5a174e48b539d3fb23f2ad54b61"
+    },
+    {
+      "bytes": 5333,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_06.obj",
+      "sha256": "f8ef2c051e3dfde4aea06bb8fc187f5eff826bf56e5c6f86ce894d9af35b5306"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_07.obj",
+      "sha256": "be0511b47fb9cf4e70d382586394cb704994bdb5860968f84b251685ce71f487"
+    },
+    {
+      "bytes": 5227,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_08.obj",
+      "sha256": "8dc3522dd535438de976a5f6b307dbd3dafb392ca2d259f1c636ee9083438f78"
+    },
+    {
+      "bytes": 5276,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_09.obj",
+      "sha256": "c5a4c7f17ff5537a24bc20b9d1857450e54b445de9332c04f652142ed2d673e1"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_10.obj",
+      "sha256": "b22c72dcc18ec499314b0b75e893c886ad3d06baeecbe2a8b6652522f812dd80"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_11.obj",
+      "sha256": "7cd44ceee4e2bc5ba3ba6d561db13350b9730d45779e3216b5123f8a9eaa35e8"
+    },
+    {
+      "bytes": 5272,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_12.obj",
+      "sha256": "bb7295b4d2bbb10e5e9592cfe5948c7e83068ac7e10afbe274945c8f9d9bd719"
+    },
+    {
+      "bytes": 5317,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_13.obj",
+      "sha256": "abd3cbf86b83de1723b90bc74e26dcbc95219c8cd8d1b3f429e5fc363f60741c"
+    },
+    {
+      "bytes": 5340,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_14.obj",
+      "sha256": "c5159aa399b236cb88d1d4a568bd7f5f707b8aaa0df503269e5523b09d871740"
+    },
+    {
+      "bytes": 5340,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_09_15.obj",
+      "sha256": "df2b25551a32f156c80f1518d3938acbbdb3d9af9219bd67290c3122142884dd"
+    },
+    {
+      "bytes": 5434,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_00.obj",
+      "sha256": "619ef5495b5a1796334852c0f07bd5800f2880f64336bee1ec25d1a031d018c3"
+    },
+    {
+      "bytes": 5372,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_01.obj",
+      "sha256": "c5e8225233601577c759308755c92f70bc8f0541c14cbfe2c02fc1b6018db841"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_02.obj",
+      "sha256": "e00e8a50d691d3e4b4ac477520086ee7f1c097cc0cccaf123113238602b4b66d"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_03.obj",
+      "sha256": "a4bac95b70396e22ef34cf7f550cfcaa4b55d735fc958e5c378f4d7fd0adaeae"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_04.obj",
+      "sha256": "e1aec2432d09ec1d6d048db8b866980408241ea0aa5e61d1335dc0afa237de6d"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_05.obj",
+      "sha256": "1a2b56958695d6ac11f52f4d9c82da4cb48905abbbb4cf932c87e117b8178625"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_06.obj",
+      "sha256": "c2bd504c708c8922a95e8b03746842b6354548a9bddbbb27ecd807aef200e660"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_07.obj",
+      "sha256": "decfa53fb4295b83d151e585e6bc485969fe6bf477601d4cede07e057d0bd02e"
+    },
+    {
+      "bytes": 5196,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_08.obj",
+      "sha256": "33940b19335de304dd09e53cd0a4438c07592d3179e228508a754c9133dc0773"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_09.obj",
+      "sha256": "1e324e498e469cbd26ac872817edaf129b5d6a8a19a1675fc882a0adc07a2387"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_10.obj",
+      "sha256": "05547d448741022eef7b0ee35cbcbf5c825ad6a5e15db7190d403013edc1d3db"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_11.obj",
+      "sha256": "0952d0608ea362b47d355f54a39ece43a0bced4258ff8f48ec5cc546bc9b6d2b"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_12.obj",
+      "sha256": "7e791b5b39d3005f89d407a1443feee4baec81b9022578f9d1f4269841931e56"
+    },
+    {
+      "bytes": 5272,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_13.obj",
+      "sha256": "ba2a031fd9fd59b93f39670df419283a5a8df07a4f9797c36a6e7c785a451290"
+    },
+    {
+      "bytes": 5289,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_14.obj",
+      "sha256": "9cd7023319c143f3e262b81127135261a23e5cdaac024a779ee1dfc93b2a82ac"
+    },
+    {
+      "bytes": 5301,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_10_15.obj",
+      "sha256": "5c73c50f24849fa4cd02c958f22748059a700c44500fa13a77f256204d890deb"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_00.obj",
+      "sha256": "44483d91f2995cd8092ab1a3868c484df0013b8afd399abe081973f48ac4b0d4"
+    },
+    {
+      "bytes": 5387,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_01.obj",
+      "sha256": "24a28c44bcef9dcd841b37f29e0f0dfe20abe633b4257706f577da412b5d72b3"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_02.obj",
+      "sha256": "a9bc61daaaf980b3fa4bf2a10996fcde3214b8ab0c4e60449670f28f8e8a974e"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_03.obj",
+      "sha256": "1822b7fa5e58f0f83feac1d6d833f4efbd12cc19f71dbc7cf07e569d9a569adb"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_04.obj",
+      "sha256": "6a68d8d3c51a5f8f7d9558ff51deb5b2247d7bb7f31d31ce68c09745fc36b5ec"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_05.obj",
+      "sha256": "1f077afbb97722db60bb42ccb55aa26b92dfebddb5cfe64de07c5b8fdc06ac9e"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_06.obj",
+      "sha256": "c33c51b8f96f67c8ac29f11ca4ad3a6503006a9faa73eec8d00d63c7dbc75a62"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_07.obj",
+      "sha256": "8a058b896e470ed13150bef14d52b3a776ffd7d0707bc5590635a835270e5028"
+    },
+    {
+      "bytes": 5196,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_08.obj",
+      "sha256": "7cc2f52cec347b5488266ed9617b4c17885d777b8d70a38e48f479ebab5e3a64"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_09.obj",
+      "sha256": "0021076446391f402da7d5bace1f8a685d82a4ffbefe76e21446772684e3e724"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_10.obj",
+      "sha256": "c1b096ecdcb0df3c07d4c93067ebe2fffce0dbf89d890c7c701cb40aeb4bfdeb"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_11.obj",
+      "sha256": "968c5bb3a14443c3d46f816f6b5cbde8377a695b8cc27b23ffd747a4ccd8f934"
+    },
+    {
+      "bytes": 5272,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_12.obj",
+      "sha256": "78685450c7d042ed25dd80d2c263cd29be93c20cd842c37dd47656cbe790e643"
+    },
+    {
+      "bytes": 5272,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_13.obj",
+      "sha256": "f20e45e7573f342f02b36adc8e2e031c6251497a7b1d10a754f4f7b0e8bc2480"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_14.obj",
+      "sha256": "11d59768190a4a1015c3221b7da398ad937b47b4270007017c4bde5a57a31c8f"
+    },
+    {
+      "bytes": 5296,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_11_15.obj",
+      "sha256": "460a2bfc8689de2942cc9731a59078aaba2e28ce65b54c52a447c0781911a533"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_00.obj",
+      "sha256": "f7838cb5912e4181696e0a4af93adadc8d9d4cabb798f828f9c7dd333c0962b5"
+    },
+    {
+      "bytes": 5423,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_01.obj",
+      "sha256": "69a9e08c4f285a00ce5dfa761fa060129223da1077c935738daf086cd8f2d39a"
+    },
+    {
+      "bytes": 5360,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_02.obj",
+      "sha256": "b6eab2315a80801ecf8df62d32c4f0c0cfe8988d901b69beee13d283ab014074"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_03.obj",
+      "sha256": "cb58db5a01e13b51ff42fe15ccceb6371f475bd4e5ea575b5d3dd291e4d4806b"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_04.obj",
+      "sha256": "6c5a2ad7e746d1b1011fa0fb62e16d3d13361abf18ef7f04bb94c76e978828b9"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_05.obj",
+      "sha256": "39163ef3f79133294217e8289481dfa4970d52d4d9054fcb42e915efb375c0b4"
+    },
+    {
+      "bytes": 5344,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_06.obj",
+      "sha256": "472ad9cab51f69947533ac619ddb347b5cf6705b08a1bd4e02d8e484b3ec5fd8"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_07.obj",
+      "sha256": "cda1873db4181ed374cf4c48e8b50160092f87dd0460ff758075c2ca5fbee870"
+    },
+    {
+      "bytes": 5196,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_08.obj",
+      "sha256": "1336000b1dfc33418cd25e0131c76f02d20d1d2aae38bec2f248cab86e0b15af"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_09.obj",
+      "sha256": "37085c5225ba4dc6bb04b1705e5d1b4e5897e047784125e5ea837b94107524e7"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_10.obj",
+      "sha256": "58d0214bc4e6fa593a742d4e70e6b3aa80550682423f96984774b07c6f6b6f0f"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_11.obj",
+      "sha256": "b4d207bb40eae3509fba1ce8fb9345fb956de9b4a8a6c916262bd4fc7cfee011"
+    },
+    {
+      "bytes": 5299,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_12.obj",
+      "sha256": "94aae656732f87a65d986bb447a722c5835b607ef22fe27a6d8f7d0a83887007"
+    },
+    {
+      "bytes": 5289,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_13.obj",
+      "sha256": "a4b05f15196e1c85441c7c2bb377350266500f78b0b4380102526c7dad117857"
+    },
+    {
+      "bytes": 5313,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_14.obj",
+      "sha256": "6723e54ec1d46addc1f1f958ebaee8e2694a6a462637f44323423097aa454d9b"
+    },
+    {
+      "bytes": 5348,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_12_15.obj",
+      "sha256": "4791d2dc18c19c82fcea139b0d8889e65d9cfc50be48ff5fd5059718312ac4d3"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_00.obj",
+      "sha256": "1937ee3c8c733b0c8d1cab817330b1a98777cc5cbbe34ef062211c875631f1b7"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_01.obj",
+      "sha256": "499ad729e1d0f878dad758eb64384f725a28285f9e32f9bd38dbb695a5d80115"
+    },
+    {
+      "bytes": 5373,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_02.obj",
+      "sha256": "d95f3e257892b4e892bbe1209216db6c1c21b78063b2abed44e4f36eba8b65c6"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_03.obj",
+      "sha256": "8fd31ce1ec5979824af5b92b8cdb9df4624cbb04fc0a0f016ddb059cf16dca8e"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_04.obj",
+      "sha256": "7eeb84050d41e7105e628b6a63dffd866d6515407c2c6ace8485b6008fa1b0cd"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_05.obj",
+      "sha256": "f4136035fa880e65f83bc09f83cdf16cdaea4c68b88ebe3642e098c52905dc28"
+    },
+    {
+      "bytes": 5353,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_06.obj",
+      "sha256": "39d232012d9d6fee5c357b9a007a244c9fbdd70cd1bbd6c141e79f8661e75280"
+    },
+    {
+      "bytes": 5277,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_07.obj",
+      "sha256": "02295351bc417a9d76599112bb80be13008f0b4c8534d26048aa861426e7395e"
+    },
+    {
+      "bytes": 5196,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_08.obj",
+      "sha256": "f37158105ffdbaf9a5aec7d2664c9f8b26ed10113d0009790e95a4b74fd2eadf"
+    },
+    {
+      "bytes": 5259,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_09.obj",
+      "sha256": "9dc0fede65ab4df3b8911284befd4e0bb2be584354fae5a4060618ad30d8bf20"
+    },
+    {
+      "bytes": 5270,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_10.obj",
+      "sha256": "e87553a3e09931d3d61666ad408007d4c7a8033c7c52eec9b7b3372e662e7eb4"
+    },
+    {
+      "bytes": 5288,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_11.obj",
+      "sha256": "5b2c121370fe1a169d6644fcf1b8a9e682e5bc46624bed45e0feef9abd5073f2"
+    },
+    {
+      "bytes": 5345,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_12.obj",
+      "sha256": "ced106193d08ae725044fe6154a39761fb63f0b4c4236ff6c0ed05a826143c89"
+    },
+    {
+      "bytes": 5349,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_13.obj",
+      "sha256": "9557c0971340fb9570e55bdb4ac89035dc89325d7ed11cceb430394527ee645e"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_14.obj",
+      "sha256": "3c3b177f21eb6e6786f362660e01552495ad5d7a354707c51e8dee4bf6ddd132"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_13_15.obj",
+      "sha256": "b6d6aaa3a5ea61749f1ffee666ddb1fb438a7be60f2496f52952774885c89b49"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_00.obj",
+      "sha256": "cf506a8046842583ebc0c8934c74193c13fcd7087bc0a5d09d7310de2be32489"
+    },
+    {
+      "bytes": 5432,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_01.obj",
+      "sha256": "7979386530686c70539694be0d9ebe82016ba49917c1f73e7b9aad50f022aea8"
+    },
+    {
+      "bytes": 5361,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_02.obj",
+      "sha256": "0cdb6d641f0886222cf65b1b73ce598b2ca295b81f967df76bba3f5d2b337891"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_03.obj",
+      "sha256": "4438d3e928d34e696525dcea2915bdbab05db56d300a9f6227f0ce4eef270a07"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_04.obj",
+      "sha256": "535d7873b429b4f7924a9f0c1052c8f4f3dd7579ca81abcb6b759f67ddaa7596"
+    },
+    {
+      "bytes": 5355,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_05.obj",
+      "sha256": "e05e22c8b5e44bbda8c4e5edb190fad96cc76bbc8106e8536676e5648d527c66"
+    },
+    {
+      "bytes": 5379,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_06.obj",
+      "sha256": "0b94e2a27ae2ac60a03527a4ea744420dc8a703f4daeb18a97ff79567e3817cf"
+    },
+    {
+      "bytes": 5326,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_07.obj",
+      "sha256": "5c185448e083559f7397feedd77c05ade6f86c8b43750b943ec966371f8bb09d"
+    },
+    {
+      "bytes": 5202,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_08.obj",
+      "sha256": "1205c92628bd6a14eb44599c7af7a72e3d4c5d81a9fffb8b28cce4061a828951"
+    },
+    {
+      "bytes": 5265,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_09.obj",
+      "sha256": "553662034a3c99fee33b28eb97d3a01dda6c40f8f59bc95b91f6cc15ea6cad69"
+    },
+    {
+      "bytes": 5279,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_10.obj",
+      "sha256": "53e17157ce70fdcd32d801cf5ff97e3978dedc2ab4f08603cba2d2d273628740"
+    },
+    {
+      "bytes": 5306,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_11.obj",
+      "sha256": "39d16c56f0e106d667eb0518705c2813ba10645b2d8905d436fea4d54add6e72"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_12.obj",
+      "sha256": "33f12a3dd51adbab8b12dbbab8ac6e17cdf249eefd822110733ca6bc47f31ba4"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_13.obj",
+      "sha256": "aa3f8c707eda4acbe0092ac47330634c1d01d2d2a901bb9dbb05a5c41807f434"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_14.obj",
+      "sha256": "fd19433e568976bd2ada9f3e1f5a9b103487bac33abf313c5217048093bbf94d"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_14_15.obj",
+      "sha256": "5c265bced4d434d366ce59c432d9229229cd2855d615a4601f34644f3574ce95"
+    },
+    {
+      "bytes": 5436,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_00.obj",
+      "sha256": "c86db75df00e51a05d445874a8898f7d4bfe9693fb64a29e3b971e21050e3602"
+    },
+    {
+      "bytes": 5431,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_01.obj",
+      "sha256": "8976281d0527109b33bbd3c9d069f88a1fa0161d69e21d04d8198ea53b680d6b"
+    },
+    {
+      "bytes": 5367,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_02.obj",
+      "sha256": "7bb4e52f4c8a695c51a2f2f6da12277b745ab55bcd6016a8254efe80841dd926"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_03.obj",
+      "sha256": "3dcd228c0727944e07d1e649548c52ec16d146cbfa3e5a0bd9b48c6bec171e86"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_04.obj",
+      "sha256": "5e69c976665087f7bef9b37ff37ebc2c6f2a0f7620bb7f53c71bff3a9d88a687"
+    },
+    {
+      "bytes": 5364,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_05.obj",
+      "sha256": "55a2f164cafcfc8860d338c7e7441c6542613f6a4aefe09627a2c4388d94d02b"
+    },
+    {
+      "bytes": 5374,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_06.obj",
+      "sha256": "0c962d20cbc579a96e4956edffb9954453e9593bc04242c335865780954ccfe4"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_07.obj",
+      "sha256": "077662aee827f393726dcf8a835b4dea9ad61d6a8ec41187faee80a4e57e8544"
+    },
+    {
+      "bytes": 5216,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_08.obj",
+      "sha256": "f633307d0ee87a7a9b9b164c1fdc0fe0dd7cdcdb310ce4d3d1e77a6ed7ee9016"
+    },
+    {
+      "bytes": 5305,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_09.obj",
+      "sha256": "5a2602806e84bb6dbd58be674a3aba49f2bf0a1e6a0dd8b9d0b325e1d03373f6"
+    },
+    {
+      "bytes": 5331,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_10.obj",
+      "sha256": "7499aa775c05b8f7d3500231af15814f95dcabc21a335795bd25cfdc0eb34574"
+    },
+    {
+      "bytes": 5336,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_11.obj",
+      "sha256": "d459ec799e749b04715043fbd37c4dac87fceccb766b70970ed1909991206454"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_12.obj",
+      "sha256": "6a48a75105863912211c224156ac95b853b912ad0fec10e67a28ac77af8fa46a"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_13.obj",
+      "sha256": "d4bdd0f9cc6d087976ab460a31b093c16c2c9c87ba0d09b71cd7a3372cc7f682"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_14.obj",
+      "sha256": "d00b844067c5367e45d8ff6bd7f223ce1bb16dce7dc3478d98844ec73078a02a"
+    },
+    {
+      "bytes": 5351,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/module1/terrain_grid/cell_15_15.obj",
+      "sha256": "5f6d5932161d7eef5bb73c558c61d9dc3e655639c7e8bd4faa2fe36dddf07c16"
+    },
+    {
+      "bytes": 343362,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_001_BoulderFactory(543568399)_spawn_asset(1).obj",
+      "sha256": "03eb45aa433b4739d7008aa81881f95d8dd8917e3f9049b1e81a0ae582b8bf1b"
+    },
+    {
+      "bytes": 369658,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_002_BoulderFactory(543568399)_spawn_asset(2).obj",
+      "sha256": "4178ace9b3a9e6dc69bf5c6e2c32b25b079d7249aad60d92e07251bf20970a9a"
+    },
+    {
+      "bytes": 3744254,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_003_BoulderFactory(543568399)_spawn_asset(3).obj",
+      "sha256": "da3f8689d39f2ec2c1b6e1b74225afcee2927489008ba588e3cc7ba6eba3cbaa"
+    },
+    {
+      "bytes": 5409,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_004_BoulderFactory(543568399)_spawn_placeholder(0).obj",
+      "sha256": "ca349fab78f2dd2642a2522ec219795ced62df35a6f88f54c3536af3bc762a6e"
+    },
+    {
+      "bytes": 8177,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_005_BoulderFactory(543568399)_spawn_placeholder(1).obj",
+      "sha256": "e1eb22956a643d3568811d4e8b23abb5eaae28d48bf08a92ecaa5ea540dc497e"
+    },
+    {
+      "bytes": 3286,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_006_BoulderFactory(543568399)_spawn_placeholder(10).obj",
+      "sha256": "a3bbbd6b8d7a484ed0582c245ee157f679cc544d571182d7aac2fa7cfc407877"
+    },
+    {
+      "bytes": 7842,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_007_BoulderFactory(543568399)_spawn_placeholder(100).obj",
+      "sha256": "ae183ed626137c44521291abb5bfa9d7985930c860317e0f4b22b9eeb48187d4"
+    },
+    {
+      "bytes": 5410,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_008_BoulderFactory(543568399)_spawn_placeholder(101).obj",
+      "sha256": "5bc2103a3de0ad24d6b0a7d1883b9ef7148810926c743cc597abd0486f641d48"
+    },
+    {
+      "bytes": 3790,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_009_BoulderFactory(543568399)_spawn_placeholder(102).obj",
+      "sha256": "3d62e9ec0de3f0c6eb2090001c119880f56fcb0ccd300b772c35e0f2b52316d0"
+    },
+    {
+      "bytes": 7161,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_010_BoulderFactory(543568399)_spawn_placeholder(103).obj",
+      "sha256": "81b336bd428790881d88a6e8b5b38856fe59cc373c1fd62358ef7731830243eb"
+    },
+    {
+      "bytes": 7662,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_011_BoulderFactory(543568399)_spawn_placeholder(104).obj",
+      "sha256": "34ce265a1696708c877479803d4ed0f2d5a6eff8f2e13f8985a5de7bb06d528b"
+    },
+    {
+      "bytes": 6496,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_012_BoulderFactory(543568399)_spawn_placeholder(105).obj",
+      "sha256": "1515878b1538de56b9ca5211614527df4c224ab13373210fce0eb71319ee5666"
+    },
+    {
+      "bytes": 6488,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_013_BoulderFactory(543568399)_spawn_placeholder(106).obj",
+      "sha256": "b66a06d5482d71fafee414d6292c50e6bfd7fc72534f33b686a706912bd06e8c"
+    },
+    {
+      "bytes": 6176,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_014_BoulderFactory(543568399)_spawn_placeholder(107).obj",
+      "sha256": "7adf853afe950a0f0a24d9d5e7cef3107982ff0fd9b1f0cb2d35cf5c25fde892"
+    },
+    {
+      "bytes": 6384,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_015_BoulderFactory(543568399)_spawn_placeholder(11).obj",
+      "sha256": "cf44872bdf054e537b0467bcf0750ac194832ea39f01add369df2d5218105d28"
+    },
+    {
+      "bytes": 8918,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_016_BoulderFactory(543568399)_spawn_placeholder(12).obj",
+      "sha256": "e6afd785ea7d5709fa9749f29d85eb8bfee685630f72c8079024737fa94f963f"
+    },
+    {
+      "bytes": 6781,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_017_BoulderFactory(543568399)_spawn_placeholder(13).obj",
+      "sha256": "5e9b78a20179ba90380f82c607b3fdb762ebdc13c0905c7759b25e0b03abd146"
+    },
+    {
+      "bytes": 6644,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_018_BoulderFactory(543568399)_spawn_placeholder(14).obj",
+      "sha256": "07dc6f285fbbc03b4d790f286c102d64213941eb0c640b354d017f88b3446987"
+    },
+    {
+      "bytes": 5953,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_019_BoulderFactory(543568399)_spawn_placeholder(15).obj",
+      "sha256": "6800fdd462a4c7fbdbb35bea3da0e76e417dfd6c6c32fe6e38438a955f9239e4"
+    },
+    {
+      "bytes": 5031,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_020_BoulderFactory(543568399)_spawn_placeholder(16).obj",
+      "sha256": "ad7856c0109e6ed6a6b7a4741d8bafbb3d5bc3eddb5303f0d8d9145e8fcb2f05"
+    },
+    {
+      "bytes": 4745,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_021_BoulderFactory(543568399)_spawn_placeholder(17).obj",
+      "sha256": "ee5e498dd863f9f024186f444dfbd2708a7c8d3f88af23d22f760d5a50ebc706"
+    },
+    {
+      "bytes": 3300,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_022_BoulderFactory(543568399)_spawn_placeholder(18).obj",
+      "sha256": "40ab7793b55280466b4feb7304637a4884ce9304ff2227f6f9835cee81a1a053"
+    },
+    {
+      "bytes": 5563,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_023_BoulderFactory(543568399)_spawn_placeholder(19).obj",
+      "sha256": "d4a2b8898cf38cba2f4b9cf4d45447c367c917b3d1ec459b5c64efdeba2b0f91"
+    },
+    {
+      "bytes": 6974,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_024_BoulderFactory(543568399)_spawn_placeholder(2).obj",
+      "sha256": "b13e57ca84b4ac266742a3542ae16d37cff29df88295852774e23f2598f126fe"
+    },
+    {
+      "bytes": 4993,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_025_BoulderFactory(543568399)_spawn_placeholder(20).obj",
+      "sha256": "8d18617c4df659ba2b93404412355df82b70cba13baff9be856ab7ef84418210"
+    },
+    {
+      "bytes": 7222,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_026_BoulderFactory(543568399)_spawn_placeholder(21).obj",
+      "sha256": "31e44d76bb2140424800673742ffe6081a7c47f64e7c35acdc76bca44ff3818a"
+    },
+    {
+      "bytes": 5230,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_027_BoulderFactory(543568399)_spawn_placeholder(22).obj",
+      "sha256": "b20e39b9a11b1fad0cbff84d8565a997745e8daf519e75955bc0aea1d3ce45f0"
+    },
+    {
+      "bytes": 6392,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_028_BoulderFactory(543568399)_spawn_placeholder(23).obj",
+      "sha256": "d47d8564d978700a6bcf4ca42c7984a7357c4b1d22058d3f60d47c83eb92eec0"
+    },
+    {
+      "bytes": 6672,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_029_BoulderFactory(543568399)_spawn_placeholder(24).obj",
+      "sha256": "42a1e52b96a7edf067d3c1e30d2aac36e1f5e77bb89172768b4d4230c8c1c981"
+    },
+    {
+      "bytes": 7101,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_030_BoulderFactory(543568399)_spawn_placeholder(25).obj",
+      "sha256": "8fad3840b75aa02c42ccfa53a8f5c3173880bc64a7062311d8497b8d6c06deda"
+    },
+    {
+      "bytes": 4979,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_031_BoulderFactory(543568399)_spawn_placeholder(26).obj",
+      "sha256": "b889a53b530690cba1cf7d04cf6275f1217988ebffee9300b3d7724e8da1da80"
+    },
+    {
+      "bytes": 6390,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_032_BoulderFactory(543568399)_spawn_placeholder(27).obj",
+      "sha256": "3f9e5d658b9566b7c487e6cfd9a2422f11e77d42af7d5345c2a0e69213150563"
+    },
+    {
+      "bytes": 8865,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_033_BoulderFactory(543568399)_spawn_placeholder(28).obj",
+      "sha256": "381b3e9404618ba45544d29e2e79147beb5e991c174f911fb4e725b8f3904547"
+    },
+    {
+      "bytes": 5028,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_034_BoulderFactory(543568399)_spawn_placeholder(29).obj",
+      "sha256": "00bc6bb8b3e2a6f32df3e6da48d4c47607e00c34e9ef27a17852d24480a53bf8"
+    },
+    {
+      "bytes": 6852,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_035_BoulderFactory(543568399)_spawn_placeholder(3).obj",
+      "sha256": "f50bbc1735b5376e0aac28d05273c6bae166195e44f34f2284b3155a1dbd028a"
+    },
+    {
+      "bytes": 5419,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_036_BoulderFactory(543568399)_spawn_placeholder(30).obj",
+      "sha256": "f29300ca3b03f28f45d1553f75009f76533001bb625d9f9dfa8550b4417a91da"
+    },
+    {
+      "bytes": 4750,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_037_BoulderFactory(543568399)_spawn_placeholder(31).obj",
+      "sha256": "cef0b84e21e3a084b87b8f40e9a52a99b6ecdf036652746ca19b3d67c26b1cdc"
+    },
+    {
+      "bytes": 5404,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_038_BoulderFactory(543568399)_spawn_placeholder(32).obj",
+      "sha256": "6996644d6e40ae8691551d18f7b9130d5dd19b05790f33d505acdc4312035ce8"
+    },
+    {
+      "bytes": 3872,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_039_BoulderFactory(543568399)_spawn_placeholder(33).obj",
+      "sha256": "c3a461e4b997550b880b8c5ded244dfe4967d81865c59b68dad114d0a2b84eb7"
+    },
+    {
+      "bytes": 4687,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_040_BoulderFactory(543568399)_spawn_placeholder(34).obj",
+      "sha256": "5217f2186e3ef92311999a0499ac17e874fc803a9e07f96d6ed7a15678ed801b"
+    },
+    {
+      "bytes": 11180,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_041_BoulderFactory(543568399)_spawn_placeholder(35).obj",
+      "sha256": "aee5a0b27dd1ad7d1c2898457881fd8975461a115e488e2ceedaec242389769b"
+    },
+    {
+      "bytes": 5881,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_042_BoulderFactory(543568399)_spawn_placeholder(36).obj",
+      "sha256": "cbacfdcf727c2ae3985e32b465c6888acb1ac9e42bfe5faf8aaf9e8ef2efb009"
+    },
+    {
+      "bytes": 5721,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_043_BoulderFactory(543568399)_spawn_placeholder(37).obj",
+      "sha256": "f37459ec9ce4dbcdd3723caa4d4146d314f5256bcd2f4f869f680fc6c62d8b17"
+    },
+    {
+      "bytes": 6363,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_044_BoulderFactory(543568399)_spawn_placeholder(38).obj",
+      "sha256": "ad95671dab7f53496b69d97c4bba3e6c6cf17dcb40fb8d82d4d57a8f828cacd5"
+    },
+    {
+      "bytes": 5012,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_045_BoulderFactory(543568399)_spawn_placeholder(39).obj",
+      "sha256": "95cff3c6604f61b1b9cb82dc628712e4b2bb250a5d90ee56c23c321b60b865dd"
+    },
+    {
+      "bytes": 6202,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_046_BoulderFactory(543568399)_spawn_placeholder(4).obj",
+      "sha256": "6de52add7440a3c3b5a349f4e25cd4ef924d04b584f377d40d3e4b237882eeb1"
+    },
+    {
+      "bytes": 4222,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_047_BoulderFactory(543568399)_spawn_placeholder(40).obj",
+      "sha256": "dcf099881b0b3c9ed21aa30ec8a1458ba273078edb4996b999449b70d21d7946"
+    },
+    {
+      "bytes": 8335,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_048_BoulderFactory(543568399)_spawn_placeholder(41).obj",
+      "sha256": "5fe6cf215e59e5af70ab6a8ac5c5c862eda11e00d97f3c173f6e307d71c2329c"
+    },
+    {
+      "bytes": 7581,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_049_BoulderFactory(543568399)_spawn_placeholder(42).obj",
+      "sha256": "0a867d023dd793151bab6acace929fc41110ef8f6052d6cbece9f00ad1b872f6"
+    },
+    {
+      "bytes": 6180,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_050_BoulderFactory(543568399)_spawn_placeholder(43).obj",
+      "sha256": "b14e87484a604f83fefd877a1ad4db21976b187ec12d3b58aff6d973409dfe92"
+    },
+    {
+      "bytes": 4004,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_051_BoulderFactory(543568399)_spawn_placeholder(44).obj",
+      "sha256": "6867a3368bec38fa12a6ef2acce694ae33a3f5aebfbf88824a97eedae0c9afbf"
+    },
+    {
+      "bytes": 7769,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_052_BoulderFactory(543568399)_spawn_placeholder(45).obj",
+      "sha256": "b9a3f4a4d132b21135014e332afbc1391060699b50c0ce2d5f6f8008e340ae61"
+    },
+    {
+      "bytes": 5286,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_053_BoulderFactory(543568399)_spawn_placeholder(46).obj",
+      "sha256": "d1a539b059df719255e8a805600877c6b07caa933dc563c0963c5869752f06f9"
+    },
+    {
+      "bytes": 7845,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_054_BoulderFactory(543568399)_spawn_placeholder(47).obj",
+      "sha256": "05b72db75baf6ee2f64771fd74fa8ed57c5f7082a9d2e9dc777172d905da7cd9"
+    },
+    {
+      "bytes": 5234,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_055_BoulderFactory(543568399)_spawn_placeholder(48).obj",
+      "sha256": "f74233447390d0b0df844996b9667b3a29551ff5b20f6a6d3216bf0acec13d9b"
+    },
+    {
+      "bytes": 8416,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_056_BoulderFactory(543568399)_spawn_placeholder(49).obj",
+      "sha256": "b8133323567d09bda265e224354ac8d0b27f3212c3740b4c28b0cb4b6657ec99"
+    },
+    {
+      "bytes": 7707,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_057_BoulderFactory(543568399)_spawn_placeholder(5).obj",
+      "sha256": "36c1e63d7c28156b2da0b0dd1323f0f0ee5b13aa292fd27d26be111f87eb9429"
+    },
+    {
+      "bytes": 5433,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_058_BoulderFactory(543568399)_spawn_placeholder(50).obj",
+      "sha256": "4a2b90609a371f7686270fc0f33756cbf83e5886880ce9140bc44bea3b7d8161"
+    },
+    {
+      "bytes": 4283,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_060_BoulderFactory(543568399)_spawn_placeholder(52).obj",
+      "sha256": "5cc9ac13d5fff9c4762f72529dcf74b90ba117398192bd48ed0ad80f8f6ccf9a"
+    },
+    {
+      "bytes": 7313,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_061_BoulderFactory(543568399)_spawn_placeholder(53).obj",
+      "sha256": "cbde172a6db9ab22519d87f9b0defc85aff516471a2f91c66a71c94a73f207c0"
+    },
+    {
+      "bytes": 8899,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_062_BoulderFactory(543568399)_spawn_placeholder(54).obj",
+      "sha256": "225ee14acbc4efca58a88e5b6ef0cf2d7c4a787ee429b2a0074b46d552298c2d"
+    },
+    {
+      "bytes": 9976,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_063_BoulderFactory(543568399)_spawn_placeholder(55).obj",
+      "sha256": "523bab60a6f2c2ddce003ed891e721411a49b6ad7594b680db6273d14d4e670c"
+    },
+    {
+      "bytes": 5039,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_064_BoulderFactory(543568399)_spawn_placeholder(56).obj",
+      "sha256": "a362add91ac66f80a6c0602c2809b06b44e1dffc98faf590bc8a870bfe401b84"
+    },
+    {
+      "bytes": 2592,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_065_BoulderFactory(543568399)_spawn_placeholder(57).obj",
+      "sha256": "a552b030a7a5a80dae94f20259303bce3dd6f203f8aa8f44d9637187ef4ecdc2"
+    },
+    {
+      "bytes": 8950,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_066_BoulderFactory(543568399)_spawn_placeholder(58).obj",
+      "sha256": "3015319769f8b999112aaf43b61c069dee3dc544159090aa6501cc9e530b8454"
+    },
+    {
+      "bytes": 7506,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_067_BoulderFactory(543568399)_spawn_placeholder(59).obj",
+      "sha256": "76e3b03a568b78c6dd79e5cbbe29246ce2a545d44781dbc70929dd0b3d88bef6"
+    },
+    {
+      "bytes": 4345,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_068_BoulderFactory(543568399)_spawn_placeholder(6).obj",
+      "sha256": "585d95cdf0f8eb1a1669dadacda10f3868397d21f4f6f882fec6d60e1142cfab"
+    },
+    {
+      "bytes": 6386,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_069_BoulderFactory(543568399)_spawn_placeholder(60).obj",
+      "sha256": "127273e2541da21b1e106766188a684d9b086cd4043479eec7677c1c710d8b20"
+    },
+    {
+      "bytes": 5796,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_070_BoulderFactory(543568399)_spawn_placeholder(61).obj",
+      "sha256": "1f5fab8454e2b22fbe06201cfc44cf8f84d8bad89ced3799b6ce88f3b36861d7"
+    },
+    {
+      "bytes": 7164,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_073_BoulderFactory(543568399)_spawn_placeholder(64).obj",
+      "sha256": "5b06df0e5711cd0d496be3f45747d09d78c9f450cc37b87888bd0e38066b5cb2"
+    },
+    {
+      "bytes": 9159,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_074_BoulderFactory(543568399)_spawn_placeholder(65).obj",
+      "sha256": "6397b04921b810272290830c59197c8f30ea6b2dbab43d3740fb375f6bb6a361"
+    },
+    {
+      "bytes": 9114,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_076_BoulderFactory(543568399)_spawn_placeholder(67).obj",
+      "sha256": "4dcbb1db3fd9aadf261db4b823a615a551840b68673b8dd3cf4ea08838554143"
+    },
+    {
+      "bytes": 4451,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_077_BoulderFactory(543568399)_spawn_placeholder(68).obj",
+      "sha256": "1757a2cf57f4532606c83e7cd16ea982b752a637b5e37e69a8b20436d6a15582"
+    },
+    {
+      "bytes": 5026,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_078_BoulderFactory(543568399)_spawn_placeholder(69).obj",
+      "sha256": "a5c52b2175a6b534991d5ab880fed8999368d0dfb934faf2e07eca147d7efc0f"
+    },
+    {
+      "bytes": 4686,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_079_BoulderFactory(543568399)_spawn_placeholder(7).obj",
+      "sha256": "4aa15d4baf1c68e8958445d699f2b43c569e04467e8b62d63ea16a7bc92b5bec"
+    },
+    {
+      "bytes": 7685,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_080_BoulderFactory(543568399)_spawn_placeholder(70).obj",
+      "sha256": "2e0c5d1ce752a06bc705b225e0de7bd63c4687ed179b38bb4a69d9f84dea4020"
+    },
+    {
+      "bytes": 6482,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_082_BoulderFactory(543568399)_spawn_placeholder(72).obj",
+      "sha256": "4af5a9e24b548998f3c719fcba5d0c52bfb14cddc0c4402a3cb58e92af8ce2cf"
+    },
+    {
+      "bytes": 5992,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_083_BoulderFactory(543568399)_spawn_placeholder(73).obj",
+      "sha256": "c6eec2592d47b3d73d7bfe0ae41e6f6eb13de7024a8a31635b92274c7f47e57d"
+    },
+    {
+      "bytes": 8595,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_084_BoulderFactory(543568399)_spawn_placeholder(74).obj",
+      "sha256": "4978e47f7f08f3a86fed5ae52870e91c8d0e24f6ad9aeeeec8d8fd3127975890"
+    },
+    {
+      "bytes": 9346,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_085_BoulderFactory(543568399)_spawn_placeholder(75).obj",
+      "sha256": "7fd1c1761d0cdea91d0ef859b331493e35ad22a9c2df52705543fa136eeaccf3"
+    },
+    {
+      "bytes": 4349,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_086_BoulderFactory(543568399)_spawn_placeholder(76).obj",
+      "sha256": "caf04e582edfa85c400613289aa0bce73ace2caca36841a95886ac7ed2dd3ace"
+    },
+    {
+      "bytes": 5185,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_087_BoulderFactory(543568399)_spawn_placeholder(77).obj",
+      "sha256": "ecb182621ac81218a12c305b641deb4b2c2c95e99af221952974df8d8561cfeb"
+    },
+    {
+      "bytes": 3975,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_088_BoulderFactory(543568399)_spawn_placeholder(78).obj",
+      "sha256": "17dc833b018a8f2c7c346ed904d76ee7591f669bf4e4e5e699280d86f3887984"
+    },
+    {
+      "bytes": 2511,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_089_BoulderFactory(543568399)_spawn_placeholder(79).obj",
+      "sha256": "03bfb76ced4d98ebae7b9ff2a466a0c5b844efc904735807e5daf4267d6cc6e2"
+    },
+    {
+      "bytes": 9368,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_090_BoulderFactory(543568399)_spawn_placeholder(8).obj",
+      "sha256": "67817ca9a7872eaeb01fa81de4ac4f99e1a4254cbca801e02b6763a1b8366940"
+    },
+    {
+      "bytes": 4079,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_091_BoulderFactory(543568399)_spawn_placeholder(80).obj",
+      "sha256": "78ede530ea2a2f87d5ed78e9691a852f2f12bec01071142df603641aacb06984"
+    },
+    {
+      "bytes": 10284,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_092_BoulderFactory(543568399)_spawn_placeholder(81).obj",
+      "sha256": "c648cdcac4dd96a738a59f07d0593ed8e6c0e5b61110ef2c1bc041334c7e22a4"
+    },
+    {
+      "bytes": 6290,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_093_BoulderFactory(543568399)_spawn_placeholder(82).obj",
+      "sha256": "8608740e1a45924aad9252bb84bedd511a42c9805a79a6aa023141e3feffa01f"
+    },
+    {
+      "bytes": 7414,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_094_BoulderFactory(543568399)_spawn_placeholder(83).obj",
+      "sha256": "6d6f7c33304042dc40f9653e1e998e134a4daf1174a31d5ccca28265d13bf1f3"
+    },
+    {
+      "bytes": 5444,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_095_BoulderFactory(543568399)_spawn_placeholder(84).obj",
+      "sha256": "b5860c7da5a1b10344c5763b1252f113e4a131c0eaa8826a36050c53897f282d"
+    },
+    {
+      "bytes": 6383,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_098_BoulderFactory(543568399)_spawn_placeholder(87).obj",
+      "sha256": "59f8237df12e41c46b53450cef5af8044573dc0104c004912770e9838b7ef79f"
+    },
+    {
+      "bytes": 6688,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_100_BoulderFactory(543568399)_spawn_placeholder(89).obj",
+      "sha256": "fff5c9947f7b42af049bed06016df4159acac735f5f205f04eddfcd3426fbb65"
+    },
+    {
+      "bytes": 9527,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_101_BoulderFactory(543568399)_spawn_placeholder(9).obj",
+      "sha256": "14a01d0b07aeedc62a95d49939a60c65582cc2222ed043c95bdc5b2c619c50bf"
+    },
+    {
+      "bytes": 5574,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_102_BoulderFactory(543568399)_spawn_placeholder(90).obj",
+      "sha256": "0c35416a3f9d5ade6e579c505d6da505ddc790b9c266335539eb103dc7b1f6e5"
+    },
+    {
+      "bytes": 8727,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_103_BoulderFactory(543568399)_spawn_placeholder(91).obj",
+      "sha256": "a388d1ab3c39bc5f65530ce4ccef6c4e7fb5648937385ae076b280ef5ae5309a"
+    },
+    {
+      "bytes": 5160,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_104_BoulderFactory(543568399)_spawn_placeholder(92).obj",
+      "sha256": "c0914e7c2068c5dcff5c9834aea873f834299a2fc8b7087dfe26de754de776fa"
+    },
+    {
+      "bytes": 6881,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_105_BoulderFactory(543568399)_spawn_placeholder(93).obj",
+      "sha256": "9a28e5e6c8d592242c39fd3664a04d2c3d68798e2999f530b8c72c85b0c19cbd"
+    },
+    {
+      "bytes": 6057,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_106_BoulderFactory(543568399)_spawn_placeholder(94).obj",
+      "sha256": "1a0a306f6b8e717cb520c845b164ad88595ecd47bb0fa253899425d1c9c56230"
+    },
+    {
+      "bytes": 9074,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_107_BoulderFactory(543568399)_spawn_placeholder(95).obj",
+      "sha256": "98ac1c065c0d5301d1ed64a8532e8c6376e101ce33debb128a2643e4a4da4aa0"
+    },
+    {
+      "bytes": 5992,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_109_BoulderFactory(543568399)_spawn_placeholder(97).obj",
+      "sha256": "b5e29344107b7d8b0dcf3e50e599b0373a49ec8f409baf32f946c004ef76ea42"
+    },
+    {
+      "bytes": 8199,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_110_BoulderFactory(543568399)_spawn_placeholder(98).obj",
+      "sha256": "0ee87f1071f03198948f986a70851b4a0f687e0cdf13b7846b31c1861f20bdce"
+    },
+    {
+      "bytes": 4412,
+      "path": "benchmark/simcode4d_unified/assets/nat01_meshes/prop_concave_large/prop_concave_large_111_BoulderFactory(543568399)_spawn_placeholder(99).obj",
+      "sha256": "f51660993d4d6fe7bf6850d4ba4d391e177d8c4f7eda5dbd024bdc97992aae29"
+    }
+  ],
+  "schema_version": "simcode4d.rc3a-dev1.dependency-manifest"
+}

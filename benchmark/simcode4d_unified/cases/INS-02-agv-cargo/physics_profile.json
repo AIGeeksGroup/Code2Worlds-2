@@ -1,0 +1,3017 @@
+{
+  "actuators": [
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "fl_wheel",
+      "transmission_ids": [
+        1,
+        -1
+      ],
+      "transmission_target": "fl_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 1,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "fr_wheel",
+      "transmission_ids": [
+        2,
+        -1
+      ],
+      "transmission_target": "fr_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 2,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "rl_wheel",
+      "transmission_ids": [
+        3,
+        -1
+      ],
+      "transmission_target": "rl_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 3,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "rr_wheel",
+      "transmission_ids": [
+        4,
+        -1
+      ],
+      "transmission_target": "rr_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -240.0,
+        240.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 4,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_x_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -240.0,
+        240.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 5,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_y_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -180.0,
+        180.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 6,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_z_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -130.0,
+        130.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "id": 7,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_roll_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -130.0,
+        130.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "id": 8,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_pitch_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -130.0,
+        130.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "id": 9,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_yaw_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    }
+  ],
+  "bodies": [
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamic": false,
+      "id": 0,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.0,
+      "mocap_id": -1,
+      "name": "world",
+      "parent": null
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.35,
+        0.55,
+        0.65
+      ],
+      "dynamic": true,
+      "id": 1,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 18.0,
+      "mocap_id": -1,
+      "name": "rover_base",
+      "parent": "world"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 2,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_fl_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 3,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_fr_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 4,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_rl_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 5,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_rr_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.197333333333,
+        0.277333333333,
+        0.338133333333
+      ],
+      "dynamic": true,
+      "id": 6,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 8.0,
+      "mocap_id": -1,
+      "name": "cargo",
+      "parent": "world"
+    }
+  ],
+  "case_gold_sha256": "745ee70f6c75d14bb8903dd0bff81a567f47bbd8978a690c436c0425c96f9ad8",
+  "case_id": "INS-02-agv-cargo",
+  "case_spec_sha256": "297e80852fb8e401304a9d19327896ae4cde359e8ecea7fb30bd9a80f7eb2d27",
+  "collision_geoms": [
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 0,
+      "name": "floor_00",
+      "position_m": [
+        4.0,
+        0.0,
+        -0.05
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        17.0,
+        11.0,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 1,
+      "name": "prop_convex_small_000_c1rib_0",
+      "position_m": [
+        18.200001,
+        -3.6,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 2,
+      "name": "prop_convex_small_001_c1rib_1",
+      "position_m": [
+        18.200001,
+        -2.8,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 3,
+      "name": "prop_convex_small_002_c1rib_2",
+      "position_m": [
+        18.200001,
+        -2.0,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 4,
+      "name": "prop_convex_small_003_c1rib_3",
+      "position_m": [
+        18.200001,
+        -1.2,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 5,
+      "name": "prop_convex_small_004_c1rib_4",
+      "position_m": [
+        18.200001,
+        -0.4,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 6,
+      "name": "prop_convex_small_005_c1rib_5",
+      "position_m": [
+        18.200001,
+        0.4,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 7,
+      "name": "prop_convex_small_006_c1rib_6",
+      "position_m": [
+        18.200001,
+        1.2,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 8,
+      "name": "prop_convex_small_007_c2rib_0",
+      "position_m": [
+        18.200001,
+        2.2,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 9,
+      "name": "prop_convex_small_008_c2rib_1",
+      "position_m": [
+        18.200001,
+        3.0,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 10,
+      "name": "prop_convex_small_009_c2rib_2",
+      "position_m": [
+        18.200001,
+        3.8,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 11,
+      "name": "prop_convex_small_010_c2rib_3",
+      "position_m": [
+        18.200001,
+        4.6,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 12,
+      "name": "prop_convex_small_011_c2rib_4",
+      "position_m": [
+        18.200001,
+        5.4,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 13,
+      "name": "prop_convex_small_012_c2rib_5",
+      "position_m": [
+        18.200001,
+        6.2,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 14,
+      "name": "prop_convex_small_013_c2rib_6",
+      "position_m": [
+        18.200001,
+        7.0,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17,
+        0.025,
+        1.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 15,
+      "name": "prop_convex_small_014_cont1",
+      "position_m": [
+        18.200001,
+        -1.2,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.15,
+        2.8,
+        1.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 16,
+      "name": "prop_convex_small_015_cont2",
+      "position_m": [
+        18.200001,
+        4.6,
+        1.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.15,
+        2.8,
+        1.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 17,
+      "name": "prop_convex_small_016_dceiling",
+      "position_m": [
+        4.0,
+        0.0,
+        5.1
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        17.0,
+        11.0,
+        0.075
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 18,
+      "name": "prop_convex_small_017_dcol_0_0_-5_0",
+      "position_m": [
+        0.0,
+        -5.0,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 19,
+      "name": "prop_convex_small_018_dcol_11_0_5_8",
+      "position_m": [
+        11.0,
+        5.8,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 20,
+      "name": "prop_convex_small_019_dcol_12_0_-5_0",
+      "position_m": [
+        12.0,
+        -5.0,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 21,
+      "name": "prop_convex_small_020_dcol_3_0_5_8",
+      "position_m": [
+        3.0,
+        5.8,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 22,
+      "name": "prop_convex_small_021_dcol_6_0_-5_0",
+      "position_m": [
+        6.0,
+        -5.0,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 23,
+      "name": "prop_convex_small_022_dcolstripe_0_0_-5_0",
+      "position_m": [
+        0.0,
+        -5.0,
+        0.6
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.185,
+        0.185,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 24,
+      "name": "prop_convex_small_023_dcolstripe_11_0_5_8",
+      "position_m": [
+        11.0,
+        5.8,
+        0.6
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.185,
+        0.185,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 25,
+      "name": "prop_convex_small_024_dcolstripe_12_0_-5_0",
+      "position_m": [
+        12.0,
+        -5.0,
+        0.6
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.185,
+        0.185,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 26,
+      "name": "prop_convex_small_025_dcolstripe_3_0_5_8",
+      "position_m": [
+        3.0,
+        5.8,
+        0.6
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.185,
+        0.185,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 27,
+      "name": "prop_convex_small_026_dcolstripe_6_0_-5_0",
+      "position_m": [
+        6.0,
+        -5.0,
+        0.6
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.185,
+        0.185,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 28,
+      "name": "prop_convex_small_027_dcone_0",
+      "position_m": [
+        4.5,
+        1.3,
+        0.24
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.21
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 29,
+      "name": "prop_convex_small_028_dcone_1",
+      "position_m": [
+        9.0,
+        0.9,
+        0.24
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.21
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 30,
+      "name": "prop_convex_small_029_dconebase_0",
+      "position_m": [
+        4.5,
+        1.3,
+        0.015
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.015
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 31,
+      "name": "prop_convex_small_030_dconebase_1",
+      "position_m": [
+        9.0,
+        0.9,
+        0.015
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.015
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 32,
+      "name": "prop_convex_small_031_dendwall",
+      "position_m": [
+        21.0,
+        0.0,
+        2.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        11.0,
+        2.4
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 33,
+      "name": "prop_convex_small_032_dwall",
+      "position_m": [
+        4.0,
+        -5.4,
+        2.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        18.0,
+        0.15,
+        2.4
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 34,
+      "name": "prop_convex_small_033_pjack",
+      "position_m": [
+        6.4,
+        -2.1,
+        0.1
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.25,
+        0.175,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 35,
+      "name": "prop_convex_small_034_pjack_handle",
+      "position_m": [
+        6.15,
+        -2.1,
+        0.42
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.025,
+        0.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 36,
+      "name": "prop_convex_small_035_twheel_0",
+      "position_m": [
+        14.4,
+        -2.6,
+        0.35
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.35,
+        0.125,
+        0.35
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 37,
+      "name": "prop_convex_small_036_twheel_1",
+      "position_m": [
+        15.4,
+        -2.6,
+        0.35
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.35,
+        0.125,
+        0.35
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 38,
+      "name": "prop_convex_small_037_wbox1_1",
+      "position_m": [
+        5.2,
+        -3.3,
+        0.37
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.4,
+        0.35,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 39,
+      "name": "prop_convex_small_038_wbox1_3",
+      "position_m": [
+        2.0,
+        -2.5,
+        0.37
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.4,
+        0.35,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 40,
+      "name": "prop_convex_small_039_wbox2_1",
+      "position_m": [
+        5.24,
+        -3.3,
+        0.82
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 41,
+      "name": "prop_convex_small_040_wbox2_3",
+      "position_m": [
+        2.04,
+        -2.5,
+        0.82
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 42,
+      "name": "prop_convex_small_041_wpal_0",
+      "position_m": [
+        -0.3,
+        -3.2,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 43,
+      "name": "prop_convex_small_042_wpal_1",
+      "position_m": [
+        5.2,
+        -3.3,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 44,
+      "name": "prop_convex_small_043_wpal_2",
+      "position_m": [
+        10.4,
+        -3.2,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 45,
+      "name": "prop_convex_small_044_wpal_3",
+      "position_m": [
+        2.0,
+        -2.5,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 46,
+      "name": "prop_convex_small_045_wrap_0",
+      "position_m": [
+        -0.3,
+        -3.2,
+        0.645
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.425,
+        0.375,
+        0.525
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 47,
+      "name": "prop_convex_small_046_wrap_2",
+      "position_m": [
+        10.4,
+        -3.2,
+        0.645
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.425,
+        0.375,
+        0.525
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 48,
+      "name": "prop_convex_small_047_wtop_0",
+      "position_m": [
+        -0.3,
+        -3.2,
+        1.22
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.44,
+        0.39,
+        0.03
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 49,
+      "name": "prop_convex_small_048_wtop_2",
+      "position_m": [
+        10.4,
+        -3.2,
+        1.22
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.44,
+        0.39,
+        0.03
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "rover_base",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 51,
+      "name": "__unnamed_geom_51",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.4,
+        0.25,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "rover_fl_wheel",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 53,
+      "name": "rover_fl_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "rover_fr_wheel",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 55,
+      "name": "rover_fr_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "rover_rl_wheel",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 57,
+      "name": "rover_rl_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "rover_rr_wheel",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 59,
+      "name": "rover_rr_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "cargo",
+      "contact_material": "contact_material_005",
+      "group": 0,
+      "id": 60,
+      "name": "cargo_box",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.28,
+        0.22,
+        0.16
+      ],
+      "type": "mjGEOM_BOX"
+    }
+  ],
+  "contact_material_classes": [
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.7,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_001",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_002",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.001,
+        "sliding": 0.5,
+        "torsional": 0.01
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_003",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.01,
+        "sliding": 1.4,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_004",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 6,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.005,
+        "sliding": 0.8,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_005",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    }
+  ],
+  "control_loop": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_y_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_z_ctrl": [
+        -180.0,
+        180.0
+      ],
+      "base_pitch_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_roll_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_yaw_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "fl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "fr_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rr_wheel": [
+        -8.0,
+        8.0
+      ]
+    },
+    "benchmark_probe_command_hz": 1000.0,
+    "command_interface": "declared MuJoCo actuators only; probe has no qpos/qvel/model write access",
+    "physics_hz": 1000.0,
+    "record_hz": 30
+  },
+  "diagnostic_contract": {
+    "friction": {
+      "channels": [
+        "sliding/torsional/rolling coefficients",
+        "tangential contact force",
+        "Coulomb-cone utilization",
+        "contact-point tangential slip speed"
+      ],
+      "cone_utilization_failure": 1.25,
+      "cone_utilization_warning": 1.05,
+      "failure_minimum_dwell_s": 0.01,
+      "slip_is_diagnostic_not_global_failure": true,
+      "slip_speed_reporting_threshold_mps": 0.02
+    },
+    "kinematics": {
+      "channels": [
+        "body pose and twist",
+        "quaternion norm",
+        "joint position and velocity",
+        "finite-difference acceleration and jerk",
+        "joint-limit dwell"
+      ],
+      "joint_limit_tolerance": 0.0001,
+      "quaternion_norm_tolerance": 1e-06,
+      "violation_minimum_dwell_s": 0.01
+    },
+    "mechanics": {
+      "channels": [
+        "finite generalized state",
+        "positive body mass and principal inertia",
+        "normal and tangential contact force",
+        "penetration depth",
+        "generalized force-balance residual",
+        "constraint-force solver residual (diagnostic)",
+        "kinetic and potential energy"
+      ],
+      "force_balance_relative_tolerance": 1e-05,
+      "nonphysical_dynamic_bodies": []
+    }
+  },
+  "equalities": [
+    {
+      "active_at_reset": true,
+      "id": 0,
+      "name": "cargo_weld",
+      "object_ids": [
+        1,
+        6
+      ],
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ],
+      "type": "mjEQ_WELD"
+    }
+  ],
+  "joints": [
+    {
+      "armature": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "rover_base",
+      "damping": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dof_address": 0,
+      "dof_width": 6,
+      "frictionloss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "limited": false,
+      "margin": 0.0,
+      "name": "rover_freejoint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 0,
+      "qpos_width": 7,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_FREE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_fl_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 6,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 1,
+      "limited": false,
+      "margin": 0.0,
+      "name": "fl_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 7,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_fr_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 7,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 2,
+      "limited": false,
+      "margin": 0.0,
+      "name": "fr_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 8,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_rl_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 8,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 3,
+      "limited": false,
+      "margin": 0.0,
+      "name": "rl_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 9,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_rr_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 9,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 4,
+      "limited": false,
+      "margin": 0.0,
+      "name": "rr_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 10,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "cargo",
+      "damping": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dof_address": 10,
+      "dof_width": 6,
+      "frictionloss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 5,
+      "limited": false,
+      "margin": 0.0,
+      "name": "cargo_freejoint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 11,
+      "qpos_width": 7,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_FREE"
+    }
+  ],
+  "physics_seed_perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.95
+      },
+      "body_mass_scale": {
+        "cargo": 0.95
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          0.01,
+          -0.01
+        ],
+        "rover_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "cargo": 0.015,
+        "rover_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.05
+      },
+      "body_mass_scale": {
+        "cargo": 1.05
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          -0.012,
+          0.008
+        ],
+        "rover_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "cargo": -0.02,
+        "rover_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.08
+      },
+      "body_mass_scale": {
+        "cargo": 0.9
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          0.0,
+          0.015
+        ],
+        "rover_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.92
+      },
+      "body_mass_scale": {
+        "cargo": 1.1
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          0.008,
+          0.012
+        ],
+        "rover_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "cargo": 0.012,
+        "rover_base": 0.012
+      }
+    }
+  },
+  "provenance": {
+    "estimated_parameter_count": 0,
+    "note": "This profile indexes the frozen Dev15 runtime; unavailable pre-export authoring values are explicitly identified by provenance records.",
+    "parameter_status": "exact_from_frozen_runtime_model",
+    "semantic_contact_status": "exact_from_frozen_case_gold"
+  },
+  "resolved_contact_groups": {
+    "cargo": {
+      "bodies": [
+        "cargo"
+      ],
+      "geoms": []
+    },
+    "ground": {
+      "bodies": [],
+      "geoms": [
+        "floor_00"
+      ]
+    },
+    "rover_base": {
+      "bodies": [
+        "rover_base"
+      ],
+      "geoms": []
+    },
+    "rover_wheels": {
+      "bodies": [
+        "rover_fl_wheel",
+        "rover_fr_wheel",
+        "rover_rl_wheel",
+        "rover_rr_wheel"
+      ],
+      "geoms": []
+    },
+    "static_obstacles": {
+      "bodies": [],
+      "geoms": [
+        "prop_convex_small_000_c1rib_0",
+        "prop_convex_small_001_c1rib_1",
+        "prop_convex_small_002_c1rib_2",
+        "prop_convex_small_003_c1rib_3",
+        "prop_convex_small_004_c1rib_4",
+        "prop_convex_small_005_c1rib_5",
+        "prop_convex_small_006_c1rib_6",
+        "prop_convex_small_007_c2rib_0",
+        "prop_convex_small_008_c2rib_1",
+        "prop_convex_small_009_c2rib_2",
+        "prop_convex_small_010_c2rib_3",
+        "prop_convex_small_011_c2rib_4",
+        "prop_convex_small_012_c2rib_5",
+        "prop_convex_small_013_c2rib_6",
+        "prop_convex_small_014_cont1",
+        "prop_convex_small_015_cont2",
+        "prop_convex_small_016_dceiling",
+        "prop_convex_small_017_dcol_0_0_-5_0",
+        "prop_convex_small_018_dcol_11_0_5_8",
+        "prop_convex_small_019_dcol_12_0_-5_0",
+        "prop_convex_small_020_dcol_3_0_5_8",
+        "prop_convex_small_021_dcol_6_0_-5_0",
+        "prop_convex_small_022_dcolstripe_0_0_-5_0",
+        "prop_convex_small_023_dcolstripe_11_0_5_8",
+        "prop_convex_small_024_dcolstripe_12_0_-5_0",
+        "prop_convex_small_025_dcolstripe_3_0_5_8",
+        "prop_convex_small_026_dcolstripe_6_0_-5_0",
+        "prop_convex_small_027_dcone_0",
+        "prop_convex_small_028_dcone_1",
+        "prop_convex_small_029_dconebase_0",
+        "prop_convex_small_030_dconebase_1",
+        "prop_convex_small_031_dendwall",
+        "prop_convex_small_032_dwall",
+        "prop_convex_small_033_pjack",
+        "prop_convex_small_034_pjack_handle",
+        "prop_convex_small_035_twheel_0",
+        "prop_convex_small_036_twheel_1",
+        "prop_convex_small_037_wbox1_1",
+        "prop_convex_small_038_wbox1_3",
+        "prop_convex_small_039_wbox2_1",
+        "prop_convex_small_040_wbox2_3",
+        "prop_convex_small_041_wpal_0",
+        "prop_convex_small_042_wpal_1",
+        "prop_convex_small_043_wpal_2",
+        "prop_convex_small_044_wpal_3",
+        "prop_convex_small_045_wrap_0",
+        "prop_convex_small_046_wrap_2",
+        "prop_convex_small_047_wtop_0",
+        "prop_convex_small_048_wtop_2"
+      ]
+    }
+  },
+  "runtime_model": {
+    "bytes": 17870,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-02-agv-cargo/runtime_model.xml",
+    "sha256": "d2673d03c8d8425d911302ff29c07a52b6dd34715d09e946b22b15ed5d23f220"
+  },
+  "schema_version": "simcode4d.dev15.physics-profile.v1",
+  "semantic_contact_policy": {
+    "allowed": [
+      [
+        "rover_wheels",
+        "ground"
+      ],
+      [
+        "cargo",
+        "rover_base"
+      ]
+    ],
+    "forbidden": [
+      [
+        "rover_base",
+        "static_obstacles"
+      ],
+      [
+        "cargo",
+        "ground"
+      ]
+    ],
+    "groups": {
+      "cargo": {
+        "bodies": [
+          "cargo"
+        ]
+      },
+      "ground": {
+        "geoms": [
+          "floor_*"
+        ]
+      },
+      "rover_base": {
+        "bodies": [
+          "rover_base"
+        ]
+      },
+      "rover_wheels": {
+        "bodies": [
+          "rover_*_wheel"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "prop_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "simulator": {
+    "dimensions": {
+      "nbody": 7,
+      "nequality": 1,
+      "ngeom": 61,
+      "njoint": 6,
+      "nq": 18,
+      "nu": 10,
+      "nv": 16
+    },
+    "model_name": "unnamed_model",
+    "name": "mujoco",
+    "options": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "density": 0.0,
+      "friction_cone": "mjCONE_ELLIPTIC",
+      "gravity_mps2": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": "mjINT_IMPLICITFAST",
+      "iterations": 100,
+      "jacobian": "mjJAC_AUTO",
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic_tesla": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_margin": 0.0,
+      "solver": "mjSOL_NEWTON",
+      "timestep_s": 0.001,
+      "tolerance": 1e-10,
+      "viscosity": 0.0,
+      "wind_mps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "runtime_version": "3.9.0"
+  },
+  "static_field": null,
+  "success_and_safety_thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_relative_orientation_error_rad": 0.02,
+    "maximum_relative_pose_error_m": 0.02,
+    "maximum_terminal_speed_mps": 0.12,
+    "maximum_tilt_rad": 0.5,
+    "minimum_travel_m": 0.75,
+    "terminal_hold_s": 0.5
+  },
+  "world_id": "ins02-industrial-cargo"
+}

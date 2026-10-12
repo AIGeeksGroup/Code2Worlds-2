@@ -1,0 +1,45 @@
+<mujoco model="scene_enriched">
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720"/>
+  </visual>
+  <asset>
+    <mesh name="terrain_00" file="../../../../tmp_dgo2_export3/background_terrain_00_collision.obj"/>
+    <mesh name="terrain_01" file="../../../../tmp_dgo2_export3/background_terrain_01_collision.obj"/>
+    <mesh name="terrain_02" file="../../../../tmp_dgo2_export3/background_terrain_02_collision.obj"/>
+  </asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true"
+           diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2"/>
+    <geom name="terrain_00" type="mesh" mesh="terrain_00" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="terrain_01" type="mesh" mesh="terrain_01" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="terrain_02" type="mesh" mesh="terrain_02" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_000_bldg_BrickBuildingFactory(600)_spawn_asset(600)" type="box" pos="-13.999999 -11.712500 8.949287" size="0.150000 4.750609 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_001_bldg_BrickBuildingFactory(601)_spawn_asset(601)" type="box" pos="-6.000000 -11.712500 7.232032" size="0.150000 4.750609 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_002_bldg_BrickBuildingFactory(602)_spawn_asset(602)" type="box" pos="2.000000 -11.712501 5.158244" size="0.150000 4.750609 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_003_bldg_BrickBuildingFactory(603)_spawn_asset(603)" type="box" pos="10.000000 -12.000000 5.524148" size="0.150000 4.750610 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_004_bldg_BuildingFactory(500)_spawn_asset(500)" type="box" pos="-16.000000 11.712500 8.188813" size="0.150000 4.750609 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_005_bldg_BuildingFactory(501)_spawn_asset(501)" type="box" pos="-8.000000 12.000000 4.664883" size="0.150000 4.750610 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_006_bldg_BuildingFactory(502)_spawn_asset(502)" type="box" pos="0.000000 11.712500 8.972380" size="0.150000 4.750609 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_007_bldg_BuildingFactory(503)_spawn_asset(503)" type="box" pos="8.000000 12.000000 8.633354" size="0.150000 4.750610 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_008_bldg_BuildingFactory(504)_spawn_asset(504)" type="box" pos="16.000000 11.712500 4.804664" size="0.150000 4.750609 4.978865" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_009_bldg_GlassTowerFactory(700)_spawn_asset(700)" type="box" pos="19.000000 -12.000000 6.514639" size="0.150000 4.750610 4.978866" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_010_lt_n-12_lamp" type="box" pos="-12.000000 4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_011_lt_n-12_pole" type="box" pos="-12.000000 4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_012_lt_n-4_lamp" type="box" pos="-4.000000 4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_013_lt_n-4_pole" type="box" pos="-4.000000 4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_014_lt_n12_lamp" type="box" pos="12.000000 4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_015_lt_n12_pole" type="box" pos="12.000000 4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_016_lt_n4_lamp" type="box" pos="4.000000 4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_017_lt_n4_pole" type="box" pos="4.000000 4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_018_lt_s-12_lamp" type="box" pos="-12.000000 -4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_019_lt_s-12_pole" type="box" pos="-12.000000 -4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_020_lt_s-4_lamp" type="box" pos="-4.000000 -4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_021_lt_s-4_pole" type="box" pos="-4.000000 -4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_022_lt_s12_lamp" type="box" pos="12.000000 -4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_023_lt_s12_pole" type="box" pos="12.000000 -4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_024_lt_s4_lamp" type="box" pos="4.000000 -4.500000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_025_lt_s4_pole" type="box" pos="4.000000 -4.500000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+  </worldbody>
+</mujoco>

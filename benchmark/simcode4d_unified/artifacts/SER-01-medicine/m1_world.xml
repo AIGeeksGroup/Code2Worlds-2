@@ -1,0 +1,94 @@
+<mujoco model="scene_indoor_service_final_real8s">
+  <compiler angle="radian" autolimits="true" balanceinertia="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" cone="elliptic" iterations="120" tolerance="1e-10" />
+  <default>
+    <geom solref=".002 1" solimp=".995 .9999 .0002" condim="4" friction=".75 .02 .002" margin="0.003" />
+  </default>
+  <asset>
+    <material name="floor_mat" rgba=".55 .57 .59 1" />
+    <material name="wall" rgba=".72 .73 .73 1" />
+    <material name="wood" rgba=".45 .24 .10 1" />
+    <material name="metal" rgba=".34 .38 .40 1" />
+    <material name="fabric" rgba=".10 .30 .42 1" />
+    <material name="package" rgba=".56 .27 .07 1" />
+    <material name="dark" rgba=".03 .04 .05 1" />
+    <material name="robot" rgba=".74 .79 .80 1" />
+    <material name="rubber" rgba=".012 .014 .016 1" />
+    <material name="service" rgba=".12 .58 .50 1" />
+    <material name="airport" rgba=".05 .35 .70 1" />
+    <material name="hotel" rgba=".62 .31 .08 1" />
+  </asset>
+  <worldbody>
+    <light directional="true" pos="-5 -6 11" dir=".3 .35 -1" />
+    <geom name="floor" type="box" pos="0 0 -.05" size="7.0 7.0 .05" material="floor_mat" friction="1.35 .025 .003" condim="6" priority="2" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="wall_back" type="box" pos="0 7.0 2.7" size="7.0 .08 2.7" material="wall" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="wall_left" type="box" pos="-7.0 0 2.7" size=".08 7.0 2.7" material="wall" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="wall_right" type="box" pos="7.0 0 2.7" size=".08 7.0 2.7" material="wall" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="surface_service_entry_mat" type="box" pos="-3.48 -3.16 .0025" size="1.42 .58 .0025" material="service" friction="1.08 .035 .004" condim="6" priority="3" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="surface_service_tile_joint_a" type="capsule" fromto="-3.72 -1.94 .006 -2.30 -1.94 .006" size=".006" material="metal" friction=".82 .020 .002" condim="6" priority="4" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="surface_service_tile_joint_b" type="capsule" fromto="-3.62 -.46 .005 -2.38 -.46 .005" size=".005" material="metal" friction=".86 .020 .002" condim="6" priority="4" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="counter_left" type="box" pos="-3.1 2.8 .62" size="2.2 .65 .62" material="wood" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="counter_right" type="box" pos="3.1 2.8 .62" size="2.2 .65 .62" material="wood" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="counter_top_left" type="box" pos="-3.1 2.65 1.30" size="2.25 .78 .06" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="counter_top_right" type="box" pos="3.1 2.65 1.30" size="2.25 .78 .06" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="left_bench" type="box" pos="-4.8 -1.1 .48" size="1.15 .48 .10" material="fabric" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="left_bench_back" type="box" pos="-4.8 -.68 .92" size="1.15 .10 .48" material="fabric" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="queue_post_a" type="cylinder" pos="-2.2 -2.8 .55" size=".09 .55" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="queue_post_b" type="cylinder" pos="-2.2 0 .55" size=".09 .55" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="queue_rail" type="box" pos="-2.2 -1.4 1.0" size=".035 1.4 .035" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <body name="task_item" pos="-3.1 2.0 1.43">
+      <freejoint name="task_item_free" />
+      <geom name="medicine_pouch" type="box" size=".13 .09 .055" mass=".45" material="package" friction=".72 .025 .003" condim="6" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    </body>
+    <body name="robot" pos="-4.00000000 -3.79999995 .005">
+      <freejoint name="root_free" />
+      <inertial pos="0 0 .35" mass="58" diaginertia="12 12 6" />
+      <geom name="robot_base_collision" type="cylinder" pos="0 0 .22" size="0.42 .14" material="dark" friction=".55 .015 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      <geom name="robot_body_collision" type="box" pos="0 0 0.68000" size="0.32760 0.26880 0.35000" material="robot" friction=".48 .015 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      <body name="wheel_left" pos="-0.39000 0 0.20000">
+        <joint name="wheel_left_joint" type="hinge" axis="1 0 0" damping=".12" armature=".018" />
+        <geom name="wheel_left_geom" type="cylinder" size="0.20000 .065" quat=".70710678 0 .70710678 0" mass="1.4" material="rubber" friction="1.65 .025 .003" condim="6" priority="1" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="wheel_right" pos="0.39000 0 0.20000">
+        <joint name="wheel_right_joint" type="hinge" axis="1 0 0" damping=".12" armature=".018" />
+        <geom name="wheel_right_geom" type="cylinder" size="0.20000 .065" quat=".70710678 0 .70710678 0" mass="1.4" material="rubber" friction="1.65 .025 .003" condim="6" priority="1" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="caster_front" pos="0 .31 .105">
+        <joint name="caster_front_ball" type="ball" damping=".002" />
+        <geom name="caster_front_geom" type="sphere" size=".095" mass=".45" material="rubber" friction=".10 .01 .001" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="caster_rear" pos="0 -.31 .105">
+        <joint name="caster_rear_ball" type="ball" damping=".002" />
+        <geom name="caster_rear_geom" type="sphere" size=".095" mass=".45" material="rubber" friction=".10 .01 .001" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="lift_stage" pos="0 .82 1.01">
+        <joint name="lift_joint" type="slide" axis="0 0 1" range="-.01 0.42" damping="140" frictionloss="8" />
+        <geom name="lift_carriage_collision" type="box" pos=".22 -.90 .01" size=".13 .12 .16" mass="5" material="service" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+        <body name="grasp_frame" pos=".06 0 0">
+          <joint name="arm_joint" type="slide" axis="0 1 0" range="-.01 0.46" damping="140" frictionloss="8" />
+          <geom name="gripper_palm_collision" type="box" pos="0 -.10 0" size=".12 .04 .07" mass="2.0" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+          <geom name="gripper_finger_l" type="box" pos="-.18 0 0" size=".020 .13 .035" mass=".25" material="metal" friction=".85 .02 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+          <geom name="gripper_finger_r" type="box" pos=".18 0 0" size=".020 .13 .035" mass=".25" material="metal" friction=".85 .02 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <equality>
+    <weld name="task_grasp" body1="task_item" body2="grasp_frame" relpose="0 0 0 1 0 0 0" active="false" solref=".012 1" />
+  </equality>
+  <actuator>
+    <velocity name="wheel_left_ctrl" joint="wheel_left_joint" kv="18" forcelimited="true" forcerange="-180 180" />
+    <velocity name="wheel_right_ctrl" joint="wheel_right_joint" kv="18" forcelimited="true" forcerange="-180 180" />
+    <position name="lift_ctrl" joint="lift_joint" kp="6000" />
+    <position name="arm_ctrl" joint="arm_joint" kp="6000" />
+    <motor name="base_force_x_ctrl" joint="root_free" gear="1 0 0 0 0 0" ctrllimited="true" ctrlrange="-900 900" />
+    <motor name="base_force_y_ctrl" joint="root_free" gear="0 1 0 0 0 0" ctrllimited="true" ctrlrange="-900 900" />
+    <motor name="base_force_z_ctrl" joint="root_free" gear="0 0 1 0 0 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_roll_ctrl" joint="root_free" gear="0 0 0 1 0 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_pitch_ctrl" joint="root_free" gear="0 0 0 0 1 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_yaw_ctrl" joint="root_free" gear="0 0 0 0 0 1" ctrllimited="true" ctrlrange="-520 520" />
+  </actuator>
+  <contact>
+    <exclude name="benchmark_grasp_clearance" body1="task_item" body2="grasp_frame" />
+  </contact>
+</mujoco>

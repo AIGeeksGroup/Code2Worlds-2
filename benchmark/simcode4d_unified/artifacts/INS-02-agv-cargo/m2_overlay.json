@@ -1,0 +1,31 @@
+{
+  "case_id": "INS-02-agv-cargo",
+  "m1_base_sha256": "bb5c1f742d1a986c14936aa027b2e05824af0e4a43f2dd18431eab2402822126",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1493,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-02-agv-cargo/repair_report.json",
+    "sha256": "cb4c7486ff0ff74b425eb5fb7fd3409b21b30966dd5b6df0862cb217b953eb21"
+  },
+  "repairs": [
+    "added explicit 8 kg cargo body",
+    "added active cargo_weld equality",
+    "extended keyframe state",
+    "declared bounded free-joint stabilization",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep",
+    "aligned wheel collision cylinders with the y-axis hinges",
+    "initialized wheel tread with 1 mm clearance to avoid exact-tangent box contact degeneracy"
+  ],
+  "runtime_model": {
+    "bytes": 17870,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-02-agv-cargo/runtime_model.xml",
+    "sha256": "d2673d03c8d8425d911302ff29c07a52b6dd34715d09e946b22b15ed5d23f220"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 13271,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-2_agv_cargo/rollout/scene_m2.xml",
+    "sha256": "fe5def3884ff9e6e56570b10decc3e7e6a96d9c7066e48e78e54dbedf6777bae"
+  },
+  "task_independent": true
+}

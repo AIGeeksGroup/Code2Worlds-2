@@ -1,0 +1,16 @@
+{
+  "case_id": "NAT-02-hills-turn-stop",
+  "files": [
+    {
+      "bytes": 8527,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-02-hills-turn-stop/jackal_runtime.xml",
+      "sha256": "f26db4ce7c846877b86d762dff83dbe878251ffae8d10b9c5d1e34bd126ca80f"
+    },
+    {
+      "bytes": 1506210,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-02-hills-turn-stop/m1_world.xml",
+      "sha256": "f1d8d12dd0141c9dceb3dae3314a228355ed714fec73f8f6b24c192987446aa6"
+    }
+  ],
+  "schema_version": "simcode4d.rc3a-dev1.dependency-manifest"
+}

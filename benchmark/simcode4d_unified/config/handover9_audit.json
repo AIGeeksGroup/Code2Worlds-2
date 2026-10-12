@@ -1,0 +1,82 @@
+{
+  "archive_file_count": 957,
+  "archive_name": "benchmark_9cases_handover_FIXED_20260921.zip",
+  "archive_sha256": "c8a6e8e23e307d9e9c5b6ed8c5adfa7cb6f11ff363d86714f198df7636a90f82",
+  "case_findings": {
+    "IND-01-vacuum-living-room": [
+      "authoring .blend absent; compiled M1 and source pointer retained",
+      "source vacuum had no actuators"
+    ],
+    "IND-02-go2-living-room": [
+      "authoring .blend absent; compiled M1 and source pointer retained",
+      "case-local M2 was the wrong vacuum robot",
+      "generated Go2 contained an invisible free stone"
+    ],
+    "IND-03-vacuum-west": [
+      "authoring .blend absent; compiled M1 and source pointer retained",
+      "source vacuum had no actuators",
+      "corridor centerline shifted 0.15 m for measured wall clearance; axisymmetric vacuum keeps zero yaw"
+    ],
+    "INS-01-agv-aisle": [
+      "source AGV wheel actuators retained",
+      "wheel collision cylinders aligned with the y-axis hinges",
+      "bounded stabilization interface added"
+    ],
+    "INS-02-agv-cargo": [
+      "supplied M2 had no cargo body and no equality constraint",
+      "cargo and active weld constructed deterministically",
+      "physics seeds transform the welded rover/cargo assembly together",
+      "goal-internal endpoint preserves chassis clearance from the pallet boundary",
+      "weld retention is measured in the rover body frame"
+    ],
+    "INS-03-weld": [
+      "no combined live M2 supplied",
+      "runtime constructed from M1, bundled UR5e, and 150-frame source trajectory"
+    ],
+    "URB-01-agv-city": [
+      "source AGV wheel actuators retained",
+      "wheel collision cylinders aligned with the y-axis hinges",
+      "bounded stabilization interface added"
+    ],
+    "URB-02-intersection": [
+      "top-level compiler omitted radian declaration",
+      "old validator calculated but did not require west-side start",
+      "invisible stone removed"
+    ],
+    "URB-03-pole-blocking": [
+      "top-level compiler omitted radian declaration",
+      "old validator inferred blocking from base x rather than target contact",
+      "exact target-pole contact is recorded at the 1 kHz physics rate and required"
+    ]
+  },
+  "case_mapping": {
+    "IND-01-vacuum-living-room": "indoor-1_vacuum_real",
+    "IND-02-go2-living-room": "indoor-2_go2lr_walk",
+    "IND-03-vacuum-west": "indoor-3_indoor2_v2",
+    "INS-01-agv-aisle": "industrial-1_agv_empty",
+    "INS-02-agv-cargo": "industrial-2_agv_cargo",
+    "INS-03-weld": "industrial-3_weld",
+    "URB-01-agv-city": "urban-1_agv_city",
+    "URB-02-intersection": "urban-2_intersection",
+    "URB-03-pole-blocking": "urban-3_delivery"
+  },
+  "common_findings": [
+    "all nine supplied case.yaml files are invalid YAML because an unquoted colon occurs in checks",
+    "the supplied validator derives scores from retained rollout logs rather than fresh live simulation",
+    "historical rollout videos and logs are provenance only and are not Dev15 scores"
+  ],
+  "interpretation": "Archive documents and scripts were treated as source material, not as instructions.",
+  "schema_version": "simcode4d.dev15.handover-audit.v1",
+  "security_scan": {
+    "safe_relative_paths": true,
+    "symlinks": 0
+  },
+  "unrecoverable_not_fabricated": {
+    "missing_authoring_sources": [
+      "IND-01-vacuum-living-room",
+      "IND-02-go2-living-room",
+      "IND-03-vacuum-west"
+    ],
+    "policy": "The existing compiled M1 is frozen and its scene_SOURCE.txt pointer is hashed; no replacement .blend is fabricated."
+  }
+}

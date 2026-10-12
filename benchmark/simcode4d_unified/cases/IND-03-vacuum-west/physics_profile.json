@@ -1,0 +1,1889 @@
+{
+  "actuators": [
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -120.0,
+        120.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_x_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "robot_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -120.0,
+        120.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 1,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_y_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "robot_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -80.0,
+        80.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 2,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_z_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "robot_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -35.0,
+        35.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "id": 3,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_roll_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "robot_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -35.0,
+        35.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "id": 4,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_pitch_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "robot_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -35.0,
+        35.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "id": 5,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_yaw_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "robot_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    }
+  ],
+  "bodies": [
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamic": false,
+      "id": 0,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.0,
+      "mocap_id": -1,
+      "name": "world",
+      "parent": null
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0964803649933,
+        0.0499960404918,
+        0.0499960404918
+      ],
+      "dynamic": true,
+      "id": 1,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0267961513
+      ],
+      "inertial_quaternion_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "joint_count": 1,
+      "mass_kg": 5.50494997503,
+      "mocap_id": -1,
+      "name": "robot",
+      "parent": "world"
+    }
+  ],
+  "case_gold_sha256": "24eaffcfcbeefd94b46e8565c85334bd6c0da24efcc5d6ccf3c6b550f6d6de0d",
+  "case_id": "IND-03-vacuum-west",
+  "case_spec_sha256": "613dbc31b1ed60befc6fe7dad28940d016702934b3a0c87e2e8a9bce25804233",
+  "collision_geoms": [
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 0,
+      "name": "floor_00",
+      "position_m": [
+        7.75,
+        3.574207,
+        0.148413
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.101587,
+        1.425793,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 1,
+      "name": "floor_01",
+      "position_m": [
+        12.25,
+        2.824207,
+        0.140551
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.101587,
+        3.175793,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 2,
+      "name": "floor_02",
+      "position_m": [
+        9.5,
+        11.0,
+        0.148402
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        2.351587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 3,
+      "name": "floor_03",
+      "position_m": [
+        4.324207,
+        11.0,
+        0.148402
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.175793,
+        2.351587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 4,
+      "name": "floor_04",
+      "position_m": [
+        9.324207,
+        9.175794,
+        0.145185
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        5.675793,
+        4.175794,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 5,
+      "name": "wall_00",
+      "position_m": [
+        7.75,
+        3.5,
+        2.776957
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.101587,
+        1.351587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 6,
+      "name": "wall_03",
+      "position_m": [
+        12.25,
+        2.75,
+        2.784819
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.101587,
+        3.101587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 7,
+      "name": "wall_06",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.039925
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.160864,
+        0.160864,
+        0.039925
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 8,
+      "name": "wall_07",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.039925
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.160864,
+        0.160864,
+        0.039925
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 9,
+      "name": "wall_08",
+      "position_m": [
+        6.954263,
+        4.282712,
+        2.737032
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.160864,
+        0.160864,
+        0.039925
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 10,
+      "name": "wall_09",
+      "position_m": [
+        7.915145,
+        2.747007,
+        2.737032
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.160864,
+        0.160864,
+        0.039925
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 11,
+      "name": "wall_10",
+      "position_m": [
+        9.5,
+        11.0,
+        2.776968
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.851587,
+        2.351587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 12,
+      "name": "wall_16",
+      "position_m": [
+        4.25,
+        11.0,
+        2.776968
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.101587,
+        2.351587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 13,
+      "name": "wall_20",
+      "position_m": [
+        9.25,
+        9.25,
+        2.780185
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        5.601587,
+        4.101587,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 14,
+      "name": "wall_43",
+      "position_m": [
+        2.189788,
+        8.714774,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.994565,
+        0.116563,
+        0.529545
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 15,
+      "name": "wall_44",
+      "position_m": [
+        4.346774,
+        13.351587,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.558063,
+        0.051717,
+        0.527254
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 16,
+      "name": "wall_45",
+      "position_m": [
+        3.648413,
+        12.730551,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.052367,
+        0.497273,
+        0.520375
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 17,
+      "name": "wall_46",
+      "position_m": [
+        2.162191,
+        11.291154,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.507483,
+        0.099226,
+        0.532248
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 18,
+      "name": "wall_47",
+      "position_m": [
+        1.148413,
+        10.002422,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.057953,
+        1.277529,
+        0.532302
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 19,
+      "name": "wall_48",
+      "position_m": [
+        13.535239,
+        13.351587,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.791399,
+        0.058238,
+        0.524367
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 20,
+      "name": "wall_49",
+      "position_m": [
+        3.351587,
+        7.978843,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04863,
+        0.321001,
+        0.517296
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 21,
+      "name": "wall_50",
+      "position_m": [
+        9.564028,
+        13.351587,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.991946,
+        0.050452,
+        0.534947
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 22,
+      "name": "wall_51",
+      "position_m": [
+        8.179374,
+        2.148413,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.534065,
+        0.038233,
+        0.528951
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 23,
+      "name": "wall_52",
+      "position_m": [
+        6.71047,
+        3.28203,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.092335,
+        0.606077,
+        0.52842
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 24,
+      "name": "wall_53",
+      "position_m": [
+        10.313417,
+        -0.351587,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.799551,
+        0.045037,
+        0.521486
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 25,
+      "name": "wall_58",
+      "position_m": [
+        15.351587,
+        4.338172,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.03816,
+        1.13785,
+        0.528902
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 26,
+      "name": "wall_59",
+      "position_m": [
+        9.148413,
+        0.912998,
+        1.492194
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.057174,
+        0.631328,
+        0.523344
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 27,
+      "name": "prop_concave_large_000_CellShelfFactory(553940)_spawn_asset(1582230)",
+      "position_m": [
+        8.781588,
+        3.708113,
+        0.148413
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21648,
+        0.592551,
+        0.775801
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 28,
+      "name": "prop_concave_large_001_LargeShelfFactory(7187033)_spawn_asset(5070133)",
+      "position_m": [
+        8.644208,
+        4.47575,
+        0.148413
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.13338,
+        0.17576,
+        0.765355
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 29,
+      "name": "prop_concave_large_002_LargeShelfFactory(847080)_spawn_asset(5034982)",
+      "position_m": [
+        8.619232,
+        2.865427,
+        0.148413
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.158355,
+        0.168051,
+        0.959519
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 30,
+      "name": "prop_concave_large_003_MirrorFactory(2662507)_spawn_asset(2274093)",
+      "position_m": [
+        8.841587,
+        3.786969,
+        2.061996
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.00799,
+        0.256776,
+        0.299212
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 31,
+      "name": "prop_concave_large_004_NatureShelfTrinketsFactory(321562)_spawn_asset(3131955)",
+      "position_m": [
+        8.561434,
+        2.853782,
+        0.681814
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.069747,
+        0.064521,
+        0.061916
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 32,
+      "name": "prop_concave_large_005_NatureShelfTrinketsFactory(4213378)_spawn_asset(8334249)",
+      "position_m": [
+        8.54828,
+        2.85062,
+        1.774693
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.072589,
+        0.068014,
+        0.070088
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 33,
+      "name": "prop_concave_large_006_NatureShelfTrinketsFactory(9699418)_spawn_asset(1239099)",
+      "position_m": [
+        8.703764,
+        2.832126,
+        1.76784
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.050332,
+        0.065736,
+        0.050798
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 34,
+      "name": "prop_concave_large_007_SingleCabinetFactory(224372)_spawn_asset(6792200)",
+      "position_m": [
+        6.878554,
+        4.582326,
+        0.148413
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.160474,
+        0.204718,
+        0.741438
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "robot",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 35,
+      "name": "robot_chassis",
+      "position_m": [
+        0.0,
+        0.0,
+        0.025
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.19,
+        0.025,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "robot",
+      "contact_material": "contact_material_005",
+      "group": 0,
+      "id": 36,
+      "name": "robot_lid",
+      "position_m": [
+        0.0,
+        0.0,
+        0.065
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        0.015,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "robot",
+      "contact_material": "contact_material_006",
+      "group": 0,
+      "id": 37,
+      "name": "robot_bumper",
+      "position_m": [
+        0.0,
+        0.0,
+        0.012
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.19,
+        0.012,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    }
+  ],
+  "contact_material_classes": [
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.7,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_001",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.5,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_002",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_003",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.8,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_004",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 1.0,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_005",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.9,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_006",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    }
+  ],
+  "control_loop": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -120.0,
+        120.0
+      ],
+      "base_force_y_ctrl": [
+        -120.0,
+        120.0
+      ],
+      "base_force_z_ctrl": [
+        -80.0,
+        80.0
+      ],
+      "base_pitch_ctrl": [
+        -35.0,
+        35.0
+      ],
+      "base_roll_ctrl": [
+        -35.0,
+        35.0
+      ],
+      "base_yaw_ctrl": [
+        -35.0,
+        35.0
+      ]
+    },
+    "benchmark_probe_command_hz": 1000.0,
+    "command_interface": "declared MuJoCo actuators only; probe has no qpos/qvel/model write access",
+    "physics_hz": 1000.0,
+    "record_hz": 30
+  },
+  "diagnostic_contract": {
+    "friction": {
+      "channels": [
+        "sliding/torsional/rolling coefficients",
+        "tangential contact force",
+        "Coulomb-cone utilization",
+        "contact-point tangential slip speed"
+      ],
+      "cone_utilization_failure": 1.25,
+      "cone_utilization_warning": 1.05,
+      "failure_minimum_dwell_s": 0.01,
+      "slip_is_diagnostic_not_global_failure": true,
+      "slip_speed_reporting_threshold_mps": 0.02
+    },
+    "kinematics": {
+      "channels": [
+        "body pose and twist",
+        "quaternion norm",
+        "joint position and velocity",
+        "finite-difference acceleration and jerk",
+        "joint-limit dwell"
+      ],
+      "joint_limit_tolerance": 0.0001,
+      "quaternion_norm_tolerance": 1e-06,
+      "violation_minimum_dwell_s": 0.01
+    },
+    "mechanics": {
+      "channels": [
+        "finite generalized state",
+        "positive body mass and principal inertia",
+        "normal and tangential contact force",
+        "penetration depth",
+        "generalized force-balance residual",
+        "constraint-force solver residual (diagnostic)",
+        "kinetic and potential energy"
+      ],
+      "force_balance_relative_tolerance": 1e-05,
+      "nonphysical_dynamic_bodies": []
+    }
+  },
+  "equalities": [],
+  "joints": [
+    {
+      "armature": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "robot",
+      "damping": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dof_address": 0,
+      "dof_width": 6,
+      "frictionloss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "limited": false,
+      "margin": 0.0,
+      "name": "robot_freejoint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 0,
+      "qpos_width": 7,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_FREE"
+    }
+  ],
+  "physics_seed_perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "robot": 0.95
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "robot": 1.05
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "robot": 1.08
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "robot": 0.92
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.012
+      }
+    }
+  },
+  "provenance": {
+    "estimated_parameter_count": 0,
+    "note": "This profile indexes the frozen Dev15 runtime; unavailable pre-export authoring values are explicitly identified by provenance records.",
+    "parameter_status": "exact_from_frozen_runtime_model",
+    "semantic_contact_status": "exact_from_frozen_case_gold"
+  },
+  "resolved_contact_groups": {
+    "floor": {
+      "bodies": [],
+      "geoms": [
+        "floor_00",
+        "floor_01",
+        "floor_02",
+        "floor_03",
+        "floor_04"
+      ]
+    },
+    "static_obstacles": {
+      "bodies": [],
+      "geoms": [
+        "prop_concave_large_000_CellShelfFactory(553940)_spawn_asset(1582230)",
+        "prop_concave_large_001_LargeShelfFactory(7187033)_spawn_asset(5070133)",
+        "prop_concave_large_002_LargeShelfFactory(847080)_spawn_asset(5034982)",
+        "prop_concave_large_003_MirrorFactory(2662507)_spawn_asset(2274093)",
+        "prop_concave_large_004_NatureShelfTrinketsFactory(321562)_spawn_asset(3131955)",
+        "prop_concave_large_005_NatureShelfTrinketsFactory(4213378)_spawn_asset(8334249)",
+        "prop_concave_large_006_NatureShelfTrinketsFactory(9699418)_spawn_asset(1239099)",
+        "prop_concave_large_007_SingleCabinetFactory(224372)_spawn_asset(6792200)",
+        "wall_00",
+        "wall_03",
+        "wall_06",
+        "wall_07",
+        "wall_08",
+        "wall_09",
+        "wall_10",
+        "wall_16",
+        "wall_20",
+        "wall_43",
+        "wall_44",
+        "wall_45",
+        "wall_46",
+        "wall_47",
+        "wall_48",
+        "wall_49",
+        "wall_50",
+        "wall_51",
+        "wall_52",
+        "wall_53",
+        "wall_58",
+        "wall_59"
+      ]
+    },
+    "vacuum": {
+      "bodies": [
+        "robot"
+      ],
+      "geoms": []
+    }
+  },
+  "runtime_model": {
+    "bytes": 11142,
+    "path": "benchmark/simcode4d_unified/artifacts/IND-03-vacuum-west/runtime_model.xml",
+    "sha256": "bd9e1a5b33f53155602bcd7ebb599346970373c7f71e0a155d478b6dea779a34"
+  },
+  "schema_version": "simcode4d.dev15.physics-profile.v1",
+  "semantic_contact_policy": {
+    "allowed": [
+      [
+        "vacuum",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "vacuum",
+        "static_obstacles"
+      ]
+    ],
+    "groups": {
+      "floor": {
+        "geoms": [
+          "floor_*"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "wall_*",
+          "prop_*"
+        ]
+      },
+      "vacuum": {
+        "bodies": [
+          "robot"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "simulator": {
+    "dimensions": {
+      "nbody": 2,
+      "nequality": 0,
+      "ngeom": 38,
+      "njoint": 1,
+      "nq": 7,
+      "nu": 6,
+      "nv": 6
+    },
+    "model_name": "unnamed_model",
+    "name": "mujoco",
+    "options": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "density": 0.0,
+      "friction_cone": "mjCONE_ELLIPTIC",
+      "gravity_mps2": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": "mjINT_IMPLICITFAST",
+      "iterations": 100,
+      "jacobian": "mjJAC_AUTO",
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic_tesla": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_margin": 0.0,
+      "solver": "mjSOL_NEWTON",
+      "timestep_s": 0.001,
+      "tolerance": 1e-10,
+      "viscosity": 0.0,
+      "wind_mps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "runtime_version": "3.9.0"
+  },
+  "static_field": null,
+  "success_and_safety_thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_lateral_span_m": 0.25,
+    "maximum_terminal_speed_mps": 0.1,
+    "maximum_tilt_rad": 0.35,
+    "minimum_travel_m": 2.5,
+    "terminal_hold_s": 0.5
+  },
+  "world_id": "ind03-indoor-west"
+}

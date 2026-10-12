@@ -1,0 +1,30 @@
+{
+  "case_id": "IND-02-go2-living-room",
+  "m1_base_sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1251,
+    "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/repair_report.json",
+    "sha256": "3b7c44e9ba970ebcfe1f10b6b3ba91b15f67c4115e028e72921ca1b220f6184e"
+  },
+  "repairs": [
+    "replaced incorrect vacuum M2 with generated Go2 runtime",
+    "removed invisible non-colliding stone",
+    "made angle units explicitly radian",
+    "raised initialization 0.020 m to remove measured foot-ground overlap",
+    "declared bounded free-joint assist actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "runtime_model": {
+    "bytes": 15711,
+    "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/runtime_model.xml",
+    "sha256": "36ee97ed015bd235a151ac2045c8a4945fef2a366f1b4070775a88558eba77aa"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 13164,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/export_singleroom_lr_go2/module2/scene_m2.xml",
+    "sha256": "b487a5f5defe105f22545ad5fd2eb7bcc4c39c88f7f709d58d50e627a745f9c9"
+  },
+  "task_independent": true
+}

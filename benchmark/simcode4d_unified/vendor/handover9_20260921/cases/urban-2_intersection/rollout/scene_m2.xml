@@ -1,0 +1,275 @@
+<mujoco model="scene_enriched">
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720"/>
+  </visual>
+  <asset>
+    <mesh name="terrain_00" file="../../../tmp_intersection_export5/background_terrain_00_collision.obj"/>
+    <mesh name="terrain_01" file="../../../tmp_intersection_export5/background_terrain_01_collision.obj"/>
+    <mesh name="terrain_02" file="../../../tmp_intersection_export5/background_terrain_02_collision.obj"/>
+    <mesh name="terrain_03" file="../../../tmp_intersection_export5/background_terrain_03_collision.obj"/>
+  
+<material name="metal" rgba=".9 .95 .95 1"/>
+    <material name="black" rgba="0 0 0 1"/>
+    <material name="white" rgba="1 1 1 1"/>
+    <material name="gray" rgba="0.671705 0.692426 0.774270 1"/>
+
+    <mesh file="../../../unitree_go2/assets/base_0.obj"/>
+    <mesh file="../../../unitree_go2/assets/base_1.obj"/>
+    <mesh file="../../../unitree_go2/assets/base_2.obj"/>
+    <mesh file="../../../unitree_go2/assets/base_3.obj"/>
+    <mesh file="../../../unitree_go2/assets/base_4.obj"/>
+    <mesh file="../../../unitree_go2/assets/hip_0.obj"/>
+    <mesh file="../../../unitree_go2/assets/hip_1.obj"/>
+    <mesh file="../../../unitree_go2/assets/thigh_0.obj"/>
+    <mesh file="../../../unitree_go2/assets/thigh_1.obj"/>
+    <mesh file="../../../unitree_go2/assets/thigh_mirror_0.obj"/>
+    <mesh file="../../../unitree_go2/assets/thigh_mirror_1.obj"/>
+    <mesh file="../../../unitree_go2/assets/calf_0.obj"/>
+    <mesh file="../../../unitree_go2/assets/calf_1.obj"/>
+    <mesh file="../../../unitree_go2/assets/calf_mirror_0.obj"/>
+    <mesh file="../../../unitree_go2/assets/calf_mirror_1.obj"/>
+    <mesh file="../../../unitree_go2/assets/foot.obj"/>
+</asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true"
+           diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2"/>
+    <geom name="terrain_00" type="mesh" mesh="terrain_00" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="terrain_01" type="mesh" mesh="terrain_01" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="terrain_02" type="mesh" mesh="terrain_02" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="terrain_03" type="mesh" mesh="terrain_03" contype="2" conaffinity="1" friction="0.9 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_000_bldg_BrickBuildingFactory(500)_spawn_asset(500)" type="box" pos="13.712501 -9.000000 8.188813" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_001_bldg_BrickBuildingFactory(503)_spawn_asset(503)" type="box" pos="14.000000 9.000000 8.633354" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_002_bldg_BrickBuildingFactory(600)_spawn_asset(600)" type="box" pos="-13.712500 -7.000000 8.949287" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_003_bldg_BrickBuildingFactory(601)_spawn_asset(601)" type="box" pos="-13.712500 2.000000 7.232032" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_004_bldg_BrickBuildingFactory(602)_spawn_asset(602)" type="box" pos="-13.712500 10.000000 5.158244" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_005_bldg_BrickBuildingFactory(710)_spawn_asset(710)" type="box" pos="0.000000 -16.000000 8.209558" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_006_bldg_BuildingFactory(501)_spawn_asset(501)" type="box" pos="14.000000 -4.000000 4.664883" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_007_bldg_ConcreteBuildingFactory(502)_spawn_asset(502)" type="box" pos="13.712500 4.000000 8.972380" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_008_bldg_GlassTowerFactory(700)_spawn_asset(700)" type="box" pos="-14.000000 -11.000000 6.514639" size="0.150000 5.602831 7.013234" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_009_lt_e-9_arm" type="box" pos="3.850000 -9.000000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_010_lt_e-9_lamp" type="box" pos="3.250000 -9.000000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_011_lt_e-9_pole" type="box" pos="4.600000 -9.000000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_012_lt_e0_arm" type="box" pos="3.850000 0.000000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_013_lt_e0_lamp" type="box" pos="3.250000 0.000000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_014_lt_e0_pole" type="box" pos="4.600000 0.000000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_015_lt_e9_arm" type="box" pos="3.850000 9.000000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_016_lt_e9_lamp" type="box" pos="3.250000 9.000000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_017_lt_e9_pole" type="box" pos="4.600000 9.000000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_018_lt_w-9_arm" type="box" pos="-5.350000 -9.000000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_019_lt_w-9_lamp" type="box" pos="-5.950000 -9.000000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_020_lt_w-9_pole" type="box" pos="-4.600000 -9.000000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_021_lt_w0_arm" type="box" pos="-5.350000 0.000000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_022_lt_w0_lamp" type="box" pos="-5.950000 0.000000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_023_lt_w0_pole" type="box" pos="-4.600000 0.000000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_024_lt_w9_arm" type="box" pos="-5.350000 9.000000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_025_lt_w9_lamp" type="box" pos="-5.950000 9.000000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_026_lt_w9_pole" type="box" pos="-4.600000 9.000000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_027_lt_x_n_arm" type="box" pos="-0.750000 4.600000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_028_lt_x_n_lamp" type="box" pos="-1.350000 4.600000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_029_lt_x_n_pole" type="box" pos="0.000000 4.600000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_030_lt_x_s_arm" type="box" pos="-0.750000 -4.600000 4.550000" size="0.650000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_031_lt_x_s_lamp" type="box" pos="-1.350000 -4.600000 4.520000" size="0.275000 0.090000 0.090000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_032_lt_x_s_pole" type="box" pos="0.000000 -4.600000 2.300000" size="0.060000 0.060000 2.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_033_tl_0_arm" type="box" pos="5.000000 -5.000000 4.000000" size="0.050000 0.050000 0.800000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_034_tl_0_head" type="box" pos="5.000000 -5.000000 4.400000" size="0.140000 0.140000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_035_tl_0_lamp" type="box" pos="5.000000 -5.200000 4.550000" size="0.080000 0.080000 0.080000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_036_tl_0_pole" type="box" pos="5.000000 -5.000000 2.000000" size="0.060000 0.060000 2.000000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_037_tl_1_arm" type="box" pos="-5.000000 -5.000000 4.000000" size="0.050000 0.050000 0.800000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_038_tl_1_head" type="box" pos="-5.000000 -5.000000 4.400000" size="0.140000 0.140000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_039_tl_1_lamp" type="box" pos="-5.000000 -5.200000 4.550000" size="0.080000 0.080000 0.080000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_040_tl_1_pole" type="box" pos="-5.000000 -5.000000 2.000000" size="0.060000 0.060000 2.000000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_041_tl_2_arm" type="box" pos="5.000000 5.000000 4.000000" size="0.050000 0.050000 0.800000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_042_tl_2_head" type="box" pos="5.000000 5.000000 4.400000" size="0.140000 0.140000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_043_tl_2_lamp" type="box" pos="5.000000 4.800000 4.300000" size="0.080000 0.080000 0.080000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_044_tl_2_pole" type="box" pos="5.000000 5.000000 2.000000" size="0.060000 0.060000 2.000000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_045_tl_3_arm" type="box" pos="-5.000000 5.000000 4.000000" size="0.050000 0.050000 0.800000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_046_tl_3_head" type="box" pos="-5.000000 5.000000 4.400000" size="0.140000 0.140000 0.425000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_047_tl_3_lamp" type="box" pos="-5.000000 4.800000 4.300000" size="0.080000 0.080000 0.080000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_convex_small_048_tl_3_pole" type="box" pos="-5.000000 5.000000 2.000000" size="0.060000 0.060000 2.000000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+  <body name="stone" pos="5.0 0.0 0.0"><freejoint/><geom type="sphere" size="0.10" rgba="0 0 0 0" contype="0" conaffinity="0" density="2000"/></body>
+  
+<body name="base" pos="0 0 0.445" childclass="go2">
+      <inertial pos="0.021112 0 -0.005366" quat="-0.000543471 0.713435 -0.00173769 0.700719" mass="6.921"
+        diaginertia="0.107027 0.0980771 0.0244531"/>
+      <freejoint/>
+      <geom mesh="base_0" material="black" class="visual"/>
+      <geom mesh="base_1" material="black" class="visual"/>
+      <geom mesh="base_2" material="black" class="visual"/>
+      <geom mesh="base_3" material="white" class="visual"/>
+      <geom mesh="base_4" material="gray" class="visual"/>
+      <geom size="0.1881 0.04675 0.057" type="box" class="collision"/>
+      <geom size="0.05 0.045" pos="0.285 0 0.01" type="cylinder" class="collision"/>
+      <geom size="0.047" pos="0.293 0 -0.06" class="collision"/>
+      <site name="imu" pos="-0.02557 0 0.04232"/>
+      <body name="FL_hip" pos="0.1934 0.0465 0">
+        <inertial pos="-0.0054 0.00194 -0.000105" quat="0.497014 0.499245 0.505462 0.498237" mass="0.678"
+          diaginertia="0.00088403 0.000596003 0.000479967"/>
+        <joint name="FL_hip_joint" class="abduction"/>
+        <geom mesh="hip_0" material="metal" class="visual"/>
+        <geom mesh="hip_1" material="gray" class="visual"/>
+        <geom size="0.046 0.02" pos="0 0.08 0" quat="1 1 0 0" type="cylinder" class="collision"/>
+        <body name="FL_thigh" pos="0 0.0955 0">
+          <inertial pos="-0.00374 -0.0223 -0.0327" quat="0.829533 0.0847635 -0.0200632 0.551623" mass="1.152"
+            diaginertia="0.00594973 0.00584149 0.000878787"/>
+          <joint name="FL_thigh_joint" class="front_hip"/>
+          <geom mesh="thigh_0" material="metal" class="visual"/>
+          <geom mesh="thigh_1" material="gray" class="visual"/>
+          <geom size="0.1065 0.01225 0.017" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box"
+            class="collision"/>
+          <body name="FL_calf" pos="0 0 -0.213">
+            <inertial pos="0.00629595 -0.000622121 -0.141417" quat="0.710672 0.00154099 -0.00450087 0.703508"
+              mass="0.241352" diaginertia="0.0014901 0.00146356 5.31397e-05"/>
+            <joint name="FL_calf_joint" class="knee"/>
+            <geom mesh="calf_0" material="gray" class="visual"/>
+            <geom mesh="calf_1" material="black" class="visual"/>
+            <geom size="0.012 0.06" pos="0.008 0 -0.06" quat="0.994493 0 -0.104807 0" type="cylinder"
+              class="collision"/>
+            <geom size="0.011 0.0325" pos="0.02 0 -0.148" quat="0.999688 0 0.0249974 0" type="cylinder"
+              class="collision"/>
+            <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
+            <geom name="FL" class="foot"/>
+          </body>
+        </body>
+      </body>
+      <body name="FR_hip" pos="0.1934 -0.0465 0">
+        <inertial pos="-0.0054 -0.00194 -0.000105" quat="0.498237 0.505462 0.499245 0.497014" mass="0.678"
+          diaginertia="0.00088403 0.000596003 0.000479967"/>
+        <joint name="FR_hip_joint" class="abduction"/>
+        <geom mesh="hip_0" material="metal" class="visual" quat="4.63268e-05 1 0 0"/>
+        <geom mesh="hip_1" material="gray" class="visual" quat="4.63268e-05 1 0 0"/>
+        <geom size="0.046 0.02" pos="0 -0.08 0" quat="0.707107 0.707107 0 0" type="cylinder" class="collision"/>
+        <body name="FR_thigh" pos="0 -0.0955 0">
+          <inertial pos="-0.00374 0.0223 -0.0327" quat="0.551623 -0.0200632 0.0847635 0.829533" mass="1.152"
+            diaginertia="0.00594973 0.00584149 0.000878787"/>
+          <joint name="FR_thigh_joint" class="front_hip"/>
+          <geom mesh="thigh_mirror_0" material="metal" class="visual"/>
+          <geom mesh="thigh_mirror_1" material="gray" class="visual"/>
+          <geom size="0.1065 0.01225 0.017" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box"
+            class="collision"/>
+          <body name="FR_calf" pos="0 0 -0.213">
+            <inertial pos="0.00629595 0.000622121 -0.141417" quat="0.703508 -0.00450087 0.00154099 0.710672"
+              mass="0.241352" diaginertia="0.0014901 0.00146356 5.31397e-05"/>
+            <joint name="FR_calf_joint" class="knee"/>
+            <geom mesh="calf_mirror_0" material="gray" class="visual"/>
+            <geom mesh="calf_mirror_1" material="black" class="visual"/>
+            <geom size="0.013 0.06" pos="0.01 0 -0.06" quat="0.995004 0 -0.0998334 0" type="cylinder"
+              class="collision"/>
+            <geom size="0.011 0.0325" pos="0.02 0 -0.148" quat="0.999688 0 0.0249974 0" type="cylinder"
+              class="collision"/>
+            <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
+            <geom name="FR" class="foot"/>
+          </body>
+        </body>
+      </body>
+      <body name="RL_hip" pos="-0.1934 0.0465 0">
+        <inertial pos="0.0054 0.00194 -0.000105" quat="0.505462 0.498237 0.497014 0.499245" mass="0.678"
+          diaginertia="0.00088403 0.000596003 0.000479967"/>
+        <joint name="RL_hip_joint" class="abduction"/>
+        <geom mesh="hip_0" material="metal" class="visual" quat="4.63268e-05 0 1 0"/>
+        <geom mesh="hip_1" material="gray" class="visual" quat="4.63268e-05 0 1 0"/>
+        <geom size="0.046 0.02" pos="0 0.08 0" quat="0.707107 0.707107 0 0" type="cylinder" class="collision"/>
+        <body name="RL_thigh" pos="0 0.0955 0">
+          <inertial pos="-0.00374 -0.0223 -0.0327" quat="0.829533 0.0847635 -0.0200632 0.551623" mass="1.152"
+            diaginertia="0.00594973 0.00584149 0.000878787"/>
+          <joint name="RL_thigh_joint" class="back_hip"/>
+          <geom mesh="thigh_0" material="metal" class="visual"/>
+          <geom mesh="thigh_1" material="gray" class="visual"/>
+          <geom size="0.1065 0.01225 0.017" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box"
+            class="collision"/>
+          <body name="RL_calf" pos="0 0 -0.213">
+            <inertial pos="0.00629595 -0.000622121 -0.141417" quat="0.710672 0.00154099 -0.00450087 0.703508"
+              mass="0.241352" diaginertia="0.0014901 0.00146356 5.31397e-05"/>
+            <joint name="RL_calf_joint" class="knee"/>
+            <geom mesh="calf_0" material="gray" class="visual"/>
+            <geom mesh="calf_1" material="black" class="visual"/>
+            <geom size="0.013 0.06" pos="0.01 0 -0.06" quat="0.995004 0 -0.0998334 0" type="cylinder"
+              class="collision"/>
+            <geom size="0.011 0.0325" pos="0.02 0 -0.148" quat="0.999688 0 0.0249974 0" type="cylinder"
+              class="collision"/>
+            <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
+            <geom name="RL" class="foot"/>
+          </body>
+        </body>
+      </body>
+      <body name="RR_hip" pos="-0.1934 -0.0465 0">
+        <inertial pos="0.0054 -0.00194 -0.000105" quat="0.499245 0.497014 0.498237 0.505462" mass="0.678"
+          diaginertia="0.00088403 0.000596003 0.000479967"/>
+        <joint name="RR_hip_joint" class="abduction"/>
+        <geom mesh="hip_0" material="metal" class="visual" quat="2.14617e-09 4.63268e-05 4.63268e-05 -1"/>
+        <geom mesh="hip_1" material="gray" class="visual" quat="2.14617e-09 4.63268e-05 4.63268e-05 -1"/>
+        <geom size="0.046 0.02" pos="0 -0.08 0" quat="0.707107 0.707107 0 0" type="cylinder" class="collision"/>
+        <body name="RR_thigh" pos="0 -0.0955 0">
+          <inertial pos="-0.00374 0.0223 -0.0327" quat="0.551623 -0.0200632 0.0847635 0.829533" mass="1.152"
+            diaginertia="0.00594973 0.00584149 0.000878787"/>
+          <joint name="RR_thigh_joint" class="back_hip"/>
+          <geom mesh="thigh_mirror_0" material="metal" class="visual"/>
+          <geom mesh="thigh_mirror_1" material="gray" class="visual"/>
+          <geom size="0.1065 0.01225 0.017" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box"
+            class="collision"/>
+          <body name="RR_calf" pos="0 0 -0.213">
+            <inertial pos="0.00629595 0.000622121 -0.141417" quat="0.703508 -0.00450087 0.00154099 0.710672"
+              mass="0.241352" diaginertia="0.0014901 0.00146356 5.31397e-05"/>
+            <joint name="RR_calf_joint" class="knee"/>
+            <geom mesh="calf_mirror_0" material="gray" class="visual"/>
+            <geom mesh="calf_mirror_1" material="black" class="visual"/>
+            <geom size="0.013 0.06" pos="0.01 0 -0.06" quat="0.995004 0 -0.0998334 0" type="cylinder"
+              class="collision"/>
+            <geom size="0.011 0.0325" pos="0.02 0 -0.148" quat="0.999688 0 0.0249974 0" type="cylinder"
+              class="collision"/>
+            <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
+            <geom name="RR" class="foot"/>
+          </body>
+        </body>
+      </body>
+    </body>
+</worldbody>
+  <keyframe><key name="m2_init" qpos="5.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -3.000000 0.000000 0.270000 1.000000 0.000000 0.000000 0.000000 0.000000 0.900000 -1.800000 0.000000 0.900000 -1.800000 0.000000 0.900000 -1.800000 0.000000 0.900000 -1.800000" qvel="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000"/></keyframe>
+  <default>
+<default class="go2">
+      <geom friction="0.6" margin="0.001" condim="1"/>
+      <joint axis="0 1 0" damping="2" armature="0.01" frictionloss="0.2"/>
+      <motor ctrlrange="-23.7 23.7"/>
+      <default class="abduction">
+        <joint axis="1 0 0" range="-1.0472 1.0472"/>
+      </default>
+      <default class="hip">
+        <default class="front_hip">
+          <joint range="-1.5708 3.4907"/>
+        </default>
+        <default class="back_hip">
+          <joint range="-0.5236 4.5379"/>
+        </default>
+      </default>
+      <default class="knee">
+        <joint range="-2.7227 -0.83776"/>
+        <motor ctrlrange="-45.43 45.43"/>
+      </default>
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="collision">
+        <geom group="3"/>
+        <default class="foot">
+          <geom size="0.022" pos="-0.002 0 -0.213" priority="1" solimp="0.015 1 0.022" condim="6"
+            friction="0.8 0.02 0.01"/>
+        </default>
+      </default>
+    </default>
+  </default>
+  <actuator>
+<motor class="abduction" name="FL_hip" joint="FL_hip_joint"/>
+    <motor class="hip" name="FL_thigh" joint="FL_thigh_joint"/>
+    <motor class="knee" name="FL_calf" joint="FL_calf_joint"/>
+    <motor class="abduction" name="FR_hip" joint="FR_hip_joint"/>
+    <motor class="hip" name="FR_thigh" joint="FR_thigh_joint"/>
+    <motor class="knee" name="FR_calf" joint="FR_calf_joint"/>
+    <motor class="abduction" name="RL_hip" joint="RL_hip_joint"/>
+    <motor class="hip" name="RL_thigh" joint="RL_thigh_joint"/>
+    <motor class="knee" name="RL_calf" joint="RL_calf_joint"/>
+    <motor class="abduction" name="RR_hip" joint="RR_hip_joint"/>
+    <motor class="hip" name="RR_thigh" joint="RR_thigh_joint"/>
+    <motor class="knee" name="RR_calf" joint="RR_calf_joint"/>
+  </actuator>
+</mujoco>

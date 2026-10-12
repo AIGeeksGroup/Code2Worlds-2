@@ -1,0 +1,27 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "IND-01-vacuum-living-room",
+  "legacy_case_id": "indoor-1_vacuum_real",
+  "pruned_unmatched_contact_patterns": [],
+  "repairs": [
+    "declared and bounded six-axis free-joint actuator interface",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 11652,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/M1/module1/scene_enriched.xml",
+    "sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50"
+  },
+  "source_runtime": {
+    "bytes": 12893,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/M1/module1/scene_m2_lr_vacuum.xml",
+    "sha256": "777f861f43a468017cee694f25b1c94ac18e3e3aad4ac16135cf9e5b0c1caad3"
+  }
+}

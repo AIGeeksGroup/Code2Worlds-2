@@ -1,0 +1,175 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 1233,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-03-vacuum-west/dependency_manifest.json",
+      "sha256": "17ce15526ed334cf46b5a225251f4f8591a47835837ebdfec5cd47f67f411c56"
+    },
+    "m1_base": {
+      "bytes": 7729,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-3_indoor2_v2/M1/module1/scene_enriched.xml",
+      "sha256": "5524156fcf2deab787b01c52e38e17f4e472fb66d8604fa4271f31e4d50cd10f"
+    },
+    "m2_overlay": {
+      "bytes": 1248,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-03-vacuum-west/m2_overlay.json",
+      "sha256": "79635f717a69df698dda4cdaa80e5d8301ebddfe77a01406536ed3cf8be5394f"
+    },
+    "runtime_model": {
+      "bytes": 11142,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-03-vacuum-west/runtime_model.xml",
+      "sha256": "bd9e1a5b33f53155602bcd7ebb599346970373c7f71e0a155d478b6dea779a34"
+    }
+  },
+  "case_id": "IND-03-vacuum-west",
+  "domain": "indoor",
+  "dynamic_subtype": null,
+  "entities": [
+    {
+      "entity_id": "vacuum",
+      "mobility": "free",
+      "model_binding": "robot",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "indoor_floor",
+      "mobility": "fixed",
+      "model_binding": "floor_*",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "indoor_obstacles",
+      "mobility": "fixed",
+      "model_binding": "wall_*",
+      "required": true,
+      "role": "obstacle"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "robot"
+    ],
+    "joints": []
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -120.0,
+        120.0
+      ],
+      "base_force_y_ctrl": [
+        -120.0,
+        120.0
+      ],
+      "base_force_z_ctrl": [
+        -80.0,
+        80.0
+      ],
+      "base_pitch_ctrl": [
+        -35.0,
+        35.0
+      ],
+      "base_roll_ctrl": [
+        -35.0,
+        35.0
+      ],
+      "base_yaw_ctrl": [
+        -35.0,
+        35.0
+      ]
+    },
+    "episode_duration_s": 9.0,
+    "log_hz": 30,
+    "move_duration_s": 7.5,
+    "owner": "benchmark",
+    "path": "probes/ind03_vacuum_west.py",
+    "sha256": "99d3f5f3bdbee05a20f428c7b09a456e56d5f30c15238f0b93ef9456132449c6",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        5.0,
+        9.15
+      ],
+      [
+        2.15,
+        9.15
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        5.0,
+        9.15,
+        0.16
+      ],
+      [
+        2.15,
+        9.15,
+        0.16
+      ]
+    ]
+  },
+  "prompt": "Drive the vacuum west through the indoor corridor, enter the frozen goal, and remain stopped for 0.5 seconds.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 610,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-3_indoor2_v2/scene_SOURCE.txt",
+    "sha256": "7933beeaa88236684e8a2c16a09645a386e33913eae35913c09383b2c02f5586"
+  },
+  "source_lineage_status": "compiled_m1_only_authoring_source_missing",
+  "source_manifest": {
+    "bytes": 58454,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-3_indoor2_v2/M1/manifest.json",
+    "sha256": "b86d54ecb8ec4bf36c1c1238d82e875c74a3843f728f2167f24f01cdd03cbdb8"
+  },
+  "split": "development",
+  "task_family": "obstacle_navigation",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/ind03_vacuum_west.py",
+    "sha256": "f4cb9de5db8f6c47543dd34b71b122ce865329c9809c18cfb6d93666663b3ff2",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "ind03-indoor-west"
+}

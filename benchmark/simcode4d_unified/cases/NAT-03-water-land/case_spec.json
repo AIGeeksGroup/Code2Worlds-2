@@ -1,0 +1,198 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 322,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-03-water-land/dependency_manifest.json",
+      "sha256": "60897f5814bdc89c52c408f315ec2808afd40178b2b65d48cc4ef825fd77bc13"
+    },
+    "m1_base": {
+      "bytes": 217828,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-03-water-land/m1_world.xml",
+      "sha256": "c151b8290d11436115179aec585423b920fd465e91ec9f0ee7da1146f4ba079e"
+    },
+    "m2_overlay": {
+      "bytes": 373,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-03-water-land/m2_overlay.json",
+      "sha256": "b8cec74ed1dbb5a43e50683f8426da65c740d5a8d1ea662d8a59a959c90536e4"
+    },
+    "runtime_model": {
+      "bytes": 217828,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-03-water-land/m1_world.xml",
+      "sha256": "c151b8290d11436115179aec585423b920fd465e91ec9f0ee7da1146f4ba079e"
+    }
+  },
+  "case_id": "NAT-03-water-land",
+  "domain": "natural_outdoor",
+  "dynamic_subtype": "cross_medium",
+  "entities": [
+    {
+      "entity_id": "amphibious_rover",
+      "mobility": "articulated",
+      "model_binding": "robot",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "shore",
+      "mobility": "fixed",
+      "model_binding": "shore_hfield",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "water_field",
+      "mobility": "field",
+      "model_binding": "static_fluid:water",
+      "required": true,
+      "role": "other"
+    },
+    {
+      "entity_id": "water_surface",
+      "mobility": "visual_only",
+      "model_binding": "water_surface_visual",
+      "required": false,
+      "role": "other"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "robot"
+    ],
+    "joints": [
+      "shore_x",
+      "shore_z",
+      "shore_pitch",
+      "steer_fl_joint",
+      "wheel_fl_joint",
+      "steer_fr_joint",
+      "wheel_fr_joint",
+      "steer_rl_joint",
+      "wheel_rl_joint",
+      "steer_rr_joint",
+      "wheel_rr_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "robot actuator probe, perturbation, grasp API, validator, and records",
+    "m1": "immutable geometry, physical properties, canonical initial state, and static fields",
+    "m2": "task-independent source dynamics overlay bound to the M1 hash; NoOp in Dev6"
+  },
+  "probe": {
+    "actuator_limits": {
+      "heave_ctrl": [
+        -1300.0,
+        1300.0
+      ],
+      "pitch_ctrl": [
+        -900.0,
+        900.0
+      ],
+      "propeller_x_ctrl": [
+        -2800.0,
+        2800.0
+      ],
+      "steer_fl_ctrl": [
+        -1.35,
+        1.35
+      ],
+      "steer_fr_ctrl": [
+        -1.35,
+        1.35
+      ],
+      "steer_rl_ctrl": [
+        -1.35,
+        1.35
+      ],
+      "steer_rr_ctrl": [
+        -1.35,
+        1.35
+      ],
+      "wheel_fl_ctrl": [
+        -12.0,
+        12.0
+      ],
+      "wheel_fr_ctrl": [
+        -12.0,
+        12.0
+      ],
+      "wheel_rl_ctrl": [
+        -12.0,
+        12.0
+      ],
+      "wheel_rr_ctrl": [
+        -12.0,
+        12.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "owner": "benchmark",
+    "path": "probes/nat03_water_land.py",
+    "sha256": "c79d361a343ab3daff450934267d5e5fb9726b7500df498d49e4b01670ab8566",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/base_control.py",
+        "sha256": "0fe482c1da62df77155d95be7b5f4af69c93659acc088e01c6fd26641bf2a5e0"
+      }
+    ],
+    "waypoints_xy": []
+  },
+  "prompt": "Move the amphibious rover from the declared static water field, contact the bank, reach dry land, and stop in the land goal.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "source Blender animation and source object hierarchy",
+      "retained legacy rollout used only to recover intent, not to tune post-freeze scores",
+      "task_semantics_confirmation_2026-09-08.csv development draft"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 23099453,
+    "path": "deliverables/final_scene_revision_i04_2026-08-16/blends/scene10_amphibious_final_i04.blend",
+    "sha256": "654d59ce39c79711d4ee227fa31bda0564e52cfebdd1f2a1ed1ec18c6d1c9a1b"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 464729,
+    "path": "benchmark/simcode4d_unified/source_reexports/scene10_amphibious/physical_manifest.json",
+    "sha256": "d07339a87a067c25f777a3147761d9025b3aac3d218b19319ac409f022a00421"
+  },
+  "split": "development",
+  "static_field": {
+    "body": "robot",
+    "density_kg_m3": 1000.0,
+    "displaced_volume_m3": 0.094,
+    "drag_x": 88.0,
+    "drag_z": 115.0,
+    "immersion_span_m": 0.84,
+    "pitch_drag": 145.0,
+    "surface_z_m": 0.0,
+    "type": "static_fluid"
+  },
+  "task_family": "dynamic_interaction",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/nat03_water_land.py",
+    "sha256": "2b40b2139e2d5cdddb2764668e309bc80bb26d3263ae2bd354eca2b5342bbb0d",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      }
+    ]
+  },
+  "world_id": "nat03-amphibious"
+}

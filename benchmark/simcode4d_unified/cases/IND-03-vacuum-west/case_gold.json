@@ -1,0 +1,153 @@
+{
+  "case_id": "IND-03-vacuum-west",
+  "case_spec_sha256": "613dbc31b1ed60befc6fe7dad28940d016702934b3a0c87e2e8a9bce25804233",
+  "contact_policy": {
+    "allowed": [
+      [
+        "vacuum",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "vacuum",
+        "static_obstacles"
+      ]
+    ],
+    "groups": {
+      "floor": {
+        "geoms": [
+          "floor_*"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "wall_*",
+          "prop_*"
+        ]
+      },
+      "vacuum": {
+        "bodies": [
+          "robot"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "westward_progress",
+        "goal_entry"
+      ],
+      [
+        "goal_entry",
+        "stop"
+      ]
+    ],
+    "nodes": [
+      "westward_progress",
+      "goal_entry",
+      "stop"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "keyframe": "m2_init"
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "robot": 0.95
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "robot": 1.05
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "robot": 1.08
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "robot": 0.92
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.012
+      }
+    }
+  },
+  "regions": {
+    "goal": {
+      "max_xyz_m": [
+        2.5,
+        9.4,
+        0.5
+      ],
+      "min_xyz_m": [
+        1.9,
+        8.6,
+        0.0
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "Development-only benchmark-authored semantics; source evidence is retained, thresholds are frozen before the reference matrix, and official Core15 admission remains false.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_lateral_span_m": 0.25,
+    "maximum_terminal_speed_mps": 0.1,
+    "maximum_tilt_rad": 0.35,
+    "minimum_travel_m": 2.5,
+    "terminal_hold_s": 0.5
+  }
+}

@@ -1,0 +1,5970 @@
+{
+  "actuators": [
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "fl_wheel",
+      "transmission_ids": [
+        1,
+        -1
+      ],
+      "transmission_target": "fl_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 1,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "fr_wheel",
+      "transmission_ids": [
+        2,
+        -1
+      ],
+      "transmission_target": "fr_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 2,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "rl_wheel",
+      "transmission_ids": [
+        3,
+        -1
+      ],
+      "transmission_target": "rl_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": false,
+      "control_range": [
+        0.0,
+        0.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        60.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 3,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "rr_wheel",
+      "transmission_ids": [
+        4,
+        -1
+      ],
+      "transmission_target": "rr_wheel_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -240.0,
+        240.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 4,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_x_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -240.0,
+        240.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 5,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_y_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -180.0,
+        180.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 6,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_z_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -130.0,
+        130.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "id": 7,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_roll_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -130.0,
+        130.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "id": 8,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_pitch_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -130.0,
+        130.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "id": 9,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_yaw_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "rover_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    }
+  ],
+  "bodies": [
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamic": false,
+      "id": 0,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.0,
+      "mocap_id": -1,
+      "name": "world",
+      "parent": null
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.35,
+        0.55,
+        0.65
+      ],
+      "dynamic": true,
+      "id": 1,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 18.0,
+      "mocap_id": -1,
+      "name": "rover_base",
+      "parent": "world"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 2,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_fl_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 3,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_fr_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 4,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_rl_wheel",
+      "parent": "rover_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.008,
+        0.005,
+        0.005
+      ],
+      "dynamic": true,
+      "id": 5,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.2,
+      "mocap_id": -1,
+      "name": "rover_rr_wheel",
+      "parent": "rover_base"
+    }
+  ],
+  "case_gold_sha256": "052d8f5905e0955b4ff2030205f2a3f98b2717e98856ce4a0bb052bbaada9963",
+  "case_id": "INS-01-agv-aisle",
+  "case_spec_sha256": "492d89b8608d3ad84269611a8520b618dd30aef0d0ca18ca46952212ebd10211",
+  "collision_geoms": [
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 0,
+      "name": "floor_00",
+      "position_m": [
+        4.0,
+        0.0,
+        -0.05
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        17.0,
+        13.0,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 1,
+      "name": "wall_00",
+      "position_m": [
+        4.0,
+        0.0,
+        5.1
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        17.0,
+        13.0,
+        0.075
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 2,
+      "name": "prop_convex_small_000_barrel_0",
+      "position_m": [
+        7.6,
+        -2.4,
+        0.425
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.26,
+        0.26,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 3,
+      "name": "prop_convex_small_001_barrel_1",
+      "position_m": [
+        7.6,
+        -3.0,
+        0.425
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.26,
+        0.26,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 4,
+      "name": "prop_convex_small_002_barrel_2",
+      "position_m": [
+        8.15,
+        -2.7,
+        0.425
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.26,
+        0.26,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 5,
+      "name": "prop_convex_small_003_beam_-2_0_0_55_-1",
+      "position_m": [
+        8.85,
+        -2.0,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 6,
+      "name": "prop_convex_small_004_beam_-2_0_0_55_1",
+      "position_m": [
+        9.15,
+        -2.0,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 7,
+      "name": "prop_convex_small_005_beam_-2_0_1_55_-1",
+      "position_m": [
+        8.85,
+        -2.0,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 8,
+      "name": "prop_convex_small_006_beam_-2_0_1_55_1",
+      "position_m": [
+        9.15,
+        -2.0,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 9,
+      "name": "prop_convex_small_007_beam_-2_0_2_55_-1",
+      "position_m": [
+        8.85,
+        -2.0,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 10,
+      "name": "prop_convex_small_008_beam_-2_0_2_55_1",
+      "position_m": [
+        9.15,
+        -2.0,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 11,
+      "name": "prop_convex_small_009_beam_-4_6_0_55_-1",
+      "position_m": [
+        8.85,
+        -4.6,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 12,
+      "name": "prop_convex_small_010_beam_-4_6_0_55_1",
+      "position_m": [
+        9.15,
+        -4.6,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 13,
+      "name": "prop_convex_small_011_beam_-4_6_1_55_-1",
+      "position_m": [
+        8.85,
+        -4.6,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 14,
+      "name": "prop_convex_small_012_beam_-4_6_1_55_1",
+      "position_m": [
+        9.15,
+        -4.6,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 15,
+      "name": "prop_convex_small_013_beam_-4_6_2_55_-1",
+      "position_m": [
+        8.85,
+        -4.6,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 16,
+      "name": "prop_convex_small_014_beam_-4_6_2_55_1",
+      "position_m": [
+        9.15,
+        -4.6,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 17,
+      "name": "prop_convex_small_015_beam_2_0_0_55_-1",
+      "position_m": [
+        8.85,
+        2.0,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 18,
+      "name": "prop_convex_small_016_beam_2_0_0_55_1",
+      "position_m": [
+        9.15,
+        2.0,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 19,
+      "name": "prop_convex_small_017_beam_2_0_1_55_-1",
+      "position_m": [
+        8.85,
+        2.0,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 20,
+      "name": "prop_convex_small_018_beam_2_0_1_55_1",
+      "position_m": [
+        9.15,
+        2.0,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 21,
+      "name": "prop_convex_small_019_beam_2_0_2_55_-1",
+      "position_m": [
+        8.85,
+        2.0,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 22,
+      "name": "prop_convex_small_020_beam_2_0_2_55_1",
+      "position_m": [
+        9.15,
+        2.0,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 23,
+      "name": "prop_convex_small_021_beam_4_6_0_55_-1",
+      "position_m": [
+        8.85,
+        4.6,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 24,
+      "name": "prop_convex_small_022_beam_4_6_0_55_1",
+      "position_m": [
+        9.15,
+        4.6,
+        0.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 25,
+      "name": "prop_convex_small_023_beam_4_6_1_55_-1",
+      "position_m": [
+        8.85,
+        4.6,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 26,
+      "name": "prop_convex_small_024_beam_4_6_1_55_1",
+      "position_m": [
+        9.15,
+        4.6,
+        1.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 27,
+      "name": "prop_convex_small_025_beam_4_6_2_55_-1",
+      "position_m": [
+        8.85,
+        4.6,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 28,
+      "name": "prop_convex_small_026_beam_4_6_2_55_1",
+      "position_m": [
+        9.15,
+        4.6,
+        2.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.45,
+        0.035
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 29,
+      "name": "prop_convex_small_027_blid_0",
+      "position_m": [
+        7.6,
+        -2.4,
+        0.87
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.27,
+        0.27,
+        0.02
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 30,
+      "name": "prop_convex_small_028_blid_1",
+      "position_m": [
+        7.6,
+        -3.0,
+        0.87
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.27,
+        0.27,
+        0.02
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 31,
+      "name": "prop_convex_small_029_blid_2",
+      "position_m": [
+        8.15,
+        -2.7,
+        0.87
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.27,
+        0.27,
+        0.02
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 32,
+      "name": "prop_convex_small_030_col_1_0_-5_4",
+      "position_m": [
+        1.0,
+        -5.4,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 33,
+      "name": "prop_convex_small_031_col_1_0_5_6",
+      "position_m": [
+        1.0,
+        5.6,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 34,
+      "name": "prop_convex_small_032_col_12_5_0_0",
+      "position_m": [
+        12.5,
+        0.0,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 35,
+      "name": "prop_convex_small_033_col_7_0_5_6",
+      "position_m": [
+        7.0,
+        5.6,
+        2.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.175,
+        0.175,
+        2.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 36,
+      "name": "prop_convex_small_034_cone_0",
+      "position_m": [
+        3.6,
+        -1.9,
+        0.24
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.21
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 37,
+      "name": "prop_convex_small_035_cone_1",
+      "position_m": [
+        6.8,
+        1.8,
+        0.24
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.21
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 38,
+      "name": "prop_convex_small_036_conebase_0",
+      "position_m": [
+        3.6,
+        -1.9,
+        0.015
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.015
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 39,
+      "name": "prop_convex_small_037_conebase_1",
+      "position_m": [
+        6.8,
+        1.8,
+        0.015
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.015
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 40,
+      "name": "prop_convex_small_038_dock",
+      "position_m": [
+        -1.65,
+        2.55,
+        0.275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.125,
+        0.25,
+        0.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 41,
+      "name": "prop_convex_small_039_dock_led",
+      "position_m": [
+        -1.52,
+        2.55,
+        0.42
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.015,
+        0.15,
+        0.03
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 42,
+      "name": "prop_convex_small_040_fl_body",
+      "position_m": [
+        6.6,
+        2.55,
+        0.42
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.525,
+        0.375,
+        0.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 43,
+      "name": "prop_convex_small_041_fl_cab",
+      "position_m": [
+        6.45,
+        2.55,
+        0.95
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.325,
+        0.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 44,
+      "name": "prop_convex_small_042_fl_fork_-1",
+      "position_m": [
+        7.65,
+        2.35,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.375,
+        0.045,
+        0.0175
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 45,
+      "name": "prop_convex_small_043_fl_fork_1",
+      "position_m": [
+        7.65,
+        2.75,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.375,
+        0.045,
+        0.0175
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 46,
+      "name": "prop_convex_small_044_fl_mast",
+      "position_m": [
+        7.22,
+        2.55,
+        0.85
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.3,
+        0.85
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 47,
+      "name": "prop_convex_small_045_fl_wheel_-1_-0_35",
+      "position_m": [
+        6.25,
+        2.17,
+        0.155
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.155,
+        0.05,
+        0.155
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 48,
+      "name": "prop_convex_small_046_fl_wheel_-1_0_35",
+      "position_m": [
+        6.95,
+        2.17,
+        0.155
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.155,
+        0.05,
+        0.155
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 49,
+      "name": "prop_convex_small_047_fl_wheel_1_-0_35",
+      "position_m": [
+        6.25,
+        2.93,
+        0.155
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.155,
+        0.05,
+        0.155
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 50,
+      "name": "prop_convex_small_048_fl_wheel_1_0_35",
+      "position_m": [
+        6.95,
+        2.93,
+        0.155
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.155,
+        0.05,
+        0.155
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 51,
+      "name": "prop_convex_small_049_lbeam2_-1_6_0_5",
+      "position_m": [
+        -1.6,
+        3.85,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 52,
+      "name": "prop_convex_small_050_lbeam2_-1_6_1_4",
+      "position_m": [
+        -1.6,
+        3.85,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 53,
+      "name": "prop_convex_small_051_lbeam2_-1_6_2_3",
+      "position_m": [
+        -1.6,
+        3.85,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 54,
+      "name": "prop_convex_small_052_lbeam2_0_8_0_5",
+      "position_m": [
+        0.8,
+        3.85,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 55,
+      "name": "prop_convex_small_053_lbeam2_0_8_1_4",
+      "position_m": [
+        0.8,
+        3.85,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 56,
+      "name": "prop_convex_small_054_lbeam2_0_8_2_3",
+      "position_m": [
+        0.8,
+        3.85,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 57,
+      "name": "prop_convex_small_055_lbeam2_3_2_0_5",
+      "position_m": [
+        3.2,
+        3.85,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 58,
+      "name": "prop_convex_small_056_lbeam2_3_2_1_4",
+      "position_m": [
+        3.2,
+        3.85,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 59,
+      "name": "prop_convex_small_057_lbeam2_3_2_2_3",
+      "position_m": [
+        3.2,
+        3.85,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 60,
+      "name": "prop_convex_small_058_lbeam2_5_6_0_5",
+      "position_m": [
+        5.6,
+        3.85,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 61,
+      "name": "prop_convex_small_059_lbeam2_5_6_1_4",
+      "position_m": [
+        5.6,
+        3.85,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 62,
+      "name": "prop_convex_small_060_lbeam2_5_6_2_3",
+      "position_m": [
+        5.6,
+        3.85,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 63,
+      "name": "prop_convex_small_061_lbeam2_8_0_0_5",
+      "position_m": [
+        8.0,
+        3.85,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 64,
+      "name": "prop_convex_small_062_lbeam2_8_0_1_4",
+      "position_m": [
+        8.0,
+        3.85,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 65,
+      "name": "prop_convex_small_063_lbeam2_8_0_2_3",
+      "position_m": [
+        8.0,
+        3.85,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 66,
+      "name": "prop_convex_small_064_lbeam_-1_6_0_5",
+      "position_m": [
+        -1.6,
+        3.15,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 67,
+      "name": "prop_convex_small_065_lbeam_-1_6_1_4",
+      "position_m": [
+        -1.6,
+        3.15,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 68,
+      "name": "prop_convex_small_066_lbeam_-1_6_2_3",
+      "position_m": [
+        -1.6,
+        3.15,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 69,
+      "name": "prop_convex_small_067_lbeam_0_8_0_5",
+      "position_m": [
+        0.8,
+        3.15,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 70,
+      "name": "prop_convex_small_068_lbeam_0_8_1_4",
+      "position_m": [
+        0.8,
+        3.15,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 71,
+      "name": "prop_convex_small_069_lbeam_0_8_2_3",
+      "position_m": [
+        0.8,
+        3.15,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 72,
+      "name": "prop_convex_small_070_lbeam_3_2_0_5",
+      "position_m": [
+        3.2,
+        3.15,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 73,
+      "name": "prop_convex_small_071_lbeam_3_2_1_4",
+      "position_m": [
+        3.2,
+        3.15,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 74,
+      "name": "prop_convex_small_072_lbeam_3_2_2_3",
+      "position_m": [
+        3.2,
+        3.15,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 75,
+      "name": "prop_convex_small_073_lbeam_5_6_0_5",
+      "position_m": [
+        5.6,
+        3.15,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 76,
+      "name": "prop_convex_small_074_lbeam_5_6_1_4",
+      "position_m": [
+        5.6,
+        3.15,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 77,
+      "name": "prop_convex_small_075_lbeam_5_6_2_3",
+      "position_m": [
+        5.6,
+        3.15,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 78,
+      "name": "prop_convex_small_076_lbeam_8_0_0_5",
+      "position_m": [
+        8.0,
+        3.15,
+        0.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 79,
+      "name": "prop_convex_small_077_lbeam_8_0_1_4",
+      "position_m": [
+        8.0,
+        3.15,
+        1.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 80,
+      "name": "prop_convex_small_078_lbeam_8_0_2_3",
+      "position_m": [
+        8.0,
+        3.15,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.05,
+        0.03,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 81,
+      "name": "prop_convex_small_079_lbox_-1_6_0_5_0",
+      "position_m": [
+        -2.1,
+        3.5,
+        0.76
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 82,
+      "name": "prop_convex_small_080_lbox_-1_6_0_5_1",
+      "position_m": [
+        -1.15,
+        3.5,
+        0.72
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 83,
+      "name": "prop_convex_small_081_lbox_-1_6_1_4_0",
+      "position_m": [
+        -2.1,
+        3.5,
+        1.66
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 84,
+      "name": "prop_convex_small_082_lbox_-1_6_1_4_1",
+      "position_m": [
+        -1.15,
+        3.5,
+        1.62
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 85,
+      "name": "prop_convex_small_083_lbox_-1_6_2_3_0",
+      "position_m": [
+        -2.1,
+        3.5,
+        2.56
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 86,
+      "name": "prop_convex_small_084_lbox_-1_6_2_3_1",
+      "position_m": [
+        -1.15,
+        3.5,
+        2.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 87,
+      "name": "prop_convex_small_085_lbox_0_8_0_5_0",
+      "position_m": [
+        0.3,
+        3.5,
+        0.72
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 88,
+      "name": "prop_convex_small_086_lbox_0_8_0_5_1",
+      "position_m": [
+        1.25,
+        3.5,
+        0.76
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 89,
+      "name": "prop_convex_small_087_lbox_0_8_1_4_0",
+      "position_m": [
+        0.3,
+        3.5,
+        1.62
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 90,
+      "name": "prop_convex_small_088_lbox_0_8_1_4_1",
+      "position_m": [
+        1.25,
+        3.5,
+        1.66
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 91,
+      "name": "prop_convex_small_089_lbox_0_8_2_3_0",
+      "position_m": [
+        0.3,
+        3.5,
+        2.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 92,
+      "name": "prop_convex_small_090_lbox_0_8_2_3_1",
+      "position_m": [
+        1.25,
+        3.5,
+        2.56
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 93,
+      "name": "prop_convex_small_091_lbox_3_2_0_5_0",
+      "position_m": [
+        2.7,
+        3.5,
+        0.76
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 94,
+      "name": "prop_convex_small_092_lbox_3_2_0_5_1",
+      "position_m": [
+        3.65,
+        3.5,
+        0.72
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 95,
+      "name": "prop_convex_small_093_lbox_3_2_1_4_0",
+      "position_m": [
+        2.7,
+        3.5,
+        1.66
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 96,
+      "name": "prop_convex_small_094_lbox_3_2_1_4_1",
+      "position_m": [
+        3.65,
+        3.5,
+        1.62
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 97,
+      "name": "prop_convex_small_095_lbox_3_2_2_3_0",
+      "position_m": [
+        2.7,
+        3.5,
+        2.56
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 98,
+      "name": "prop_convex_small_096_lbox_3_2_2_3_1",
+      "position_m": [
+        3.65,
+        3.5,
+        2.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 99,
+      "name": "prop_convex_small_097_lbox_5_6_0_5_0",
+      "position_m": [
+        5.1,
+        3.5,
+        0.76
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 100,
+      "name": "prop_convex_small_098_lbox_5_6_0_5_1",
+      "position_m": [
+        6.05,
+        3.5,
+        0.72
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 101,
+      "name": "prop_convex_small_099_lbox_5_6_1_4_0",
+      "position_m": [
+        5.1,
+        3.5,
+        1.66
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 102,
+      "name": "prop_convex_small_100_lbox_5_6_1_4_1",
+      "position_m": [
+        6.05,
+        3.5,
+        1.62
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 103,
+      "name": "prop_convex_small_101_lbox_5_6_2_3_0",
+      "position_m": [
+        5.1,
+        3.5,
+        2.56
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 104,
+      "name": "prop_convex_small_102_lbox_5_6_2_3_1",
+      "position_m": [
+        6.05,
+        3.5,
+        2.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 105,
+      "name": "prop_convex_small_103_lbox_8_0_0_5_0",
+      "position_m": [
+        7.5,
+        3.5,
+        0.72
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 106,
+      "name": "prop_convex_small_104_lbox_8_0_0_5_1",
+      "position_m": [
+        8.45,
+        3.5,
+        0.76
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 107,
+      "name": "prop_convex_small_105_lbox_8_0_1_4_0",
+      "position_m": [
+        7.5,
+        3.5,
+        1.62
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 108,
+      "name": "prop_convex_small_106_lbox_8_0_1_4_1",
+      "position_m": [
+        8.45,
+        3.5,
+        1.66
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 109,
+      "name": "prop_convex_small_107_lbox_8_0_2_3_0",
+      "position_m": [
+        7.5,
+        3.5,
+        2.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 110,
+      "name": "prop_convex_small_108_lbox_8_0_2_3_1",
+      "position_m": [
+        8.45,
+        3.5,
+        2.56
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.36,
+        0.275,
+        0.22
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 111,
+      "name": "prop_convex_small_109_lpost_-1_6_-1_-1",
+      "position_m": [
+        -2.65,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 112,
+      "name": "prop_convex_small_110_lpost_-1_6_-1_1",
+      "position_m": [
+        -2.65,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 113,
+      "name": "prop_convex_small_111_lpost_-1_6_1_-1",
+      "position_m": [
+        -0.55,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 114,
+      "name": "prop_convex_small_112_lpost_-1_6_1_1",
+      "position_m": [
+        -0.55,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 115,
+      "name": "prop_convex_small_113_lpost_0_8_-1_-1",
+      "position_m": [
+        -0.25,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 116,
+      "name": "prop_convex_small_114_lpost_0_8_-1_1",
+      "position_m": [
+        -0.25,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 117,
+      "name": "prop_convex_small_115_lpost_0_8_1_-1",
+      "position_m": [
+        1.85,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 118,
+      "name": "prop_convex_small_116_lpost_0_8_1_1",
+      "position_m": [
+        1.85,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 119,
+      "name": "prop_convex_small_117_lpost_3_2_-1_-1",
+      "position_m": [
+        2.15,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 120,
+      "name": "prop_convex_small_118_lpost_3_2_-1_1",
+      "position_m": [
+        2.15,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 121,
+      "name": "prop_convex_small_119_lpost_3_2_1_-1",
+      "position_m": [
+        4.25,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 122,
+      "name": "prop_convex_small_120_lpost_3_2_1_1",
+      "position_m": [
+        4.25,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 123,
+      "name": "prop_convex_small_121_lpost_5_6_-1_-1",
+      "position_m": [
+        4.55,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 124,
+      "name": "prop_convex_small_122_lpost_5_6_-1_1",
+      "position_m": [
+        4.55,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 125,
+      "name": "prop_convex_small_123_lpost_5_6_1_-1",
+      "position_m": [
+        6.65,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 126,
+      "name": "prop_convex_small_124_lpost_5_6_1_1",
+      "position_m": [
+        6.65,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 127,
+      "name": "prop_convex_small_125_lpost_8_0_-1_-1",
+      "position_m": [
+        6.95,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 128,
+      "name": "prop_convex_small_126_lpost_8_0_-1_1",
+      "position_m": [
+        6.95,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 129,
+      "name": "prop_convex_small_127_lpost_8_0_1_-1",
+      "position_m": [
+        9.05,
+        3.15,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 130,
+      "name": "prop_convex_small_128_lpost_8_0_1_1",
+      "position_m": [
+        9.05,
+        3.85,
+        1.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.15,
+        1.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 131,
+      "name": "prop_convex_small_129_palbox2_2_2",
+      "position_m": [
+        2.25,
+        -3.06,
+        0.84
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.21,
+        0.17
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 132,
+      "name": "prop_convex_small_130_palbox2_5_2",
+      "position_m": [
+        5.25,
+        -2.86,
+        0.84
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.21,
+        0.17
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 133,
+      "name": "prop_convex_small_131_palbox_2_2",
+      "position_m": [
+        2.2,
+        -3.1,
+        0.395
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 134,
+      "name": "prop_convex_small_132_palbox_5_2",
+      "position_m": [
+        5.2,
+        -2.9,
+        0.395
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.275
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 135,
+      "name": "prop_convex_small_133_pallet_2_2",
+      "position_m": [
+        2.2,
+        -3.1,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 136,
+      "name": "prop_convex_small_134_pallet_5_2",
+      "position_m": [
+        5.2,
+        -2.9,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 137,
+      "name": "prop_convex_small_135_pk_body",
+      "position_m": [
+        -0.9,
+        2.55,
+        0.29
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.46,
+        0.29,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 138,
+      "name": "prop_convex_small_136_pk_deck",
+      "position_m": [
+        -0.9,
+        2.55,
+        0.3925
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.43,
+        0.26,
+        0.0125
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 139,
+      "name": "prop_convex_small_137_pk_skirt",
+      "position_m": [
+        -0.9,
+        2.55,
+        0.16
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.47,
+        0.3,
+        0.04
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 140,
+      "name": "prop_convex_small_138_pk_wheel_-1_-1",
+      "position_m": [
+        -1.2,
+        2.31,
+        0.096
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.035,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 141,
+      "name": "prop_convex_small_139_pk_wheel_-1_1",
+      "position_m": [
+        -1.2,
+        2.79,
+        0.096
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.035,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 142,
+      "name": "prop_convex_small_140_pk_wheel_1_-1",
+      "position_m": [
+        -0.6,
+        2.31,
+        0.096
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.035,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 143,
+      "name": "prop_convex_small_141_pk_wheel_1_1",
+      "position_m": [
+        -0.6,
+        2.79,
+        0.096
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        0.035,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 144,
+      "name": "prop_convex_small_142_post_-2_0_-1",
+      "position_m": [
+        9.0,
+        -2.45,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 145,
+      "name": "prop_convex_small_143_post_-2_0_1",
+      "position_m": [
+        9.0,
+        -1.55,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 146,
+      "name": "prop_convex_small_144_post_-4_6_-1",
+      "position_m": [
+        9.0,
+        -5.05,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 147,
+      "name": "prop_convex_small_145_post_-4_6_1",
+      "position_m": [
+        9.0,
+        -4.15,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 148,
+      "name": "prop_convex_small_146_post_2_0_-1",
+      "position_m": [
+        9.0,
+        1.55,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 149,
+      "name": "prop_convex_small_147_post_2_0_1",
+      "position_m": [
+        9.0,
+        2.45,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 150,
+      "name": "prop_convex_small_148_post_4_6_-1",
+      "position_m": [
+        9.0,
+        4.15,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 151,
+      "name": "prop_convex_small_149_post_4_6_1",
+      "position_m": [
+        9.0,
+        5.05,
+        1.5
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.17,
+        0.04,
+        1.5
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 152,
+      "name": "prop_convex_small_150_qbox1_0",
+      "position_m": [
+        10.6,
+        -2.3,
+        0.37
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.33,
+        0.3,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 153,
+      "name": "prop_convex_small_151_qbox1_1",
+      "position_m": [
+        12.4,
+        -3.0,
+        0.37
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.33,
+        0.3,
+        0.25
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 154,
+      "name": "prop_convex_small_152_qbox2_0",
+      "position_m": [
+        10.63,
+        -2.33,
+        0.8
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.25,
+        0.225,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 155,
+      "name": "prop_convex_small_153_qbox2_1",
+      "position_m": [
+        12.43,
+        -3.03,
+        0.8
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.25,
+        0.225,
+        0.18
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 156,
+      "name": "prop_convex_small_154_qpal_0",
+      "position_m": [
+        10.6,
+        -2.3,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 157,
+      "name": "prop_convex_small_155_qpal_1",
+      "position_m": [
+        12.4,
+        -3.0,
+        0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.45,
+        0.06
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 158,
+      "name": "prop_convex_small_156_rbox_-2_0_0_55",
+      "position_m": [
+        9.0,
+        -2.0,
+        0.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 159,
+      "name": "prop_convex_small_157_rbox_-2_0_1_55",
+      "position_m": [
+        9.0,
+        -2.0,
+        1.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 160,
+      "name": "prop_convex_small_158_rbox_-2_0_2_55",
+      "position_m": [
+        9.0,
+        -2.0,
+        2.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 161,
+      "name": "prop_convex_small_159_rbox_-4_6_0_55",
+      "position_m": [
+        9.0,
+        -4.6,
+        0.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 162,
+      "name": "prop_convex_small_160_rbox_-4_6_1_55",
+      "position_m": [
+        9.0,
+        -4.6,
+        1.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 163,
+      "name": "prop_convex_small_161_rbox_-4_6_2_55",
+      "position_m": [
+        9.0,
+        -4.6,
+        2.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 164,
+      "name": "prop_convex_small_162_rbox_2_0_0_55",
+      "position_m": [
+        9.0,
+        2.0,
+        0.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 165,
+      "name": "prop_convex_small_163_rbox_2_0_1_55",
+      "position_m": [
+        9.0,
+        2.0,
+        1.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 166,
+      "name": "prop_convex_small_164_rbox_2_0_2_55",
+      "position_m": [
+        9.0,
+        2.0,
+        2.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 167,
+      "name": "prop_convex_small_165_rbox_4_6_0_55",
+      "position_m": [
+        9.0,
+        4.6,
+        0.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 168,
+      "name": "prop_convex_small_166_rbox_4_6_1_55",
+      "position_m": [
+        9.0,
+        4.6,
+        1.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 169,
+      "name": "prop_convex_small_167_rbox_4_6_2_55",
+      "position_m": [
+        9.0,
+        4.6,
+        2.785
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.21,
+        0.275,
+        0.2
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 170,
+      "name": "prop_convex_small_168_wcol_-2",
+      "position_m": [
+        -2.0,
+        -12.05,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.15,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 171,
+      "name": "prop_convex_small_169_wcol_-8",
+      "position_m": [
+        -8.0,
+        -12.05,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.15,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 172,
+      "name": "prop_convex_small_170_wcol_14",
+      "position_m": [
+        14.0,
+        -12.05,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.15,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 173,
+      "name": "prop_convex_small_171_wcol_3",
+      "position_m": [
+        3.0,
+        -12.05,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.15,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 174,
+      "name": "prop_convex_small_172_wcol_9",
+      "position_m": [
+        9.0,
+        -12.05,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3,
+        0.15,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "rover_base",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 176,
+      "name": "__unnamed_geom_176",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.4,
+        0.25,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "rover_fl_wheel",
+      "contact_material": "contact_material_005",
+      "group": 0,
+      "id": 178,
+      "name": "rover_fl_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "rover_fr_wheel",
+      "contact_material": "contact_material_005",
+      "group": 0,
+      "id": 180,
+      "name": "rover_fr_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "rover_rl_wheel",
+      "contact_material": "contact_material_005",
+      "group": 0,
+      "id": 182,
+      "name": "rover_rl_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "rover_rr_wheel",
+      "contact_material": "contact_material_005",
+      "group": 0,
+      "id": 184,
+      "name": "rover_rr_wheel_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.12,
+        0.03,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    }
+  ],
+  "contact_material_classes": [
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.7,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_001",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.5,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_002",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_003",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.001,
+        "sliding": 0.5,
+        "torsional": 0.01
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_004",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.01,
+        "sliding": 1.4,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_005",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    }
+  ],
+  "control_loop": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_y_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_z_ctrl": [
+        -180.0,
+        180.0
+      ],
+      "base_pitch_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_roll_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_yaw_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "fl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "fr_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rr_wheel": [
+        -8.0,
+        8.0
+      ]
+    },
+    "benchmark_probe_command_hz": 1000.0,
+    "command_interface": "declared MuJoCo actuators only; probe has no qpos/qvel/model write access",
+    "physics_hz": 1000.0,
+    "record_hz": 30
+  },
+  "diagnostic_contract": {
+    "friction": {
+      "channels": [
+        "sliding/torsional/rolling coefficients",
+        "tangential contact force",
+        "Coulomb-cone utilization",
+        "contact-point tangential slip speed"
+      ],
+      "cone_utilization_failure": 1.25,
+      "cone_utilization_warning": 1.05,
+      "failure_minimum_dwell_s": 0.01,
+      "slip_is_diagnostic_not_global_failure": true,
+      "slip_speed_reporting_threshold_mps": 0.02
+    },
+    "kinematics": {
+      "channels": [
+        "body pose and twist",
+        "quaternion norm",
+        "joint position and velocity",
+        "finite-difference acceleration and jerk",
+        "joint-limit dwell"
+      ],
+      "joint_limit_tolerance": 0.0001,
+      "quaternion_norm_tolerance": 1e-06,
+      "violation_minimum_dwell_s": 0.01
+    },
+    "mechanics": {
+      "channels": [
+        "finite generalized state",
+        "positive body mass and principal inertia",
+        "normal and tangential contact force",
+        "penetration depth",
+        "generalized force-balance residual",
+        "constraint-force solver residual (diagnostic)",
+        "kinetic and potential energy"
+      ],
+      "force_balance_relative_tolerance": 1e-05,
+      "nonphysical_dynamic_bodies": []
+    }
+  },
+  "equalities": [],
+  "joints": [
+    {
+      "armature": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "rover_base",
+      "damping": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dof_address": 0,
+      "dof_width": 6,
+      "frictionloss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "limited": false,
+      "margin": 0.0,
+      "name": "rover_freejoint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 0,
+      "qpos_width": 7,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_FREE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_fl_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 6,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 1,
+      "limited": false,
+      "margin": 0.0,
+      "name": "fl_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 7,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_fr_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 7,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 2,
+      "limited": false,
+      "margin": 0.0,
+      "name": "fr_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 8,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_rl_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 8,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 3,
+      "limited": false,
+      "margin": 0.0,
+      "name": "rl_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 9,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "rover_rr_wheel",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 9,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 4,
+      "limited": false,
+      "margin": 0.0,
+      "name": "rr_wheel_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 10,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    }
+  ],
+  "physics_seed_perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.95
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "rover_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.05
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "rover_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.08
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.92
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "rover_base": 0.012
+      }
+    }
+  },
+  "provenance": {
+    "estimated_parameter_count": 0,
+    "note": "This profile indexes the frozen Dev15 runtime; unavailable pre-export authoring values are explicitly identified by provenance records.",
+    "parameter_status": "exact_from_frozen_runtime_model",
+    "semantic_contact_status": "exact_from_frozen_case_gold"
+  },
+  "resolved_contact_groups": {
+    "ground": {
+      "bodies": [],
+      "geoms": [
+        "floor_00"
+      ]
+    },
+    "rover_base": {
+      "bodies": [
+        "rover_base"
+      ],
+      "geoms": []
+    },
+    "rover_wheels": {
+      "bodies": [
+        "rover_fl_wheel",
+        "rover_fr_wheel",
+        "rover_rl_wheel",
+        "rover_rr_wheel"
+      ],
+      "geoms": []
+    },
+    "static_obstacles": {
+      "bodies": [],
+      "geoms": [
+        "prop_convex_small_000_barrel_0",
+        "prop_convex_small_001_barrel_1",
+        "prop_convex_small_002_barrel_2",
+        "prop_convex_small_003_beam_-2_0_0_55_-1",
+        "prop_convex_small_004_beam_-2_0_0_55_1",
+        "prop_convex_small_005_beam_-2_0_1_55_-1",
+        "prop_convex_small_006_beam_-2_0_1_55_1",
+        "prop_convex_small_007_beam_-2_0_2_55_-1",
+        "prop_convex_small_008_beam_-2_0_2_55_1",
+        "prop_convex_small_009_beam_-4_6_0_55_-1",
+        "prop_convex_small_010_beam_-4_6_0_55_1",
+        "prop_convex_small_011_beam_-4_6_1_55_-1",
+        "prop_convex_small_012_beam_-4_6_1_55_1",
+        "prop_convex_small_013_beam_-4_6_2_55_-1",
+        "prop_convex_small_014_beam_-4_6_2_55_1",
+        "prop_convex_small_015_beam_2_0_0_55_-1",
+        "prop_convex_small_016_beam_2_0_0_55_1",
+        "prop_convex_small_017_beam_2_0_1_55_-1",
+        "prop_convex_small_018_beam_2_0_1_55_1",
+        "prop_convex_small_019_beam_2_0_2_55_-1",
+        "prop_convex_small_020_beam_2_0_2_55_1",
+        "prop_convex_small_021_beam_4_6_0_55_-1",
+        "prop_convex_small_022_beam_4_6_0_55_1",
+        "prop_convex_small_023_beam_4_6_1_55_-1",
+        "prop_convex_small_024_beam_4_6_1_55_1",
+        "prop_convex_small_025_beam_4_6_2_55_-1",
+        "prop_convex_small_026_beam_4_6_2_55_1",
+        "prop_convex_small_027_blid_0",
+        "prop_convex_small_028_blid_1",
+        "prop_convex_small_029_blid_2",
+        "prop_convex_small_030_col_1_0_-5_4",
+        "prop_convex_small_031_col_1_0_5_6",
+        "prop_convex_small_032_col_12_5_0_0",
+        "prop_convex_small_033_col_7_0_5_6",
+        "prop_convex_small_034_cone_0",
+        "prop_convex_small_035_cone_1",
+        "prop_convex_small_036_conebase_0",
+        "prop_convex_small_037_conebase_1",
+        "prop_convex_small_038_dock",
+        "prop_convex_small_039_dock_led",
+        "prop_convex_small_040_fl_body",
+        "prop_convex_small_041_fl_cab",
+        "prop_convex_small_042_fl_fork_-1",
+        "prop_convex_small_043_fl_fork_1",
+        "prop_convex_small_044_fl_mast",
+        "prop_convex_small_045_fl_wheel_-1_-0_35",
+        "prop_convex_small_046_fl_wheel_-1_0_35",
+        "prop_convex_small_047_fl_wheel_1_-0_35",
+        "prop_convex_small_048_fl_wheel_1_0_35",
+        "prop_convex_small_049_lbeam2_-1_6_0_5",
+        "prop_convex_small_050_lbeam2_-1_6_1_4",
+        "prop_convex_small_051_lbeam2_-1_6_2_3",
+        "prop_convex_small_052_lbeam2_0_8_0_5",
+        "prop_convex_small_053_lbeam2_0_8_1_4",
+        "prop_convex_small_054_lbeam2_0_8_2_3",
+        "prop_convex_small_055_lbeam2_3_2_0_5",
+        "prop_convex_small_056_lbeam2_3_2_1_4",
+        "prop_convex_small_057_lbeam2_3_2_2_3",
+        "prop_convex_small_058_lbeam2_5_6_0_5",
+        "prop_convex_small_059_lbeam2_5_6_1_4",
+        "prop_convex_small_060_lbeam2_5_6_2_3",
+        "prop_convex_small_061_lbeam2_8_0_0_5",
+        "prop_convex_small_062_lbeam2_8_0_1_4",
+        "prop_convex_small_063_lbeam2_8_0_2_3",
+        "prop_convex_small_064_lbeam_-1_6_0_5",
+        "prop_convex_small_065_lbeam_-1_6_1_4",
+        "prop_convex_small_066_lbeam_-1_6_2_3",
+        "prop_convex_small_067_lbeam_0_8_0_5",
+        "prop_convex_small_068_lbeam_0_8_1_4",
+        "prop_convex_small_069_lbeam_0_8_2_3",
+        "prop_convex_small_070_lbeam_3_2_0_5",
+        "prop_convex_small_071_lbeam_3_2_1_4",
+        "prop_convex_small_072_lbeam_3_2_2_3",
+        "prop_convex_small_073_lbeam_5_6_0_5",
+        "prop_convex_small_074_lbeam_5_6_1_4",
+        "prop_convex_small_075_lbeam_5_6_2_3",
+        "prop_convex_small_076_lbeam_8_0_0_5",
+        "prop_convex_small_077_lbeam_8_0_1_4",
+        "prop_convex_small_078_lbeam_8_0_2_3",
+        "prop_convex_small_079_lbox_-1_6_0_5_0",
+        "prop_convex_small_080_lbox_-1_6_0_5_1",
+        "prop_convex_small_081_lbox_-1_6_1_4_0",
+        "prop_convex_small_082_lbox_-1_6_1_4_1",
+        "prop_convex_small_083_lbox_-1_6_2_3_0",
+        "prop_convex_small_084_lbox_-1_6_2_3_1",
+        "prop_convex_small_085_lbox_0_8_0_5_0",
+        "prop_convex_small_086_lbox_0_8_0_5_1",
+        "prop_convex_small_087_lbox_0_8_1_4_0",
+        "prop_convex_small_088_lbox_0_8_1_4_1",
+        "prop_convex_small_089_lbox_0_8_2_3_0",
+        "prop_convex_small_090_lbox_0_8_2_3_1",
+        "prop_convex_small_091_lbox_3_2_0_5_0",
+        "prop_convex_small_092_lbox_3_2_0_5_1",
+        "prop_convex_small_093_lbox_3_2_1_4_0",
+        "prop_convex_small_094_lbox_3_2_1_4_1",
+        "prop_convex_small_095_lbox_3_2_2_3_0",
+        "prop_convex_small_096_lbox_3_2_2_3_1",
+        "prop_convex_small_097_lbox_5_6_0_5_0",
+        "prop_convex_small_098_lbox_5_6_0_5_1",
+        "prop_convex_small_099_lbox_5_6_1_4_0",
+        "prop_convex_small_100_lbox_5_6_1_4_1",
+        "prop_convex_small_101_lbox_5_6_2_3_0",
+        "prop_convex_small_102_lbox_5_6_2_3_1",
+        "prop_convex_small_103_lbox_8_0_0_5_0",
+        "prop_convex_small_104_lbox_8_0_0_5_1",
+        "prop_convex_small_105_lbox_8_0_1_4_0",
+        "prop_convex_small_106_lbox_8_0_1_4_1",
+        "prop_convex_small_107_lbox_8_0_2_3_0",
+        "prop_convex_small_108_lbox_8_0_2_3_1",
+        "prop_convex_small_109_lpost_-1_6_-1_-1",
+        "prop_convex_small_110_lpost_-1_6_-1_1",
+        "prop_convex_small_111_lpost_-1_6_1_-1",
+        "prop_convex_small_112_lpost_-1_6_1_1",
+        "prop_convex_small_113_lpost_0_8_-1_-1",
+        "prop_convex_small_114_lpost_0_8_-1_1",
+        "prop_convex_small_115_lpost_0_8_1_-1",
+        "prop_convex_small_116_lpost_0_8_1_1",
+        "prop_convex_small_117_lpost_3_2_-1_-1",
+        "prop_convex_small_118_lpost_3_2_-1_1",
+        "prop_convex_small_119_lpost_3_2_1_-1",
+        "prop_convex_small_120_lpost_3_2_1_1",
+        "prop_convex_small_121_lpost_5_6_-1_-1",
+        "prop_convex_small_122_lpost_5_6_-1_1",
+        "prop_convex_small_123_lpost_5_6_1_-1",
+        "prop_convex_small_124_lpost_5_6_1_1",
+        "prop_convex_small_125_lpost_8_0_-1_-1",
+        "prop_convex_small_126_lpost_8_0_-1_1",
+        "prop_convex_small_127_lpost_8_0_1_-1",
+        "prop_convex_small_128_lpost_8_0_1_1",
+        "prop_convex_small_129_palbox2_2_2",
+        "prop_convex_small_130_palbox2_5_2",
+        "prop_convex_small_131_palbox_2_2",
+        "prop_convex_small_132_palbox_5_2",
+        "prop_convex_small_133_pallet_2_2",
+        "prop_convex_small_134_pallet_5_2",
+        "prop_convex_small_135_pk_body",
+        "prop_convex_small_136_pk_deck",
+        "prop_convex_small_137_pk_skirt",
+        "prop_convex_small_138_pk_wheel_-1_-1",
+        "prop_convex_small_139_pk_wheel_-1_1",
+        "prop_convex_small_140_pk_wheel_1_-1",
+        "prop_convex_small_141_pk_wheel_1_1",
+        "prop_convex_small_142_post_-2_0_-1",
+        "prop_convex_small_143_post_-2_0_1",
+        "prop_convex_small_144_post_-4_6_-1",
+        "prop_convex_small_145_post_-4_6_1",
+        "prop_convex_small_146_post_2_0_-1",
+        "prop_convex_small_147_post_2_0_1",
+        "prop_convex_small_148_post_4_6_-1",
+        "prop_convex_small_149_post_4_6_1",
+        "prop_convex_small_150_qbox1_0",
+        "prop_convex_small_151_qbox1_1",
+        "prop_convex_small_152_qbox2_0",
+        "prop_convex_small_153_qbox2_1",
+        "prop_convex_small_154_qpal_0",
+        "prop_convex_small_155_qpal_1",
+        "prop_convex_small_156_rbox_-2_0_0_55",
+        "prop_convex_small_157_rbox_-2_0_1_55",
+        "prop_convex_small_158_rbox_-2_0_2_55",
+        "prop_convex_small_159_rbox_-4_6_0_55",
+        "prop_convex_small_160_rbox_-4_6_1_55",
+        "prop_convex_small_161_rbox_-4_6_2_55",
+        "prop_convex_small_162_rbox_2_0_0_55",
+        "prop_convex_small_163_rbox_2_0_1_55",
+        "prop_convex_small_164_rbox_2_0_2_55",
+        "prop_convex_small_165_rbox_4_6_0_55",
+        "prop_convex_small_166_rbox_4_6_1_55",
+        "prop_convex_small_167_rbox_4_6_2_55",
+        "prop_convex_small_168_wcol_-2",
+        "prop_convex_small_169_wcol_-8",
+        "prop_convex_small_170_wcol_14",
+        "prop_convex_small_171_wcol_3",
+        "prop_convex_small_172_wcol_9",
+        "wall_00"
+      ]
+    }
+  },
+  "runtime_model": {
+    "bytes": 48857,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/runtime_model.xml",
+    "sha256": "c9c9774d85b62ef97bc00ea9094bdce4a451de30b38f56864fd6b5aa9229444a"
+  },
+  "schema_version": "simcode4d.dev15.physics-profile.v1",
+  "semantic_contact_policy": {
+    "allowed": [
+      [
+        "rover_wheels",
+        "ground"
+      ]
+    ],
+    "forbidden": [
+      [
+        "rover_base",
+        "static_obstacles"
+      ]
+    ],
+    "groups": {
+      "ground": {
+        "geoms": [
+          "floor_*"
+        ]
+      },
+      "rover_base": {
+        "bodies": [
+          "rover_base"
+        ]
+      },
+      "rover_wheels": {
+        "bodies": [
+          "rover_*_wheel"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "wall_*",
+          "prop_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "simulator": {
+    "dimensions": {
+      "nbody": 6,
+      "nequality": 0,
+      "ngeom": 185,
+      "njoint": 5,
+      "nq": 11,
+      "nu": 10,
+      "nv": 10
+    },
+    "model_name": "unnamed_model",
+    "name": "mujoco",
+    "options": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "density": 0.0,
+      "friction_cone": "mjCONE_ELLIPTIC",
+      "gravity_mps2": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": "mjINT_IMPLICITFAST",
+      "iterations": 100,
+      "jacobian": "mjJAC_AUTO",
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic_tesla": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_margin": 0.0,
+      "solver": "mjSOL_NEWTON",
+      "timestep_s": 0.001,
+      "tolerance": 1e-10,
+      "viscosity": 0.0,
+      "wind_mps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "runtime_version": "3.9.0"
+  },
+  "static_field": null,
+  "success_and_safety_thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_lateral_span_m": 0.3,
+    "maximum_terminal_speed_mps": 0.12,
+    "maximum_tilt_rad": 0.5,
+    "minimum_travel_m": 1.3,
+    "terminal_hold_s": 0.5
+  },
+  "world_id": "ins01-industrial-aisle"
+}

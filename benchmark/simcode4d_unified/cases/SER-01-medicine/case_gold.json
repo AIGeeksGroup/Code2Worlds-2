@@ -1,0 +1,201 @@
+{
+  "case_id": "SER-01-medicine",
+  "case_spec_sha256": "e5566554c3a7a72f80049d0379d5061204ca4025080be70c927a6e9589e7e6c2",
+  "contact_policy": {
+    "allowed": [
+      [
+        "gripper",
+        "medicine_pouch"
+      ],
+      [
+        "robot_wheels",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "robot_body",
+        "counter"
+      ],
+      [
+        "medicine_pouch",
+        "floor"
+      ]
+    ],
+    "groups": {
+      "counter": {
+        "geoms": [
+          "counter_*"
+        ]
+      },
+      "floor": {
+        "geoms": [
+          "floor"
+        ]
+      },
+      "gripper": {
+        "geoms": [
+          "gripper_*"
+        ]
+      },
+      "medicine_pouch": {
+        "bodies": [
+          "task_item"
+        ]
+      },
+      "robot_body": {
+        "geoms": [
+          "robot_base_collision",
+          "robot_body_collision"
+        ]
+      },
+      "robot_wheels": {
+        "geoms": [
+          "wheel_*_geom",
+          "caster_*_geom"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "approach",
+        "grasp"
+      ],
+      [
+        "grasp",
+        "transport"
+      ],
+      [
+        "transport",
+        "goal_hold"
+      ]
+    ],
+    "nodes": [
+      "approach",
+      "grasp",
+      "transport",
+      "goal_hold"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "free_body_poses": {
+      "robot": {
+        "quaternion_wxyz": [
+          0.9847265389,
+          0.0,
+          0.0,
+          -0.1741081342
+        ]
+      }
+    }
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": true,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "robot": 0.95
+      },
+      "body_mass_scale": {
+        "task_item": 0.95
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "robot": 1.05
+      },
+      "body_mass_scale": {
+        "task_item": 1.05
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "robot": 1.08
+      },
+      "body_mass_scale": {
+        "task_item": 0.9
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "robot": 0.92
+      },
+      "body_mass_scale": {
+        "task_item": 1.1
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.012
+      }
+    }
+  },
+  "regions": {
+    "goal": {
+      "max_xyz_m": [
+        -4.45,
+        -0.62,
+        1.75
+      ],
+      "min_xyz_m": [
+        -5.15,
+        -1.32,
+        1.15
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "The source animation retains the pouch at the grasp anchor; release is therefore not required in this development case.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_terminal_speed_mps": 0.1,
+    "minimum_transport_m": 2.5,
+    "terminal_hold_s": 0.5
+  }
+}

@@ -1,0 +1,8121 @@
+{
+  "schema": "code2worlds2.simready_manifest.v1",
+  "scene_id": "indoor3_hotel",
+  "source_blend": "/root/autodl-tmp/tpami/module_handoff_v3.0/deliverables/final_scene_revision_i04_2026-08-16/blends/indoor3_hotel_final_i04.blend",
+  "compiler_policy": {
+    "visual_mesh": "preserve original Blender asset",
+    "collision_mesh": "primitive/convex proxies for key fixtures and all interactive bodies",
+    "physical_attributes": [
+      "mass",
+      "friction",
+      "inertia",
+      "center_of_mass",
+      "restitution",
+      "material",
+      "joint_information"
+    ],
+    "settling": "MuJoCo gravity settling before rollout"
+  },
+  "objects": [
+    {
+      "name": "Ceiling_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          5.400000095367432
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.0,
+          -8.0,
+          5.320000171661377
+        ],
+        "max": [
+          7.0,
+          8.0,
+          5.480000019073486
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.400000095367432
+        ],
+        "half_size": [
+          7.0,
+          8.0,
+          0.07999992370605469
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ChairFactory_Hotel_-2.7_back",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.700000047683716,
+          0.47999998927116394,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.5500001907348633,
+          0.3499999940395355,
+          0.4299999475479126
+        ],
+        "max": [
+          -1.850000023841858,
+          0.6100000143051147,
+          1.6699999570846558
+        ],
+        "center": [
+          -2.7000001072883606,
+          0.48000000417232513,
+          1.0499999523162842
+        ],
+        "half_size": [
+          0.8500000834465027,
+          0.1300000101327896,
+          0.6200000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ChairFactory_Hotel_-2.7_seat",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.700000047683716,
+          -0.15000000596046448,
+          0.46000000834465027
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.5500001907348633,
+          -0.8500000238418579,
+          0.30000001192092896
+        ],
+        "max": [
+          -1.850000023841858,
+          0.5499999523162842,
+          0.6200000047683716
+        ],
+        "center": [
+          -2.7000001072883606,
+          -0.15000003576278687,
+          0.46000000834465027
+        ],
+        "half_size": [
+          0.8500000834465027,
+          0.699999988079071,
+          0.1599999964237213
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ChairFactory_Hotel_-5.3_back",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.300000190734863,
+          0.47999998927116394,
+          1.0499999523162842
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.150000095367432,
+          0.3499999940395355,
+          0.4299999475479126
+        ],
+        "max": [
+          -4.450000286102295,
+          0.6100000143051147,
+          1.6699999570846558
+        ],
+        "center": [
+          -5.300000190734863,
+          0.48000000417232513,
+          1.0499999523162842
+        ],
+        "half_size": [
+          0.8499999046325684,
+          0.1300000101327896,
+          0.6200000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ChairFactory_Hotel_-5.3_seat",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.300000190734863,
+          -0.15000000596046448,
+          0.46000000834465027
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.150000095367432,
+          -0.8500000238418579,
+          0.30000001192092896
+        ],
+        "max": [
+          -4.450000286102295,
+          0.5499999523162842,
+          0.6200000047683716
+        ],
+        "center": [
+          -5.300000190734863,
+          -0.15000003576278687,
+          0.46000000834465027
+        ],
+        "half_size": [
+          0.8499999046325684,
+          0.699999988079071,
+          0.1599999964237213
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "CoffeeTableFactory_Hotel",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.0,
+          -0.20000000298023224,
+          0.36000001430511475
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.720000267028809,
+          -0.9200000166893005,
+          0.0
+        ],
+        "max": [
+          -3.2799999713897705,
+          0.5200000405311584,
+          0.7200000286102295
+        ],
+        "center": [
+          -4.0000001192092896,
+          -0.19999998807907104,
+          0.36000001430511475
+        ],
+        "half_size": [
+          0.720000147819519,
+          0.7200000286102295,
+          0.36000001430511475
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "elevator_frame_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.5999999046325684,
+          7.599999904632568,
+          3.180000066757202
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.4799998998641968,
+          7.5,
+          3.1000001430511475
+        ],
+        "max": [
+          3.7199997901916504,
+          7.699999809265137,
+          3.259999990463257
+        ],
+        "center": [
+          2.5999998450279236,
+          7.599999904632568,
+          3.180000066757202
+        ],
+        "half_size": [
+          1.1199999451637268,
+          0.09999990463256836,
+          0.07999992370605469
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "elevator_frame_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.099999904632568,
+          7.599999904632568,
+          3.180000066757202
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.9800000190734863,
+          7.5,
+          3.1000001430511475
+        ],
+        "max": [
+          6.21999979019165,
+          7.699999809265137,
+          3.259999990463257
+        ],
+        "center": [
+          5.099999904632568,
+          7.599999904632568,
+          3.180000066757202
+        ],
+        "half_size": [
+          1.119999885559082,
+          0.09999990463256836,
+          0.07999992370605469
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ElevatorDoor_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.5999999046325684,
+          7.71999979019165,
+          1.5499999523162842
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.5999999046325684,
+          7.639999866485596,
+          0.0
+        ],
+        "max": [
+          3.5999999046325684,
+          7.799999713897705,
+          3.0999999046325684
+        ],
+        "center": [
+          2.5999999046325684,
+          7.71999979019165,
+          1.5499999523162842
+        ],
+        "half_size": [
+          1.0,
+          0.07999992370605469,
+          1.5499999523162842
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ElevatorDoor_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.099999904632568,
+          7.71999979019165,
+          1.5499999523162842
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          4.099999904632568,
+          7.639999866485596,
+          0.0
+        ],
+        "max": [
+          6.099999904632568,
+          7.799999713897705,
+          3.0999999046325684
+        ],
+        "center": [
+          5.099999904632568,
+          7.71999979019165,
+          1.5499999523162842
+        ],
+        "half_size": [
+          1.0,
+          0.07999992370605469,
+          1.5499999523162842
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "floor_lane_hotel_runner",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.200000047683716,
+          2.75,
+          0.012000000104308128
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.9500000476837158,
+          -1.5999999046325684,
+          -0.0020000003278255463
+        ],
+        "max": [
+          3.450000047683716,
+          7.099999904632568,
+          0.026000000536441803
+        ],
+        "center": [
+          2.200000047683716,
+          2.75,
+          0.012000000104308128
+        ],
+        "half_size": [
+          1.25,
+          4.349999904632568,
+          0.014000000432133675
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Floor_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.0,
+          -8.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          7.0,
+          8.0,
+          0.0
+        ],
+        "center": [
+          0.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        "half_size": [
+          7.0,
+          8.0,
+          0.10000000149011612
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_air_vent_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0,
+          -0.800000011920929,
+          5.275000095367432
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.5999999046325684,
+          -1.1800000667572021,
+          5.256999969482422
+        ],
+        "max": [
+          -2.4000000953674316,
+          -0.42000001668930054,
+          5.293000221252441
+        ],
+        "center": [
+          -3.0,
+          -0.8000000417232513,
+          5.275000095367432
+        ],
+        "half_size": [
+          0.5999999046325684,
+          0.3800000250339508,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_air_vent_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.200000047683716,
+          3.299999952316284,
+          5.275000095367432
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.5999999046325684,
+          2.9200000762939453,
+          5.256999969482422
+        ],
+        "max": [
+          3.8000001907348633,
+          3.679999828338623,
+          5.293000221252441
+        ],
+        "center": [
+          3.200000047683716,
+          3.299999952316284,
+          5.275000095367432
+        ],
+        "half_size": [
+          0.6000001430511475,
+          0.37999987602233887,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_baseboard_back",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          7.869999885559082,
+          0.10499999672174454
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.849999904632568,
+          7.824999809265137,
+          0.0
+        ],
+        "max": [
+          6.849999904632568,
+          7.914999961853027,
+          0.20999999344348907
+        ],
+        "center": [
+          0.0,
+          7.869999885559082,
+          0.10499999672174454
+        ],
+        "half_size": [
+          6.849999904632568,
+          0.04500007629394531,
+          0.10499999672174454
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_baseboard_side_-1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.914999961853027,
+          -7.849999904632568,
+          0.0
+        ],
+        "max": [
+          -6.824999809265137,
+          7.849999904632568,
+          0.20999999344348907
+        ],
+        "center": [
+          -6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "half_size": [
+          0.04500007629394531,
+          7.849999904632568,
+          0.10499999672174454
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_baseboard_side_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.824999809265137,
+          -7.849999904632568,
+          0.0
+        ],
+        "max": [
+          6.914999961853027,
+          7.849999904632568,
+          0.20999999344348907
+        ],
+        "center": [
+          6.869999885559082,
+          0.0,
+          0.10499999672174454
+        ],
+        "half_size": [
+          0.04500007629394531,
+          7.849999904632568,
+          0.10499999672174454
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_x_-3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.0179998874664307,
+          -7.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          -2.9820001125335693,
+          7.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          -3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.017999887466430664,
+          7.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_x_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.01800012588501,
+          -7.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          -5.98199987411499,
+          7.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          -6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.018000125885009766,
+          7.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_x_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.017999999225139618,
+          -7.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          0.017999999225139618,
+          7.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.017999999225139618,
+          7.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_x_3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.9820001125335693,
+          -7.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          3.0179998874664307,
+          7.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          3.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.017999887466430664,
+          7.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_x_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.98199987411499,
+          -7.800000190734863,
+          5.2769999504089355
+        ],
+        "max": [
+          6.01800012588501,
+          7.800000190734863,
+          5.313000202178955
+        ],
+        "center": [
+          6.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          0.018000125885009766,
+          7.800000190734863,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_y_-3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -3.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -3.0179998874664307,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          -2.9820001125335693,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          -3.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.017999887466430664,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_y_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -6.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -6.01800012588501,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          -5.98199987411499,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          -6.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.018000125885009766,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_y_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -0.017999999225139618,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          0.017999999225139618,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.017999999225139618,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_y_3",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          3.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          2.9820001125335693,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          3.0179998874664307,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          3.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.017999887466430664,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_ceiling_grid_y_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          6.0,
+          5.295000076293945
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          5.98199987411499,
+          5.2769999504089355
+        ],
+        "max": [
+          6.800000190734863,
+          6.01800012588501,
+          5.313000202178955
+        ],
+        "center": [
+          0.0,
+          6.0,
+          5.295000076293945
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.018000125885009766,
+          0.018000125885009766
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_fire_panel",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.820000171661377,
+          6.400000095367432,
+          1.4500000476837158
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.855000019073486,
+          6.119999885559082,
+          1.03000009059906
+        ],
+        "max": [
+          -6.785000324249268,
+          6.680000305175781,
+          1.8700000047683716
+        ],
+        "center": [
+          -6.820000171661377,
+          6.400000095367432,
+          1.4500000476837158
+        ],
+        "half_size": [
+          0.034999847412109375,
+          0.2800002098083496,
+          0.41999995708465576
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_-2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.007999897003174,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          -1.9919999837875366,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          -1.9999999403953552,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999956607818604,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_-4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.007999897003174,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          -3.992000102996826,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          -4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.007999897003174,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          -5.992000102996826,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          -6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.00800000037997961,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          0.00800000037997961,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.00800000037997961,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9919999837875366,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          2.007999897003174,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          1.9999999403953552,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999956607818604,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.992000102996826,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          4.007999897003174,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_x_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.992000102996826,
+          -7.800000190734863,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.007999897003174,
+          7.800000190734863,
+          0.013000000268220901
+        ],
+        "center": [
+          6.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          0.007999897003173828,
+          7.800000190734863,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_-2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -2.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -2.007999897003174,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          -1.9919999837875366,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          -1.9999999403953552,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999956607818604,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_-4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -4.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -4.007999897003174,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          -3.992000102996826,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          -4.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_-6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -6.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -6.007999897003174,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          -5.992000102996826,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          -6.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          -0.00800000037997961,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          0.00800000037997961,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.00800000037997961,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          2.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          1.9919999837875366,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          2.007999897003174,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          1.9999999403953552,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999956607818604,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_4",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          4.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          3.992000102996826,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          4.007999897003174,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          4.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_joint_y_6",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          6.0,
+          0.006000000052154064
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.800000190734863,
+          5.992000102996826,
+          -0.0010000001639127731
+        ],
+        "max": [
+          6.800000190734863,
+          6.007999897003174,
+          0.013000000268220901
+        ],
+        "center": [
+          0.0,
+          6.0,
+          0.006000000052154064
+        ],
+        "half_size": [
+          6.800000190734863,
+          0.007999897003173828,
+          0.007000000216066837
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_00",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.4752631187438965,
+          6.3165483474731445,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.4625990688800812,
+          0.0,
+          0.0,
+          0.8865675926208496
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.539050579071045,
+          6.227659225463867,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.411475658416748,
+          6.405437469482422,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.4752631187438965,
+          6.3165483474731445,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06378746032714844,
+          0.08888912200927734,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_01",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.7011022567749023,
+          2.6264827251434326,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9277527332305908,
+          0.0,
+          0.0,
+          -0.37319549918174744
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.672764778137207,
+          2.598491907119751,
+          0.015000000596046448
+        ],
+        "max": [
+          2.7294397354125977,
+          2.6544735431671143,
+          0.01900000125169754
+        ],
+        "center": [
+          2.7011022567749023,
+          2.6264827251434326,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.028337478637695312,
+          0.02799081802368164,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_02",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.8626301288604736,
+          0.5263701677322388,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8746512532234192,
+          0.0,
+          0.0,
+          -0.48475274443626404
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.8042750358581543,
+          0.44354379177093506,
+          0.015000000596046448
+        ],
+        "max": [
+          3.920985221862793,
+          0.6091965436935425,
+          0.01900000125169754
+        ],
+        "center": [
+          3.8626301288604736,
+          0.5263701677322388,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.058355093002319336,
+          0.08282637596130371,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_03",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.1386373043060303,
+          6.8471879959106445,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.3124351501464844,
+          -0.0,
+          -0.0,
+          -0.9499390721321106
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.0486092567443848,
+          6.775320529937744,
+          0.015000000596046448
+        ],
+        "max": [
+          2.228665351867676,
+          6.919055461883545,
+          0.01900000125169754
+        ],
+        "center": [
+          2.1386373043060303,
+          6.8471879959106445,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.09002804756164551,
+          0.07186746597290039,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_04",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.772233486175537,
+          5.05608606338501,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.7108690142631531,
+          0.0,
+          0.0,
+          0.7033243775367737
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.7671499252319336,
+          5.005100727081299,
+          0.015000000596046448
+        ],
+        "max": [
+          1.7773170471191406,
+          5.107071399688721,
+          0.01900000125169754
+        ],
+        "center": [
+          1.772233486175537,
+          5.05608606338501,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.005083560943603516,
+          0.05098533630371094,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_05",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.7991435527801514,
+          6.798940181732178,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9698024988174438,
+          0.0,
+          0.0,
+          0.243891641497612
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.7557634711265564,
+          6.772470951080322,
+          0.015000000596046448
+        ],
+        "max": [
+          0.8425236344337463,
+          6.825409412384033,
+          0.01900000125169754
+        ],
+        "center": [
+          0.7991435527801514,
+          6.798940181732178,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.04338008165359497,
+          0.02646923065185547,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_06",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.345747947692871,
+          2.164499282836914,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.39061248302459717,
+          -0.0,
+          -0.0,
+          -0.9205552339553833
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          4.316320419311523,
+          2.1344411373138428,
+          0.015000000596046448
+        ],
+        "max": [
+          4.375175476074219,
+          2.1945574283599854,
+          0.01900000125169754
+        ],
+        "center": [
+          4.345747947692871,
+          2.164499282836914,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.029427528381347656,
+          0.03005814552307129,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_07",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.2016185522079468,
+          4.0643086433410645,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.6524448990821838,
+          -0.0,
+          -0.0,
+          -0.7578361630439758
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.2213705778121948,
+          4.0000081062316895,
+          0.015000000596046448
+        ],
+        "max": [
+          -1.1818665266036987,
+          4.1286091804504395,
+          0.01900000125169754
+        ],
+        "center": [
+          -1.2016185522079468,
+          4.0643086433410645,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.019752025604248047,
+          0.064300537109375,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_08",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.22025737166404724,
+          7.152335166931152,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8255713582038879,
+          0.0,
+          0.0,
+          0.5642977952957153
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.19169585406780243,
+          7.094611644744873,
+          0.015000000596046448
+        ],
+        "max": [
+          0.24881888926029205,
+          7.210058689117432,
+          0.01900000125169754
+        ],
+        "center": [
+          0.22025737166404724,
+          7.152335166931152,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.028561517596244812,
+          0.0577235221862793,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_09",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.8531174659729,
+          -6.4704084396362305,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9459869861602783,
+          0.0,
+          0.0,
+          0.32420477271080017
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          4.783607482910156,
+          -6.527909278869629,
+          0.015000000596046448
+        ],
+        "max": [
+          4.9226274490356445,
+          -6.412907600402832,
+          0.01900000125169754
+        ],
+        "center": [
+          4.8531174659729,
+          -6.4704084396362305,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06950998306274414,
+          0.05750083923339844,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_10",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.1643272042274475,
+          2.6332356929779053,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.444760799407959,
+          -0.0,
+          -0.0,
+          -0.8956493735313416
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.0999775305390358,
+          2.55155086517334,
+          0.015000000596046448
+        ],
+        "max": [
+          0.22867688536643982,
+          2.7149205207824707,
+          0.01900000125169754
+        ],
+        "center": [
+          0.1643272079527378,
+          2.6332356929779053,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.06434967741370201,
+          0.08168482780456543,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_11",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.464435577392578,
+          0.7612802386283875,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9963549375534058,
+          0.0,
+          0.0,
+          0.08530478924512863
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.511075019836426,
+          0.7439944744110107,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.4177961349487305,
+          0.7785660028457642,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.464435577392578,
+          0.7612802386283875,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.046639442443847656,
+          0.01728576421737671,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_12",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.7930938601493835,
+          1.839040994644165,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.6371902823448181,
+          0.0,
+          0.0,
+          0.7707065343856812
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.8163710832595825,
+          1.768656611442566,
+          0.015000000596046448
+        ],
+        "max": [
+          -0.7698166370391846,
+          1.9094253778457642,
+          0.01900000125169754
+        ],
+        "center": [
+          -0.7930938601493835,
+          1.839040994644165,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.023277223110198975,
+          0.07038438320159912,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_13",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.6270668506622314,
+          -6.916113376617432,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9470155835151672,
+          0.0,
+          0.0,
+          -0.3211875855922699
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.7132396697998047,
+          -6.984884738922119,
+          0.015000000596046448
+        ],
+        "max": [
+          -1.5408940315246582,
+          -6.847342014312744,
+          0.01900000125169754
+        ],
+        "center": [
+          -1.6270668506622314,
+          -6.916113376617432,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.08617281913757324,
+          0.0687713623046875,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_14",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.805806636810303,
+          1.1382455825805664,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.9797180891036987,
+          0.0,
+          0.0,
+          0.20038069784641266
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.894039154052734,
+          1.0968912839889526,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.717574119567871,
+          1.1795998811721802,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.805806636810303,
+          1.1382455825805664,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.08823251724243164,
+          0.04135429859161377,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_15",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.74337100982666,
+          -1.1718873977661133,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.22405527532100677,
+          0.0,
+          0.0,
+          0.9745764136314392
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.783288478851318,
+          -1.2000432014465332,
+          0.015000000596046448
+        ],
+        "max": [
+          -5.703453540802002,
+          -1.1437315940856934,
+          0.01900000125169754
+        ],
+        "center": [
+          -5.74337100982666,
+          -1.1718873977661133,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.0399174690246582,
+          0.028155803680419922,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_16",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.40623974800109863,
+          -2.0590293407440186,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.20565178990364075,
+          -0.0,
+          -0.0,
+          -0.9786252379417419
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.32053643465042114,
+          -2.1068477630615234,
+          0.015000000596046448
+        ],
+        "max": [
+          0.4919430613517761,
+          -2.0112109184265137,
+          0.01900000125169754
+        ],
+        "center": [
+          0.40623974800109863,
+          -2.0590293407440186,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.08570331335067749,
+          0.04781842231750488,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.21716848015785217,
+          3.3501203060150146,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.35919439792633057,
+          0.0,
+          0.0,
+          0.9332627654075623
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.29739394783973694,
+          3.2768170833587646,
+          0.015000000596046448
+        ],
+        "max": [
+          -0.1369430124759674,
+          3.4234235286712646,
+          0.01900000125169754
+        ],
+        "center": [
+          -0.21716848015785217,
+          3.3501203060150146,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.08022546768188477,
+          0.07330322265625,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_18",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.3859574794769287,
+          1.571118712425232,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8413481712341309,
+          0.0,
+          0.0,
+          -0.5404935479164124
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.438488721847534,
+          1.4779263734817505,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.3334262371063232,
+          1.6643110513687134,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.3859574794769287,
+          1.571118712425232,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.05253124237060547,
+          0.09319233894348145,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_19",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.6525614261627197,
+          -1.9582529067993164,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.14424996078014374,
+          -0.0,
+          -0.0,
+          -0.9895412921905518
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.6054046154022217,
+          -1.985804796218872,
+          0.015000000596046448
+        ],
+        "max": [
+          2.6997182369232178,
+          -1.9307010173797607,
+          0.01900000125169754
+        ],
+        "center": [
+          2.6525614261627197,
+          -1.9582529067993164,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.04715681076049805,
+          0.027551889419555664,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_20",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.022314071655273,
+          -6.792721748352051,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8643495440483093,
+          0.0,
+          0.0,
+          -0.502891480922699
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.968771457672119,
+          -6.8795905113220215,
+          0.015000000596046448
+        ],
+        "max": [
+          6.075856685638428,
+          -6.70585298538208,
+          0.01900000125169754
+        ],
+        "center": [
+          6.022314071655273,
+          -6.792721748352051,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.0535426139831543,
+          0.0868687629699707,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_21",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.292052268981934,
+          1.0661838054656982,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.6423259973526001,
+          -0.0,
+          -0.0,
+          -0.7664315700531006
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.321321964263916,
+          0.9760398864746094,
+          0.015000000596046448
+        ],
+        "max": [
+          -6.262782573699951,
+          1.156327724456787,
+          0.01900000125169754
+        ],
+        "center": [
+          -6.292052268981934,
+          1.0661838054656982,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.029269695281982422,
+          0.09014391899108887,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_22",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.167843818664551,
+          -6.856425762176514,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.5528597831726074,
+          -0.0,
+          -0.0,
+          -0.8332743048667908
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.1925268173217773,
+          -6.894440174102783,
+          0.015000000596046448
+        ],
+        "max": [
+          -3.143160820007324,
+          -6.818411350250244,
+          0.01900000125169754
+        ],
+        "center": [
+          -3.167843818664551,
+          -6.856425762176514,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.024682998657226562,
+          0.03801441192626953,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_23",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.43121862411499,
+          -5.794994354248047,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.8505682349205017,
+          0.0,
+          0.0,
+          0.5258646607398987
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.450322151184082,
+          -5.825105667114258,
+          0.015000000596046448
+        ],
+        "max": [
+          -4.412115097045898,
+          -5.764883041381836,
+          0.01900000125169754
+        ],
+        "center": [
+          -4.43121862411499,
+          -5.794994354248047,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.019103527069091797,
+          0.030111312866210938,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_24",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.3171894550323486,
+          0.8067352175712585,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.6861063241958618,
+          -0.0,
+          -0.0,
+          -0.727501392364502
+        ],
+        "scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.3012255430221558,
+          0.7549857497215271,
+          0.015000000596046448
+        ],
+        "max": [
+          1.3331533670425415,
+          0.85848468542099,
+          0.01900000125169754
+        ],
+        "center": [
+          1.3171894550323486,
+          0.8067352175712585,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.01596391201019287,
+          0.051749467849731445,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_floor_scuff_25",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.579063653945923,
+          1.9834794998168945,
+          0.017000000923871994
+        ],
+        "quat_wxyz": [
+          0.45911991596221924,
+          -0.0,
+          -0.0,
+          -0.8883742690086365
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.5198423862457275,
+          1.906225562095642,
+          0.015000000596046448
+        ],
+        "max": [
+          2.638284921646118,
+          2.0607333183288574,
+          0.01900000125169754
+        ],
+        "center": [
+          2.579063653945923,
+          1.9834794402122498,
+          0.017000000923871994
+        ],
+        "half_size": [
+          0.05922126770019531,
+          0.07725387811660767,
+          0.0020000003278255463
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "floor_or_soil",
+      "mass_kg": 0.0,
+      "friction": [
+        0.9,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_keycard_terminal",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.25,
+          3.049999952316284,
+          1.5199999809265137
+        ],
+        "quat_wxyz": [
+          0.9961947798728943,
+          -0.08715573698282242,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          0.9999999403953552,
+          0.9999999403953552
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.429999828338623,
+          2.910985231399536,
+          1.3809852600097656
+        ],
+        "max": [
+          -4.070000171661377,
+          3.1890146732330322,
+          1.6590147018432617
+        ],
+        "center": [
+          -4.25,
+          3.049999952316284,
+          1.5199999809265137
+        ],
+        "half_size": [
+          0.17999982833862305,
+          0.13901472091674805,
+          0.13901472091674805
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_luggage_cart_base",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.4000000059604645,
+          4.900000095367432,
+          0.25
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.9800000190734863,
+          4.599999904632568,
+          0.20499999821186066
+        ],
+        "max": [
+          0.17999997735023499,
+          5.200000286102295,
+          0.29500001668930054
+        ],
+        "center": [
+          -0.40000002086162567,
+          4.900000095367432,
+          0.2500000074505806
+        ],
+        "half_size": [
+          0.5799999982118607,
+          0.3000001907348633,
+          0.04500000923871994
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_luggage_cart_post_-0.48",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.8799999952316284,
+          4.900000095367432,
+          0.8199999928474426
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.9150000214576721,
+          4.865000247955322,
+          0.19499999284744263
+        ],
+        "max": [
+          -0.8449999690055847,
+          4.934999942779541,
+          1.4449999332427979
+        ],
+        "center": [
+          -0.8799999952316284,
+          4.900000095367432,
+          0.8199999630451202
+        ],
+        "half_size": [
+          0.0350000262260437,
+          0.034999847412109375,
+          0.6249999701976776
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_luggage_cart_post_0.48",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.07999999821186066,
+          4.900000095367432,
+          0.8199999928474426
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.044999998062849045,
+          4.865000247955322,
+          0.19499999284744263
+        ],
+        "max": [
+          0.11499999463558197,
+          4.934999942779541,
+          1.4449999332427979
+        ],
+        "center": [
+          0.07999999634921551,
+          4.900000095367432,
+          0.8199999630451202
+        ],
+        "half_size": [
+          0.03499999828636646,
+          0.034999847412109375,
+          0.6249999701976776
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_luggage_cart_top",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.4000000059604645,
+          4.900000095367432,
+          1.4600000381469727
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.9800000190734863,
+          4.849999904632568,
+          1.4250000715255737
+        ],
+        "max": [
+          0.17999997735023499,
+          4.950000286102295,
+          1.4950000047683716
+        ],
+        "center": [
+          -0.40000002086162567,
+          4.900000095367432,
+          1.4600000381469727
+        ],
+        "half_size": [
+          0.5799999982118607,
+          0.05000019073486328,
+          0.034999966621398926
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_luggage_cart_wheel_-0.48",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -0.8799999952316284,
+          4.900000095367432,
+          0.1599999964237213
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.9900000095367432,
+          4.865000247955322,
+          0.04999999701976776
+        ],
+        "max": [
+          -0.7699999809265137,
+          4.934999942779541,
+          0.27000001072883606
+        ],
+        "center": [
+          -0.8799999952316284,
+          4.900000095367432,
+          0.1600000038743019
+        ],
+        "half_size": [
+          0.11000001430511475,
+          0.034999847412109375,
+          0.11000000685453415
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "rubber",
+      "mass_kg": 0.0,
+      "friction": [
+        1.2,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.02,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_luggage_cart_wheel_0.48",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.07999999821186066,
+          4.900000095367432,
+          0.1599999964237213
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.030000001192092896,
+          4.865000247955322,
+          0.04999999701976776
+        ],
+        "max": [
+          0.1899999976158142,
+          4.934999942779541,
+          0.27000001072883606
+        ],
+        "center": [
+          0.07999999821186066,
+          4.900000095367432,
+          0.1600000038743019
+        ],
+        "half_size": [
+          0.10999999940395355,
+          0.034999847412109375,
+          0.11000000685453415
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "rubber",
+      "mass_kg": 0.0,
+      "friction": [
+        1.2,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.02,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_reception_bell",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.25,
+          3.0799999237060547,
+          1.5
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.3499999046325684,
+          2.9800000190734863,
+          1.4600000381469727
+        ],
+        "max": [
+          -2.1500000953674316,
+          3.179999828338623,
+          1.5399999618530273
+        ],
+        "center": [
+          -2.25,
+          3.0799999237060547,
+          1.5
+        ],
+        "half_size": [
+          0.09999990463256836,
+          0.09999990463256836,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_reception_bell_dome",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.25,
+          3.0799999237060547,
+          1.559999942779541
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.359999895095825,
+          2.9700000286102295,
+          1.4499999284744263
+        ],
+        "max": [
+          -2.140000104904175,
+          3.18999981880188,
+          1.6699999570846558
+        ],
+        "center": [
+          -2.25,
+          3.0799999237060547,
+          1.559999942779541
+        ],
+        "half_size": [
+          0.1099998950958252,
+          0.1099998950958252,
+          0.11000001430511475
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_security_camera",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.519999980926514,
+          7.519999980926514,
+          4.760000228881836
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.659999847412109,
+          7.380000114440918,
+          4.62000036239624
+        ],
+        "max": [
+          -6.380000114440918,
+          7.659999847412109,
+          4.900000095367432
+        ],
+        "center": [
+          -6.519999980926514,
+          7.519999980926514,
+          4.760000228881836
+        ],
+        "half_size": [
+          0.1399998664855957,
+          0.1399998664855957,
+          0.1399998664855957
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_security_camera_mount",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.679999828338623,
+          7.650000095367432,
+          4.849999904632568
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.0,
+          0.7071067690849304,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.789999961853027,
+          7.550000190734863,
+          4.75
+        ],
+        "max": [
+          -6.569999694824219,
+          7.75,
+          4.949999809265137
+        ],
+        "center": [
+          -6.679999828338623,
+          7.650000095367432,
+          4.849999904632568
+        ],
+        "half_size": [
+          0.1100001335144043,
+          0.09999990463256836,
+          0.09999990463256836
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_sprinkler_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -1.5,
+          -2.0,
+          5.230000019073486
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.5549999475479126,
+          -2.055000066757202,
+          5.190000057220459
+        ],
+        "max": [
+          -1.4450000524520874,
+          -1.9450000524520874,
+          5.269999980926514
+        ],
+        "center": [
+          -1.5,
+          -2.0000000596046448,
+          5.230000019073486
+        ],
+        "half_size": [
+          0.0549999475479126,
+          0.05500000715255737,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_sprinkler_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.0,
+          1.5,
+          5.230000019073486
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9450000524520874,
+          1.4450000524520874,
+          5.190000057220459
+        ],
+        "max": [
+          2.055000066757202,
+          1.5549999475479126,
+          5.269999980926514
+        ],
+        "center": [
+          2.0000000596046448,
+          1.5,
+          5.230000019073486
+        ],
+        "half_size": [
+          0.05500000715255737,
+          0.0549999475479126,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_sprinkler_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.5,
+          4.0,
+          5.230000019073486
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -4.554999828338623,
+          3.944999933242798,
+          5.190000057220459
+        ],
+        "max": [
+          -4.445000171661377,
+          4.054999828338623,
+          5.269999980926514
+        ],
+        "center": [
+          -4.5,
+          3.9999998807907104,
+          5.230000019073486
+        ],
+        "half_size": [
+          0.05499982833862305,
+          0.0549999475479126,
+          0.039999961853027344
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_0_-0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.1700000762939453,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.187999963760376,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -3.1520001888275146,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -3.1700000762939453,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_0_-0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.3499999046325684,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.367999792098999,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -3.3320000171661377,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -3.3499999046325684,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_0_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.0,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.0179998874664307,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -2.9820001125335693,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -3.0,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_0_0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.8299999237060547,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.8479998111724854,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -2.812000036239624,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -2.8299999237060547,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_0_0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -2.6500000953674316,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -2.6679999828338623,
+          -1.090000033378601,
+          5.24399995803833
+        ],
+        "max": [
+          -2.632000207901001,
+          -0.5099999904632568,
+          5.259999752044678
+        ],
+        "center": [
+          -2.6500000953674316,
+          -0.800000011920929,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.2900000214576721,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_1_-0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.0299999713897705,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.01200008392334,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.047999858856201,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.0299999713897705,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_1_-0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.8499999046325684,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          2.8320000171661377,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          2.867999792098999,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          2.8499999046325684,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_1_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.200000047683716,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.182000160217285,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.2179999351501465,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.200000047683716,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_1_0.17",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.369999885559082,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.3519999980926514,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.3879997730255127,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.369999885559082,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_vent_slot_1_0.35",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          3.549999952316284,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.5320000648498535,
+          3.009999990463257,
+          5.24399995803833
+        ],
+        "max": [
+          3.567999839782715,
+          3.5899999141693115,
+          5.259999752044678
+        ],
+        "center": [
+          3.549999952316284,
+          3.299999952316284,
+          5.251999855041504
+        ],
+        "half_size": [
+          0.017999887466430664,
+          0.28999996185302734,
+          0.007999897003173828
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_wall_sconce_back_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.5,
+          7.559999942779541,
+          3.1500000953674316
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.659999847412109,
+          7.525000095367432,
+          2.830000162124634
+        ],
+        "max": [
+          -5.340000152587891,
+          7.59499979019165,
+          3.4700000286102295
+        ],
+        "center": [
+          -5.5,
+          7.559999942779541,
+          3.1500000953674316
+        ],
+        "half_size": [
+          0.15999984741210938,
+          0.034999847412109375,
+          0.31999993324279785
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_wall_sconce_back_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          7.559999942779541,
+          3.1500000953674316
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.1599999964237213,
+          7.525000095367432,
+          2.830000162124634
+        ],
+        "max": [
+          0.1599999964237213,
+          7.59499979019165,
+          3.4700000286102295
+        ],
+        "center": [
+          0.0,
+          7.559999942779541,
+          3.1500000953674316
+        ],
+        "half_size": [
+          0.1599999964237213,
+          0.034999847412109375,
+          0.31999993324279785
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_wall_sconce_back_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.5,
+          7.559999942779541,
+          3.1500000953674316
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.340000152587891,
+          7.525000095367432,
+          2.830000162124634
+        ],
+        "max": [
+          5.659999847412109,
+          7.59499979019165,
+          3.4700000286102295
+        ],
+        "center": [
+          5.5,
+          7.559999942779541,
+          3.1500000953674316
+        ],
+        "half_size": [
+          0.15999984741210938,
+          0.034999847412109375,
+          0.31999993324279785
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_wall_sconce_glow_0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -5.5,
+          7.480000019073486,
+          3.1500000953674316
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.630000114440918,
+          7.349999904632568,
+          3.0199999809265137
+        ],
+        "max": [
+          -5.369999885559082,
+          7.610000133514404,
+          3.2800002098083496
+        ],
+        "center": [
+          -5.5,
+          7.480000019073486,
+          3.1500000953674316
+        ],
+        "half_size": [
+          0.13000011444091797,
+          0.13000011444091797,
+          0.13000011444091797
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_wall_sconce_glow_1",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          7.480000019073486,
+          3.1500000953674316
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -0.12999995052814484,
+          7.349999904632568,
+          3.0199999809265137
+        ],
+        "max": [
+          0.12999998033046722,
+          7.610000133514404,
+          3.2800002098083496
+        ],
+        "center": [
+          1.4901161193847656e-08,
+          7.480000019073486,
+          3.1500000953674316
+        ],
+        "half_size": [
+          0.12999996542930603,
+          0.13000011444091797,
+          0.13000011444091797
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_wall_sconce_glow_2",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          5.5,
+          7.480000019073486,
+          3.1500000953674316
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          5.369999885559082,
+          7.349999904632568,
+          3.0199999809265137
+        ],
+        "max": [
+          5.630000114440918,
+          7.610000133514404,
+          3.2800002098083496
+        ],
+        "center": [
+          5.5,
+          7.480000019073486,
+          3.1500000953674316
+        ],
+        "half_size": [
+          0.13000011444091797,
+          0.13000011444091797,
+          0.13000011444091797
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "hotel_waste_bin",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.28000020980835,
+          7.349999904632568,
+          0.36000001430511475
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.0,
+          7.069999694824219,
+          0.0
+        ],
+        "max": [
+          6.560000419616699,
+          7.630000114440918,
+          0.7200000286102295
+        ],
+        "center": [
+          6.28000020980835,
+          7.349999904632568,
+          0.36000001430511475
+        ],
+        "half_size": [
+          0.2800002098083496,
+          0.2800002098083496,
+          0.36000001430511475
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "HotelRoomDoor_1208",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.840000152587891,
+          4.599999904632568,
+          1.399999976158142
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.785000324249268,
+          3.679999828338623,
+          0.0
+        ],
+        "max": [
+          6.894999980926514,
+          5.519999980926514,
+          2.799999952316284
+        ],
+        "center": [
+          6.840000152587891,
+          4.599999904632568,
+          1.399999976158142
+        ],
+        "half_size": [
+          0.05499982833862305,
+          0.9200000762939453,
+          1.399999976158142
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "HotelRoomDoor_1208_frame_3.63",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.730000019073486,
+          3.630000114440918,
+          1.4299999475479126
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.659999847412109,
+          3.575000047683716,
+          0.0
+        ],
+        "max": [
+          6.800000190734863,
+          3.68500018119812,
+          2.859999895095825
+        ],
+        "center": [
+          6.730000019073486,
+          3.630000114440918,
+          1.4299999475479126
+        ],
+        "half_size": [
+          0.07000017166137695,
+          0.05500006675720215,
+          1.4299999475479126
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "HotelRoomDoor_1208_frame_5.57",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.730000019073486,
+          5.570000171661377,
+          1.4299999475479126
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.659999847412109,
+          5.515000343322754,
+          0.0
+        ],
+        "max": [
+          6.800000190734863,
+          5.625,
+          2.859999895095825
+        ],
+        "center": [
+          6.730000019073486,
+          5.570000171661377,
+          1.4299999475479126
+        ],
+        "half_size": [
+          0.07000017166137695,
+          0.05499982833862305,
+          1.4299999475479126
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "HotelRoomDoor_1208_frame_top",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.730000019073486,
+          4.599999904632568,
+          2.8399999141693115
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.659999847412109,
+          3.5799999237060547,
+          2.7849998474121094
+        ],
+        "max": [
+          6.800000190734863,
+          5.619999885559082,
+          2.8949999809265137
+        ],
+        "center": [
+          6.730000019073486,
+          4.599999904632568,
+          2.8399999141693115
+        ],
+        "half_size": [
+          0.07000017166137695,
+          1.0199999809265137,
+          0.05500006675720215
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "HotelRoomDoor_1208_handle",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          6.71999979019165,
+          5.179999828338623,
+          1.159999966621399
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.0,
+          0.7071067690849304,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.62999963760376,
+          5.134999752044678,
+          1.1150000095367432
+        ],
+        "max": [
+          6.809999942779541,
+          5.224999904632568,
+          1.2049999237060547
+        ],
+        "center": [
+          6.71999979019165,
+          5.179999828338623,
+          1.159999966621399
+        ],
+        "half_size": [
+          0.09000015258789062,
+          0.04500007629394531,
+          0.04499995708465576
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Kiosk_Hotel_Reception",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.200000047683716,
+          3.0,
+          1.8200000524520874
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -3.680000066757202,
+          2.9200000762939453,
+          1.5099999904632568
+        ],
+        "max": [
+          -2.7200000286102295,
+          3.0799999237060547,
+          2.130000114440918
+        ],
+        "center": [
+          -3.200000047683716,
+          3.0,
+          1.8200000524520874
+        ],
+        "half_size": [
+          0.48000001907348633,
+          0.07999992370605469,
+          0.31000006198883057
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_-4.5_-3.5",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.650000095367432,
+          -3.950000047683716,
+          5.275000095367432
+        ],
+        "max": [
+          -3.3499999046325684,
+          -3.049999952316284,
+          5.325000286102295
+        ],
+        "center": [
+          -4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_-4.5_2.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.650000095367432,
+          1.5499999523162842,
+          5.275000095367432
+        ],
+        "max": [
+          -3.3499999046325684,
+          2.450000047683716,
+          5.325000286102295
+        ],
+        "center": [
+          -4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_0_-3.5",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          -3.5,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.149999976158142,
+          -3.950000047683716,
+          5.275000095367432
+        ],
+        "max": [
+          1.149999976158142,
+          -3.049999952316284,
+          5.325000286102295
+        ],
+        "center": [
+          0.0,
+          -3.5,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.149999976158142,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_0_2.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          2.0,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -1.149999976158142,
+          1.5499999523162842,
+          5.275000095367432
+        ],
+        "max": [
+          1.149999976158142,
+          2.450000047683716,
+          5.325000286102295
+        ],
+        "center": [
+          0.0,
+          2.0,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.149999976158142,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_4.5_-3.5",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.3499999046325684,
+          -3.950000047683716,
+          5.275000095367432
+        ],
+        "max": [
+          5.650000095367432,
+          -3.049999952316284,
+          5.325000286102295
+        ],
+        "center": [
+          4.5,
+          -3.5,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "light_diffuser_4.5_2.0",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          3.3499999046325684,
+          1.5499999523162842,
+          5.275000095367432
+        ],
+        "max": [
+          5.650000095367432,
+          2.450000047683716,
+          5.325000286102295
+        ],
+        "center": [
+          4.5,
+          2.0,
+          5.300000190734863
+        ],
+        "half_size": [
+          1.1500000953674316,
+          0.4500000476837158,
+          0.02500009536743164
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "PackageBoxFactory_HotelParcel",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          2.3499999046325684,
+          -0.949999988079071,
+          0.2800000011920929
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.9499999284744263,
+          -1.2699999809265137,
+          0.0
+        ],
+        "max": [
+          2.75,
+          -0.6299999952316284,
+          0.5600000023841858
+        ],
+        "center": [
+          2.349999964237213,
+          -0.949999988079071,
+          0.2800000011920929
+        ],
+        "half_size": [
+          0.40000003576278687,
+          0.3199999928474426,
+          0.2800000011920929
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "polymer_or_fabric",
+      "mass_kg": 0.0,
+      "friction": [
+        0.62,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_hotel_0",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -6.063093185424805,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "quat_wxyz": [
+          0.9537169933319092,
+          0.0,
+          -0.30070579051971436,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.517833232879639,
+          5.768750190734863,
+          0.45769354701042175
+        ],
+        "max": [
+          -5.608353137969971,
+          5.831250190734863,
+          1.6373064517974854
+        ],
+        "center": [
+          -6.063093185424805,
+          5.800000190734863,
+          1.0474999994039536
+        ],
+        "half_size": [
+          0.454740047454834,
+          0.03125,
+          0.5898064523935318
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_hotel_1",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -6.028470039367676,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "quat_wxyz": [
+          0.9914448857307434,
+          0.0,
+          -0.13052619993686676,
+          0.0
+        ],
+        "scale": [
+          0.9999999403953552,
+          1.0,
+          0.9999999403953552
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.293294906616211,
+          5.768750190734863,
+          0.3937664031982422
+        ],
+        "max": [
+          -5.763645172119141,
+          5.831250190734863,
+          1.7012336254119873
+        ],
+        "center": [
+          -6.028470039367676,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "half_size": [
+          0.26482486724853516,
+          0.03125,
+          0.6537336111068726
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_hotel_2",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -6.0,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.099999904632568,
+          5.768750190734863,
+          0.39750003814697266
+        ],
+        "max": [
+          -5.900000095367432,
+          5.831250190734863,
+          1.6974999904632568
+        ],
+        "center": [
+          -6.0,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "half_size": [
+          0.09999990463256836,
+          0.03125,
+          0.6499999761581421
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_hotel_3",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.966008186340332,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "quat_wxyz": [
+          0.9876883029937744,
+          0.0,
+          0.15643446147441864,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.261974811553955,
+          5.768750190734863,
+          0.3984116017818451
+        ],
+        "max": [
+          -5.670041561126709,
+          5.831250190734863,
+          1.696588397026062
+        ],
+        "center": [
+          -5.966008186340332,
+          5.800000190734863,
+          1.0474999994039536
+        ],
+        "half_size": [
+          0.29596662521362305,
+          0.03125,
+          0.6490883976221085
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "plant_leaf_hotel_4",
+      "role": "static_fixture",
+      "visual_only": true,
+      "pose": {
+        "pos": [
+          -5.932277202606201,
+          5.800000190734863,
+          1.0475000143051147
+        ],
+        "quat_wxyz": [
+          0.9455186128616333,
+          0.0,
+          0.32556816935539246,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.411258220672607,
+          5.768750190734863,
+          0.47372689843177795
+        ],
+        "max": [
+          -5.453296184539795,
+          5.831250190734863,
+          1.621273159980774
+        ],
+        "center": [
+          -5.932277202606201,
+          5.800000190734863,
+          1.047500029206276
+        ],
+        "half_size": [
+          0.47898101806640625,
+          0.03125,
+          0.573773130774498
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Planter_hotel",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -6.0,
+          5.800000190734863,
+          0.36000001430511475
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.525000095367432,
+          5.275000095367432,
+          -0.0899999737739563
+        ],
+        "max": [
+          -5.474999904632568,
+          6.325000286102295,
+          0.8100000023841858
+        ],
+        "center": [
+          -6.0,
+          5.800000190734863,
+          0.36000001430511475
+        ],
+        "half_size": [
+          0.5250000953674316,
+          0.5250000953674316,
+          0.44999998807907104
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ReceptionDeskFactory_Hotel",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.200000047683716,
+          3.9000000953674316,
+          0.6600000262260437
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -5.900000095367432,
+          3.180000066757202,
+          0.0
+        ],
+        "max": [
+          -0.5,
+          4.619999885559082,
+          1.3200000524520874
+        ],
+        "center": [
+          -3.200000047683716,
+          3.899999976158142,
+          0.6600000262260437
+        ],
+        "half_size": [
+          2.700000047683716,
+          0.7199999094009399,
+          0.6600000262260437
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "wood",
+      "mass_kg": 0.0,
+      "friction": [
+        0.68,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "ReceptionDeskFactory_HotelTop",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -3.200000047683716,
+          3.759999990463257,
+          1.3700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -6.0,
+          2.9000000953674316,
+          1.2899999618530273
+        ],
+        "max": [
+          -0.40000009536743164,
+          4.619999885559082,
+          1.4500000476837158
+        ],
+        "center": [
+          -3.200000047683716,
+          3.759999990463257,
+          1.3700000047683716
+        ],
+        "half_size": [
+          2.799999952316284,
+          0.8599998950958252,
+          0.08000004291534424
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 0.0,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_base",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.599999904632568,
+          0.18000000715255737
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.6200000047683716,
+          -6.079999923706055,
+          0.030000001192092896
+        ],
+        "max": [
+          1.5800000429153442,
+          -5.119999885559082,
+          0.33000001311302185
+        ],
+        "center": [
+          1.100000023841858,
+          -5.599999904632568,
+          0.18000000715255737
+        ],
+        "half_size": [
+          0.48000001907348633,
+          0.48000001907348633,
+          0.15000000596046448
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 248.83202966308713,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_body",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.599999904632568,
+          0.7799999713897705
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.6700000166893005,
+          -5.960000038146973,
+          0.25
+        ],
+        "max": [
+          1.5299999713897705,
+          -5.239999771118164,
+          1.309999942779541
+        ],
+        "center": [
+          1.0999999940395355,
+          -5.599999904632568,
+          0.7799999713897705
+        ],
+        "half_size": [
+          0.429999977350235,
+          0.3600001335144043,
+          0.5299999713897705
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 250.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_drawer_tray_bottom",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.420000076293945,
+          0.8799999952316284
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.8100000619888306,
+          -5.599999904632568,
+          0.8550000190734863
+        ],
+        "max": [
+          1.3899999856948853,
+          -5.240000247955322,
+          0.9049999713897705
+        ],
+        "center": [
+          1.100000023841858,
+          -5.420000076293945,
+          0.8799999952316284
+        ],
+        "half_size": [
+          0.28999996185302734,
+          0.17999982833862305,
+          0.02499997615814209
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 9.395980842601235,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_drawer_tray_left",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.8100000023841858,
+          -5.420000076293945,
+          1.0
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.7850000262260437,
+          -5.599999904632568,
+          0.8799999952316284
+        ],
+        "max": [
+          0.8349999785423279,
+          -5.240000247955322,
+          1.1200000047683716
+        ],
+        "center": [
+          0.8100000023841858,
+          -5.420000076293945,
+          1.0
+        ],
+        "half_size": [
+          0.02499997615814209,
+          0.17999982833862305,
+          0.12000000476837158
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 11.663978216180988,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_drawer_tray_right",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.3899999856948853,
+          -5.420000076293945,
+          1.0
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.3650000095367432,
+          -5.599999904632568,
+          0.8799999952316284
+        ],
+        "max": [
+          1.4149999618530273,
+          -5.240000247955322,
+          1.1200000047683716
+        ],
+        "center": [
+          1.3899999856948853,
+          -5.420000076293945,
+          1.0
+        ],
+        "half_size": [
+          0.02499997615814209,
+          0.17999982833862305,
+          0.12000000476837158
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 11.663978216180988,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_lidar",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.599999904632568,
+          1.4800000190734863
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.9600000381469727,
+          -5.739999771118164,
+          1.4300000667572021
+        ],
+        "max": [
+          1.2400000095367432,
+          -5.460000038146973,
+          1.5299999713897705
+        ],
+        "center": [
+          1.100000023841858,
+          -5.599999904632568,
+          1.4800000190734863
+        ],
+        "half_size": [
+          0.13999998569488525,
+          0.1399998664855957,
+          0.04999995231628418
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 7.055985820778056,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_meal_parcel",
+      "role": "dynamic_rigid",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.420000076293945,
+          1.0099999904632568
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.8799999952316284,
+          -5.539999961853027,
+          0.9149999618530273
+        ],
+        "max": [
+          1.3200000524520874,
+          -5.300000190734863,
+          1.1050000190734863
+        ],
+        "center": [
+          1.100000023841858,
+          -5.420000076293945,
+          1.0099999904632568
+        ],
+        "half_size": [
+          0.2200000286102295,
+          0.11999988555908203,
+          0.09500002861022949
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "polymer_or_fabric",
+      "mass_kg": 9.630714968258136,
+      "friction": [
+        0.62,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_parcel_drawer_lower",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.230000019073486,
+          0.6399999856948853
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.7699999809265137,
+          -5.264999866485596,
+          0.47999998927116394
+        ],
+        "max": [
+          1.4300000667572021,
+          -5.195000171661377,
+          0.7999999523162842
+        ],
+        "center": [
+          1.100000023841858,
+          -5.230000019073486,
+          0.6399999707937241
+        ],
+        "half_size": [
+          0.33000004291534424,
+          0.034999847412109375,
+          0.15999998152256012
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 39.91662655784771,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_parcel_drawer_upper",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.230000019073486,
+          1.0199999809265137
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.7699999809265137,
+          -5.264999866485596,
+          0.8600000143051147
+        ],
+        "max": [
+          1.4300000667572021,
+          -5.195000171661377,
+          1.1799999475479126
+        ],
+        "center": [
+          1.100000023841858,
+          -5.230000019073486,
+          1.0199999809265137
+        ],
+        "half_size": [
+          0.33000004291534424,
+          0.034999847412109375,
+          0.15999996662139893
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "metal",
+      "mass_kg": 39.916622840321736,
+      "friction": [
+        0.55,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_screen",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.100000023841858,
+          -5.230000019073486,
+          1.3600000143051147
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.8300000429153442,
+          -5.255000114440918,
+          1.2400000095367432
+        ],
+        "max": [
+          1.3700000047683716,
+          -5.204999923706055,
+          1.4800000190734863
+        ],
+        "center": [
+          1.100000023841858,
+          -5.230000019073486,
+          1.3600000143051147
+        ],
+        "half_size": [
+          0.26999998092651367,
+          0.02500009536743164,
+          0.12000000476837158
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 5.832022067069303,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_wheel_-0.34",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.7599999904632568,
+          -5.599999904632568,
+          0.18000000715255737
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          0.6000000238418579,
+          -5.654999732971191,
+          0.02000000700354576
+        ],
+        "max": [
+          0.9199999570846558,
+          -5.545000076293945,
+          0.3400000035762787
+        ],
+        "center": [
+          0.7599999904632568,
+          -5.599999904632568,
+          0.18000000528991222
+        ],
+        "half_size": [
+          0.15999996662139893,
+          0.05499982833862305,
+          0.15999999828636646
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "rubber",
+      "mass_kg": 12.390358610590862,
+      "friction": [
+        1.2,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.02,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "robot_Hotel_Delivery_AMR_Prototype_wheel_0.34",
+      "role": "articulated_robot",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          1.440000057220459,
+          -5.599999904632568,
+          0.18000000715255737
+        ],
+        "quat_wxyz": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          1.28000009059906,
+          -5.654999732971191,
+          0.02000000700354576
+        ],
+        "max": [
+          1.600000023841858,
+          -5.545000076293945,
+          0.3400000035762787
+        ],
+        "center": [
+          1.440000057220459,
+          -5.599999904632568,
+          0.18000000528991222
+        ],
+        "half_size": [
+          0.15999996662139893,
+          0.05499982833862305,
+          0.15999999828636646
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "rubber",
+      "mass_kg": 12.390358610590862,
+      "friction": [
+        1.2,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.02,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Wall_Back_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          0.0,
+          8.0,
+          2.700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.0,
+          7.900000095367432,
+          0.0
+        ],
+        "max": [
+          7.0,
+          8.100000381469727,
+          5.400000095367432
+        ],
+        "center": [
+          0.0,
+          8.000000238418579,
+          2.700000047683716
+        ],
+        "half_size": [
+          7.0,
+          0.10000014305114746,
+          2.700000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Wall_Left_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          -7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          -7.099999904632568,
+          -8.0,
+          0.0
+        ],
+        "max": [
+          -6.900000095367432,
+          8.0,
+          5.400000095367432
+        ],
+        "center": [
+          -7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "half_size": [
+          0.09999990463256836,
+          8.0,
+          2.700000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    },
+    {
+      "name": "Wall_Right_ServiceScene",
+      "role": "static_fixture",
+      "visual_only": false,
+      "pose": {
+        "pos": [
+          7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "aabb": {
+        "min": [
+          6.900000095367432,
+          -8.0,
+          0.0
+        ],
+        "max": [
+          7.099999904632568,
+          8.0,
+          5.400000095367432
+        ],
+        "center": [
+          7.0,
+          0.0,
+          2.700000047683716
+        ],
+        "half_size": [
+          0.09999990463256836,
+          8.0,
+          2.700000047683716
+        ]
+      },
+      "collision_geometry": "convex_or_primitive_proxy",
+      "material": "generic_solid",
+      "mass_kg": 0.0,
+      "friction": [
+        0.6,
+        0.02,
+        0.002
+      ],
+      "restitution": 0.04,
+      "center_of_mass_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_policy": "density_times_collision_proxy"
+    }
+  ]
+}

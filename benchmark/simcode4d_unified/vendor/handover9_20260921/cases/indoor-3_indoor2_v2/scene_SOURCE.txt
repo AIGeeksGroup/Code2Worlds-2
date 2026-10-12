@@ -1,0 +1,11 @@
+Original scene.blend (BEFORE Module-1) lives at:
+../../Code2Worlds/infinigen/outputs/scene_indoor2/fine/scene.blend
+(162 MB, Infinigen "fine" scene_indoor2 - 5 rooms: bathroom/bedroom/
+dining-room/kitchen/living-room, 60 walls. Not copied here because it is
+large; the Module-1 output above is what SimCode4D consumes and is
+self-contained.)
+
+NOTE: an earlier revision of this file pointed at workspace/indoor2.blend
+(2 MB). That is a DIFFERENT scene - it contains none of the room/object
+names in M1/manifest.json - and is not the source of this case. The
+authoritative record is M1/manifest.json -> "blend".

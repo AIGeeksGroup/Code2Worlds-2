@@ -1,0 +1,80 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: NAT-03-water-land
+world_id: nat03-amphibious
+canonical_source:
+  bytes: 23099453
+  path: deliverables/final_scene_revision_i04_2026-08-16/blends/scene10_amphibious_final_i04.blend
+  sha256: 654d59ce39c79711d4ee227fa31bda0564e52cfebdd1f2a1ed1ec18c6d1c9a1b
+  lineage_status: verified
+robot:
+  name: four-wheel amphibious rover
+  entity_id: amphibious_rover
+  model_binding: robot
+  mobility: articulated
+task: Move the amphibious rover from the declared static water field, contact the bank, reach dry land, and stop in the land
+  goal.
+task_family: dynamic_interaction
+dynamic_subtype: cross_medium
+start_state:
+  joint_positions:
+    shore_pitch: -0.0088379382
+    shore_x: -5.4
+    shore_z: -0.1848446578
+goal:
+  goal:
+    max_xyz_m:
+    - 4.05
+    - 1.0
+    - 1.55
+    min_xyz_m:
+    - 3.25
+    - -1.0
+    - 0.55
+    type: aabb
+required_event_order:
+  edges:
+  - - water_state
+    - bank_contact
+  - - bank_contact
+    - dry_land_state
+  - - dry_land_state
+    - goal_stop
+  nodes:
+  - water_state
+  - bank_contact
+  - dry_land_state
+  - goal_stop
+allowed_contacts:
+- - rover_wheels
+  - shore
+forbidden_contacts:
+- - rover_hull
+  - shore
+contact_group_bindings:
+  rover_hull:
+    geoms:
+    - rov_hull
+    - rov_pontoon_*
+  rover_wheels:
+    geoms:
+    - wheel_*_geom
+  shore:
+    geoms:
+    - shore_hfield
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_terminal_speed_mps: 0.1
+  maximum_terminal_submergence: 0.05
+  minimum_water_submergence: 0.5
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - source Blender animation and source object hierarchy
+  - retained legacy rollout used only to recover intent, not to tune post-freeze scores
+  - task_semantics_confirmation_2026-09-08.csv development draft
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: Water surface is visual-only; buoyancy comes from the M1-owned static fluid descriptor.

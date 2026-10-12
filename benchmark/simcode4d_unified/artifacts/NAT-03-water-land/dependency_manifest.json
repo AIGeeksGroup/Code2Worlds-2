@@ -1,0 +1,11 @@
+{
+  "case_id": "NAT-03-water-land",
+  "files": [
+    {
+      "bytes": 217828,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-03-water-land/m1_world.xml",
+      "sha256": "c151b8290d11436115179aec585423b920fd465e91ec9f0ee7da1146f4ba079e"
+    }
+  ],
+  "schema_version": "simcode4d.rc3a-dev1.dependency-manifest"
+}

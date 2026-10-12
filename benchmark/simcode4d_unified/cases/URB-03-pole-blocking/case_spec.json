@@ -1,0 +1,236 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 5503,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/dependency_manifest.json",
+      "sha256": "d71f0761407896f8c0617918a77f46b65f061d10e8cafe348428e8d6fbe7938a"
+    },
+    "m1_base": {
+      "bytes": 6696,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/M1/module1/scene_enriched.xml",
+      "sha256": "73aeaac009d2c663056470b907f7c08b9ccb0545f6f99e79546d2e04028dd5a6"
+    },
+    "m2_overlay": {
+      "bytes": 1355,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/m2_overlay.json",
+      "sha256": "9688f1cb440b2ff1a977ab1dc4040611c2724acbb37c13c905a034ea4f8b9ca9"
+    },
+    "runtime_model": {
+      "bytes": 24170,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/runtime_model.xml",
+      "sha256": "0b012f421eb5cc973fbce8a475fa273f83d292faf1b25729bdb0d9578deaaee0"
+    }
+  },
+  "case_id": "URB-03-pole-blocking",
+  "domain": "urban",
+  "dynamic_subtype": "contact_dynamic",
+  "entities": [
+    {
+      "entity_id": "go2",
+      "mobility": "articulated",
+      "model_binding": "base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "target_pole",
+      "mobility": "fixed",
+      "model_binding": "prop_convex_small_017_lt_n4_pole",
+      "required": true,
+      "role": "target_object"
+    },
+    {
+      "entity_id": "sidewalk",
+      "mobility": "fixed",
+      "model_binding": "terrain_*",
+      "required": true,
+      "role": "support"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "base"
+    ],
+    "joints": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "FL_calf": [
+        -45.43,
+        45.43
+      ],
+      "FL_hip": [
+        -23.7,
+        23.7
+      ],
+      "FL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "FR_calf": [
+        -45.43,
+        45.43
+      ],
+      "FR_hip": [
+        -23.7,
+        23.7
+      ],
+      "FR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RL_calf": [
+        -45.43,
+        45.43
+      ],
+      "RL_hip": [
+        -23.7,
+        23.7
+      ],
+      "RL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RR_calf": [
+        -45.43,
+        45.43
+      ],
+      "RR_hip": [
+        -23.7,
+        23.7
+      ],
+      "RR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "base_force_x_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_y_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_z_ctrl": [
+        -150.0,
+        150.0
+      ],
+      "base_pitch_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_roll_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_yaw_ctrl": [
+        -90.0,
+        90.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "move_duration_s": 7.0,
+    "owner": "benchmark",
+    "path": "probes/urb03_pole_blocking.py",
+    "sha256": "22f584247f979a7a6ebdbfb1bf255761f1a5fa593fdbcb90c743c0b9d36d52a3",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        0.5,
+        4.5
+      ],
+      [
+        4.2,
+        4.5
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        0.5,
+        4.5,
+        0.29
+      ],
+      [
+        4.2,
+        4.5,
+        0.29
+      ]
+    ]
+  },
+  "prompt": "Approach the frozen target pole with the Go2, make physical contact, remain blocked without passing through it, and stop.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 7729795,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/scene_source.blend",
+    "sha256": "ab56e64c4baca53b34c924148ad4c9ed635ce5a17c8e49c8ecb5b8530ba6be1d"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 33738,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/M1/manifest.json",
+    "sha256": "7f7c31b520e52fe2118efd3b3bef2dac9353272c425abb5caa05d5a3c34e6791"
+  },
+  "split": "development",
+  "task_family": "dynamic_interaction",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/urb03_pole_blocking.py",
+    "sha256": "9024af8910d07ffd1e3d893d754103d704346edb0029ba90ca1f50624f5fff33",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "urb03-pole-blocking"
+}

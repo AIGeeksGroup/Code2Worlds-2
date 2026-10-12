@@ -1,0 +1,1 @@
+deliverables/final_real8s_physical_2026-09-01/module1/indoor3_hotel/simready_scene.xml

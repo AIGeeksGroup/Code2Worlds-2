@@ -1,0 +1,29 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "INS-03-weld",
+  "legacy_case_id": "industrial-3_weld",
+  "pruned_unmatched_contact_patterns": [],
+  "repairs": [
+    "constructed missing combined M1+UR5e M2",
+    "added fixed robot mount and collision-capable tool tip",
+    "bound 150 source joint targets",
+    "generated frozen kinematic seam reference"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 5660,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-3_weld/M1/module1/scene_enriched.xml",
+    "sha256": "755b4c586bc7dafac3aa334345fbe93ef44ced61f61649fa2b9225ec0567140c"
+  },
+  "source_runtime": {
+    "bytes": 589150,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-3_weld/rollout/ind_traj_150.json",
+    "sha256": "fd8250a8e9dbc0c9b9146d27147b798294223053e6cdb7db03b18ed0ba00e8f6"
+  }
+}

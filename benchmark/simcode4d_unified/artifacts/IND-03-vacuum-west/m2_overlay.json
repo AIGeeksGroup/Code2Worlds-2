@@ -1,0 +1,27 @@
+{
+  "case_id": "IND-03-vacuum-west",
+  "m1_base_sha256": "5524156fcf2deab787b01c52e38e17f4e472fb66d8604fa4271f31e4d50cd10f",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1242,
+    "path": "benchmark/simcode4d_unified/artifacts/IND-03-vacuum-west/repair_report.json",
+    "sha256": "580ccbe79f7c8f3bb0d4d16a396961ec4b15d9c116bf2045bfc8af3e8950ca81"
+  },
+  "repairs": [
+    "shifted initialization 0.15 m in y to preserve vacuum-radius clearance from wall_43",
+    "declared and bounded six-axis free-joint actuator interface",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "runtime_model": {
+    "bytes": 11142,
+    "path": "benchmark/simcode4d_unified/artifacts/IND-03-vacuum-west/runtime_model.xml",
+    "sha256": "bd9e1a5b33f53155602bcd7ebb599346970373c7f71e0a155d478b6dea779a34"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 8219,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-3_indoor2_v2/M1/module1/scene_m2_vacuum.xml",
+    "sha256": "bebf39eeb58d170be21ec58fa7e3c81f888b3e5f96700aedfcd36cd1f7530fd8"
+  },
+  "task_independent": true
+}

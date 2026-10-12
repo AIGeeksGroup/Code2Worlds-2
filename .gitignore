@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+!.env.example
+output/
+outputs/
+results/
+*.blend1
+*.mp4
+*.log
+*.tmp

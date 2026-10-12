@@ -1,0 +1,30 @@
+{
+  "case_id": "URB-03-pole-blocking",
+  "m1_base_sha256": "73aeaac009d2c663056470b907f7c08b9ccb0545f6f99e79546d2e04028dd5a6",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1542,
+    "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/repair_report.json",
+    "sha256": "386a011421f31e15ef62f8983a58b89cee9d533b86f3a046c51cb442cfc38a02"
+  },
+  "repairs": [
+    "removed invisible non-colliding stone",
+    "fixed missing radian compiler declaration",
+    "raised initialization 0.020 m to remove measured foot-ground overlap",
+    "declared exact target-pole semantic group",
+    "declared bounded free-joint assist actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "runtime_model": {
+    "bytes": 24170,
+    "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/runtime_model.xml",
+    "sha256": "0b012f421eb5cc973fbce8a475fa273f83d292faf1b25729bdb0d9578deaaee0"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 19093,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/rollout/scene_m2.xml",
+    "sha256": "79ef486c3a3020af11d2a8efcb16b690b0f0670e90204f9ca06a411a5b09e05d"
+  },
+  "task_independent": true
+}

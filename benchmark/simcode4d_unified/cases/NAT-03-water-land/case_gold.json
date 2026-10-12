@@ -1,0 +1,161 @@
+{
+  "case_id": "NAT-03-water-land",
+  "case_spec_sha256": "77bd546e05b433f252b2055a6427a27e0a56a52d1254358140df1b1139052f51",
+  "contact_policy": {
+    "allowed": [
+      [
+        "rover_wheels",
+        "shore"
+      ]
+    ],
+    "forbidden": [
+      [
+        "rover_hull",
+        "shore"
+      ]
+    ],
+    "groups": {
+      "rover_hull": {
+        "geoms": [
+          "rov_hull",
+          "rov_pontoon_*"
+        ]
+      },
+      "rover_wheels": {
+        "geoms": [
+          "wheel_*_geom"
+        ]
+      },
+      "shore": {
+        "geoms": [
+          "shore_hfield"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "water_state",
+        "bank_contact"
+      ],
+      [
+        "bank_contact",
+        "dry_land_state"
+      ],
+      [
+        "dry_land_state",
+        "goal_stop"
+      ]
+    ],
+    "nodes": [
+      "water_state",
+      "bank_contact",
+      "dry_land_state",
+      "goal_stop"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "joint_positions": {
+      "shore_pitch": -0.0088379382,
+      "shore_x": -5.4,
+      "shore_z": -0.1848446578
+    }
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": true,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "robot": 0.95
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "robot": 1.05
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "robot": 1.08
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "robot": 0.92
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.012
+      }
+    }
+  },
+  "regions": {
+    "goal": {
+      "max_xyz_m": [
+        4.05,
+        1.0,
+        1.55
+      ],
+      "min_xyz_m": [
+        3.25,
+        -1.0,
+        0.55
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "Water surface is visual-only; buoyancy comes from the M1-owned static fluid descriptor.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_terminal_speed_mps": 0.1,
+    "maximum_terminal_submergence": 0.05,
+    "minimum_water_submergence": 0.5,
+    "terminal_hold_s": 0.5
+  }
+}

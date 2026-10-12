@@ -1,0 +1,77 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: IND-01-vacuum-living-room
+world_id: ind01-living-room
+canonical_source:
+  bytes: 264
+  path: benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/scene_SOURCE.txt
+  sha256: 469e19670ff37e9727d0c94809bcf8e69309b232fa5a348ed96529ecc10afcb0
+  lineage_status: compiled_m1_only_authoring_source_missing
+robot:
+  name: mobile vacuum
+  entity_id: vacuum
+  model_binding: robot
+  mobility: free
+task: Drive the vacuum east through the living-room corridor, enter the frozen goal, and remain stopped for 0.5 seconds.
+task_family: obstacle_navigation
+dynamic_subtype: null
+start_state:
+  keyframe: m2_init
+goal:
+  goal:
+    max_xyz_m:
+    - 11.2
+    - 5.9
+    - 0.5
+    min_xyz_m:
+    - 10.7
+    - 5.1
+    - 0.0
+    type: aabb
+required_event_order:
+  edges:
+  - - eastward_progress
+    - goal_entry
+  - - goal_entry
+    - stop
+  nodes:
+  - eastward_progress
+  - goal_entry
+  - stop
+allowed_contacts:
+- - vacuum
+  - floor
+forbidden_contacts:
+- - vacuum
+  - static_obstacles
+contact_group_bindings:
+  floor:
+    geoms:
+    - floor_*
+  static_obstacles:
+    geoms:
+    - wall_*
+    - lr_wall_*
+    - prop_*
+  vacuum:
+    bodies:
+    - robot
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_lateral_span_m: 0.25
+  maximum_terminal_speed_mps: 0.1
+  maximum_tilt_rad: 0.35
+  minimum_travel_m: 2.0
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - supplied M1 scene, robot assets, source trajectory, and retained rollout provenance
+  - benchmark-owned live-simulation probe and independent validator
+  - handover defects recorded in config/handover9_audit.json
+  - thresholds frozen before Dev15 reference matrix execution
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: Development-only benchmark-authored semantics; source evidence is retained, thresholds are frozen before the reference
+    matrix, and official Core15 admission remains false.

@@ -1,0 +1,35 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "INS-01-agv-aisle",
+  "legacy_case_id": "industrial-1_agv_empty",
+  "pruned_unmatched_contact_patterns": [
+    {
+      "group": "ground",
+      "pattern": "terrain_*",
+      "selector": "geoms"
+    }
+  ],
+  "repairs": [
+    "declared bounded free-joint stabilization while preserving wheel velocity actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep",
+    "aligned wheel collision cylinders with the y-axis hinges",
+    "initialized wheel tread with 1 mm clearance to avoid exact-tangent box contact degeneracy"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 35526,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/M1/module1/scene_enriched.xml",
+    "sha256": "8a527bd66ecf77612bdba141e3ab822f8ae07648bca1c5184a3236c9151bb3e3"
+  },
+  "source_runtime": {
+    "bytes": 38451,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/rollout/scene_m2.xml",
+    "sha256": "88f3ed5c35d2bbc01af3def9ab325cc436b81331bbd3f201c863a066769869c5"
+  }
+}

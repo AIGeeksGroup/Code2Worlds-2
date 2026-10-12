@@ -1,0 +1,42 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "URB-02-intersection",
+  "legacy_case_id": "urban-2_intersection",
+  "pruned_unmatched_contact_patterns": [
+    {
+      "group": "static_obstacles",
+      "pattern": "wall_*",
+      "selector": "geoms"
+    },
+    {
+      "group": "static_obstacles",
+      "pattern": "lr_wall_*",
+      "selector": "geoms"
+    }
+  ],
+  "repairs": [
+    "removed invisible non-colliding stone",
+    "fixed missing radian compiler declaration",
+    "moved initialization to the west sidewalk",
+    "raised initialization 0.020 m to remove measured foot-ground overlap",
+    "declared bounded free-joint assist actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 11452,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/M1/module1/scene_enriched.xml",
+    "sha256": "80a96a73656699154058a7dc463affe95858461b986b91ca77c423bc8ca490af"
+  },
+  "source_runtime": {
+    "bytes": 23847,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/rollout/scene_m2.xml",
+    "sha256": "af9f661e5e71fa5208a6a8257b30f7855b0f249e3fb44a0ccfcec04705202847"
+  }
+}

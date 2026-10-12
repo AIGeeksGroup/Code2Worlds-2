@@ -1,0 +1,36 @@
+{
+  "case_id": "IND-02-go2-living-room",
+  "files": [
+    {
+      "bytes": 15995,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/go2_robot.xml",
+      "sha256": "0449a6fb64ba52b97b135c09e80761adb065e49389c6d94ee439cf8434f138bb"
+    },
+    {
+      "bytes": 1370,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/m2_overlay.json",
+      "sha256": "fc6bb858bdc459a28a28e8789cd1aa9d03c4ecdec4599274568665bba92a2dd5"
+    },
+    {
+      "bytes": 1251,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/repair_report.json",
+      "sha256": "41ff881faa89d81ea0b6eb9bf1d0337b1bcd7599479271c2ca7b27d20da7e159"
+    },
+    {
+      "bytes": 15711,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/runtime_model.xml",
+      "sha256": "36ee97ed015bd235a151ac2045c8a4945fef2a366f1b4070775a88558eba77aa"
+    },
+    {
+      "bytes": 11652,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-2_go2lr_walk/M1/module1/scene_enriched.xml",
+      "sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50"
+    },
+    {
+      "bytes": 13076,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/export_singleroom_lr_go2/module2/scene_m2.xml",
+      "sha256": "c3d5b1b176f12c59a39c5c28470c0b35fb8ad9c52985c499e527e1dfd0f76933"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

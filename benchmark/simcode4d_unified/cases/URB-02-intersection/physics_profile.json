@@ -1,0 +1,4444 @@
+{
+  "actuators": [
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "FL_hip",
+      "transmission_ids": [
+        1,
+        -1
+      ],
+      "transmission_target": "FL_hip_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 1,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "FL_thigh",
+      "transmission_ids": [
+        2,
+        -1
+      ],
+      "transmission_target": "FL_thigh_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -45.43,
+        45.43
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 2,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "FL_calf",
+      "transmission_ids": [
+        3,
+        -1
+      ],
+      "transmission_target": "FL_calf_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 3,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "FR_hip",
+      "transmission_ids": [
+        4,
+        -1
+      ],
+      "transmission_target": "FR_hip_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 4,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "FR_thigh",
+      "transmission_ids": [
+        5,
+        -1
+      ],
+      "transmission_target": "FR_thigh_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -45.43,
+        45.43
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 5,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "FR_calf",
+      "transmission_ids": [
+        6,
+        -1
+      ],
+      "transmission_target": "FR_calf_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 6,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "RL_hip",
+      "transmission_ids": [
+        7,
+        -1
+      ],
+      "transmission_target": "RL_hip_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 7,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "RL_thigh",
+      "transmission_ids": [
+        8,
+        -1
+      ],
+      "transmission_target": "RL_thigh_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -45.43,
+        45.43
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 8,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "RL_calf",
+      "transmission_ids": [
+        9,
+        -1
+      ],
+      "transmission_target": "RL_calf_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 9,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "RR_hip",
+      "transmission_ids": [
+        10,
+        -1
+      ],
+      "transmission_target": "RR_hip_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -23.7,
+        23.7
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 10,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "RR_thigh",
+      "transmission_ids": [
+        11,
+        -1
+      ],
+      "transmission_target": "RR_thigh_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -45.43,
+        45.43
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 11,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "RR_calf",
+      "transmission_ids": [
+        12,
+        -1
+      ],
+      "transmission_target": "RR_calf_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -170.0,
+        170.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 12,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_x_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "go2_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -170.0,
+        170.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 13,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_y_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "go2_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -150.0,
+        150.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 14,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_z_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "go2_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -90.0,
+        90.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "id": 15,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_roll_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "go2_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -90.0,
+        90.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "id": 16,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_pitch_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "go2_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -90.0,
+        90.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "id": 17,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_yaw_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "go2_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    }
+  ],
+  "bodies": [
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamic": false,
+      "id": 0,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.0,
+      "mocap_id": -1,
+      "name": "world",
+      "parent": null
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.107027,
+        0.0980771,
+        0.0244531
+      ],
+      "dynamic": true,
+      "id": 1,
+      "inertial_position_m": [
+        0.021112,
+        0.0,
+        -0.005366
+      ],
+      "inertial_quaternion_wxyz": [
+        -0.000543471018719,
+        0.713435024573,
+        -0.00173769005985,
+        0.700719024135
+      ],
+      "joint_count": 1,
+      "mass_kg": 6.921,
+      "mocap_id": -1,
+      "name": "base",
+      "parent": "world"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00088403,
+        0.000596003,
+        0.000479967
+      ],
+      "dynamic": true,
+      "id": 2,
+      "inertial_position_m": [
+        -0.0054,
+        0.00194,
+        -0.000105
+      ],
+      "inertial_quaternion_wxyz": [
+        0.49701389368,
+        0.499244893203,
+        0.505461891873,
+        0.498236893419
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.678,
+      "mocap_id": -1,
+      "name": "FL_hip",
+      "parent": "base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00594973,
+        0.00584149,
+        0.000878787
+      ],
+      "dynamic": true,
+      "id": 3,
+      "inertial_position_m": [
+        -0.00374,
+        -0.0223,
+        -0.0327
+      ],
+      "inertial_quaternion_wxyz": [
+        0.829532869289,
+        0.0847634866436,
+        -0.0200631968386,
+        0.55162291308
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.152,
+      "mocap_id": -1,
+      "name": "FL_thigh",
+      "parent": "FL_hip"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0014901,
+        0.00146356,
+        5.31397e-05
+      ],
+      "dynamic": true,
+      "id": 4,
+      "inertial_position_m": [
+        0.00629595,
+        -0.000622121,
+        -0.141417
+      ],
+      "inertial_quaternion_wxyz": [
+        0.710671705025,
+        0.00154098936039,
+        -0.00450086813185,
+        0.703507707999
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.241352,
+      "mocap_id": -1,
+      "name": "FL_calf",
+      "parent": "FL_thigh"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00088403,
+        0.000596003,
+        0.000479967
+      ],
+      "dynamic": true,
+      "id": 5,
+      "inertial_position_m": [
+        -0.0054,
+        -0.00194,
+        -0.000105
+      ],
+      "inertial_quaternion_wxyz": [
+        0.498236893419,
+        0.505461891873,
+        0.499244893203,
+        0.49701389368
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.678,
+      "mocap_id": -1,
+      "name": "FR_hip",
+      "parent": "base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00594973,
+        0.00584149,
+        0.000878787
+      ],
+      "dynamic": true,
+      "id": 6,
+      "inertial_position_m": [
+        -0.00374,
+        0.0223,
+        -0.0327
+      ],
+      "inertial_quaternion_wxyz": [
+        0.55162291308,
+        -0.0200631968386,
+        0.0847634866436,
+        0.829532869289
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.152,
+      "mocap_id": -1,
+      "name": "FR_thigh",
+      "parent": "FR_hip"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0014901,
+        0.00146356,
+        5.31397e-05
+      ],
+      "dynamic": true,
+      "id": 7,
+      "inertial_position_m": [
+        0.00629595,
+        0.000622121,
+        -0.141417
+      ],
+      "inertial_quaternion_wxyz": [
+        0.703507707999,
+        -0.00450086813185,
+        0.00154098936039,
+        0.710671705025
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.241352,
+      "mocap_id": -1,
+      "name": "FR_calf",
+      "parent": "FR_thigh"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00088403,
+        0.000596003,
+        0.000479967
+      ],
+      "dynamic": true,
+      "id": 8,
+      "inertial_position_m": [
+        0.0054,
+        0.00194,
+        -0.000105
+      ],
+      "inertial_quaternion_wxyz": [
+        0.505461891873,
+        0.498236893419,
+        0.49701389368,
+        0.499244893203
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.678,
+      "mocap_id": -1,
+      "name": "RL_hip",
+      "parent": "base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00594973,
+        0.00584149,
+        0.000878787
+      ],
+      "dynamic": true,
+      "id": 9,
+      "inertial_position_m": [
+        -0.00374,
+        -0.0223,
+        -0.0327
+      ],
+      "inertial_quaternion_wxyz": [
+        0.829532869289,
+        0.0847634866436,
+        -0.0200631968386,
+        0.55162291308
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.152,
+      "mocap_id": -1,
+      "name": "RL_thigh",
+      "parent": "RL_hip"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0014901,
+        0.00146356,
+        5.31397e-05
+      ],
+      "dynamic": true,
+      "id": 10,
+      "inertial_position_m": [
+        0.00629595,
+        -0.000622121,
+        -0.141417
+      ],
+      "inertial_quaternion_wxyz": [
+        0.710671705025,
+        0.00154098936039,
+        -0.00450086813185,
+        0.703507707999
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.241352,
+      "mocap_id": -1,
+      "name": "RL_calf",
+      "parent": "RL_thigh"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00088403,
+        0.000596003,
+        0.000479967
+      ],
+      "dynamic": true,
+      "id": 11,
+      "inertial_position_m": [
+        0.0054,
+        -0.00194,
+        -0.000105
+      ],
+      "inertial_quaternion_wxyz": [
+        0.499244893203,
+        0.49701389368,
+        0.498236893419,
+        0.505461891873
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.678,
+      "mocap_id": -1,
+      "name": "RR_hip",
+      "parent": "base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00594973,
+        0.00584149,
+        0.000878787
+      ],
+      "dynamic": true,
+      "id": 12,
+      "inertial_position_m": [
+        -0.00374,
+        0.0223,
+        -0.0327
+      ],
+      "inertial_quaternion_wxyz": [
+        0.55162291308,
+        -0.0200631968386,
+        0.0847634866436,
+        0.829532869289
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.152,
+      "mocap_id": -1,
+      "name": "RR_thigh",
+      "parent": "RR_hip"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0014901,
+        0.00146356,
+        5.31397e-05
+      ],
+      "dynamic": true,
+      "id": 13,
+      "inertial_position_m": [
+        0.00629595,
+        0.000622121,
+        -0.141417
+      ],
+      "inertial_quaternion_wxyz": [
+        0.703507707999,
+        -0.00450086813185,
+        0.00154098936039,
+        0.710671705025
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.241352,
+      "mocap_id": -1,
+      "name": "RR_calf",
+      "parent": "RR_thigh"
+    }
+  ],
+  "case_gold_sha256": "d06acb809e382a833e09e16e13a177f6d38ba22801d796dea84c4b1511a6e8cd",
+  "case_id": "URB-02-intersection",
+  "case_spec_sha256": "7df3b07844fe422614659db079321d50b825c12dfaa9f4f64622a2ca1ebc16ca",
+  "collision_geoms": [
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 0,
+      "name": "terrain_00",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.0599999986589
+      ],
+      "quaternion_wxyz": [
+        0.0,
+        0.707106781187,
+        0.0,
+        0.707106781187
+      ],
+      "size": [
+        0.0599999986589,
+        4.0,
+        16.0
+      ],
+      "type": "mjGEOM_MESH"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 1,
+      "name": "terrain_01",
+      "position_m": [
+        0.0,
+        -0.5,
+        -0.0599999986589
+      ],
+      "quaternion_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "size": [
+        0.0599999986589,
+        4.0,
+        16.0
+      ],
+      "type": "mjGEOM_MESH"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 2,
+      "name": "terrain_02",
+      "position_m": [
+        5.0,
+        -0.5,
+        -0.070000000298
+      ],
+      "quaternion_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "size": [
+        0.070000000298,
+        0.699999809265,
+        16.0
+      ],
+      "type": "mjGEOM_MESH"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 3,
+      "name": "terrain_03",
+      "position_m": [
+        -5.0,
+        -0.5,
+        -0.070000000298
+      ],
+      "quaternion_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "size": [
+        0.070000000298,
+        0.699999809265,
+        16.0
+      ],
+      "type": "mjGEOM_MESH"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 4,
+      "name": "prop_convex_small_000_bldg_BrickBuildingFactory(500)_spawn_asset(500)",
+      "position_m": [
+        13.712501,
+        -9.0,
+        8.188813
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 5,
+      "name": "prop_convex_small_001_bldg_BrickBuildingFactory(503)_spawn_asset(503)",
+      "position_m": [
+        14.0,
+        9.0,
+        8.633354
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 6,
+      "name": "prop_convex_small_002_bldg_BrickBuildingFactory(600)_spawn_asset(600)",
+      "position_m": [
+        -13.7125,
+        -7.0,
+        8.949287
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 7,
+      "name": "prop_convex_small_003_bldg_BrickBuildingFactory(601)_spawn_asset(601)",
+      "position_m": [
+        -13.7125,
+        2.0,
+        7.232032
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 8,
+      "name": "prop_convex_small_004_bldg_BrickBuildingFactory(602)_spawn_asset(602)",
+      "position_m": [
+        -13.7125,
+        10.0,
+        5.158244
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 9,
+      "name": "prop_convex_small_005_bldg_BrickBuildingFactory(710)_spawn_asset(710)",
+      "position_m": [
+        0.0,
+        -16.0,
+        8.209558
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 10,
+      "name": "prop_convex_small_006_bldg_BuildingFactory(501)_spawn_asset(501)",
+      "position_m": [
+        14.0,
+        -4.0,
+        4.664883
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 11,
+      "name": "prop_convex_small_007_bldg_ConcreteBuildingFactory(502)_spawn_asset(502)",
+      "position_m": [
+        13.7125,
+        4.0,
+        8.97238
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 12,
+      "name": "prop_convex_small_008_bldg_GlassTowerFactory(700)_spawn_asset(700)",
+      "position_m": [
+        -14.0,
+        -11.0,
+        6.514639
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.15,
+        5.602831,
+        7.013234
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 13,
+      "name": "prop_convex_small_009_lt_e-9_arm",
+      "position_m": [
+        3.85,
+        -9.0,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 14,
+      "name": "prop_convex_small_010_lt_e-9_lamp",
+      "position_m": [
+        3.25,
+        -9.0,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 15,
+      "name": "prop_convex_small_011_lt_e-9_pole",
+      "position_m": [
+        4.6,
+        -9.0,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 16,
+      "name": "prop_convex_small_012_lt_e0_arm",
+      "position_m": [
+        3.85,
+        0.0,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 17,
+      "name": "prop_convex_small_013_lt_e0_lamp",
+      "position_m": [
+        3.25,
+        0.0,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 18,
+      "name": "prop_convex_small_014_lt_e0_pole",
+      "position_m": [
+        4.6,
+        0.0,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 19,
+      "name": "prop_convex_small_015_lt_e9_arm",
+      "position_m": [
+        3.85,
+        9.0,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 20,
+      "name": "prop_convex_small_016_lt_e9_lamp",
+      "position_m": [
+        3.25,
+        9.0,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 21,
+      "name": "prop_convex_small_017_lt_e9_pole",
+      "position_m": [
+        4.6,
+        9.0,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 22,
+      "name": "prop_convex_small_018_lt_w-9_arm",
+      "position_m": [
+        -5.35,
+        -9.0,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 23,
+      "name": "prop_convex_small_019_lt_w-9_lamp",
+      "position_m": [
+        -5.95,
+        -9.0,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 24,
+      "name": "prop_convex_small_020_lt_w-9_pole",
+      "position_m": [
+        -4.6,
+        -9.0,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 25,
+      "name": "prop_convex_small_021_lt_w0_arm",
+      "position_m": [
+        -5.35,
+        0.0,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 26,
+      "name": "prop_convex_small_022_lt_w0_lamp",
+      "position_m": [
+        -5.95,
+        0.0,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 27,
+      "name": "prop_convex_small_023_lt_w0_pole",
+      "position_m": [
+        -4.6,
+        0.0,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 28,
+      "name": "prop_convex_small_024_lt_w9_arm",
+      "position_m": [
+        -5.35,
+        9.0,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 29,
+      "name": "prop_convex_small_025_lt_w9_lamp",
+      "position_m": [
+        -5.95,
+        9.0,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 30,
+      "name": "prop_convex_small_026_lt_w9_pole",
+      "position_m": [
+        -4.6,
+        9.0,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 31,
+      "name": "prop_convex_small_027_lt_x_n_arm",
+      "position_m": [
+        -0.75,
+        4.6,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 32,
+      "name": "prop_convex_small_028_lt_x_n_lamp",
+      "position_m": [
+        -1.35,
+        4.6,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 33,
+      "name": "prop_convex_small_029_lt_x_n_pole",
+      "position_m": [
+        0.0,
+        4.6,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 34,
+      "name": "prop_convex_small_030_lt_x_s_arm",
+      "position_m": [
+        -0.75,
+        -4.6,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 35,
+      "name": "prop_convex_small_031_lt_x_s_lamp",
+      "position_m": [
+        -1.35,
+        -4.6,
+        4.52
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.275,
+        0.09,
+        0.09
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 36,
+      "name": "prop_convex_small_032_lt_x_s_pole",
+      "position_m": [
+        0.0,
+        -4.6,
+        2.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 37,
+      "name": "prop_convex_small_033_tl_0_arm",
+      "position_m": [
+        5.0,
+        -5.0,
+        4.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.05,
+        0.05,
+        0.8
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 38,
+      "name": "prop_convex_small_034_tl_0_head",
+      "position_m": [
+        5.0,
+        -5.0,
+        4.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 39,
+      "name": "prop_convex_small_035_tl_0_lamp",
+      "position_m": [
+        5.0,
+        -5.2,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 40,
+      "name": "prop_convex_small_036_tl_0_pole",
+      "position_m": [
+        5.0,
+        -5.0,
+        2.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 41,
+      "name": "prop_convex_small_037_tl_1_arm",
+      "position_m": [
+        -5.0,
+        -5.0,
+        4.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.05,
+        0.05,
+        0.8
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 42,
+      "name": "prop_convex_small_038_tl_1_head",
+      "position_m": [
+        -5.0,
+        -5.0,
+        4.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 43,
+      "name": "prop_convex_small_039_tl_1_lamp",
+      "position_m": [
+        -5.0,
+        -5.2,
+        4.55
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 44,
+      "name": "prop_convex_small_040_tl_1_pole",
+      "position_m": [
+        -5.0,
+        -5.0,
+        2.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 45,
+      "name": "prop_convex_small_041_tl_2_arm",
+      "position_m": [
+        5.0,
+        5.0,
+        4.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.05,
+        0.05,
+        0.8
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 46,
+      "name": "prop_convex_small_042_tl_2_head",
+      "position_m": [
+        5.0,
+        5.0,
+        4.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 47,
+      "name": "prop_convex_small_043_tl_2_lamp",
+      "position_m": [
+        5.0,
+        4.8,
+        4.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 48,
+      "name": "prop_convex_small_044_tl_2_pole",
+      "position_m": [
+        5.0,
+        5.0,
+        2.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 49,
+      "name": "prop_convex_small_045_tl_3_arm",
+      "position_m": [
+        -5.0,
+        5.0,
+        4.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.05,
+        0.05,
+        0.8
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 50,
+      "name": "prop_convex_small_046_tl_3_head",
+      "position_m": [
+        -5.0,
+        5.0,
+        4.4
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.425
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 51,
+      "name": "prop_convex_small_047_tl_3_lamp",
+      "position_m": [
+        -5.0,
+        4.8,
+        4.3
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 52,
+      "name": "prop_convex_small_048_tl_3_pole",
+      "position_m": [
+        -5.0,
+        5.0,
+        2.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "base",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 58,
+      "name": "__unnamed_geom_58",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1881,
+        0.04675,
+        0.057
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "base",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 59,
+      "name": "__unnamed_geom_59",
+      "position_m": [
+        0.285,
+        0.0,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.05,
+        0.045,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "base",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 60,
+      "name": "__unnamed_geom_60",
+      "position_m": [
+        0.293,
+        0.0,
+        -0.06
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.047,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "FL_hip",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 63,
+      "name": "__unnamed_geom_63",
+      "position_m": [
+        0.0,
+        0.08,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.046,
+        0.02,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "FL_thigh",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 66,
+      "name": "__unnamed_geom_66",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.1065
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.0,
+        0.707106781187,
+        0.0
+      ],
+      "size": [
+        0.1065,
+        0.01225,
+        0.017
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "FL_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 69,
+      "name": "__unnamed_geom_69",
+      "position_m": [
+        0.008,
+        0.0,
+        -0.06
+      ],
+      "quaternion_wxyz": [
+        0.994492585148,
+        0.0,
+        -0.10480695628,
+        0.0
+      ],
+      "size": [
+        0.012,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "FL_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 70,
+      "name": "__unnamed_geom_70",
+      "position_m": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_wxyz": [
+        0.999687516476,
+        0.0,
+        0.0249973879094,
+        0.0
+      ],
+      "size": [
+        0.011,
+        0.0325,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "FL_calf",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 72,
+      "name": "FL",
+      "position_m": [
+        -0.002,
+        0.0,
+        -0.213
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.022,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "FR_hip",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 75,
+      "name": "__unnamed_geom_75",
+      "position_m": [
+        0.0,
+        -0.08,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.046,
+        0.02,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "FR_thigh",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 78,
+      "name": "__unnamed_geom_78",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.1065
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.0,
+        0.707106781187,
+        0.0
+      ],
+      "size": [
+        0.1065,
+        0.01225,
+        0.017
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "FR_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 81,
+      "name": "__unnamed_geom_81",
+      "position_m": [
+        0.01,
+        0.0,
+        -0.06
+      ],
+      "quaternion_wxyz": [
+        0.995004165284,
+        0.0,
+        -0.0998334165838,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "FR_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 82,
+      "name": "__unnamed_geom_82",
+      "position_m": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_wxyz": [
+        0.999687516476,
+        0.0,
+        0.0249973879094,
+        0.0
+      ],
+      "size": [
+        0.011,
+        0.0325,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "FR_calf",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 84,
+      "name": "FR",
+      "position_m": [
+        -0.002,
+        0.0,
+        -0.213
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.022,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "RL_hip",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 87,
+      "name": "__unnamed_geom_87",
+      "position_m": [
+        0.0,
+        0.08,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.046,
+        0.02,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "RL_thigh",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 90,
+      "name": "__unnamed_geom_90",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.1065
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.0,
+        0.707106781187,
+        0.0
+      ],
+      "size": [
+        0.1065,
+        0.01225,
+        0.017
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "RL_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 93,
+      "name": "__unnamed_geom_93",
+      "position_m": [
+        0.01,
+        0.0,
+        -0.06
+      ],
+      "quaternion_wxyz": [
+        0.995004165284,
+        0.0,
+        -0.0998334165838,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "RL_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 94,
+      "name": "__unnamed_geom_94",
+      "position_m": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_wxyz": [
+        0.999687516476,
+        0.0,
+        0.0249973879094,
+        0.0
+      ],
+      "size": [
+        0.011,
+        0.0325,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "RL_calf",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 96,
+      "name": "RL",
+      "position_m": [
+        -0.002,
+        0.0,
+        -0.213
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.022,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "RR_hip",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 99,
+      "name": "__unnamed_geom_99",
+      "position_m": [
+        0.0,
+        -0.08,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.046,
+        0.02,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "RR_thigh",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 102,
+      "name": "__unnamed_geom_102",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.1065
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.0,
+        0.707106781187,
+        0.0
+      ],
+      "size": [
+        0.1065,
+        0.01225,
+        0.017
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "RR_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 105,
+      "name": "__unnamed_geom_105",
+      "position_m": [
+        0.01,
+        0.0,
+        -0.06
+      ],
+      "quaternion_wxyz": [
+        0.995004165284,
+        0.0,
+        -0.0998334165838,
+        0.0
+      ],
+      "size": [
+        0.013,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "RR_calf",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 106,
+      "name": "__unnamed_geom_106",
+      "position_m": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_wxyz": [
+        0.999687516476,
+        0.0,
+        0.0249973879094,
+        0.0
+      ],
+      "size": [
+        0.011,
+        0.0325,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "RR_calf",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 108,
+      "name": "RR",
+      "position_m": [
+        -0.002,
+        0.0,
+        -0.213
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.022,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    }
+  ],
+  "contact_material_classes": [
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.9,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_001",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_002",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 1,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_003",
+      "margin_m": 0.001,
+      "priority": 0,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 6,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.01,
+        "sliding": 0.8,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_004",
+      "margin_m": 0.001,
+      "priority": 1,
+      "solver_impedance": [
+        0.99,
+        0.999,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.002,
+        1.0
+      ]
+    }
+  ],
+  "control_loop": {
+    "actuator_limits": {
+      "FL_calf": [
+        -45.43,
+        45.43
+      ],
+      "FL_hip": [
+        -23.7,
+        23.7
+      ],
+      "FL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "FR_calf": [
+        -45.43,
+        45.43
+      ],
+      "FR_hip": [
+        -23.7,
+        23.7
+      ],
+      "FR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RL_calf": [
+        -45.43,
+        45.43
+      ],
+      "RL_hip": [
+        -23.7,
+        23.7
+      ],
+      "RL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RR_calf": [
+        -45.43,
+        45.43
+      ],
+      "RR_hip": [
+        -23.7,
+        23.7
+      ],
+      "RR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "base_force_x_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_y_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_z_ctrl": [
+        -150.0,
+        150.0
+      ],
+      "base_pitch_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_roll_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_yaw_ctrl": [
+        -90.0,
+        90.0
+      ]
+    },
+    "benchmark_probe_command_hz": 1000.0,
+    "command_interface": "declared MuJoCo actuators only; probe has no qpos/qvel/model write access",
+    "physics_hz": 1000.0,
+    "record_hz": 30
+  },
+  "diagnostic_contract": {
+    "friction": {
+      "channels": [
+        "sliding/torsional/rolling coefficients",
+        "tangential contact force",
+        "Coulomb-cone utilization",
+        "contact-point tangential slip speed"
+      ],
+      "cone_utilization_failure": 1.25,
+      "cone_utilization_warning": 1.05,
+      "failure_minimum_dwell_s": 0.01,
+      "slip_is_diagnostic_not_global_failure": true,
+      "slip_speed_reporting_threshold_mps": 0.02
+    },
+    "kinematics": {
+      "channels": [
+        "body pose and twist",
+        "quaternion norm",
+        "joint position and velocity",
+        "finite-difference acceleration and jerk",
+        "joint-limit dwell"
+      ],
+      "joint_limit_tolerance": 0.0001,
+      "quaternion_norm_tolerance": 1e-06,
+      "violation_minimum_dwell_s": 0.01
+    },
+    "mechanics": {
+      "channels": [
+        "finite generalized state",
+        "positive body mass and principal inertia",
+        "normal and tangential contact force",
+        "penetration depth",
+        "generalized force-balance residual",
+        "constraint-force solver residual (diagnostic)",
+        "kinetic and potential energy"
+      ],
+      "force_balance_relative_tolerance": 1e-05,
+      "nonphysical_dynamic_bodies": []
+    }
+  },
+  "equalities": [],
+  "joints": [
+    {
+      "armature": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "base",
+      "damping": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dof_address": 0,
+      "dof_width": 6,
+      "frictionloss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "limited": false,
+      "margin": 0.0,
+      "name": "go2_freejoint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 0,
+      "qpos_width": 7,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_FREE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "body": "FL_hip",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 6,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 1,
+      "limited": true,
+      "margin": 0.0,
+      "name": "FL_hip_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 7,
+      "qpos_width": 1,
+      "range": [
+        -1.0472,
+        1.0472
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "FL_thigh",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 7,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 2,
+      "limited": true,
+      "margin": 0.0,
+      "name": "FL_thigh_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 8,
+      "qpos_width": 1,
+      "range": [
+        -1.5708,
+        3.4907
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "FL_calf",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 8,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 3,
+      "limited": true,
+      "margin": 0.0,
+      "name": "FL_calf_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 9,
+      "qpos_width": 1,
+      "range": [
+        -2.7227,
+        -0.83776
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "body": "FR_hip",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 9,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 4,
+      "limited": true,
+      "margin": 0.0,
+      "name": "FR_hip_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 10,
+      "qpos_width": 1,
+      "range": [
+        -1.0472,
+        1.0472
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "FR_thigh",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 10,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 5,
+      "limited": true,
+      "margin": 0.0,
+      "name": "FR_thigh_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 11,
+      "qpos_width": 1,
+      "range": [
+        -1.5708,
+        3.4907
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "FR_calf",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 11,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 6,
+      "limited": true,
+      "margin": 0.0,
+      "name": "FR_calf_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 12,
+      "qpos_width": 1,
+      "range": [
+        -2.7227,
+        -0.83776
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "body": "RL_hip",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 12,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 7,
+      "limited": true,
+      "margin": 0.0,
+      "name": "RL_hip_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 13,
+      "qpos_width": 1,
+      "range": [
+        -1.0472,
+        1.0472
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "RL_thigh",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 13,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 8,
+      "limited": true,
+      "margin": 0.0,
+      "name": "RL_thigh_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 14,
+      "qpos_width": 1,
+      "range": [
+        -0.5236,
+        4.5379
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "RL_calf",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 14,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 9,
+      "limited": true,
+      "margin": 0.0,
+      "name": "RL_calf_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 15,
+      "qpos_width": 1,
+      "range": [
+        -2.7227,
+        -0.83776
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "body": "RR_hip",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 15,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 10,
+      "limited": true,
+      "margin": 0.0,
+      "name": "RR_hip_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 16,
+      "qpos_width": 1,
+      "range": [
+        -1.0472,
+        1.0472
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "RR_thigh",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 16,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 11,
+      "limited": true,
+      "margin": 0.0,
+      "name": "RR_thigh_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 17,
+      "qpos_width": 1,
+      "range": [
+        -0.5236,
+        4.5379
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "RR_calf",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 17,
+      "dof_width": 1,
+      "frictionloss": [
+        0.2
+      ],
+      "id": 12,
+      "limited": true,
+      "margin": 0.0,
+      "name": "RR_calf_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 18,
+      "qpos_width": 1,
+      "range": [
+        -2.7227,
+        -0.83776
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    }
+  ],
+  "physics_seed_perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "base": 0.95
+      },
+      "body_xy_offset_m": {
+        "base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "base": 1.05
+      },
+      "body_xy_offset_m": {
+        "base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "base": 1.08
+      },
+      "body_xy_offset_m": {
+        "base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "base": 0.92
+      },
+      "body_xy_offset_m": {
+        "base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "base": 0.012
+      }
+    }
+  },
+  "provenance": {
+    "estimated_parameter_count": 0,
+    "note": "This profile indexes the frozen Dev15 runtime; unavailable pre-export authoring values are explicitly identified by provenance records.",
+    "parameter_status": "exact_from_frozen_runtime_model",
+    "semantic_contact_status": "exact_from_frozen_case_gold"
+  },
+  "resolved_contact_groups": {
+    "floor": {
+      "bodies": [],
+      "geoms": [
+        "terrain_00",
+        "terrain_01",
+        "terrain_02",
+        "terrain_03"
+      ]
+    },
+    "go2_all": {
+      "bodies": [
+        "FL_calf",
+        "FL_hip",
+        "FL_thigh",
+        "FR_calf",
+        "FR_hip",
+        "FR_thigh",
+        "RL_calf",
+        "RL_hip",
+        "RL_thigh",
+        "RR_calf",
+        "RR_hip",
+        "RR_thigh",
+        "base"
+      ],
+      "geoms": []
+    },
+    "go2_base": {
+      "bodies": [
+        "base"
+      ],
+      "geoms": []
+    },
+    "go2_feet": {
+      "bodies": [],
+      "geoms": [
+        "FL",
+        "FR",
+        "RL",
+        "RR"
+      ]
+    },
+    "static_obstacles": {
+      "bodies": [],
+      "geoms": [
+        "prop_convex_small_000_bldg_BrickBuildingFactory(500)_spawn_asset(500)",
+        "prop_convex_small_001_bldg_BrickBuildingFactory(503)_spawn_asset(503)",
+        "prop_convex_small_002_bldg_BrickBuildingFactory(600)_spawn_asset(600)",
+        "prop_convex_small_003_bldg_BrickBuildingFactory(601)_spawn_asset(601)",
+        "prop_convex_small_004_bldg_BrickBuildingFactory(602)_spawn_asset(602)",
+        "prop_convex_small_005_bldg_BrickBuildingFactory(710)_spawn_asset(710)",
+        "prop_convex_small_006_bldg_BuildingFactory(501)_spawn_asset(501)",
+        "prop_convex_small_007_bldg_ConcreteBuildingFactory(502)_spawn_asset(502)",
+        "prop_convex_small_008_bldg_GlassTowerFactory(700)_spawn_asset(700)",
+        "prop_convex_small_009_lt_e-9_arm",
+        "prop_convex_small_010_lt_e-9_lamp",
+        "prop_convex_small_011_lt_e-9_pole",
+        "prop_convex_small_012_lt_e0_arm",
+        "prop_convex_small_013_lt_e0_lamp",
+        "prop_convex_small_014_lt_e0_pole",
+        "prop_convex_small_015_lt_e9_arm",
+        "prop_convex_small_016_lt_e9_lamp",
+        "prop_convex_small_017_lt_e9_pole",
+        "prop_convex_small_018_lt_w-9_arm",
+        "prop_convex_small_019_lt_w-9_lamp",
+        "prop_convex_small_020_lt_w-9_pole",
+        "prop_convex_small_021_lt_w0_arm",
+        "prop_convex_small_022_lt_w0_lamp",
+        "prop_convex_small_023_lt_w0_pole",
+        "prop_convex_small_024_lt_w9_arm",
+        "prop_convex_small_025_lt_w9_lamp",
+        "prop_convex_small_026_lt_w9_pole",
+        "prop_convex_small_027_lt_x_n_arm",
+        "prop_convex_small_028_lt_x_n_lamp",
+        "prop_convex_small_029_lt_x_n_pole",
+        "prop_convex_small_030_lt_x_s_arm",
+        "prop_convex_small_031_lt_x_s_lamp",
+        "prop_convex_small_032_lt_x_s_pole",
+        "prop_convex_small_033_tl_0_arm",
+        "prop_convex_small_034_tl_0_head",
+        "prop_convex_small_035_tl_0_lamp",
+        "prop_convex_small_036_tl_0_pole",
+        "prop_convex_small_037_tl_1_arm",
+        "prop_convex_small_038_tl_1_head",
+        "prop_convex_small_039_tl_1_lamp",
+        "prop_convex_small_040_tl_1_pole",
+        "prop_convex_small_041_tl_2_arm",
+        "prop_convex_small_042_tl_2_head",
+        "prop_convex_small_043_tl_2_lamp",
+        "prop_convex_small_044_tl_2_pole",
+        "prop_convex_small_045_tl_3_arm",
+        "prop_convex_small_046_tl_3_head",
+        "prop_convex_small_047_tl_3_lamp",
+        "prop_convex_small_048_tl_3_pole"
+      ]
+    }
+  },
+  "runtime_model": {
+    "bytes": 30146,
+    "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/runtime_model.xml",
+    "sha256": "17081a4698a6c3d23f4e473173e6b55a66b9d33fc498bcc02b85482341a4a21a"
+  },
+  "schema_version": "simcode4d.dev15.physics-profile.v1",
+  "semantic_contact_policy": {
+    "allowed": [
+      [
+        "go2_feet",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "go2_base",
+        "static_obstacles"
+      ]
+    ],
+    "groups": {
+      "floor": {
+        "geoms": [
+          "terrain_*"
+        ]
+      },
+      "go2_all": {
+        "bodies": [
+          "base",
+          "FL_*",
+          "FR_*",
+          "RL_*",
+          "RR_*"
+        ]
+      },
+      "go2_base": {
+        "bodies": [
+          "base"
+        ]
+      },
+      "go2_feet": {
+        "geoms": [
+          "FL",
+          "FR",
+          "RL",
+          "RR"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "prop_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "simulator": {
+    "dimensions": {
+      "nbody": 14,
+      "nequality": 0,
+      "ngeom": 109,
+      "njoint": 13,
+      "nq": 19,
+      "nu": 18,
+      "nv": 18
+    },
+    "model_name": "unnamed_model",
+    "name": "mujoco",
+    "options": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "density": 0.0,
+      "friction_cone": "mjCONE_ELLIPTIC",
+      "gravity_mps2": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": "mjINT_IMPLICITFAST",
+      "iterations": 100,
+      "jacobian": "mjJAC_AUTO",
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic_tesla": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_margin": 0.0,
+      "solver": "mjSOL_NEWTON",
+      "timestep_s": 0.001,
+      "tolerance": 1e-10,
+      "viscosity": 0.0,
+      "wind_mps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "runtime_version": "3.9.0"
+  },
+  "static_field": null,
+  "success_and_safety_thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_height_span_m": 0.25,
+    "maximum_lateral_span_m": 0.4,
+    "maximum_terminal_speed_mps": 0.2,
+    "maximum_tilt_rad": 0.7,
+    "terminal_hold_s": 0.5
+  },
+  "world_id": "urb02-intersection"
+}

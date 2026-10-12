@@ -1,0 +1,197 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 1655,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-02-agv-cargo/dependency_manifest.json",
+      "sha256": "db653d988aa8ec28b815a7d8eee2f886fe752eca25ef1a21f9553ceaf7c59082"
+    },
+    "m1_base": {
+      "bytes": 10346,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-2_agv_cargo/M1/module1/scene_enriched.xml",
+      "sha256": "bb5c1f742d1a986c14936aa027b2e05824af0e4a43f2dd18431eab2402822126"
+    },
+    "m2_overlay": {
+      "bytes": 1397,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-02-agv-cargo/m2_overlay.json",
+      "sha256": "9a21c04e17a6bb581ca3f2f84b517711a64c55b68b8ca784ee07756198ffa894"
+    },
+    "runtime_model": {
+      "bytes": 17870,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-02-agv-cargo/runtime_model.xml",
+      "sha256": "d2673d03c8d8425d911302ff29c07a52b6dd34715d09e946b22b15ed5d23f220"
+    }
+  },
+  "case_id": "INS-02-agv-cargo",
+  "domain": "industrial",
+  "dynamic_subtype": "contact_dynamic",
+  "entities": [
+    {
+      "entity_id": "agv",
+      "mobility": "articulated",
+      "model_binding": "rover_base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "cargo",
+      "mobility": "free",
+      "model_binding": "cargo",
+      "required": true,
+      "role": "target_object"
+    },
+    {
+      "entity_id": "factory_ground",
+      "mobility": "fixed",
+      "model_binding": "floor_*",
+      "required": true,
+      "role": "support"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "rover_base",
+      "cargo"
+    ],
+    "joints": [
+      "fl_wheel_joint",
+      "fr_wheel_joint",
+      "rl_wheel_joint",
+      "rr_wheel_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_y_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_z_ctrl": [
+        -180.0,
+        180.0
+      ],
+      "base_pitch_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_roll_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_yaw_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "fl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "fr_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rr_wheel": [
+        -8.0,
+        8.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "move_duration_s": 6.5,
+    "owner": "benchmark",
+    "path": "probes/ins02_agv_cargo.py",
+    "sha256": "b5f36f56c11074a5e588e9045b1e3e5ea5deff44fd0ebba28a30f8fa4d14ec6d",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        0.0,
+        -2.0
+      ],
+      [
+        0.85,
+        -2.0
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        0.0,
+        -2.0,
+        0.221
+      ],
+      [
+        0.85,
+        -2.0,
+        0.221
+      ]
+    ]
+  },
+  "prompt": "Transport the physically modeled cargo east with the AGV, retain the declared weld attachment, enter the cargo goal, and stop.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 5831669,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-2_agv_cargo/scene.blend",
+    "sha256": "76cdaa72052c338c98184dbb01cad5b7ce78d08034754c2f750b5abf9a29c5f3"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 95652,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-2_agv_cargo/M1/manifest.json",
+    "sha256": "2294f60fb8c05a3bcea361bfdfeaa9c5bcac874b02816a490545a7fe374dadf9"
+  },
+  "split": "development",
+  "task_family": "dynamic_interaction",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/ins02_agv_cargo.py",
+    "sha256": "75118ef550eabf715ff7543047a9d0e28e6348111fb6b417f1c1aa56bae03eba",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "ins02-industrial-cargo"
+}

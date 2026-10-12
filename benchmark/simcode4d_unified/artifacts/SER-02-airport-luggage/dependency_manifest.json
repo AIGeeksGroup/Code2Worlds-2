@@ -1,0 +1,11 @@
+{
+  "case_id": "SER-02-airport-luggage",
+  "files": [
+    {
+      "bytes": 11472,
+      "path": "benchmark/simcode4d_unified/artifacts/SER-02-airport-luggage/m1_world.xml",
+      "sha256": "489b3aed9707ed7e16ec2530668b3c93fe9d04836afb4a9c86eb83fe84342184"
+    }
+  ],
+  "schema_version": "simcode4d.rc3a-dev1.dependency-manifest"
+}

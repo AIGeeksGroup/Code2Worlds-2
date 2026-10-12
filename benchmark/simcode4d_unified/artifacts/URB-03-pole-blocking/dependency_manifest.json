@@ -1,0 +1,126 @@
+{
+  "case_id": "URB-03-pole-blocking",
+  "files": [
+    {
+      "bytes": 1355,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/m2_overlay.json",
+      "sha256": "9688f1cb440b2ff1a977ab1dc4040611c2724acbb37c13c905a034ea4f8b9ca9"
+    },
+    {
+      "bytes": 1542,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/repair_report.json",
+      "sha256": "386a011421f31e15ef62f8983a58b89cee9d533b86f3a046c51cb442cfc38a02"
+    },
+    {
+      "bytes": 24170,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-03-pole-blocking/runtime_model.xml",
+      "sha256": "0b012f421eb5cc973fbce8a475fa273f83d292faf1b25729bdb0d9578deaaee0"
+    },
+    {
+      "bytes": 6696,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/M1/module1/scene_enriched.xml",
+      "sha256": "73aeaac009d2c663056470b907f7c08b9ccb0545f6f99e79546d2e04028dd5a6"
+    },
+    {
+      "bytes": 19093,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/rollout/scene_m2.xml",
+      "sha256": "79ef486c3a3020af11d2a8efcb16b690b0f0670e90204f9ca06a411a5b09e05d"
+    },
+    {
+      "bytes": 343,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_dgo2_export3/background_terrain_00_collision.obj",
+      "sha256": "afd73f35ac692410a8340e9b9c42f38614690db5f0625d8c30b74a1cd13827c0"
+    },
+    {
+      "bytes": 345,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_dgo2_export3/background_terrain_01_collision.obj",
+      "sha256": "df30cedabf2025cf284600724b1bf525c1ed4b3c115846c42067457dd936af17"
+    },
+    {
+      "bytes": 353,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_dgo2_export3/background_terrain_02_collision.obj",
+      "sha256": "8c5f002db51a2d3a8519c7f48dd760bd1311fee05f97381e8ea6777b56b4d278"
+    },
+    {
+      "bytes": 1330465,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0"
+    },
+    {
+      "bytes": 811791,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6"
+    },
+    {
+      "bytes": 294090,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095"
+    },
+    {
+      "bytes": 379093,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6"
+    },
+    {
+      "bytes": 7776234,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821"
+    },
+    {
+      "bytes": 877174,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e"
+    },
+    {
+      "bytes": 326865,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817"
+    },
+    {
+      "bytes": 876538,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2"
+    },
+    {
+      "bytes": 327261,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a"
+    },
+    {
+      "bytes": 1144729,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b"
+    },
+    {
+      "bytes": 2863864,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd"
+    },
+    {
+      "bytes": 2767918,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf"
+    },
+    {
+      "bytes": 2841868,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec"
+    },
+    {
+      "bytes": 1491320,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2"
+    },
+    {
+      "bytes": 2817674,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b"
+    },
+    {
+      "bytes": 1482261,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

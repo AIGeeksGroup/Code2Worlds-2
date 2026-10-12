@@ -1,0 +1,1 @@
+deliverables/final_real8s_physical_2026-09-01/module1/scene_indoor_service/simready_scene.xml

@@ -1,0 +1,207 @@
+{
+  "case_id": "INS-02-agv-cargo",
+  "case_spec_sha256": "297e80852fb8e401304a9d19327896ae4cde359e8ecea7fb30bd9a80f7eb2d27",
+  "contact_policy": {
+    "allowed": [
+      [
+        "rover_wheels",
+        "ground"
+      ],
+      [
+        "cargo",
+        "rover_base"
+      ]
+    ],
+    "forbidden": [
+      [
+        "rover_base",
+        "static_obstacles"
+      ],
+      [
+        "cargo",
+        "ground"
+      ]
+    ],
+    "groups": {
+      "cargo": {
+        "bodies": [
+          "cargo"
+        ]
+      },
+      "ground": {
+        "geoms": [
+          "floor_*"
+        ]
+      },
+      "rover_base": {
+        "bodies": [
+          "rover_base"
+        ]
+      },
+      "rover_wheels": {
+        "bodies": [
+          "rover_*_wheel"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "prop_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "cargo_attached",
+        "transport_progress"
+      ],
+      [
+        "transport_progress",
+        "cargo_goal"
+      ],
+      [
+        "cargo_goal",
+        "stop"
+      ]
+    ],
+    "nodes": [
+      "cargo_attached",
+      "transport_progress",
+      "cargo_goal",
+      "stop"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "keyframe": "m2_init"
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.95
+      },
+      "body_mass_scale": {
+        "cargo": 0.95
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          0.01,
+          -0.01
+        ],
+        "rover_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "cargo": 0.015,
+        "rover_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.05
+      },
+      "body_mass_scale": {
+        "cargo": 1.05
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          -0.012,
+          0.008
+        ],
+        "rover_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "cargo": -0.02,
+        "rover_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.08
+      },
+      "body_mass_scale": {
+        "cargo": 0.9
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          0.0,
+          0.015
+        ],
+        "rover_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.92
+      },
+      "body_mass_scale": {
+        "cargo": 1.1
+      },
+      "body_xy_offset_m": {
+        "cargo": [
+          0.008,
+          0.012
+        ],
+        "rover_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "cargo": 0.012,
+        "rover_base": 0.012
+      }
+    }
+  },
+  "regions": {
+    "cargo_goal": {
+      "max_xyz_m": [
+        1.3,
+        -1.7,
+        0.8
+      ],
+      "min_xyz_m": [
+        0.7,
+        -2.3,
+        0.25
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "Development-only benchmark-authored semantics; source evidence is retained, thresholds are frozen before the reference matrix, and official Core15 admission remains false.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_relative_orientation_error_rad": 0.02,
+    "maximum_relative_pose_error_m": 0.02,
+    "maximum_terminal_speed_mps": 0.12,
+    "maximum_tilt_rad": 0.5,
+    "minimum_travel_m": 0.75,
+    "terminal_hold_s": 0.5
+  }
+}

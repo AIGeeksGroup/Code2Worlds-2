@@ -1,0 +1,2242 @@
+{
+  "actuators": [
+    {
+      "bias_parameters": [
+        0.0,
+        -2000.0,
+        -400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": true,
+      "control_range": [
+        -6.2831,
+        6.2831
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": true,
+      "force_range_N_or_Nm": [
+        -150.0,
+        150.0
+      ],
+      "gain_parameters": [
+        2000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "shoulder_pan",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "shoulder_pan_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        -2000.0,
+        -400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": true,
+      "control_range": [
+        -6.2831,
+        6.2831
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": true,
+      "force_range_N_or_Nm": [
+        -150.0,
+        150.0
+      ],
+      "gain_parameters": [
+        2000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 1,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "shoulder_lift",
+      "transmission_ids": [
+        1,
+        -1
+      ],
+      "transmission_target": "shoulder_lift_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        -2000.0,
+        -400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": true,
+      "control_range": [
+        -3.1415,
+        3.1415
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": true,
+      "force_range_N_or_Nm": [
+        -150.0,
+        150.0
+      ],
+      "gain_parameters": [
+        2000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 2,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "elbow",
+      "transmission_ids": [
+        2,
+        -1
+      ],
+      "transmission_target": "elbow_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        -500.0,
+        -100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": true,
+      "control_range": [
+        -6.2831,
+        6.2831
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": true,
+      "force_range_N_or_Nm": [
+        -28.0,
+        28.0
+      ],
+      "gain_parameters": [
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 3,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "wrist_1",
+      "transmission_ids": [
+        3,
+        -1
+      ],
+      "transmission_target": "wrist_1_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        -500.0,
+        -100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": true,
+      "control_range": [
+        -6.2831,
+        6.2831
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": true,
+      "force_range_N_or_Nm": [
+        -28.0,
+        28.0
+      ],
+      "gain_parameters": [
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 4,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "wrist_2",
+      "transmission_ids": [
+        4,
+        -1
+      ],
+      "transmission_target": "wrist_2_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        -500.0,
+        -100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_AFFINE",
+      "control_limited": true,
+      "control_range": [
+        -6.2831,
+        6.2831
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": true,
+      "force_range_N_or_Nm": [
+        -28.0,
+        28.0
+      ],
+      "gain_parameters": [
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 5,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "wrist_3",
+      "transmission_ids": [
+        5,
+        -1
+      ],
+      "transmission_target": "wrist_3_joint",
+      "transmission_type": "mjTRN_JOINT"
+    }
+  ],
+  "bodies": [
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamic": false,
+      "id": 0,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.0,
+      "mocap_id": -1,
+      "name": "world",
+      "parent": null
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        8.8593804,
+        8.8593804,
+        2.4914304
+      ],
+      "dynamic": true,
+      "id": 1,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 115.344,
+      "mocap_id": -1,
+      "name": "ur5e_mount",
+      "parent": "world"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.00443333156,
+        0.00443333156,
+        0.0072
+      ],
+      "dynamic": true,
+      "id": 2,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 4.0,
+      "mocap_id": -1,
+      "name": "ur5e_base",
+      "parent": "world"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0102675,
+        0.0102675,
+        0.00666
+      ],
+      "dynamic": true,
+      "id": 3,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 3.7,
+      "mocap_id": -1,
+      "name": "shoulder_link",
+      "parent": "ur5e_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.133886,
+        0.133886,
+        0.0151074
+      ],
+      "dynamic": true,
+      "id": 4,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.2125
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 8.393,
+      "mocap_id": -1,
+      "name": "upper_arm_link",
+      "parent": "shoulder_link"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0311796,
+        0.0311796,
+        0.004095
+      ],
+      "dynamic": true,
+      "id": 5,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.196
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 2.275,
+      "mocap_id": -1,
+      "name": "forearm_link",
+      "parent": "upper_arm_link"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0025599,
+        0.0025599,
+        0.0021942
+      ],
+      "dynamic": true,
+      "id": 6,
+      "inertial_position_m": [
+        0.0,
+        0.127,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.219,
+      "mocap_id": -1,
+      "name": "wrist_1_link",
+      "parent": "forearm_link"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0025599,
+        0.0025599,
+        0.0021942
+      ],
+      "dynamic": true,
+      "id": 7,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 1,
+      "mass_kg": 1.219,
+      "mocap_id": -1,
+      "name": "wrist_2_link",
+      "parent": "wrist_1_link"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.000132134,
+        9.90863e-05,
+        9.90863e-05
+      ],
+      "dynamic": true,
+      "id": 8,
+      "inertial_position_m": [
+        0.0,
+        0.0771683,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        0.707106781187,
+        0.0,
+        0.0,
+        0.707106781187
+      ],
+      "joint_count": 1,
+      "mass_kg": 0.1889,
+      "mocap_id": -1,
+      "name": "wrist_3_link",
+      "parent": "wrist_2_link"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        1.28e-07,
+        1.28e-07,
+        1.28e-07
+      ],
+      "dynamic": true,
+      "id": 9,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.02,
+      "mocap_id": -1,
+      "name": "weld_tool_tip",
+      "parent": "wrist_3_link"
+    }
+  ],
+  "case_gold_sha256": "fffb898dbc1ee3e1ad7bf19a075ada296d866966ca71c7d60e48f00d780fe481",
+  "case_id": "INS-03-weld",
+  "case_spec_sha256": "f051d93826ebe6329a417ce75e2ccc9ff3bbcbe9829ef6cb8377624f70b9c4f9",
+  "collision_geoms": [
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 0,
+      "name": "floor_00",
+      "position_m": [
+        3.0,
+        3.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.0,
+        3.0,
+        0.1
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 1,
+      "name": "floor_01",
+      "position_m": [
+        1.0,
+        5.5,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.75,
+        0.5,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 2,
+      "name": "floor_02",
+      "position_m": [
+        3.0,
+        1.5,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 3,
+      "name": "floor_03",
+      "position_m": [
+        3.0,
+        2.0,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 4,
+      "name": "floor_04",
+      "position_m": [
+        3.0,
+        2.5,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 5,
+      "name": "floor_05",
+      "position_m": [
+        3.0,
+        3.0,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 6,
+      "name": "floor_06",
+      "position_m": [
+        3.0,
+        3.5,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 7,
+      "name": "floor_07",
+      "position_m": [
+        3.0,
+        4.0,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 8,
+      "name": "floor_08",
+      "position_m": [
+        3.0,
+        4.5,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 9,
+      "name": "floor_09",
+      "position_m": [
+        3.0,
+        5.0,
+        0.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        2.0,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 10,
+      "name": "floor_10",
+      "position_m": [
+        2.5,
+        3.0,
+        0.05
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.03,
+        1.0,
+        0.03
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 11,
+      "name": "wall_00",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.0,
+        0.1,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 12,
+      "name": "wall_01",
+      "position_m": [
+        3.0,
+        3.0,
+        4.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.65,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 13,
+      "name": "wall_02",
+      "position_m": [
+        3.0,
+        3.0,
+        3.95
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.75,
+        0.15,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 14,
+      "name": "wall_03",
+      "position_m": [
+        1.0,
+        5.5,
+        4.01
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.4,
+        0.1,
+        0.01
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 15,
+      "name": "wall_04",
+      "position_m": [
+        1.0,
+        5.5,
+        3.95
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.5,
+        0.15,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 16,
+      "name": "wall_05",
+      "position_m": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.0,
+        3.0,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 17,
+      "name": "wall_06",
+      "position_m": [
+        5.5,
+        3.0,
+        3.8
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        3.0,
+        0.05,
+        0.05
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 18,
+      "name": "wall_07",
+      "position_m": [
+        0.0,
+        3.0,
+        2.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        3.0,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 19,
+      "name": "wall_08",
+      "position_m": [
+        6.0,
+        3.0,
+        2.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.1,
+        3.0,
+        2.0
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 20,
+      "name": "prop_concave_large_000_control_panel",
+      "position_m": [
+        1.0,
+        5.2,
+        0.7
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.445343,
+        0.445343,
+        0.7
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 21,
+      "name": "prop_concave_large_001_fume_extraction_hood",
+      "position_m": [
+        3.0,
+        3.8,
+        2.9
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.3
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 22,
+      "name": "prop_concave_large_002_gas_cylinder_rack",
+      "position_m": [
+        5.0,
+        5.2,
+        0.7
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.4,
+        0.2225,
+        0.725
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 23,
+      "name": "prop_concave_large_003_welding_helmet",
+      "position_m": [
+        1.2,
+        5.15,
+        1.575
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.125,
+        0.2125,
+        0.125
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 24,
+      "name": "prop_concave_large_004_welding_robot_base",
+      "position_m": [
+        3.0,
+        2.0,
+        0.9
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.9
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_003",
+      "group": 0,
+      "id": 25,
+      "name": "prop_concave_large_005_welding_table",
+      "position_m": [
+        2.5,
+        3.5,
+        0.8
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.8,
+        0.5,
+        0.45
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "ur5e_mount",
+      "contact_material": "contact_material_004",
+      "group": 0,
+      "id": 26,
+      "name": "ur5e_mount_geom",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.18,
+        0.18,
+        0.445
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "shoulder_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 32,
+      "name": "__unnamed_geom_32",
+      "position_m": [
+        0.0,
+        0.0,
+        -0.04
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "upper_arm_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 37,
+      "name": "__unnamed_geom_37",
+      "position_m": [
+        0.0,
+        -0.04,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.06,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "upper_arm_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 38,
+      "name": "__unnamed_geom_38",
+      "position_m": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.05,
+        0.2,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "forearm_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 43,
+      "name": "__unnamed_geom_43",
+      "position_m": [
+        0.0,
+        0.08,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.055,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "forearm_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 44,
+      "name": "__unnamed_geom_44",
+      "position_m": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.038,
+        0.19,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "wrist_1_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 48,
+      "name": "__unnamed_geom_48",
+      "position_m": [
+        0.0,
+        0.05,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "wrist_2_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 52,
+      "name": "__unnamed_geom_52",
+      "position_m": [
+        0.0,
+        0.0,
+        0.04
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.06,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "wrist_2_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 53,
+      "name": "__unnamed_geom_53",
+      "position_m": [
+        0.0,
+        0.02,
+        0.1
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.04,
+        0.0
+      ],
+      "type": "mjGEOM_CAPSULE"
+    },
+    {
+      "body": "wrist_3_link",
+      "contact_material": "contact_material_005",
+      "group": 3,
+      "id": 55,
+      "name": "__unnamed_geom_55",
+      "position_m": [
+        0.0,
+        0.08,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.707106781187,
+        0.707106781187,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.04,
+        0.02,
+        0.0
+      ],
+      "type": "mjGEOM_CYLINDER"
+    },
+    {
+      "body": "weld_tool_tip",
+      "contact_material": "contact_material_006",
+      "group": 0,
+      "id": 56,
+      "name": "weld_tool_tip_geom",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.004,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    }
+  ],
+  "contact_material_classes": [
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.7,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_001",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.5,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_002",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_003",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 6,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.005,
+        "sliding": 0.8,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_004",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 1.0,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_005",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 6,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.002,
+        "sliding": 0.6,
+        "torsional": 0.01
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_006",
+      "margin_m": 0.0,
+      "priority": 0,
+      "solver_impedance": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.02,
+        1.0
+      ]
+    }
+  ],
+  "control_loop": {
+    "actuator_limits": {
+      "elbow": [
+        -3.1415,
+        3.1415
+      ],
+      "shoulder_lift": [
+        -6.2831,
+        6.2831
+      ],
+      "shoulder_pan": [
+        -6.2831,
+        6.2831
+      ],
+      "wrist_1": [
+        -6.2831,
+        6.2831
+      ],
+      "wrist_2": [
+        -6.2831,
+        6.2831
+      ],
+      "wrist_3": [
+        -6.2831,
+        6.2831
+      ]
+    },
+    "benchmark_probe_command_hz": 1000.0,
+    "command_interface": "declared MuJoCo actuators only; probe has no qpos/qvel/model write access",
+    "physics_hz": 1000.0,
+    "record_hz": 30
+  },
+  "diagnostic_contract": {
+    "friction": {
+      "channels": [
+        "sliding/torsional/rolling coefficients",
+        "tangential contact force",
+        "Coulomb-cone utilization",
+        "contact-point tangential slip speed"
+      ],
+      "cone_utilization_failure": 1.25,
+      "cone_utilization_warning": 1.05,
+      "failure_minimum_dwell_s": 0.01,
+      "slip_is_diagnostic_not_global_failure": true,
+      "slip_speed_reporting_threshold_mps": 0.02
+    },
+    "kinematics": {
+      "channels": [
+        "body pose and twist",
+        "quaternion norm",
+        "joint position and velocity",
+        "finite-difference acceleration and jerk",
+        "joint-limit dwell"
+      ],
+      "joint_limit_tolerance": 0.0001,
+      "quaternion_norm_tolerance": 1e-06,
+      "violation_minimum_dwell_s": 0.01
+    },
+    "mechanics": {
+      "channels": [
+        "finite generalized state",
+        "positive body mass and principal inertia",
+        "normal and tangential contact force",
+        "penetration depth",
+        "generalized force-balance residual",
+        "constraint-force solver residual (diagnostic)",
+        "kinetic and potential energy"
+      ],
+      "force_balance_relative_tolerance": 1e-05,
+      "nonphysical_dynamic_bodies": []
+    }
+  },
+  "equalities": [],
+  "joints": [
+    {
+      "armature": [
+        0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "shoulder_link",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 0,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 0,
+      "limited": true,
+      "margin": 0.0,
+      "name": "shoulder_pan_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 0,
+      "qpos_width": 1,
+      "range": [
+        -6.28319,
+        6.28319
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.1
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "upper_arm_link",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 1,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 1,
+      "limited": true,
+      "margin": 0.0,
+      "name": "shoulder_lift_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 1,
+      "qpos_width": 1,
+      "range": [
+        -6.28319,
+        6.28319
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.1
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "forearm_link",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 2,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 2,
+      "limited": true,
+      "margin": 0.0,
+      "name": "elbow_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 2,
+      "qpos_width": 1,
+      "range": [
+        -3.1415,
+        3.1415
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.1
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "wrist_1_link",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 3,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 3,
+      "limited": true,
+      "margin": 0.0,
+      "name": "wrist_1_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 3,
+      "qpos_width": 1,
+      "range": [
+        -6.28319,
+        6.28319
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "wrist_2_link",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 4,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 4,
+      "limited": true,
+      "margin": 0.0,
+      "name": "wrist_2_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 4,
+      "qpos_width": 1,
+      "range": [
+        -6.28319,
+        6.28319
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.1
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "wrist_3_link",
+      "damping": [
+        0.0
+      ],
+      "dof_address": 5,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 5,
+      "limited": true,
+      "margin": 0.0,
+      "name": "wrist_3_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 5,
+      "qpos_width": 1,
+      "range": [
+        -6.28319,
+        6.28319
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    }
+  ],
+  "physics_seed_perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "ur5e_base": 0.95
+      },
+      "body_mass_scale": {
+        "weld_tool_tip": 0.95
+      },
+      "body_xy_offset_m": {
+        "ur5e_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "ur5e_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "ur5e_base": 1.05
+      },
+      "body_mass_scale": {
+        "weld_tool_tip": 1.05
+      },
+      "body_xy_offset_m": {
+        "ur5e_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "ur5e_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "ur5e_base": 1.08
+      },
+      "body_mass_scale": {
+        "weld_tool_tip": 0.9
+      },
+      "body_xy_offset_m": {
+        "ur5e_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "ur5e_base": 0.92
+      },
+      "body_mass_scale": {
+        "weld_tool_tip": 1.1
+      },
+      "body_xy_offset_m": {
+        "ur5e_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "ur5e_base": 0.012
+      }
+    }
+  },
+  "provenance": {
+    "estimated_parameter_count": 0,
+    "note": "This profile indexes the frozen Dev15 runtime; unavailable pre-export authoring values are explicitly identified by provenance records.",
+    "parameter_status": "exact_from_frozen_runtime_model",
+    "semantic_contact_status": "exact_from_frozen_case_gold"
+  },
+  "resolved_contact_groups": {
+    "fixtures": {
+      "bodies": [],
+      "geoms": [
+        "prop_concave_large_000_control_panel",
+        "prop_concave_large_001_fume_extraction_hood",
+        "prop_concave_large_002_gas_cylinder_rack",
+        "prop_concave_large_003_welding_helmet",
+        "wall_00",
+        "wall_01",
+        "wall_02",
+        "wall_03",
+        "wall_04",
+        "wall_05",
+        "wall_06",
+        "wall_07",
+        "wall_08"
+      ]
+    },
+    "robot_links": {
+      "bodies": [
+        "forearm_link",
+        "shoulder_link",
+        "upper_arm_link",
+        "wrist_1_link",
+        "wrist_2_link"
+      ],
+      "geoms": []
+    },
+    "weld_tool": {
+      "bodies": [
+        "weld_tool_tip"
+      ],
+      "geoms": []
+    },
+    "welding_table": {
+      "bodies": [],
+      "geoms": [
+        "prop_concave_large_005_welding_table"
+      ]
+    }
+  },
+  "runtime_model": {
+    "bytes": 13929,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-03-weld/runtime_model.xml",
+    "sha256": "a63c226c122adf592e29ae6c8963ce07e1c9b166b4845d72d140b660017b30bf"
+  },
+  "schema_version": "simcode4d.dev15.physics-profile.v1",
+  "semantic_contact_policy": {
+    "allowed": [
+      [
+        "weld_tool",
+        "welding_table"
+      ]
+    ],
+    "forbidden": [
+      [
+        "robot_links",
+        "fixtures"
+      ]
+    ],
+    "groups": {
+      "fixtures": {
+        "geoms": [
+          "wall_*",
+          "prop_concave_large_000_*",
+          "prop_concave_large_001_*",
+          "prop_concave_large_002_*",
+          "prop_concave_large_003_*"
+        ]
+      },
+      "robot_links": {
+        "bodies": [
+          "shoulder_link",
+          "upper_arm_link",
+          "forearm_link",
+          "wrist_1_link",
+          "wrist_2_link"
+        ]
+      },
+      "weld_tool": {
+        "bodies": [
+          "weld_tool_tip"
+        ]
+      },
+      "welding_table": {
+        "geoms": [
+          "prop_concave_large_005_welding_table"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "simulator": {
+    "dimensions": {
+      "nbody": 10,
+      "nequality": 0,
+      "ngeom": 57,
+      "njoint": 6,
+      "nq": 6,
+      "nu": 6,
+      "nv": 6
+    },
+    "model_name": "unnamed_model",
+    "name": "mujoco",
+    "options": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "density": 0.0,
+      "friction_cone": "mjCONE_ELLIPTIC",
+      "gravity_mps2": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": "mjINT_IMPLICITFAST",
+      "iterations": 100,
+      "jacobian": "mjJAC_AUTO",
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic_tesla": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_margin": 0.0,
+      "solver": "mjSOL_NEWTON",
+      "timestep_s": 0.001,
+      "tolerance": 1e-10,
+      "viscosity": 0.0,
+      "wind_mps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "runtime_version": "3.9.0"
+  },
+  "static_field": null,
+  "success_and_safety_thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_logged_step_m": 0.04,
+    "maximum_path_error_m": 0.035,
+    "maximum_terminal_speed_mps": 0.1,
+    "terminal_hold_s": 0.5
+  },
+  "world_id": "ins03-welding-cell"
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "URB-02-intersection",
+  "m1_base_sha256": "80a96a73656699154058a7dc463affe95858461b986b91ca77c423bc8ca490af",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1452,
+    "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/repair_report.json",
+    "sha256": "cc12bff2fbd3a9fc3bc8bbbbe9a2e52c976e57e5d0c71dabc6c5a2adca04eaf0"
+  },
+  "repairs": [
+    "removed invisible non-colliding stone",
+    "fixed missing radian compiler declaration",
+    "moved initialization to the west sidewalk",
+    "raised initialization 0.020 m to remove measured foot-ground overlap",
+    "declared bounded free-joint assist actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "runtime_model": {
+    "bytes": 30146,
+    "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/runtime_model.xml",
+    "sha256": "17081a4698a6c3d23f4e473173e6b55a66b9d33fc498bcc02b85482341a4a21a"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 23847,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/rollout/scene_m2.xml",
+    "sha256": "af9f661e5e71fa5208a6a8257b30f7855b0f249e3fb44a0ccfcec04705202847"
+  },
+  "task_independent": true
+}

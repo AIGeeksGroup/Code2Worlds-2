@@ -1,0 +1,4598 @@
+{
+  "blend": "../../../tmp_agv_city.blend",
+  "groups": {
+    "background_terrain": [
+      {
+        "name": "background_terrain_00",
+        "source_name": "curb_-1",
+        "visual_obj": "background_terrain_00_visual.obj",
+        "collision_obj": "background_terrain_00_collision.obj",
+        "world_aabb": [
+          -10.0,
+          -4.100000381469727,
+          0.030000001192092896,
+          30.0,
+          -4.0,
+          0.1899999976158142
+        ]
+      },
+      {
+        "name": "background_terrain_01",
+        "source_name": "curb_1",
+        "visual_obj": "background_terrain_01_visual.obj",
+        "collision_obj": "background_terrain_01_collision.obj",
+        "world_aabb": [
+          -10.0,
+          4.0,
+          0.030000001192092896,
+          30.0,
+          4.100000381469727,
+          0.1899999976158142
+        ]
+      },
+      {
+        "name": "background_terrain_02",
+        "source_name": "road",
+        "visual_obj": "background_terrain_02_visual.obj",
+        "collision_obj": "background_terrain_02_collision.obj",
+        "world_aabb": [
+          -10.0,
+          -4.0,
+          -0.10000000149011612,
+          30.0,
+          4.0,
+          0.0
+        ]
+      },
+      {
+        "name": "background_terrain_03",
+        "source_name": "sidewalk_-1",
+        "visual_obj": "background_terrain_03_visual.obj",
+        "collision_obj": "background_terrain_03_collision.obj",
+        "world_aabb": [
+          -10.0,
+          -7.0,
+          0.05000000074505806,
+          30.0,
+          -4.0,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "background_terrain_04",
+        "source_name": "sidewalk_1",
+        "visual_obj": "background_terrain_04_visual.obj",
+        "collision_obj": "background_terrain_04_collision.obj",
+        "world_aabb": [
+          -10.0,
+          4.0,
+          0.05000000074505806,
+          30.0,
+          7.0,
+          0.15000000596046448
+        ]
+      }
+    ],
+    "background_floor": [],
+    "background_wall": [],
+    "prop_concave_large": [],
+    "prop_convex_small": [
+      {
+        "name": "prop_convex_small_000_bldg_-1_0",
+        "source_name": "bldg_-1_0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_000_bldg_-1_0.obj",
+        "world_pos": [
+          -3.0,
+          -9.0,
+          4.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          9.0
+        ],
+        "world_aabb": [
+          -6.0,
+          -11.5,
+          0.0,
+          0.0,
+          -6.5,
+          9.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_001_bldg_-1_1",
+        "source_name": "bldg_-1_1",
+        "mesh_rel": "prop_convex_small/prop_convex_small_001_bldg_-1_1.obj",
+        "world_pos": [
+          4.0,
+          -9.0,
+          6.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          12.0
+        ],
+        "world_aabb": [
+          1.0,
+          -11.5,
+          0.0,
+          7.0,
+          -6.5,
+          12.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_002_bldg_-1_2",
+        "source_name": "bldg_-1_2",
+        "mesh_rel": "prop_convex_small/prop_convex_small_002_bldg_-1_2.obj",
+        "world_pos": [
+          11.0,
+          -9.0,
+          7.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          15.0
+        ],
+        "world_aabb": [
+          8.0,
+          -11.5,
+          0.0,
+          14.0,
+          -6.5,
+          15.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_003_bldg_-1_3",
+        "source_name": "bldg_-1_3",
+        "mesh_rel": "prop_convex_small/prop_convex_small_003_bldg_-1_3.obj",
+        "world_pos": [
+          18.0,
+          -9.0,
+          4.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          9.0
+        ],
+        "world_aabb": [
+          15.0,
+          -11.5,
+          0.0,
+          21.0,
+          -6.5,
+          9.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_004_bldg_-1_4",
+        "source_name": "bldg_-1_4",
+        "mesh_rel": "prop_convex_small/prop_convex_small_004_bldg_-1_4.obj",
+        "world_pos": [
+          25.0,
+          -9.0,
+          6.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          12.0
+        ],
+        "world_aabb": [
+          22.0,
+          -11.5,
+          0.0,
+          28.0,
+          -6.5,
+          12.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_005_bldg_1_0",
+        "source_name": "bldg_1_0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_005_bldg_1_0.obj",
+        "world_pos": [
+          -3.0,
+          9.0,
+          4.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          9.0
+        ],
+        "world_aabb": [
+          -6.0,
+          6.5,
+          0.0,
+          0.0,
+          11.5,
+          9.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_006_bldg_1_1",
+        "source_name": "bldg_1_1",
+        "mesh_rel": "prop_convex_small/prop_convex_small_006_bldg_1_1.obj",
+        "world_pos": [
+          4.0,
+          9.0,
+          6.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          12.0
+        ],
+        "world_aabb": [
+          1.0,
+          6.5,
+          0.0,
+          7.0,
+          11.5,
+          12.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_007_bldg_1_2",
+        "source_name": "bldg_1_2",
+        "mesh_rel": "prop_convex_small/prop_convex_small_007_bldg_1_2.obj",
+        "world_pos": [
+          11.0,
+          9.0,
+          7.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          15.0
+        ],
+        "world_aabb": [
+          8.0,
+          6.5,
+          0.0,
+          14.0,
+          11.5,
+          15.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_008_bldg_1_3",
+        "source_name": "bldg_1_3",
+        "mesh_rel": "prop_convex_small/prop_convex_small_008_bldg_1_3.obj",
+        "world_pos": [
+          18.0,
+          9.0,
+          4.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          9.0
+        ],
+        "world_aabb": [
+          15.0,
+          6.5,
+          0.0,
+          21.0,
+          11.5,
+          9.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_009_bldg_1_4",
+        "source_name": "bldg_1_4",
+        "mesh_rel": "prop_convex_small/prop_convex_small_009_bldg_1_4.obj",
+        "world_pos": [
+          25.0,
+          9.0,
+          6.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          6.0,
+          5.0,
+          12.0
+        ],
+        "world_aabb": [
+          22.0,
+          6.5,
+          0.0,
+          28.0,
+          11.5,
+          12.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_010_lamp_arm_-1_-2_0",
+        "source_name": "lamp_arm_-1_-2.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_010_lamp_arm_-1_-2_0.obj",
+        "world_pos": [
+          -2.0,
+          -4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          0.24740397930145264
+        ],
+        "world_size": [
+          0.05428028106689453,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          -2.0271401405334473,
+          -4.377140045166016,
+          3.700000286102295,
+          -1.9728598594665527,
+          -4.322859764099121,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_011_lamp_arm_-1_10_0",
+        "source_name": "lamp_arm_-1_10.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_011_lamp_arm_-1_10_0.obj",
+        "world_pos": [
+          10.0,
+          -4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          0.24740397930145264
+        ],
+        "world_size": [
+          0.05428123474121094,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          9.972859382629395,
+          -4.377140045166016,
+          3.700000286102295,
+          10.027140617370605,
+          -4.322859764099121,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_012_lamp_arm_-1_16_0",
+        "source_name": "lamp_arm_-1_16.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_012_lamp_arm_-1_16_0.obj",
+        "world_pos": [
+          16.0,
+          -4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          0.24740397930145264
+        ],
+        "world_size": [
+          0.05428028106689453,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          15.972859382629395,
+          -4.377140045166016,
+          3.700000286102295,
+          16.02713966369629,
+          -4.322859764099121,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_013_lamp_arm_-1_4_0",
+        "source_name": "lamp_arm_-1_4.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_013_lamp_arm_-1_4_0.obj",
+        "world_pos": [
+          4.0,
+          -4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          0.24740397930145264
+        ],
+        "world_size": [
+          0.05428028106689453,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          3.9728598594665527,
+          -4.377140045166016,
+          3.700000286102295,
+          4.027140140533447,
+          -4.322859764099121,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_014_lamp_arm_1_-2_0",
+        "source_name": "lamp_arm_1_-2.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_014_lamp_arm_1_-2_0.obj",
+        "world_pos": [
+          -2.0,
+          4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          -0.24740397930145264
+        ],
+        "world_size": [
+          0.05428028106689453,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          -2.0271401405334473,
+          4.322859764099121,
+          3.700000286102295,
+          -1.9728598594665527,
+          4.377140045166016,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_015_lamp_arm_1_10_0",
+        "source_name": "lamp_arm_1_10.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_015_lamp_arm_1_10_0.obj",
+        "world_pos": [
+          10.0,
+          4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          -0.24740397930145264
+        ],
+        "world_size": [
+          0.05428123474121094,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          9.972859382629395,
+          4.322859764099121,
+          3.700000286102295,
+          10.027140617370605,
+          4.377140045166016,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_016_lamp_arm_1_16_0",
+        "source_name": "lamp_arm_1_16.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_016_lamp_arm_1_16_0.obj",
+        "world_pos": [
+          16.0,
+          4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          -0.24740397930145264
+        ],
+        "world_size": [
+          0.05428028106689453,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          15.972859382629395,
+          4.322859764099121,
+          3.700000286102295,
+          16.02713966369629,
+          4.377140045166016,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_017_lamp_arm_1_4_0",
+        "source_name": "lamp_arm_1_4.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_017_lamp_arm_1_4_0.obj",
+        "world_pos": [
+          4.0,
+          4.349999904632568,
+          4.300000190734863
+        ],
+        "world_quat": [
+          0.9689124226570129,
+          0.0,
+          0.0,
+          -0.24740397930145264
+        ],
+        "world_size": [
+          0.05428028106689453,
+          0.05428028106689453,
+          1.1999998092651367
+        ],
+        "world_aabb": [
+          3.9728598594665527,
+          4.322859764099121,
+          3.700000286102295,
+          4.027140140533447,
+          4.377140045166016,
+          4.900000095367432
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_018_lamp_head_-1_-2_0",
+        "source_name": "lamp_head_-1_-2.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_018_lamp_head_-1_-2_0.obj",
+        "world_pos": [
+          -2.0,
+          -4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999992847442627,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          -2.0999999046325684,
+          -5.049999713897705,
+          4.260000228881836,
+          -1.899999976158142,
+          -4.849999904632568,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_019_lamp_head_-1_10_0",
+        "source_name": "lamp_head_-1_10.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_019_lamp_head_-1_10_0.obj",
+        "world_pos": [
+          10.0,
+          -4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          9.899999618530273,
+          -5.049999713897705,
+          4.260000228881836,
+          10.100000381469727,
+          -4.849999904632568,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_020_lamp_head_-1_16_0",
+        "source_name": "lamp_head_-1_16.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_020_lamp_head_-1_16_0.obj",
+        "world_pos": [
+          16.0,
+          -4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          15.899999618530273,
+          -5.049999713897705,
+          4.260000228881836,
+          16.100000381469727,
+          -4.849999904632568,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_021_lamp_head_-1_4_0",
+        "source_name": "lamp_head_-1_4.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_021_lamp_head_-1_4_0.obj",
+        "world_pos": [
+          4.0,
+          -4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999980926513672,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          3.9000000953674316,
+          -5.049999713897705,
+          4.260000228881836,
+          4.099999904632568,
+          -4.849999904632568,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_022_lamp_head_1_-2_0",
+        "source_name": "lamp_head_1_-2.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_022_lamp_head_1_-2_0.obj",
+        "world_pos": [
+          -2.0,
+          4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999992847442627,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          -2.0999999046325684,
+          4.849999904632568,
+          4.260000228881836,
+          -1.899999976158142,
+          5.049999713897705,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_023_lamp_head_1_10_0",
+        "source_name": "lamp_head_1_10.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_023_lamp_head_1_10_0.obj",
+        "world_pos": [
+          10.0,
+          4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          9.899999618530273,
+          4.849999904632568,
+          4.260000228881836,
+          10.100000381469727,
+          5.049999713897705,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_024_lamp_head_1_16_0",
+        "source_name": "lamp_head_1_16.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_024_lamp_head_1_16_0.obj",
+        "world_pos": [
+          16.0,
+          4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          15.899999618530273,
+          4.849999904632568,
+          4.260000228881836,
+          16.100000381469727,
+          5.049999713897705,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_025_lamp_head_1_4_0",
+        "source_name": "lamp_head_1_4.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_025_lamp_head_1_4_0.obj",
+        "world_pos": [
+          4.0,
+          4.949999809265137,
+          4.320000171661377
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999980926513672,
+          0.19999980926513672,
+          0.11999988555908203
+        ],
+        "world_aabb": [
+          3.9000000953674316,
+          4.849999904632568,
+          4.260000228881836,
+          4.099999904632568,
+          5.049999713897705,
+          4.380000114440918
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_026_lamp_pole_-1_-2_0",
+        "source_name": "lamp_pole_-1_-2.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_026_lamp_pole_-1_-2_0.obj",
+        "world_pos": [
+          -2.0,
+          -4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09999990463256836,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          -2.049999952316284,
+          -4.400000095367432,
+          0.0,
+          -1.9500000476837158,
+          -4.299999713897705,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_027_lamp_pole_-1_10_0",
+        "source_name": "lamp_pole_-1_10.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_027_lamp_pole_-1_10_0.obj",
+        "world_pos": [
+          10.0,
+          -4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          9.949999809265137,
+          -4.400000095367432,
+          0.0,
+          10.050000190734863,
+          -4.299999713897705,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_028_lamp_pole_-1_16_0",
+        "source_name": "lamp_pole_-1_16.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_028_lamp_pole_-1_16_0.obj",
+        "world_pos": [
+          16.0,
+          -4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09999942779541016,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          15.949999809265137,
+          -4.400000095367432,
+          0.0,
+          16.049999237060547,
+          -4.299999713897705,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_029_lamp_pole_-1_4_0",
+        "source_name": "lamp_pole_-1_4.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_029_lamp_pole_-1_4_0.obj",
+        "world_pos": [
+          4.0,
+          -4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000014305114746,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          3.950000047683716,
+          -4.400000095367432,
+          0.0,
+          4.050000190734863,
+          -4.299999713897705,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_030_lamp_pole_1_-2_0",
+        "source_name": "lamp_pole_1_-2.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_030_lamp_pole_1_-2_0.obj",
+        "world_pos": [
+          -2.0,
+          4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09999990463256836,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          -2.049999952316284,
+          4.299999713897705,
+          0.0,
+          -1.9500000476837158,
+          4.400000095367432,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_031_lamp_pole_1_10_0",
+        "source_name": "lamp_pole_1_10.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_031_lamp_pole_1_10_0.obj",
+        "world_pos": [
+          10.0,
+          4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          9.949999809265137,
+          4.299999713897705,
+          0.0,
+          10.050000190734863,
+          4.400000095367432,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_032_lamp_pole_1_16_0",
+        "source_name": "lamp_pole_1_16.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_032_lamp_pole_1_16_0.obj",
+        "world_pos": [
+          16.0,
+          4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09999942779541016,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          15.949999809265137,
+          4.299999713897705,
+          0.0,
+          16.049999237060547,
+          4.400000095367432,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_033_lamp_pole_1_4_0",
+        "source_name": "lamp_pole_1_4.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_033_lamp_pole_1_4_0.obj",
+        "world_pos": [
+          4.0,
+          4.349999904632568,
+          2.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000014305114746,
+          0.10000038146972656,
+          4.5
+        ],
+        "world_aabb": [
+          3.950000047683716,
+          4.299999713897705,
+          0.0,
+          4.050000190734863,
+          4.400000095367432,
+          4.5
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_034_tree_crown_-1_-0_5",
+        "source_name": "tree_crown_-1_-0.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_034_tree_crown_-1_-0_5.obj",
+        "world_pos": [
+          -0.5,
+          -6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          -1.25,
+          -7.050000190734863,
+          1.7999999523162842,
+          0.25,
+          -5.550000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_035_tree_crown_-1_12_0",
+        "source_name": "tree_crown_-1_12.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_035_tree_crown_-1_12_0.obj",
+        "world_pos": [
+          12.0,
+          -6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          11.25,
+          -7.050000190734863,
+          1.7999999523162842,
+          12.75,
+          -5.550000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_036_tree_crown_-1_18_0",
+        "source_name": "tree_crown_-1_18.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_036_tree_crown_-1_18_0.obj",
+        "world_pos": [
+          18.0,
+          -6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          17.25,
+          -7.050000190734863,
+          1.7999999523162842,
+          18.75,
+          -5.550000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_037_tree_crown_-1_5_5",
+        "source_name": "tree_crown_-1_5.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_037_tree_crown_-1_5_5.obj",
+        "world_pos": [
+          5.5,
+          -6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          4.75,
+          -7.050000190734863,
+          1.7999999523162842,
+          6.25,
+          -5.550000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_038_tree_crown_1_-0_5",
+        "source_name": "tree_crown_1_-0.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_038_tree_crown_1_-0_5.obj",
+        "world_pos": [
+          -0.5,
+          6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          -1.25,
+          5.550000190734863,
+          1.7999999523162842,
+          0.25,
+          7.050000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_039_tree_crown_1_12_0",
+        "source_name": "tree_crown_1_12.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_039_tree_crown_1_12_0.obj",
+        "world_pos": [
+          12.0,
+          6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          11.25,
+          5.550000190734863,
+          1.7999999523162842,
+          12.75,
+          7.050000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_040_tree_crown_1_18_0",
+        "source_name": "tree_crown_1_18.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_040_tree_crown_1_18_0.obj",
+        "world_pos": [
+          18.0,
+          6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          17.25,
+          5.550000190734863,
+          1.7999999523162842,
+          18.75,
+          7.050000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_041_tree_crown_1_5_5",
+        "source_name": "tree_crown_1_5.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_041_tree_crown_1_5_5.obj",
+        "world_pos": [
+          5.5,
+          6.300000190734863,
+          2.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5,
+          1.5,
+          1.5999999046325684
+        ],
+        "world_aabb": [
+          4.75,
+          5.550000190734863,
+          1.7999999523162842,
+          6.25,
+          7.050000190734863,
+          3.3999998569488525
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_042_tree_trunk_-1_-0_5",
+        "source_name": "tree_trunk_-1_-0.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_042_tree_trunk_-1_-0_5.obj",
+        "world_pos": [
+          -0.5,
+          -6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000001788139343,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          -0.6000000238418579,
+          -6.400000095367432,
+          0.10000002384185791,
+          -0.4000000059604645,
+          -6.200000286102295,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_043_tree_trunk_-1_12_0",
+        "source_name": "tree_trunk_-1_12.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_043_tree_trunk_-1_12_0.obj",
+        "world_pos": [
+          12.0,
+          -6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          11.899999618530273,
+          -6.400000095367432,
+          0.10000002384185791,
+          12.100000381469727,
+          -6.200000286102295,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_044_tree_trunk_-1_18_0",
+        "source_name": "tree_trunk_-1_18.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_044_tree_trunk_-1_18_0.obj",
+        "world_pos": [
+          18.0,
+          -6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          17.899999618530273,
+          -6.400000095367432,
+          0.10000002384185791,
+          18.100000381469727,
+          -6.200000286102295,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_045_tree_trunk_-1_5_5",
+        "source_name": "tree_trunk_-1_5.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_045_tree_trunk_-1_5_5.obj",
+        "world_pos": [
+          5.5,
+          -6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999980926513672,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          5.400000095367432,
+          -6.400000095367432,
+          0.10000002384185791,
+          5.599999904632568,
+          -6.200000286102295,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_046_tree_trunk_1_-0_5",
+        "source_name": "tree_trunk_1_-0.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_046_tree_trunk_1_-0_5.obj",
+        "world_pos": [
+          -0.5,
+          6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000001788139343,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          -0.6000000238418579,
+          6.200000286102295,
+          0.10000002384185791,
+          -0.4000000059604645,
+          6.400000095367432,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_047_tree_trunk_1_12_0",
+        "source_name": "tree_trunk_1_12.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_047_tree_trunk_1_12_0.obj",
+        "world_pos": [
+          12.0,
+          6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          11.899999618530273,
+          6.200000286102295,
+          0.10000002384185791,
+          12.100000381469727,
+          6.400000095367432,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_048_tree_trunk_1_18_0",
+        "source_name": "tree_trunk_1_18.0",
+        "mesh_rel": "prop_convex_small/prop_convex_small_048_tree_trunk_1_18_0.obj",
+        "world_pos": [
+          18.0,
+          6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.20000076293945312,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          17.899999618530273,
+          6.200000286102295,
+          0.10000002384185791,
+          18.100000381469727,
+          6.400000095367432,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      },
+      {
+        "name": "prop_convex_small_049_tree_trunk_1_5_5",
+        "source_name": "tree_trunk_1_5.5",
+        "mesh_rel": "prop_convex_small/prop_convex_small_049_tree_trunk_1_5_5.obj",
+        "world_pos": [
+          5.5,
+          6.300000190734863,
+          1.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999980926513672,
+          0.19999980926513672,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          5.400000095367432,
+          6.200000286102295,
+          0.10000002384185791,
+          5.599999904632568,
+          6.400000095367432,
+          1.899999976158142
+        ],
+        "n_tris": 34
+      }
+    ],
+    "prop_dynamic": [],
+    "vegetation": [],
+    "decoration": [
+      {
+        "name": "clane_-2",
+        "source_name": "clane_-2",
+        "world_pos": [
+          -2.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5999999046325684,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_-5",
+        "source_name": "clane_-5",
+        "world_pos": [
+          -5.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.6000003814697266,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_-8",
+        "source_name": "clane_-8",
+        "world_pos": [
+          -8.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.6000003814697266,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_1",
+        "source_name": "clane_1",
+        "world_pos": [
+          1.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5999999642372131,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_10",
+        "source_name": "clane_10",
+        "world_pos": [
+          10.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.6000003814697266,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_13",
+        "source_name": "clane_13",
+        "world_pos": [
+          13.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.6000003814697266,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_16",
+        "source_name": "clane_16",
+        "world_pos": [
+          16.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5999994277954102,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_19",
+        "source_name": "clane_19",
+        "world_pos": [
+          19.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5999984741210938,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_4",
+        "source_name": "clane_4",
+        "world_pos": [
+          4.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.6000001430511475,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "clane_7",
+        "source_name": "clane_7",
+        "world_pos": [
+          7.0,
+          0.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.6000003814697266,
+          0.14000000059604645,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "Cube",
+        "source_name": "Cube",
+        "world_pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      {
+        "name": "sign_-1_0",
+        "source_name": "sign_-1_0",
+        "world_pos": [
+          -3.0,
+          -7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.3999998569488525,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_-1_1",
+        "source_name": "sign_-1_1",
+        "world_pos": [
+          4.0,
+          -7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.3999998569488525,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_-1_2",
+        "source_name": "sign_-1_2",
+        "world_pos": [
+          11.0,
+          -7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.3999996185302734,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_-1_3",
+        "source_name": "sign_-1_3",
+        "world_pos": [
+          18.0,
+          -7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.4000015258789062,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_-1_4",
+        "source_name": "sign_-1_4",
+        "world_pos": [
+          25.0,
+          -7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.4000015258789062,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_1_0",
+        "source_name": "sign_1_0",
+        "world_pos": [
+          -3.0,
+          7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.3999998569488525,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_1_1",
+        "source_name": "sign_1_1",
+        "world_pos": [
+          4.0,
+          7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.3999998569488525,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_1_2",
+        "source_name": "sign_1_2",
+        "world_pos": [
+          11.0,
+          7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.3999996185302734,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_1_3",
+        "source_name": "sign_1_3",
+        "world_pos": [
+          18.0,
+          7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.4000015258789062,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "sign_1_4",
+        "source_name": "sign_1_4",
+        "world_pos": [
+          25.0,
+          7.03000020980835,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          2.4000015258789062,
+          0.10000038146972656,
+          0.6999998092651367
+        ]
+      },
+      {
+        "name": "win_-1_0_0_0",
+        "source_name": "win_-1_0_0_0",
+        "world_pos": [
+          -4.800000190734863,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_0_0_1",
+        "source_name": "win_-1_0_0_1",
+        "world_pos": [
+          -4.800000190734863,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_0_2",
+        "source_name": "win_-1_0_0_2",
+        "world_pos": [
+          -4.800000190734863,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_0_3",
+        "source_name": "win_-1_0_0_3",
+        "world_pos": [
+          -4.800000190734863,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_1_0",
+        "source_name": "win_-1_0_1_0",
+        "world_pos": [
+          -3.0,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_0_1_1",
+        "source_name": "win_-1_0_1_1",
+        "world_pos": [
+          -3.0,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_1_2",
+        "source_name": "win_-1_0_1_2",
+        "world_pos": [
+          -3.0,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_1_3",
+        "source_name": "win_-1_0_1_3",
+        "world_pos": [
+          -3.0,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_2_0",
+        "source_name": "win_-1_0_2_0",
+        "world_pos": [
+          -1.2000000476837158,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_0_2_1",
+        "source_name": "win_-1_0_2_1",
+        "world_pos": [
+          -1.2000000476837158,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_2_2",
+        "source_name": "win_-1_0_2_2",
+        "world_pos": [
+          -1.2000000476837158,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_0_2_3",
+        "source_name": "win_-1_0_2_3",
+        "world_pos": [
+          -1.2000000476837158,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_0_0",
+        "source_name": "win_-1_1_0_0",
+        "world_pos": [
+          2.200000047683716,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_1_0_1",
+        "source_name": "win_-1_1_0_1",
+        "world_pos": [
+          2.200000047683716,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_0_2",
+        "source_name": "win_-1_1_0_2",
+        "world_pos": [
+          2.200000047683716,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_0_3",
+        "source_name": "win_-1_1_0_3",
+        "world_pos": [
+          2.200000047683716,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_1_0",
+        "source_name": "win_-1_1_1_0",
+        "world_pos": [
+          4.0,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_1_1_1",
+        "source_name": "win_-1_1_1_1",
+        "world_pos": [
+          4.0,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_1_2",
+        "source_name": "win_-1_1_1_2",
+        "world_pos": [
+          4.0,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_1_3",
+        "source_name": "win_-1_1_1_3",
+        "world_pos": [
+          4.0,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_2_0",
+        "source_name": "win_-1_1_2_0",
+        "world_pos": [
+          5.800000190734863,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_1_2_1",
+        "source_name": "win_-1_1_2_1",
+        "world_pos": [
+          5.800000190734863,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_2_2",
+        "source_name": "win_-1_1_2_2",
+        "world_pos": [
+          5.800000190734863,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_1_2_3",
+        "source_name": "win_-1_1_2_3",
+        "world_pos": [
+          5.800000190734863,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_0_0",
+        "source_name": "win_-1_2_0_0",
+        "world_pos": [
+          9.199999809265137,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_2_0_1",
+        "source_name": "win_-1_2_0_1",
+        "world_pos": [
+          9.199999809265137,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_0_2",
+        "source_name": "win_-1_2_0_2",
+        "world_pos": [
+          9.199999809265137,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_0_3",
+        "source_name": "win_-1_2_0_3",
+        "world_pos": [
+          9.199999809265137,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_1_0",
+        "source_name": "win_-1_2_1_0",
+        "world_pos": [
+          11.0,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_2_1_1",
+        "source_name": "win_-1_2_1_1",
+        "world_pos": [
+          11.0,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_1_2",
+        "source_name": "win_-1_2_1_2",
+        "world_pos": [
+          11.0,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_1_3",
+        "source_name": "win_-1_2_1_3",
+        "world_pos": [
+          11.0,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_2_0",
+        "source_name": "win_-1_2_2_0",
+        "world_pos": [
+          12.800000190734863,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_2_2_1",
+        "source_name": "win_-1_2_2_1",
+        "world_pos": [
+          12.800000190734863,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_2_2",
+        "source_name": "win_-1_2_2_2",
+        "world_pos": [
+          12.800000190734863,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_2_2_3",
+        "source_name": "win_-1_2_2_3",
+        "world_pos": [
+          12.800000190734863,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_0_0",
+        "source_name": "win_-1_3_0_0",
+        "world_pos": [
+          16.200000762939453,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_3_0_1",
+        "source_name": "win_-1_3_0_1",
+        "world_pos": [
+          16.200000762939453,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_0_2",
+        "source_name": "win_-1_3_0_2",
+        "world_pos": [
+          16.200000762939453,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_0_3",
+        "source_name": "win_-1_3_0_3",
+        "world_pos": [
+          16.200000762939453,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_1_0",
+        "source_name": "win_-1_3_1_0",
+        "world_pos": [
+          18.0,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_3_1_1",
+        "source_name": "win_-1_3_1_1",
+        "world_pos": [
+          18.0,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_1_2",
+        "source_name": "win_-1_3_1_2",
+        "world_pos": [
+          18.0,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_1_3",
+        "source_name": "win_-1_3_1_3",
+        "world_pos": [
+          18.0,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_2_0",
+        "source_name": "win_-1_3_2_0",
+        "world_pos": [
+          19.799999237060547,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_3_2_1",
+        "source_name": "win_-1_3_2_1",
+        "world_pos": [
+          19.799999237060547,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_2_2",
+        "source_name": "win_-1_3_2_2",
+        "world_pos": [
+          19.799999237060547,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_3_2_3",
+        "source_name": "win_-1_3_2_3",
+        "world_pos": [
+          19.799999237060547,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_0_0",
+        "source_name": "win_-1_4_0_0",
+        "world_pos": [
+          23.200000762939453,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_4_0_1",
+        "source_name": "win_-1_4_0_1",
+        "world_pos": [
+          23.200000762939453,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_0_2",
+        "source_name": "win_-1_4_0_2",
+        "world_pos": [
+          23.200000762939453,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_0_3",
+        "source_name": "win_-1_4_0_3",
+        "world_pos": [
+          23.200000762939453,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_1_0",
+        "source_name": "win_-1_4_1_0",
+        "world_pos": [
+          25.0,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_4_1_1",
+        "source_name": "win_-1_4_1_1",
+        "world_pos": [
+          25.0,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_1_2",
+        "source_name": "win_-1_4_1_2",
+        "world_pos": [
+          25.0,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_1_3",
+        "source_name": "win_-1_4_1_3",
+        "world_pos": [
+          25.0,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_2_0",
+        "source_name": "win_-1_4_2_0",
+        "world_pos": [
+          26.799999237060547,
+          -7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_-1_4_2_1",
+        "source_name": "win_-1_4_2_1",
+        "world_pos": [
+          26.799999237060547,
+          -7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_2_2",
+        "source_name": "win_-1_4_2_2",
+        "world_pos": [
+          26.799999237060547,
+          -7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_-1_4_2_3",
+        "source_name": "win_-1_4_2_3",
+        "world_pos": [
+          26.799999237060547,
+          -7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_0_0",
+        "source_name": "win_1_0_0_0",
+        "world_pos": [
+          -4.800000190734863,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_0_0_1",
+        "source_name": "win_1_0_0_1",
+        "world_pos": [
+          -4.800000190734863,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_0_2",
+        "source_name": "win_1_0_0_2",
+        "world_pos": [
+          -4.800000190734863,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_0_3",
+        "source_name": "win_1_0_0_3",
+        "world_pos": [
+          -4.800000190734863,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_1_0",
+        "source_name": "win_1_0_1_0",
+        "world_pos": [
+          -3.0,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_0_1_1",
+        "source_name": "win_1_0_1_1",
+        "world_pos": [
+          -3.0,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_1_2",
+        "source_name": "win_1_0_1_2",
+        "world_pos": [
+          -3.0,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_1_3",
+        "source_name": "win_1_0_1_3",
+        "world_pos": [
+          -3.0,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_2_0",
+        "source_name": "win_1_0_2_0",
+        "world_pos": [
+          -1.2000000476837158,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_0_2_1",
+        "source_name": "win_1_0_2_1",
+        "world_pos": [
+          -1.2000000476837158,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_2_2",
+        "source_name": "win_1_0_2_2",
+        "world_pos": [
+          -1.2000000476837158,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_0_2_3",
+        "source_name": "win_1_0_2_3",
+        "world_pos": [
+          -1.2000000476837158,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000000476837158,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_0_0",
+        "source_name": "win_1_1_0_0",
+        "world_pos": [
+          2.200000047683716,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_1_0_1",
+        "source_name": "win_1_1_0_1",
+        "world_pos": [
+          2.200000047683716,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_0_2",
+        "source_name": "win_1_1_0_2",
+        "world_pos": [
+          2.200000047683716,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_0_3",
+        "source_name": "win_1_1_0_3",
+        "world_pos": [
+          2.200000047683716,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000001668930054,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_1_0",
+        "source_name": "win_1_1_1_0",
+        "world_pos": [
+          4.0,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_1_1_1",
+        "source_name": "win_1_1_1_1",
+        "world_pos": [
+          4.0,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_1_2",
+        "source_name": "win_1_1_1_2",
+        "world_pos": [
+          4.0,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_1_3",
+        "source_name": "win_1_1_1_3",
+        "world_pos": [
+          4.0,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_2_0",
+        "source_name": "win_1_1_2_0",
+        "world_pos": [
+          5.800000190734863,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_1_2_1",
+        "source_name": "win_1_1_2_1",
+        "world_pos": [
+          5.800000190734863,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_2_2",
+        "source_name": "win_1_1_2_2",
+        "world_pos": [
+          5.800000190734863,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_1_2_3",
+        "source_name": "win_1_1_2_3",
+        "world_pos": [
+          5.800000190734863,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_0_0",
+        "source_name": "win_1_2_0_0",
+        "world_pos": [
+          9.199999809265137,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_2_0_1",
+        "source_name": "win_1_2_0_1",
+        "world_pos": [
+          9.199999809265137,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_0_2",
+        "source_name": "win_1_2_0_2",
+        "world_pos": [
+          9.199999809265137,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_0_3",
+        "source_name": "win_1_2_0_3",
+        "world_pos": [
+          9.199999809265137,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_1_0",
+        "source_name": "win_1_2_1_0",
+        "world_pos": [
+          11.0,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_2_1_1",
+        "source_name": "win_1_2_1_1",
+        "world_pos": [
+          11.0,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_1_2",
+        "source_name": "win_1_2_1_2",
+        "world_pos": [
+          11.0,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_1_3",
+        "source_name": "win_1_2_1_3",
+        "world_pos": [
+          11.0,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_2_0",
+        "source_name": "win_1_2_2_0",
+        "world_pos": [
+          12.800000190734863,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_2_2_1",
+        "source_name": "win_1_2_2_1",
+        "world_pos": [
+          12.800000190734863,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_2_2",
+        "source_name": "win_1_2_2_2",
+        "world_pos": [
+          12.800000190734863,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_2_2_3",
+        "source_name": "win_1_2_2_3",
+        "world_pos": [
+          12.800000190734863,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_0_0",
+        "source_name": "win_1_3_0_0",
+        "world_pos": [
+          16.200000762939453,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_3_0_1",
+        "source_name": "win_1_3_0_1",
+        "world_pos": [
+          16.200000762939453,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_0_2",
+        "source_name": "win_1_3_0_2",
+        "world_pos": [
+          16.200000762939453,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_0_3",
+        "source_name": "win_1_3_0_3",
+        "world_pos": [
+          16.200000762939453,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_1_0",
+        "source_name": "win_1_3_1_0",
+        "world_pos": [
+          18.0,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_3_1_1",
+        "source_name": "win_1_3_1_1",
+        "world_pos": [
+          18.0,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_1_2",
+        "source_name": "win_1_3_1_2",
+        "world_pos": [
+          18.0,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_1_3",
+        "source_name": "win_1_3_1_3",
+        "world_pos": [
+          18.0,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_2_0",
+        "source_name": "win_1_3_2_0",
+        "world_pos": [
+          19.799999237060547,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_3_2_1",
+        "source_name": "win_1_3_2_1",
+        "world_pos": [
+          19.799999237060547,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_2_2",
+        "source_name": "win_1_3_2_2",
+        "world_pos": [
+          19.799999237060547,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_3_2_3",
+        "source_name": "win_1_3_2_3",
+        "world_pos": [
+          19.799999237060547,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_0_0",
+        "source_name": "win_1_4_0_0",
+        "world_pos": [
+          23.200000762939453,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_4_0_1",
+        "source_name": "win_1_4_0_1",
+        "world_pos": [
+          23.200000762939453,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_0_2",
+        "source_name": "win_1_4_0_2",
+        "world_pos": [
+          23.200000762939453,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_0_3",
+        "source_name": "win_1_4_0_3",
+        "world_pos": [
+          23.200000762939453,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_1_0",
+        "source_name": "win_1_4_1_0",
+        "world_pos": [
+          25.0,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_4_1_1",
+        "source_name": "win_1_4_1_1",
+        "world_pos": [
+          25.0,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_1_2",
+        "source_name": "win_1_4_1_2",
+        "world_pos": [
+          25.0,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_1_3",
+        "source_name": "win_1_4_1_3",
+        "world_pos": [
+          25.0,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_2_0",
+        "source_name": "win_1_4_2_0",
+        "world_pos": [
+          26.799999237060547,
+          7.019999980926514,
+          1.9500000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.2999998331069946
+        ]
+      },
+      {
+        "name": "win_1_4_2_1",
+        "source_name": "win_1_4_2_1",
+        "world_pos": [
+          26.799999237060547,
+          7.019999980926514,
+          3.5999999046325684
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_2_2",
+        "source_name": "win_1_4_2_2",
+        "world_pos": [
+          26.799999237060547,
+          7.019999980926514,
+          5.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "win_1_4_2_3",
+        "source_name": "win_1_4_2_3",
+        "world_pos": [
+          26.799999237060547,
+          7.019999980926514,
+          7.599999904632568
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2000007629394531,
+          0.06000041961669922,
+          1.3000001907348633
+        ]
+      },
+      {
+        "name": "zebra_0",
+        "source_name": "zebra_0",
+        "world_pos": [
+          1.7999999523162842,
+          -3.0,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.6999998092651367,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_1",
+        "source_name": "zebra_1",
+        "world_pos": [
+          1.7999999523162842,
+          -2.1500000953674316,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.6999999284744263,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_2",
+        "source_name": "zebra_2",
+        "world_pos": [
+          1.7999999523162842,
+          -1.2999999523162842,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.7000000476837158,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_3",
+        "source_name": "zebra_3",
+        "world_pos": [
+          1.7999999523162842,
+          -0.44999998807907104,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.6999999582767487,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_4",
+        "source_name": "zebra_4",
+        "world_pos": [
+          1.7999999523162842,
+          0.4000000059604645,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.699999988079071,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_5",
+        "source_name": "zebra_5",
+        "world_pos": [
+          1.7999999523162842,
+          1.25,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.7000000476837158,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_6",
+        "source_name": "zebra_6",
+        "world_pos": [
+          1.7999999523162842,
+          2.0999999046325684,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.6999999284744263,
+          0.012000000104308128
+        ]
+      },
+      {
+        "name": "zebra_7",
+        "source_name": "zebra_7",
+        "world_pos": [
+          1.7999999523162842,
+          2.950000047683716,
+          0.006000000052154064
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.44999992847442627,
+          0.6999998092651367,
+          0.012000000104308128
+        ]
+      }
+    ],
+    "skip": []
+  },
+  "cameras": [
+    {
+      "name": "Camera",
+      "world_pos": [
+        7.358891487121582,
+        -6.925790786743164,
+        4.958309173583984
+      ],
+      "world_quat": [
+        0.7804827094078064,
+        0.483536034822464,
+        0.20870360732078552,
+        0.33687159419059753
+      ]
+    }
+  ],
+  "terrain": {
+    "visual_obj": "background_terrain_00_visual.obj",
+    "collision_obj": "background_terrain_00_collision.obj",
+    "world_aabb": [
+      -10.0,
+      -4.100000381469727,
+      0.030000001192092896,
+      30.0,
+      -4.0,
+      0.1899999976158142
+    ]
+  },
+  "boulders": [],
+  "vegetation": [],
+  "dynamic_candidates": []
+}

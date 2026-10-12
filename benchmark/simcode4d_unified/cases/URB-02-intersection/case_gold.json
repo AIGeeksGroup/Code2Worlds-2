@@ -1,0 +1,200 @@
+{
+  "case_id": "URB-02-intersection",
+  "case_spec_sha256": "7df3b07844fe422614659db079321d50b825c12dfaa9f4f64622a2ca1ebc16ca",
+  "contact_policy": {
+    "allowed": [
+      [
+        "go2_feet",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "go2_base",
+        "static_obstacles"
+      ]
+    ],
+    "groups": {
+      "floor": {
+        "geoms": [
+          "terrain_*"
+        ]
+      },
+      "go2_all": {
+        "bodies": [
+          "base",
+          "FL_*",
+          "FR_*",
+          "RL_*",
+          "RR_*"
+        ]
+      },
+      "go2_base": {
+        "bodies": [
+          "base"
+        ]
+      },
+      "go2_feet": {
+        "geoms": [
+          "FL",
+          "FR",
+          "RL",
+          "RR"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "prop_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "west_sidewalk_start",
+        "road_crossing"
+      ],
+      [
+        "road_crossing",
+        "east_sidewalk"
+      ],
+      [
+        "east_sidewalk",
+        "stop"
+      ]
+    ],
+    "nodes": [
+      "west_sidewalk_start",
+      "road_crossing",
+      "east_sidewalk",
+      "stop"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "keyframe": "m2_init"
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "base": 0.95
+      },
+      "body_xy_offset_m": {
+        "base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "base": 1.05
+      },
+      "body_xy_offset_m": {
+        "base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "base": 1.08
+      },
+      "body_xy_offset_m": {
+        "base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "base": 0.92
+      },
+      "body_xy_offset_m": {
+        "base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "base": 0.012
+      }
+    }
+  },
+  "regions": {
+    "east_sidewalk": {
+      "max_xyz_m": [
+        5.7,
+        1.3,
+        0.8
+      ],
+      "min_xyz_m": [
+        4.3,
+        0.3,
+        -0.1
+      ],
+      "type": "aabb"
+    },
+    "road_crossing": {
+      "max_xyz_m": [
+        4.0,
+        1.3,
+        0.8
+      ],
+      "min_xyz_m": [
+        -4.0,
+        0.3,
+        -0.1
+      ],
+      "type": "aabb"
+    },
+    "west_start": {
+      "max_xyz_m": [
+        -4.3,
+        1.3,
+        0.8
+      ],
+      "min_xyz_m": [
+        -5.7,
+        0.3,
+        -0.1
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "Development-only benchmark-authored semantics; source evidence is retained, thresholds are frozen before the reference matrix, and official Core15 admission remains false.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_height_span_m": 0.25,
+    "maximum_lateral_span_m": 0.4,
+    "maximum_terminal_speed_mps": 0.2,
+    "maximum_tilt_rad": 0.7,
+    "terminal_hold_s": 0.5
+  }
+}

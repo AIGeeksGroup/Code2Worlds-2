@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="scene_enriched">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" solver="Newton" iterations="100" tolerance="1e-10" cone="elliptic" />
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0" />
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720" />
+  </visual>
+  <asset>
+    <mesh name="rover_body" file="../../vendor/handover9_20260921/rover_assets/rover_body.obj" />
+    <mesh name="rover_wheel" file="../../vendor/handover9_20260921/rover_assets/rover_wheel.obj" />
+    <material name="rover_chassis" rgba="0.15 0.35 0.55 1" />
+    <material name="rover_wheel" rgba="0.12 0.12 0.12 1" />
+    <material name="rover_detail" rgba="0.80 0.60 0.10 1" />
+  </asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true" diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2" />
+    <geom name="floor_00" type="box" pos="4.000000 0.000000 -0.050000" size="17.000000 11.000000 0.050000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_000_c1rib_0" type="box" pos="18.200001 -3.600000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_001_c1rib_1" type="box" pos="18.200001 -2.800000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_002_c1rib_2" type="box" pos="18.200001 -2.000000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_003_c1rib_3" type="box" pos="18.200001 -1.200000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_004_c1rib_4" type="box" pos="18.200001 -0.400000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_005_c1rib_5" type="box" pos="18.200001 0.400000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_006_c1rib_6" type="box" pos="18.200001 1.200000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_007_c2rib_0" type="box" pos="18.200001 2.200000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_008_c2rib_1" type="box" pos="18.200001 3.000000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_009_c2rib_2" type="box" pos="18.200001 3.800000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_010_c2rib_3" type="box" pos="18.200001 4.600000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_011_c2rib_4" type="box" pos="18.200001 5.400000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_012_c2rib_5" type="box" pos="18.200001 6.200000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_013_c2rib_6" type="box" pos="18.200001 7.000000 1.275000" size="1.170000 0.025000 1.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_014_cont1" type="box" pos="18.200001 -1.200000 1.275000" size="1.150000 2.800000 1.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_015_cont2" type="box" pos="18.200001 4.600000 1.275000" size="1.150000 2.800000 1.275000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_016_dceiling" type="box" pos="4.000000 0.000000 5.100000" size="17.000000 11.000000 0.075000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_017_dcol_0_0_-5_0" type="box" pos="0.000000 -5.000000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_018_dcol_11_0_5_8" type="box" pos="11.000000 5.800000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_019_dcol_12_0_-5_0" type="box" pos="12.000000 -5.000000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_020_dcol_3_0_5_8" type="box" pos="3.000000 5.800000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_021_dcol_6_0_-5_0" type="box" pos="6.000000 -5.000000 2.500000" size="0.175000 0.175000 2.500000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_022_dcolstripe_0_0_-5_0" type="box" pos="0.000000 -5.000000 0.600000" size="0.185000 0.185000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_023_dcolstripe_11_0_5_8" type="box" pos="11.000000 5.800000 0.600000" size="0.185000 0.185000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_024_dcolstripe_12_0_-5_0" type="box" pos="12.000000 -5.000000 0.600000" size="0.185000 0.185000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_025_dcolstripe_3_0_5_8" type="box" pos="3.000000 5.800000 0.600000" size="0.185000 0.185000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_026_dcolstripe_6_0_-5_0" type="box" pos="6.000000 -5.000000 0.600000" size="0.185000 0.185000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_027_dcone_0" type="box" pos="4.500000 1.300000 0.240000" size="0.100000 0.100000 0.210000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_028_dcone_1" type="box" pos="9.000000 0.900000 0.240000" size="0.100000 0.100000 0.210000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_029_dconebase_0" type="box" pos="4.500000 1.300000 0.015000" size="0.140000 0.140000 0.015000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_030_dconebase_1" type="box" pos="9.000000 0.900000 0.015000" size="0.140000 0.140000 0.015000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_031_dendwall" type="box" pos="21.000000 0.000000 2.400000" size="0.150000 11.000000 2.400000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_032_dwall" type="box" pos="4.000000 -5.400000 2.400000" size="18.000000 0.150000 2.400000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_033_pjack" type="box" pos="6.400000 -2.100000 0.100000" size="0.250000 0.175000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_034_pjack_handle" type="box" pos="6.150000 -2.100000 0.420000" size="0.025000 0.025000 0.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_035_twheel_0" type="box" pos="14.400000 -2.600000 0.350000" size="0.350000 0.125000 0.350000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_036_twheel_1" type="box" pos="15.400000 -2.600000 0.350000" size="0.350000 0.125000 0.350000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_037_wbox1_1" type="box" pos="5.200000 -3.300000 0.370000" size="0.400000 0.350000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_038_wbox1_3" type="box" pos="2.000000 -2.500000 0.370000" size="0.400000 0.350000 0.250000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_039_wbox2_1" type="box" pos="5.240000 -3.300000 0.820000" size="0.300000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_040_wbox2_3" type="box" pos="2.040000 -2.500000 0.820000" size="0.300000 0.275000 0.200000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_041_wpal_0" type="box" pos="-0.300000 -3.200000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_042_wpal_1" type="box" pos="5.200000 -3.300000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_043_wpal_2" type="box" pos="10.400000 -3.200000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_044_wpal_3" type="box" pos="2.000000 -2.500000 0.060000" size="0.500000 0.450000 0.060000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_045_wrap_0" type="box" pos="-0.300000 -3.200000 0.645000" size="0.425000 0.375000 0.525000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_046_wrap_2" type="box" pos="10.400000 -3.200000 0.645000" size="0.425000 0.375000 0.525000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_047_wtop_0" type="box" pos="-0.300000 -3.200000 1.220000" size="0.440000 0.390000 0.030000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <geom name="prop_convex_small_048_wtop_2" type="box" pos="10.400000 -3.200000 1.220000" size="0.440000 0.390000 0.030000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    <body name="rover_base" pos="0 0 0.22">
+      <freejoint name="rover_freejoint" />
+      <inertial mass="18.0" pos="0 0 0" diaginertia="0.35 0.55 0.65" />
+      <geom class="rover_visual" mesh="rover_body" material="rover_chassis" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+      <geom type="box" size="0.40 0.25 0.10" friction="0.5 0.01 0.001" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+      <body name="rover_fl_wheel" pos=" 0.32  0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005" />
+        <joint name="fl_wheel_joint" axis="0 1 0" />
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+        <geom class="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" name="rover_fl_wheel_collision" type="cylinder" size="0.12 0.03" quat="0.7071067811865476 0.7071067811865476 0 0" />
+      </body>
+      <body name="rover_fr_wheel" pos=" 0.32 -0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005" />
+        <joint name="fr_wheel_joint" axis="0 1 0" />
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+        <geom class="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" name="rover_fr_wheel_collision" type="cylinder" size="0.12 0.03" quat="0.7071067811865476 0.7071067811865476 0 0" />
+      </body>
+      <body name="rover_rl_wheel" pos="-0.32  0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005" />
+        <joint name="rl_wheel_joint" axis="0 1 0" />
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+        <geom class="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" name="rover_rl_wheel_collision" type="cylinder" size="0.12 0.03" quat="0.7071067811865476 0.7071067811865476 0 0" />
+      </body>
+      <body name="rover_rr_wheel" pos="-0.32 -0.27 -0.10">
+        <inertial mass="1.2" pos="0 0 0" diaginertia="0.008 0.005 0.005" />
+        <joint name="rr_wheel_joint" axis="0 1 0" />
+        <geom class="rover_visual" mesh="rover_wheel" material="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+        <geom class="rover_wheel" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" name="rover_rr_wheel_collision" type="cylinder" size="0.12 0.03" quat="0.7071067811865476 0.7071067811865476 0 0" />
+      </body>
+    </body>
+    <body name="cargo" pos="0 -2 0.501">
+      <freejoint name="cargo_freejoint" />
+      <geom name="cargo_box" type="box" size="0.28 0.22 0.16" mass="8" friction="0.8 0.02 0.005" condim="6" rgba="0.55 0.30 0.12 1" />
+    </body>
+  </worldbody>
+  <keyframe>
+    <key name="m2_init" qpos="0 -2 0.221 1 0 0 0 0 0 0 0 0 -2 0.501 1 0 0 0" qvel="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0 0 0 0 0 0" />
+  </keyframe>
+  <default>
+    <default class="rover_visual">
+      <geom contype="0" conaffinity="0" group="2" type="mesh" />
+    </default>
+    <default class="rover_wheel">
+      <geom friction="1.4 0.02 0.01" condim="3" type="cylinder" size="0.12 0.03" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+    </default>
+  </default>
+  <actuator>
+    <velocity name="fl_wheel" joint="fl_wheel_joint" kv="60" />
+    <velocity name="fr_wheel" joint="fr_wheel_joint" kv="60" />
+    <velocity name="rl_wheel" joint="rl_wheel_joint" kv="60" />
+    <velocity name="rr_wheel" joint="rr_wheel_joint" kv="60" />
+    <motor name="base_force_x_ctrl" joint="rover_freejoint" gear="1 0 0 0 0 0" ctrllimited="true" ctrlrange="-240 240" />
+    <motor name="base_force_y_ctrl" joint="rover_freejoint" gear="0 1 0 0 0 0" ctrllimited="true" ctrlrange="-240 240" />
+    <motor name="base_force_z_ctrl" joint="rover_freejoint" gear="0 0 1 0 0 0" ctrllimited="true" ctrlrange="-180 180" />
+    <motor name="base_roll_ctrl" joint="rover_freejoint" gear="0 0 0 1 0 0" ctrllimited="true" ctrlrange="-130 130" />
+    <motor name="base_pitch_ctrl" joint="rover_freejoint" gear="0 0 0 0 1 0" ctrllimited="true" ctrlrange="-130 130" />
+    <motor name="base_yaw_ctrl" joint="rover_freejoint" gear="0 0 0 0 0 1" ctrllimited="true" ctrlrange="-130 130" />
+  </actuator>
+  <equality>
+    <weld name="cargo_weld" body1="rover_base" body2="cargo" relpose="0 0 0.28 1 0 0 0" active="true" solref="0.002 1" solimp="0.99 0.999 0.001 0.5 2" />
+  </equality>
+</mujoco>

@@ -1,0 +1,47 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "URB-03-pole-blocking",
+  "legacy_case_id": "urban-3_delivery",
+  "pruned_unmatched_contact_patterns": [
+    {
+      "group": "static_obstacles",
+      "pattern": "wall_*",
+      "selector": "geoms"
+    },
+    {
+      "group": "static_obstacles",
+      "pattern": "lr_wall_*",
+      "selector": "geoms"
+    },
+    {
+      "group": "non_target_static",
+      "pattern": "wall_*",
+      "selector": "geoms"
+    }
+  ],
+  "repairs": [
+    "removed invisible non-colliding stone",
+    "fixed missing radian compiler declaration",
+    "raised initialization 0.020 m to remove measured foot-ground overlap",
+    "declared exact target-pole semantic group",
+    "declared bounded free-joint assist actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 6696,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/M1/module1/scene_enriched.xml",
+    "sha256": "73aeaac009d2c663056470b907f7c08b9ccb0545f6f99e79546d2e04028dd5a6"
+  },
+  "source_runtime": {
+    "bytes": 19093,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-3_delivery/rollout/scene_m2.xml",
+    "sha256": "79ef486c3a3020af11d2a8efcb16b690b0f0670e90204f9ca06a411a5b09e05d"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://simcode4d.org/schemas/dev15/physics-profile-v1.json",
+  "title": "SimCode4D Dev15 executable physics profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "world_id", "runtime_model",
+    "case_spec_sha256", "case_gold_sha256", "provenance", "simulator",
+    "control_loop", "bodies", "joints", "actuators", "equalities",
+    "contact_material_classes", "collision_geoms", "semantic_contact_policy",
+    "resolved_contact_groups", "static_field", "physics_seed_perturbations",
+    "success_and_safety_thresholds", "diagnostic_contract"
+  ],
+  "properties": {
+    "schema_version": {"const": "simcode4d.dev15.physics-profile.v1"},
+    "case_id": {"type": "string", "pattern": "^[A-Z]{3}-[0-9]{2}-[a-z0-9-]+$"},
+    "world_id": {"type": "string", "minLength": 3},
+    "runtime_model": {"$ref": "#/$defs/file_ref"},
+    "case_spec_sha256": {"$ref": "#/$defs/sha256"},
+    "case_gold_sha256": {"$ref": "#/$defs/sha256"},
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["parameter_status", "semantic_contact_status", "estimated_parameter_count", "note"],
+      "properties": {
+        "parameter_status": {"const": "exact_from_frozen_runtime_model"},
+        "semantic_contact_status": {"const": "exact_from_frozen_case_gold"},
+        "estimated_parameter_count": {"const": 0},
+        "note": {"type": "string", "minLength": 20}
+      }
+    },
+    "simulator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "runtime_version", "model_name", "dimensions", "options"],
+      "properties": {
+        "name": {"const": "mujoco"},
+        "runtime_version": {"type": "string", "minLength": 1},
+        "model_name": {"type": "string", "minLength": 1},
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["nq", "nv", "nu", "nbody", "njoint", "ngeom", "nequality"],
+          "properties": {
+            "nq": {"type": "integer", "minimum": 0},
+            "nv": {"type": "integer", "minimum": 0},
+            "nu": {"type": "integer", "minimum": 1},
+            "nbody": {"type": "integer", "minimum": 2},
+            "njoint": {"type": "integer", "minimum": 1},
+            "ngeom": {"type": "integer", "minimum": 1},
+            "nequality": {"type": "integer", "minimum": 0}
+          }
+        },
+        "options": {
+          "type": "object",
+          "required": [
+            "timestep_s", "gravity_mps2", "wind_mps", "magnetic_tesla",
+            "integrator", "solver", "friction_cone", "jacobian",
+            "iterations", "tolerance", "impratio"
+          ],
+          "properties": {
+            "timestep_s": {"type": "number", "exclusiveMinimum": 0},
+            "gravity_mps2": {"$ref": "#/$defs/vec3"},
+            "wind_mps": {"$ref": "#/$defs/vec3"},
+            "magnetic_tesla": {"$ref": "#/$defs/vec3"},
+            "integrator": {"type": "string"},
+            "solver": {"type": "string"},
+            "friction_cone": {"type": "string"},
+            "jacobian": {"type": "string"},
+            "iterations": {"type": "integer", "minimum": 1},
+            "tolerance": {"type": "number", "minimum": 0},
+            "impratio": {"type": "number", "exclusiveMinimum": 0}
+          },
+          "additionalProperties": {"type": ["number", "integer"]}
+        }
+      }
+    },
+    "control_loop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["physics_hz", "benchmark_probe_command_hz", "record_hz", "command_interface", "actuator_limits"],
+      "properties": {
+        "physics_hz": {"type": "number", "exclusiveMinimum": 0},
+        "benchmark_probe_command_hz": {"type": "number", "exclusiveMinimum": 0},
+        "record_hz": {"type": "number", "exclusiveMinimum": 0},
+        "command_interface": {"type": "string", "minLength": 10},
+        "actuator_limits": {"type": "object", "minProperties": 1}
+      }
+    },
+    "bodies": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/body"}},
+    "joints": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/joint"}},
+    "actuators": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/actuator"}},
+    "equalities": {"type": "array", "items": {"$ref": "#/$defs/equality"}},
+    "contact_material_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/contact_material"}
+    },
+    "collision_geoms": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/collision_geom"}},
+    "semantic_contact_policy": {"$ref": "#/$defs/contact_policy"},
+    "resolved_contact_groups": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {"$ref": "#/$defs/resolved_group"}
+    },
+    "static_field": {"type": ["object", "null"]},
+    "physics_seed_perturbations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["401", "409", "419", "421", "431"],
+      "properties": {
+        "401": {"type": "object"}, "409": {"type": "object"},
+        "419": {"type": "object"}, "421": {"type": "object"},
+        "431": {"type": "object"}
+      }
+    },
+    "success_and_safety_thresholds": {
+      "type": "object",
+      "minProperties": 2,
+      "required": ["illegal_penetration_m", "terminal_hold_s"]
+    },
+    "diagnostic_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mechanics", "kinematics", "friction"],
+      "properties": {
+        "mechanics": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["channels", "nonphysical_dynamic_bodies", "force_balance_relative_tolerance"],
+          "properties": {
+            "channels": {"$ref": "#/$defs/channel_list"},
+            "nonphysical_dynamic_bodies": {"type": "array", "maxItems": 0},
+            "force_balance_relative_tolerance": {"type": "number", "exclusiveMinimum": 0}
+          }
+        },
+        "kinematics": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["channels", "quaternion_norm_tolerance", "joint_limit_tolerance", "violation_minimum_dwell_s"],
+          "properties": {
+            "channels": {"$ref": "#/$defs/channel_list"},
+            "quaternion_norm_tolerance": {"type": "number", "exclusiveMinimum": 0},
+            "joint_limit_tolerance": {"type": "number", "minimum": 0},
+            "violation_minimum_dwell_s": {"type": "number", "exclusiveMinimum": 0}
+          }
+        },
+        "friction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "channels", "cone_utilization_warning", "cone_utilization_failure",
+            "failure_minimum_dwell_s", "slip_speed_reporting_threshold_mps",
+            "slip_is_diagnostic_not_global_failure"
+          ],
+          "properties": {
+            "channels": {"$ref": "#/$defs/channel_list"},
+            "cone_utilization_warning": {"type": "number", "exclusiveMinimum": 0},
+            "cone_utilization_failure": {"type": "number", "exclusiveMinimum": 0},
+            "failure_minimum_dwell_s": {"type": "number", "exclusiveMinimum": 0},
+            "slip_speed_reporting_threshold_mps": {"type": "number", "minimum": 0},
+            "slip_is_diagnostic_not_global_failure": {"const": true}
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "file_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "bytes": {"type": "integer", "minimum": 1}
+      }
+    },
+    "number_array": {"type": "array", "items": {"type": "number"}},
+    "vec2": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+    "vec3": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3},
+    "vec4": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4},
+    "channel_list": {"type": "array", "minItems": 3, "uniqueItems": true, "items": {"type": "string", "minLength": 3}},
+    "body": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "parent", "mass_kg", "diagonal_inertia_kg_m2",
+        "inertial_position_m", "inertial_quaternion_wxyz", "joint_count",
+        "mocap_id", "dynamic"
+      ],
+      "properties": {
+        "id": {"type": "integer", "minimum": 0},
+        "name": {"type": "string", "minLength": 1},
+        "parent": {"type": ["string", "null"]},
+        "mass_kg": {"type": "number", "minimum": 0},
+        "diagonal_inertia_kg_m2": {"$ref": "#/$defs/vec3"},
+        "inertial_position_m": {"$ref": "#/$defs/vec3"},
+        "inertial_quaternion_wxyz": {"$ref": "#/$defs/vec4"},
+        "joint_count": {"type": "integer", "minimum": 0},
+        "mocap_id": {"type": "integer", "minimum": -1},
+        "dynamic": {"type": "boolean"}
+      }
+    },
+    "joint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "body", "type", "qpos_address", "qpos_width",
+        "dof_address", "dof_width", "axis", "position_m", "limited",
+        "range", "margin", "stiffness", "damping", "armature", "frictionloss"
+      ],
+      "properties": {
+        "id": {"type": "integer", "minimum": 0},
+        "name": {"type": "string", "minLength": 1},
+        "body": {"type": "string", "minLength": 1},
+        "type": {"type": "string", "minLength": 1},
+        "qpos_address": {"type": "integer", "minimum": 0},
+        "qpos_width": {"type": "integer", "minimum": 1},
+        "dof_address": {"type": "integer", "minimum": 0},
+        "dof_width": {"type": "integer", "minimum": 1},
+        "axis": {"$ref": "#/$defs/vec3"},
+        "position_m": {"$ref": "#/$defs/vec3"},
+        "limited": {"type": "boolean"},
+        "range": {"$ref": "#/$defs/vec2"},
+        "margin": {"type": "number", "minimum": 0},
+        "stiffness": {"type": "number", "minimum": 0},
+        "damping": {"$ref": "#/$defs/number_array"},
+        "armature": {"$ref": "#/$defs/number_array"},
+        "frictionloss": {"$ref": "#/$defs/number_array"}
+      }
+    },
+    "actuator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "transmission_type", "transmission_ids", "transmission_target",
+        "dynamics_type", "gain_type", "bias_type", "gear", "control_limited",
+        "control_range", "force_limited", "force_range_N_or_Nm", "length_range",
+        "gain_parameters", "bias_parameters", "dynamics_parameters"
+      ],
+      "properties": {
+        "id": {"type": "integer", "minimum": 0},
+        "name": {"type": "string", "minLength": 1},
+        "transmission_type": {"type": "string"},
+        "transmission_ids": {"type": "array", "items": {"type": "integer"}},
+        "transmission_target": {"type": ["string", "null"]},
+        "dynamics_type": {"type": "string"},
+        "gain_type": {"type": "string"},
+        "bias_type": {"type": "string"},
+        "gear": {"$ref": "#/$defs/number_array"},
+        "control_limited": {"type": "boolean"},
+        "control_range": {"$ref": "#/$defs/vec2"},
+        "force_limited": {"type": "boolean"},
+        "force_range_N_or_Nm": {"$ref": "#/$defs/vec2"},
+        "length_range": {"$ref": "#/$defs/vec2"},
+        "gain_parameters": {"$ref": "#/$defs/number_array"},
+        "bias_parameters": {"$ref": "#/$defs/number_array"},
+        "dynamics_parameters": {"$ref": "#/$defs/number_array"}
+      }
+    },
+    "equality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "type", "object_ids", "active_at_reset", "solver_reference", "solver_impedance"],
+      "properties": {
+        "id": {"type": "integer", "minimum": 0},
+        "name": {"type": "string", "minLength": 1},
+        "type": {"type": "string"},
+        "object_ids": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer"}},
+        "active_at_reset": {"type": "boolean"},
+        "solver_reference": {"$ref": "#/$defs/number_array"},
+        "solver_impedance": {"$ref": "#/$defs/number_array"}
+      }
+    },
+    "contact_material": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "friction", "contact_dimension", "priority", "solver_reference",
+        "solver_impedance", "margin_m", "gap_m", "contact_type_mask", "contact_affinity_mask"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^contact_material_[0-9]{3}$"},
+        "friction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sliding", "torsional", "rolling"],
+          "properties": {
+            "sliding": {"type": "number", "minimum": 0},
+            "torsional": {"type": "number", "minimum": 0},
+            "rolling": {"type": "number", "minimum": 0}
+          }
+        },
+        "contact_dimension": {"enum": [1, 3, 4, 6]},
+        "priority": {"type": "integer"},
+        "solver_reference": {"$ref": "#/$defs/number_array"},
+        "solver_impedance": {"$ref": "#/$defs/number_array"},
+        "margin_m": {"type": "number", "minimum": 0},
+        "gap_m": {"type": "number", "minimum": 0},
+        "contact_type_mask": {"type": "integer", "minimum": 0},
+        "contact_affinity_mask": {"type": "integer", "minimum": 0}
+      }
+    },
+    "collision_geom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "body", "type", "size", "position_m", "quaternion_wxyz", "contact_material", "group"],
+      "properties": {
+        "id": {"type": "integer", "minimum": 0},
+        "name": {"type": "string", "minLength": 1},
+        "body": {"type": "string", "minLength": 1},
+        "type": {"type": "string"},
+        "size": {"$ref": "#/$defs/vec3"},
+        "position_m": {"$ref": "#/$defs/vec3"},
+        "quaternion_wxyz": {"$ref": "#/$defs/vec4"},
+        "contact_material": {"type": "string"},
+        "group": {"type": "integer"},
+        "mass_kg": {"type": "number", "minimum": 0},
+        "density_kg_m3": {"type": "number", "minimum": 0}
+      }
+    },
+    "semantic_pair": {
+      "type": "array",
+      "prefixItems": [{"type": "string"}, {"type": "string"}],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "group_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "geoms": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "bodies": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "active_when": {"type": "object"}
+      },
+      "anyOf": [{"required": ["geoms"]}, {"required": ["bodies"]}]
+    },
+    "contact_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowed", "forbidden", "penetration_exemptions", "groups"],
+      "properties": {
+        "allowed": {"type": "array", "items": {"$ref": "#/$defs/semantic_pair"}},
+        "forbidden": {"type": "array", "items": {"$ref": "#/$defs/semantic_pair"}},
+        "penetration_exemptions": {"type": "array"},
+        "groups": {"type": "object", "minProperties": 1, "additionalProperties": {"$ref": "#/$defs/group_binding"}}
+      }
+    },
+    "resolved_group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["geoms", "bodies"],
+      "properties": {
+        "geoms": {"type": "array", "items": {"type": "string"}},
+        "bodies": {"type": "array", "items": {"type": "string"}},
+        "active_when": {"type": "object"}
+      },
+      "anyOf": [
+        {"properties": {"geoms": {"minItems": 1}}},
+        {"properties": {"bodies": {"minItems": 1}}}
+      ]
+    }
+  }
+}

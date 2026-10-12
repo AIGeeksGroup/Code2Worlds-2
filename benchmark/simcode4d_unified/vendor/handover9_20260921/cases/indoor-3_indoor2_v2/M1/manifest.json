@@ -1,0 +1,2056 @@
+{
+  "blend": "../../../Code2Worlds/infinigen/outputs/scene_indoor2/fine/scene.blend",
+  "groups": {
+    "background_terrain": [],
+    "background_floor": [
+      {
+        "name": "floor_00_bathroom_0_0_floor",
+        "source_name": "bathroom_0/0.floor",
+        "mesh_rel": "floor/floor_00_bathroom_0_0_floor.obj",
+        "world_aabb": [
+          6.648413181304932,
+          2.1484131813049316,
+          0.1484130620956421,
+          8.851587295532227,
+          5.0,
+          0.14841309189796448
+        ]
+      },
+      {
+        "name": "floor_01_bedroom_0_0_floor",
+        "source_name": "bedroom_0/0.floor",
+        "mesh_rel": "floor/floor_01_bedroom_0_0_floor.obj",
+        "world_aabb": [
+          9.148412704467773,
+          -0.35158681869506836,
+          0.13268910348415375,
+          15.351587295532227,
+          6.0,
+          0.14841309189796448
+        ]
+      },
+      {
+        "name": "floor_02_dining-room_0_0_floor",
+        "source_name": "dining-room_0/0.floor",
+        "mesh_rel": "floor/floor_02_dining-room_0_0_floor.obj",
+        "world_aabb": [
+          7.5,
+          8.648412704467773,
+          0.1483900398015976,
+          11.5,
+          13.351587295532227,
+          0.14841309189796448
+        ]
+      },
+      {
+        "name": "floor_03_kitchen_0_0_floor",
+        "source_name": "kitchen_0/0.floor",
+        "mesh_rel": "floor/floor_03_kitchen_0_0_floor.obj",
+        "world_aabb": [
+          1.1484131813049316,
+          8.648412704467773,
+          0.1483900398015976,
+          7.5,
+          13.351587295532227,
+          0.14841309189796448
+        ]
+      },
+      {
+        "name": "floor_04_living-room_0_0_floor",
+        "source_name": "living-room_0/0.floor",
+        "mesh_rel": "floor/floor_04_living-room_0_0_floor.obj",
+        "world_aabb": [
+          3.6484131813049316,
+          5.0,
+          0.14194828271865845,
+          15.0,
+          13.351587295532227,
+          0.14842230081558228
+        ]
+      }
+    ],
+    "background_wall": [
+      {
+        "name": "wall_00_bathroom_0_0_ceiling",
+        "source_name": "bathroom_0/0.ceiling",
+        "mesh_rel": "wall/wall_00_bathroom_0_0_ceiling.obj",
+        "world_aabb": [
+          6.648413181304932,
+          2.1484131813049316,
+          2.776956558227539,
+          8.851587295532227,
+          4.851586818695068,
+          2.776956558227539
+        ]
+      },
+      {
+        "name": "wall_01_bathroom_0_0_exterior",
+        "source_name": "bathroom_0/0.exterior",
+        "mesh_rel": "wall/wall_01_bathroom_0_0_exterior.obj",
+        "world_aabb": [
+          6.5,
+          2.0,
+          0.0,
+          9.0,
+          5.0,
+          2.9253697395324707
+        ]
+      },
+      {
+        "name": "wall_02_bathroom_0_0_wall",
+        "source_name": "bathroom_0/0.wall",
+        "mesh_rel": "wall/wall_02_bathroom_0_0_wall.obj",
+        "world_aabb": [
+          6.5,
+          2.0,
+          0.1484130620956421,
+          8.851587295532227,
+          5.0,
+          2.776956558227539
+        ]
+      },
+      {
+        "name": "wall_03_bedroom_0_0_ceiling",
+        "source_name": "bedroom_0/0.ceiling",
+        "mesh_rel": "wall/wall_03_bedroom_0_0_ceiling.obj",
+        "world_aabb": [
+          9.148412704467773,
+          -0.35158681869506836,
+          2.776956558227539,
+          15.351587295532227,
+          5.851586818695068,
+          2.7926807403564453
+        ]
+      },
+      {
+        "name": "wall_04_bedroom_0_0_exterior",
+        "source_name": "bedroom_0/0.exterior",
+        "mesh_rel": "wall/wall_04_bedroom_0_0_exterior.obj",
+        "world_aabb": [
+          9.0,
+          -0.5,
+          0.0,
+          15.5,
+          6.0,
+          2.9253697395324707
+        ]
+      },
+      {
+        "name": "wall_05_bedroom_0_0_wall",
+        "source_name": "bedroom_0/0.wall",
+        "mesh_rel": "wall/wall_05_bedroom_0_0_wall.obj",
+        "world_aabb": [
+          9.0,
+          -0.5,
+          0.13268911838531494,
+          15.5,
+          6.0,
+          2.7926807403564453
+        ]
+      },
+      {
+        "name": "wall_06_CeilingLightFactory(52574)_bbox_placeholder(5083919)",
+        "source_name": "CeilingLightFactory(52574).bbox_placeholder(5083919)",
+        "mesh_rel": "wall/wall_06_CeilingLightFactory(52574)_bbox_placeholder(5083919).obj",
+        "world_aabb": [
+          -0.16086404025554657,
+          -0.16086404025554657,
+          -0.0798497423529625,
+          0.16086404025554657,
+          0.16086404025554657,
+          0.0
+        ]
+      },
+      {
+        "name": "wall_07_CeilingLightFactory(52574)_bbox_placeholder(9844981)",
+        "source_name": "CeilingLightFactory(52574).bbox_placeholder(9844981)",
+        "mesh_rel": "wall/wall_07_CeilingLightFactory(52574)_bbox_placeholder(9844981).obj",
+        "world_aabb": [
+          -0.16086402535438538,
+          -0.16086402535438538,
+          -0.0798497423529625,
+          0.16086402535438538,
+          0.16086402535438538,
+          0.0
+        ]
+      },
+      {
+        "name": "wall_08_CeilingLightFactory(52574)_spawn_asset(5083919)",
+        "source_name": "CeilingLightFactory(52574).spawn_asset(5083919)",
+        "mesh_rel": "wall/wall_08_CeilingLightFactory(52574)_spawn_asset(5083919).obj",
+        "world_aabb": [
+          6.793399333953857,
+          4.121847629547119,
+          2.6971068382263184,
+          7.115127086639404,
+          4.443575382232666,
+          2.776956558227539
+        ]
+      },
+      {
+        "name": "wall_09_CeilingLightFactory(52574)_spawn_asset(9844981)",
+        "source_name": "CeilingLightFactory(52574).spawn_asset(9844981)",
+        "mesh_rel": "wall/wall_09_CeilingLightFactory(52574)_spawn_asset(9844981).obj",
+        "world_aabb": [
+          7.7542805671691895,
+          2.5861430168151855,
+          2.6971068382263184,
+          8.076008796691895,
+          2.9078712463378906,
+          2.776956558227539
+        ]
+      },
+      {
+        "name": "wall_10_dining-room_0_0_ceiling",
+        "source_name": "dining-room_0/0.ceiling",
+        "mesh_rel": "wall/wall_10_dining-room_0_0_ceiling.obj",
+        "world_aabb": [
+          7.648413181304932,
+          8.648412704467773,
+          2.776956558227539,
+          11.351587295532227,
+          13.351587295532227,
+          2.776979684829712
+        ]
+      },
+      {
+        "name": "wall_11_dining-room_0_0_exterior",
+        "source_name": "dining-room_0/0.exterior",
+        "mesh_rel": "wall/wall_11_dining-room_0_0_exterior.obj",
+        "world_aabb": [
+          7.5,
+          8.5,
+          0.0,
+          11.5,
+          13.5,
+          2.9253697395324707
+        ]
+      },
+      {
+        "name": "wall_12_dining-room_0_0_wall",
+        "source_name": "dining-room_0/0.wall",
+        "mesh_rel": "wall/wall_12_dining-room_0_0_wall.obj",
+        "world_aabb": [
+          7.5,
+          8.648412704467773,
+          0.1483900547027588,
+          11.5,
+          13.5,
+          2.776979684829712
+        ]
+      },
+      {
+        "name": "wall_13_door_001",
+        "source_name": "door.001",
+        "mesh_rel": "wall/wall_13_door_001.obj",
+        "world_aabb": [
+          12.589194297790527,
+          5.002989768981934,
+          0.1484130620956421,
+          13.437790870666504,
+          6.997010231018066,
+          2.4989686012268066
+        ]
+      },
+      {
+        "name": "wall_14_door_002",
+        "source_name": "door.002",
+        "mesh_rel": "wall/wall_14_door_002.obj",
+        "world_aabb": [
+          10.502989768981934,
+          8.776113510131836,
+          0.1484130620956421,
+          12.497010231018066,
+          9.624710083007812,
+          2.4989686012268066
+        ]
+      },
+      {
+        "name": "wall_15_door_003",
+        "source_name": "door.003",
+        "mesh_rel": "wall/wall_15_door_003.obj",
+        "world_aabb": [
+          6.502989768981934,
+          9.86409854888916,
+          0.1484130620956421,
+          8.497010231018066,
+          10.712695121765137,
+          2.4989686012268066
+        ]
+      },
+      {
+        "name": "wall_16_kitchen_0_0_ceiling",
+        "source_name": "kitchen_0/0.ceiling",
+        "mesh_rel": "wall/wall_16_kitchen_0_0_ceiling.obj",
+        "world_aabb": [
+          1.1484131813049316,
+          8.648412704467773,
+          2.776956558227539,
+          7.351586818695068,
+          13.351587295532227,
+          2.776979684829712
+        ]
+      },
+      {
+        "name": "wall_17_kitchen_0_0_exterior",
+        "source_name": "kitchen_0/0.exterior",
+        "mesh_rel": "wall/wall_17_kitchen_0_0_exterior.obj",
+        "world_aabb": [
+          1.0,
+          8.5,
+          0.0,
+          7.5,
+          13.5,
+          2.9253697395324707
+        ]
+      },
+      {
+        "name": "wall_18_kitchen_0_0_wall",
+        "source_name": "kitchen_0/0.wall",
+        "mesh_rel": "wall/wall_18_kitchen_0_0_wall.obj",
+        "world_aabb": [
+          1.0,
+          8.5,
+          0.1483900547027588,
+          7.5,
+          13.5,
+          2.776979684829712
+        ]
+      },
+      {
+        "name": "wall_19_LiteDoorFactory(3505460)_spawn_asset(0)",
+        "source_name": "LiteDoorFactory(3505460).spawn_asset(0)",
+        "mesh_rel": "wall/wall_19_LiteDoorFactory(3505460)_spawn_asset(0).obj",
+        "world_aabb": [
+          7.018800735473633,
+          4.103857040405273,
+          0.1484130620956421,
+          8.358646392822266,
+          5.744443893432617,
+          3.057163715362549
+        ]
+      },
+      {
+        "name": "wall_20_living-room_0_0_ceiling",
+        "source_name": "living-room_0/0.ceiling",
+        "mesh_rel": "wall/wall_20_living-room_0_0_ceiling.obj",
+        "world_aabb": [
+          3.6484131813049316,
+          5.148413181304932,
+          2.776947498321533,
+          14.851587295532227,
+          13.351587295532227,
+          2.783421516418457
+        ]
+      },
+      {
+        "name": "wall_21_living-room_0_0_exterior",
+        "source_name": "living-room_0/0.exterior",
+        "mesh_rel": "wall/wall_21_living-room_0_0_exterior.obj",
+        "world_aabb": [
+          3.5,
+          5.0,
+          0.0,
+          15.0,
+          13.5,
+          2.9253697395324707
+        ]
+      },
+      {
+        "name": "wall_22_living-room_0_0_wall",
+        "source_name": "living-room_0/0.wall",
+        "mesh_rel": "wall/wall_22_living-room_0_0_wall.obj",
+        "world_aabb": [
+          3.5,
+          5.0,
+          0.14194834232330322,
+          15.0,
+          13.5,
+          2.783421516418457
+        ]
+      },
+      {
+        "name": "wall_23_PanelDoorFactory(9952204)_spawn_asset(1)",
+        "source_name": "PanelDoorFactory(9952204).spawn_asset(1)",
+        "mesh_rel": "wall/wall_23_PanelDoorFactory(9952204)_spawn_asset(1).obj",
+        "world_aabb": [
+          12.538545608520508,
+          5.239259719848633,
+          0.1484130620956421,
+          13.686861038208008,
+          8.053278923034668,
+          2.618896484375
+        ]
+      },
+      {
+        "name": "wall_24_PanelDoorFactory(9952204)_spawn_asset(2)",
+        "source_name": "PanelDoorFactory(9952204).spawn_asset(2)",
+        "mesh_rel": "wall/wall_24_PanelDoorFactory(9952204)_spawn_asset(2).obj",
+        "world_aabb": [
+          10.596017837524414,
+          8.234667778015137,
+          0.1484130620956421,
+          13.536826133728027,
+          9.758418083190918,
+          2.618896484375
+        ]
+      },
+      {
+        "name": "wall_25_PanelDoorFactory(9952204)_spawn_asset(3)",
+        "source_name": "PanelDoorFactory(9952204).spawn_asset(3)",
+        "mesh_rel": "wall/wall_25_PanelDoorFactory(9952204)_spawn_asset(3).obj",
+        "world_aabb": [
+          6.739133834838867,
+          9.61477279663086,
+          0.1484130620956421,
+          9.553282737731934,
+          10.76341438293457,
+          2.618896484375
+        ]
+      },
+      {
+        "name": "wall_26_PanelDoorFactory(9952204)_spawn_asset(4)",
+        "source_name": "PanelDoorFactory(9952204).spawn_asset(4)",
+        "mesh_rel": "wall/wall_26_PanelDoorFactory(9952204)_spawn_asset(4).obj",
+        "world_aabb": [
+          14.148945808410645,
+          7.722182750701904,
+          0.1484130620956421,
+          17.04804801940918,
+          9.106176376342773,
+          2.618896484375
+        ]
+      },
+      {
+        "name": "wall_27_window_001",
+        "source_name": "window.001",
+        "mesh_rel": "wall/wall_27_window_001.obj",
+        "world_aabb": [
+          6.203173637390137,
+          2.696204423904419,
+          0.9824306964874268,
+          6.796826362609863,
+          3.8678548336029053,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_28_window_002",
+        "source_name": "window.002",
+        "mesh_rel": "wall/wall_28_window_002.obj",
+        "world_aabb": [
+          8.597265243530273,
+          13.203173637390137,
+          0.9824306964874268,
+          10.530790328979492,
+          13.796826362609863,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_29_window_003",
+        "source_name": "window.003",
+        "mesh_rel": "wall/wall_29_window_003.obj",
+        "world_aabb": [
+          9.525588989257812,
+          -0.7968262434005737,
+          0.9824306964874268,
+          11.101245880126953,
+          -0.20317372679710388,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_30_window_004",
+        "source_name": "window.004",
+        "mesh_rel": "wall/wall_30_window_004.obj",
+        "world_aabb": [
+          12.156092643737793,
+          -0.7485554218292236,
+          0.9824306964874268,
+          13.124262809753418,
+          0.0032338425517082214,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_31_window_005",
+        "source_name": "window.005",
+        "mesh_rel": "wall/wall_31_window_005.obj",
+        "world_aabb": [
+          13.374502182006836,
+          -0.34673285484313965,
+          0.9824306964874268,
+          14.412178039550781,
+          0.6198485493659973,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_32_window_006",
+        "source_name": "window.006",
+        "mesh_rel": "wall/wall_32_window_006.obj",
+        "world_aabb": [
+          14.358198165893555,
+          0.5549652576446533,
+          0.9824306964874268,
+          15.346452713012695,
+          1.6250791549682617,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_33_window_007",
+        "source_name": "window.007",
+        "mesh_rel": "wall/wall_33_window_007.obj",
+        "world_aabb": [
+          14.996585845947266,
+          1.8748286962509155,
+          0.9824306964874268,
+          15.747123718261719,
+          2.836711883544922,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_34_window_008",
+        "source_name": "window.008",
+        "mesh_rel": "wall/wall_34_window_008.obj",
+        "world_aabb": [
+          15.203173637390137,
+          3.2194602489471436,
+          0.9824306964874268,
+          15.796826362609863,
+          5.456884860992432,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_35_window_009",
+        "source_name": "window.009",
+        "mesh_rel": "wall/wall_35_window_009.obj",
+        "world_aabb": [
+          8.703173637390137,
+          0.2952507734298706,
+          0.9824306964874268,
+          9.296826362609863,
+          1.5307449102401733,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_36_window_010",
+        "source_name": "window.010",
+        "mesh_rel": "wall/wall_36_window_010.obj",
+        "world_aabb": [
+          1.2245732545852661,
+          8.203173637390137,
+          0.9824306964874268,
+          3.1550025939941406,
+          8.796826362609863,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_37_window_011",
+        "source_name": "window.011",
+        "mesh_rel": "wall/wall_37_window_011.obj",
+        "world_aabb": [
+          3.806201934814453,
+          13.203173637390137,
+          0.9824306964874268,
+          4.887345314025879,
+          13.796826362609863,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_38_window_012",
+        "source_name": "window.012",
+        "mesh_rel": "wall/wall_38_window_012.obj",
+        "world_aabb": [
+          3.2031736373901367,
+          12.243888854980469,
+          0.9824306964874268,
+          3.7968263626098633,
+          13.217212677001953,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_39_window_013",
+        "source_name": "window.013",
+        "mesh_rel": "wall/wall_39_window_013.obj",
+        "world_aabb": [
+          1.677192211151123,
+          11.203173637390137,
+          0.9824306964874268,
+          2.647190570831299,
+          11.796826362609863,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_40_window_014",
+        "source_name": "window.014",
+        "mesh_rel": "wall/wall_40_window_014.obj",
+        "world_aabb": [
+          0.7031735777854919,
+          8.747432708740234,
+          0.9824306964874268,
+          1.2968263626098633,
+          11.25741195678711,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_41_window_015",
+        "source_name": "window.015",
+        "mesh_rel": "wall/wall_41_window_015.obj",
+        "world_aabb": [
+          12.758443832397461,
+          13.203173637390137,
+          0.9824306964874268,
+          14.312034606933594,
+          13.796826362609863,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_42_window_016",
+        "source_name": "window.016",
+        "mesh_rel": "wall/wall_42_window_016.obj",
+        "world_aabb": [
+          3.203173875808716,
+          7.665374755859375,
+          0.9824306964874268,
+          3.796826124191284,
+          8.292311668395996,
+          2.001958131790161
+        ]
+      },
+      {
+        "name": "wall_43_WindowFactory(14597)_spawn_asset(10)",
+        "source_name": "WindowFactory(14597).spawn_asset(10)",
+        "mesh_rel": "wall/wall_43_WindowFactory(14597)_spawn_asset(10).obj",
+        "world_aabb": [
+          1.195223331451416,
+          8.598210334777832,
+          0.9626497626304626,
+          3.184352397918701,
+          8.831336975097656,
+          2.0217390060424805
+        ]
+      },
+      {
+        "name": "wall_44_WindowFactory(14597)_spawn_asset(11)",
+        "source_name": "WindowFactory(14597).spawn_asset(11)",
+        "mesh_rel": "wall/wall_44_WindowFactory(14597)_spawn_asset(11).obj",
+        "world_aabb": [
+          3.7887110710144043,
+          13.299870491027832,
+          0.9649399518966675,
+          4.904836177825928,
+          13.403304100036621,
+          2.019448757171631
+        ]
+      },
+      {
+        "name": "wall_45_WindowFactory(14597)_spawn_asset(12)",
+        "source_name": "WindowFactory(14597).spawn_asset(12)",
+        "mesh_rel": "wall/wall_45_WindowFactory(14597)_spawn_asset(12).obj",
+        "world_aabb": [
+          3.5960464477539062,
+          12.233277320861816,
+          0.9718194007873535,
+          3.700779914855957,
+          13.227824211120605,
+          2.0125694274902344
+        ]
+      },
+      {
+        "name": "wall_46_WindowFactory(14597)_spawn_asset(13)",
+        "source_name": "WindowFactory(14597).spawn_asset(13)",
+        "mesh_rel": "wall/wall_46_WindowFactory(14597)_spawn_asset(13).obj",
+        "world_aabb": [
+          1.6547080278396606,
+          11.19192886352539,
+          0.95994633436203,
+          2.669674873352051,
+          11.390379905700684,
+          2.024442434310913
+        ]
+      },
+      {
+        "name": "wall_47_WindowFactory(14597)_spawn_asset(14)",
+        "source_name": "WindowFactory(14597).spawn_asset(14)",
+        "mesh_rel": "wall/wall_47_WindowFactory(14597)_spawn_asset(14).obj",
+        "world_aabb": [
+          1.0904595851898193,
+          8.724893569946289,
+          0.9598919749259949,
+          1.2063665390014648,
+          11.279951095581055,
+          2.0244967937469482
+        ]
+      },
+      {
+        "name": "wall_48_WindowFactory(14597)_spawn_asset(15)",
+        "source_name": "WindowFactory(14597).spawn_asset(15)",
+        "mesh_rel": "wall/wall_48_WindowFactory(14597)_spawn_asset(15).obj",
+        "world_aabb": [
+          12.743840217590332,
+          13.293349266052246,
+          0.9678276181221008,
+          14.326638221740723,
+          13.409825325012207,
+          2.016561269760132
+        ]
+      },
+      {
+        "name": "wall_49_WindowFactory(14597)_spawn_asset(16)",
+        "source_name": "WindowFactory(14597).spawn_asset(16)",
+        "mesh_rel": "wall/wall_49_WindowFactory(14597)_spawn_asset(16).obj",
+        "world_aabb": [
+          3.302957057952881,
+          7.65784215927124,
+          0.9748984575271606,
+          3.400216579437256,
+          8.299843788146973,
+          2.009490489959717
+        ]
+      },
+      {
+        "name": "wall_50_WindowFactory(14597)_spawn_asset(2)",
+        "source_name": "WindowFactory(14597).spawn_asset(2)",
+        "mesh_rel": "wall/wall_50_WindowFactory(14597)_spawn_asset(2).obj",
+        "world_aabb": [
+          8.572081565856934,
+          13.301135063171387,
+          0.9572477340698242,
+          10.555974006652832,
+          13.402039527893066,
+          2.0271410942077637
+        ]
+      },
+      {
+        "name": "wall_51_WindowFactory(78063)_spawn_asset(0)",
+        "source_name": "WindowFactory(78063).spawn_asset(0)",
+        "mesh_rel": "wall/wall_51_WindowFactory(78063)_spawn_asset(0).obj",
+        "world_aabb": [
+          7.645308971405029,
+          2.110180377960205,
+          0.9632437825202942,
+          8.713438034057617,
+          2.186645984649658,
+          2.0211451053619385
+        ]
+      },
+      {
+        "name": "wall_52_WindowFactory(78063)_spawn_asset(1)",
+        "source_name": "WindowFactory(78063).spawn_asset(1)",
+        "mesh_rel": "wall/wall_52_WindowFactory(78063)_spawn_asset(1).obj",
+        "world_aabb": [
+          6.618134498596191,
+          2.675952911376953,
+          0.9637740850448608,
+          6.802804946899414,
+          3.888106346130371,
+          2.0206148624420166
+        ]
+      },
+      {
+        "name": "wall_53_WindowFactory(78063)_spawn_asset(3)",
+        "source_name": "WindowFactory(78063).spawn_asset(3)",
+        "mesh_rel": "wall/wall_53_WindowFactory(78063)_spawn_asset(3).obj",
+        "world_aabb": [
+          9.513866424560547,
+          -0.39662379026412964,
+          0.9707081317901611,
+          11.112968444824219,
+          -0.3065500855445862,
+          2.0136806964874268
+        ]
+      },
+      {
+        "name": "wall_54_WindowFactory(78063)_spawn_asset(4)",
+        "source_name": "WindowFactory(78063).spawn_asset(4)",
+        "mesh_rel": "wall/wall_54_WindowFactory(78063)_spawn_asset(4).obj",
+        "world_aabb": [
+          12.11396312713623,
+          -0.3623400926589966,
+          0.9675212502479553,
+          13.078099250793457,
+          0.06089971214532852,
+          2.0168676376342773
+        ]
+      },
+      {
+        "name": "wall_55_WindowFactory(78063)_spawn_asset(5)",
+        "source_name": "WindowFactory(78063).spawn_asset(5)",
+        "mesh_rel": "wall/wall_55_WindowFactory(78063)_spawn_asset(5).obj",
+        "world_aabb": [
+          13.31533145904541,
+          -0.04057721793651581,
+          0.9669483304023743,
+          14.223377227783203,
+          0.6848092079162598,
+          2.0174405574798584
+        ]
+      },
+      {
+        "name": "wall_56_WindowFactory(78063)_spawn_asset(6)",
+        "source_name": "WindowFactory(78063).spawn_asset(6)",
+        "mesh_rel": "wall/wall_56_WindowFactory(78063)_spawn_asset(6).obj",
+        "world_aabb": [
+          14.430350303649902,
+          0.7597593665122986,
+          0.964343786239624,
+          15.027499198913574,
+          1.5851927995681763,
+          2.020045042037964
+        ]
+      },
+      {
+        "name": "wall_57_WindowFactory(78063)_spawn_asset(7)",
+        "source_name": "WindowFactory(78063).spawn_asset(7)",
+        "mesh_rel": "wall/wall_57_WindowFactory(78063)_spawn_asset(7).obj",
+        "world_aabb": [
+          14.966330528259277,
+          1.9220821857452393,
+          0.9711654186248779,
+          15.356433868408203,
+          2.873189926147461,
+          2.01322340965271
+        ]
+      },
+      {
+        "name": "wall_58_WindowFactory(78063)_spawn_asset(8)",
+        "source_name": "WindowFactory(78063).spawn_asset(8)",
+        "mesh_rel": "wall/wall_58_WindowFactory(78063)_spawn_asset(8).obj",
+        "world_aabb": [
+          15.313426971435547,
+          3.200322151184082,
+          0.9632924795150757,
+          15.389747619628906,
+          5.476022720336914,
+          2.0210962295532227
+        ]
+      },
+      {
+        "name": "wall_59_WindowFactory(78063)_spawn_asset(9)",
+        "source_name": "WindowFactory(78063).spawn_asset(9)",
+        "mesh_rel": "wall/wall_59_WindowFactory(78063)_spawn_asset(9).obj",
+        "world_aabb": [
+          9.091238975524902,
+          0.2816702127456665,
+          0.9688500761985779,
+          9.205586433410645,
+          1.5443254709243774,
+          2.0155386924743652
+        ]
+      }
+    ],
+    "prop_concave_large": [
+      {
+        "name": "prop_concave_large_000_CellShelfFactory(553940)_spawn_asset(1582230)",
+        "source_name": "CellShelfFactory(553940).spawn_asset(1582230)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_000_CellShelfFactory(553940)_spawn_asset(1582230).obj",
+        "world_pos": [
+          8.781587600708008,
+          3.708112955093384,
+          0.1484130620956421
+        ],
+        "world_quat": [
+          7.549790126404332e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.43296051025390625,
+          1.1851022243499756,
+          1.5516026020050049
+        ],
+        "n_tris": 1348
+      },
+      {
+        "name": "prop_concave_large_001_LargeShelfFactory(7187033)_spawn_asset(5070133)",
+        "source_name": "LargeShelfFactory(7187033).spawn_asset(5070133)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_001_LargeShelfFactory(7187033)_spawn_asset(5070133).obj",
+        "world_pos": [
+          8.644207954406738,
+          4.475749969482422,
+          0.14841318130493164
+        ],
+        "world_quat": [
+          7.549790126404332e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.26675987243652344,
+          0.3515200614929199,
+          1.530710220336914
+        ],
+        "n_tris": 2668
+      },
+      {
+        "name": "prop_concave_large_002_LargeShelfFactory(847080)_spawn_asset(5034982)",
+        "source_name": "LargeShelfFactory(847080).spawn_asset(5034982)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_002_LargeShelfFactory(847080)_spawn_asset(5034982).obj",
+        "world_pos": [
+          8.619232177734375,
+          2.865426540374756,
+          0.14841316640377045
+        ],
+        "world_quat": [
+          7.549790126404332e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.3167104721069336,
+          0.3361020088195801,
+          1.9190371185541153
+        ],
+        "n_tris": 3192
+      },
+      {
+        "name": "prop_concave_large_003_MirrorFactory(2662507)_spawn_asset(2274093)",
+        "source_name": "MirrorFactory(2662507).spawn_asset(2274093)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_003_MirrorFactory(2662507)_spawn_asset(2274093).obj",
+        "world_pos": [
+          8.84158706665039,
+          3.786968946456909,
+          2.0619957447052
+        ],
+        "world_quat": [
+          4.371138828673793e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.015979766845703125,
+          0.5135512351989746,
+          0.5984249114990234
+        ],
+        "n_tris": 17
+      },
+      {
+        "name": "prop_concave_large_004_NatureShelfTrinketsFactory(321562)_spawn_asset(3131955)",
+        "source_name": "NatureShelfTrinketsFactory(321562).spawn_asset(3131955)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_004_NatureShelfTrinketsFactory(321562)_spawn_asset(3131955).obj",
+        "world_pos": [
+          8.561433792114258,
+          2.8537819385528564,
+          0.6818135380744934
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          0.7071067094802856
+        ],
+        "world_size": [
+          0.1394939422607422,
+          0.1290421485900879,
+          0.1238323450088501
+        ],
+        "n_tris": 163840
+      },
+      {
+        "name": "prop_concave_large_005_NatureShelfTrinketsFactory(4213378)_spawn_asset(8334249)",
+        "source_name": "NatureShelfTrinketsFactory(4213378).spawn_asset(8334249)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_005_NatureShelfTrinketsFactory(4213378)_spawn_asset(8334249).obj",
+        "world_pos": [
+          8.548279762268066,
+          2.8506202697753906,
+          1.7746931314468384
+        ],
+        "world_quat": [
+          7.549790126404332e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.14517784118652344,
+          0.13602876663208008,
+          0.1401752233505249
+        ],
+        "n_tris": 528576
+      },
+      {
+        "name": "prop_concave_large_006_NatureShelfTrinketsFactory(9699418)_spawn_asset(1239099)",
+        "source_name": "NatureShelfTrinketsFactory(9699418).spawn_asset(1239099)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_006_NatureShelfTrinketsFactory(9699418)_spawn_asset(1239099).obj",
+        "world_pos": [
+          8.703763961791992,
+          2.8321259021759033,
+          1.7678403854370117
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          0.7071067094802856
+        ],
+        "world_size": [
+          0.10066413879394531,
+          0.1314716339111328,
+          0.10159611701965332
+        ],
+        "n_tris": 528384
+      },
+      {
+        "name": "prop_concave_large_007_SingleCabinetFactory(224372)_spawn_asset(6792200)",
+        "source_name": "SingleCabinetFactory(224372).spawn_asset(6792200)",
+        "mesh_rel": "prop_concave_large/prop_concave_large_007_SingleCabinetFactory(224372)_spawn_asset(6792200).obj",
+        "world_pos": [
+          6.878554344177246,
+          4.582326412200928,
+          0.1484130620956421
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.32094764709472656,
+          0.4094352722167969,
+          1.4828758239746094
+        ],
+        "n_tris": 44824
+      }
+    ],
+    "prop_convex_small": [],
+    "prop_dynamic": [
+      {
+        "name": "prop_dynamic_000_BookStackFactory(8500014)_spawn_asset(105580)",
+        "source_name": "BookStackFactory(8500014).spawn_asset(105580)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_000_BookStackFactory(8500014)_spawn_asset(105580).obj",
+        "world_pos": [
+          8.64234447479248,
+          3.3893070220947266,
+          0.5635641813278198
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          0.7071067094802856
+        ],
+        "world_size": [
+          0.2413005828857422,
+          0.16510009765625,
+          0.23943054676055908
+        ],
+        "n_tris": 399
+      },
+      {
+        "name": "prop_dynamic_001_BottleFactory(1640702)_spawn_asset(8057734)",
+        "source_name": "BottleFactory(1640702).spawn_asset(8057734)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_001_BottleFactory(1640702)_spawn_asset(8057734).obj",
+        "world_pos": [
+          8.672103881835938,
+          2.94254207611084,
+          0.9815454483032227
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09519386291503906,
+          0.09519338607788086,
+          0.19842547178268433
+        ],
+        "n_tris": 20124
+      },
+      {
+        "name": "prop_dynamic_002_BottleFactory(2218705)_spawn_asset(3053284)",
+        "source_name": "BottleFactory(2218705).spawn_asset(3053284)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_002_BottleFactory(2218705)_spawn_asset(3053284).obj",
+        "world_pos": [
+          8.514963150024414,
+          3.831423759460449,
+          0.9315664172172546
+        ],
+        "world_quat": [
+          7.549790126404332e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.07628440856933594,
+          0.07628345489501953,
+          0.19330769777297974
+        ],
+        "n_tris": 15104
+      },
+      {
+        "name": "prop_dynamic_003_BottleFactory(4562664)_spawn_asset(4069595)",
+        "source_name": "BottleFactory(4562664).spawn_asset(4069595)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_003_BottleFactory(4562664)_spawn_asset(4069595).obj",
+        "world_pos": [
+          6.819485187530518,
+          4.453413009643555,
+          0.2520785927772522
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          0.7071067094802856
+        ],
+        "world_size": [
+          0.1068267822265625,
+          0.1068267822265625,
+          0.20644131302833557
+        ],
+        "n_tris": 19888
+      },
+      {
+        "name": "prop_dynamic_004_BottleFactory(9524457)_spawn_asset(6552133)",
+        "source_name": "BottleFactory(9524457).spawn_asset(6552133)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_004_BottleFactory(9524457)_spawn_asset(6552133).obj",
+        "world_pos": [
+          6.815073490142822,
+          4.734947204589844,
+          1.629288911819458
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          -0.7071067094802856
+        ],
+        "world_size": [
+          0.058562278747558594,
+          0.058562278747558594,
+          0.15322494506835938
+        ],
+        "n_tris": 10144
+      },
+      {
+        "name": "prop_dynamic_005_BottleFactory(9582200)_spawn_asset(2320883)",
+        "source_name": "BottleFactory(9582200).spawn_asset(2320883)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_005_BottleFactory(9582200)_spawn_asset(2320883).obj",
+        "world_pos": [
+          8.616372108459473,
+          2.929563283920288,
+          0.2487208992242813
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11073684692382812,
+          0.11073732376098633,
+          0.2312159389257431
+        ],
+        "n_tris": 24652
+      },
+      {
+        "name": "prop_dynamic_006_BottleFactory(9996013)_spawn_asset(9922012)",
+        "source_name": "BottleFactory(9996013).spawn_asset(9922012)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_006_BottleFactory(9996013)_spawn_asset(9922012).obj",
+        "world_pos": [
+          6.913150310516357,
+          4.484738349914551,
+          0.2520785927772522
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.06762409210205078,
+          0.06762409210205078,
+          0.16913428902626038
+        ],
+        "n_tris": 12664
+      },
+      {
+        "name": "prop_dynamic_007_BowlFactory(2682453)_spawn_asset(1162689)",
+        "source_name": "BowlFactory(2682453).spawn_asset(1162689)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_007_BowlFactory(2682453)_spawn_asset(1162689).obj",
+        "world_pos": [
+          8.545092582702637,
+          3.385115385055542,
+          0.9315664172172546
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          -0.7071067094802856
+        ],
+        "world_size": [
+          0.24639225006103516,
+          0.24639225006103516,
+          0.1298370361328125
+        ],
+        "n_tris": 33868
+      },
+      {
+        "name": "prop_dynamic_008_BowlFactory(2682453)_spawn_asset(3986590)",
+        "source_name": "BowlFactory(2682453).spawn_asset(3986590)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_008_BowlFactory(2682453)_spawn_asset(3986590).obj",
+        "world_pos": [
+          6.877954483032227,
+          4.5301055908203125,
+          0.5963811874389648
+        ],
+        "world_quat": [
+          7.549790126404332e-08,
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "world_size": [
+          0.24639225006103516,
+          0.24639225006103516,
+          0.12983697652816772
+        ],
+        "n_tris": 33868
+      },
+      {
+        "name": "prop_dynamic_009_BowlFactory(2682453)_spawn_asset(5027323)",
+        "source_name": "BowlFactory(2682453).spawn_asset(5027323)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_009_BowlFactory(2682453)_spawn_asset(5027323).obj",
+        "world_pos": [
+          8.479491233825684,
+          4.119689464569092,
+          1.699515700340271
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.24642181396484375,
+          0.24642086029052734,
+          0.1298513412475586
+        ],
+        "n_tris": 36388
+      },
+      {
+        "name": "prop_dynamic_010_BowlFactory(2682453)_spawn_asset(5911403)",
+        "source_name": "BowlFactory(2682453).spawn_asset(5911403)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_010_BowlFactory(2682453)_spawn_asset(5911403).obj",
+        "world_pos": [
+          8.611639976501465,
+          3.2577474117279053,
+          1.699515700340271
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          -0.7071067094802856
+        ],
+        "world_size": [
+          0.24639225006103516,
+          0.24639225006103516,
+          0.12983691692352295
+        ],
+        "n_tris": 33868
+      },
+      {
+        "name": "prop_dynamic_011_BowlFactory(2682453)_spawn_asset(6200584)",
+        "source_name": "BowlFactory(2682453).spawn_asset(6200584)",
+        "mesh_rel": "prop_dynamic/prop_dynamic_011_BowlFactory(2682453)_spawn_asset(6200584).obj",
+        "world_pos": [
+          8.629231452941895,
+          2.8558132648468018,
+          2.0654501914978027
+        ],
+        "world_quat": [
+          0.7071068286895752,
+          0.0,
+          0.0,
+          0.7071067094802856
+        ],
+        "world_size": [
+          0.24642181396484375,
+          0.24642109870910645,
+          0.1298515796661377
+        ],
+        "n_tris": 36388
+      }
+    ],
+    "vegetation": [],
+    "decoration": [
+      {
+        "name": "DeskLampFactory(8013229).spawn_asset(8207786)",
+        "source_name": "DeskLampFactory(8013229).spawn_asset(8207786)",
+        "world_pos": [
+          6.902631759643555,
+          4.542242050170898,
+          1.6293364763259888
+        ],
+        "world_quat": [
+          1.0,
+          1.072637423327194e-09,
+          0.00017263350309804082,
+          -2.710505431213761e-20
+        ],
+        "world_size": [
+          0.23749876022338867,
+          0.23731517791748047,
+          0.53197181224823
+        ]
+      }
+    ],
+    "skip": [
+      {
+        "name": "bathroom_0/0",
+        "reason": "skip"
+      },
+      {
+        "name": "bathroom_0/0.meshed",
+        "reason": "skip"
+      },
+      {
+        "name": "bedroom_0/0",
+        "reason": "skip"
+      },
+      {
+        "name": "bedroom_0/0.meshed",
+        "reason": "skip"
+      },
+      {
+        "name": "BookStackFactory(8500014).spawn_placeholder(105580)",
+        "reason": "skip"
+      },
+      {
+        "name": "BottleFactory(1640702).bbox_placeholder(8057734)",
+        "reason": "skip"
+      },
+      {
+        "name": "BottleFactory(2218705).bbox_placeholder(3053284)",
+        "reason": "skip"
+      },
+      {
+        "name": "BottleFactory(4562664).bbox_placeholder(4069595)",
+        "reason": "skip"
+      },
+      {
+        "name": "BottleFactory(9524457).bbox_placeholder(6552133)",
+        "reason": "skip"
+      },
+      {
+        "name": "BottleFactory(9582200).bbox_placeholder(2320883)",
+        "reason": "skip"
+      },
+      {
+        "name": "BottleFactory(9996013).bbox_placeholder(9922012)",
+        "reason": "skip"
+      },
+      {
+        "name": "BowlFactory(2682453).spawn_placeholder(1162689)",
+        "reason": "skip"
+      },
+      {
+        "name": "BowlFactory(2682453).spawn_placeholder(3986590)",
+        "reason": "skip"
+      },
+      {
+        "name": "BowlFactory(2682453).spawn_placeholder(5027323)",
+        "reason": "skip"
+      },
+      {
+        "name": "BowlFactory(2682453).spawn_placeholder(5911403)",
+        "reason": "skip"
+      },
+      {
+        "name": "BowlFactory(2682453).spawn_placeholder(6200584)",
+        "reason": "skip"
+      },
+      {
+        "name": "CellShelfFactory(553940).spawn_placeholder(1582230)",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.001",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.002",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.003",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.004",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.005",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.006",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.007",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.008",
+        "reason": "skip"
+      },
+      {
+        "name": "DeskLampFactory(8013229).bbox_placeholder(8207786)",
+        "reason": "skip"
+      },
+      {
+        "name": "dining-room_0/0",
+        "reason": "skip"
+      },
+      {
+        "name": "dining-room_0/0.meshed",
+        "reason": "skip"
+      },
+      {
+        "name": "door",
+        "reason": "skip"
+      },
+      {
+        "name": "entrance",
+        "reason": "skip"
+      },
+      {
+        "name": "HardwareFactory(1884620).bbox_placeholder(6784968)",
+        "reason": "skip"
+      },
+      {
+        "name": "HardwareFactory(1884620).spawn_asset(6784968)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "HardwareFactory(7220231).bbox_placeholder(4107551)",
+        "reason": "skip"
+      },
+      {
+        "name": "HardwareFactory(7220231).spawn_asset(4107551)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "HardwareFactory(897847).bbox_placeholder(3362789)",
+        "reason": "skip"
+      },
+      {
+        "name": "HardwareFactory(897847).spawn_asset(3362789)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "HardwareFactory(9071578).bbox_placeholder(5519262)",
+        "reason": "skip"
+      },
+      {
+        "name": "HardwareFactory(9071578).spawn_asset(5519262)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "kitchen_0/0",
+        "reason": "skip"
+      },
+      {
+        "name": "kitchen_0/0.meshed",
+        "reason": "skip"
+      },
+      {
+        "name": "LargeShelfFactory(7187033).bbox_placeholder(5070133)",
+        "reason": "skip"
+      },
+      {
+        "name": "LargeShelfFactory(847080).bbox_placeholder(5034982)",
+        "reason": "skip"
+      },
+      {
+        "name": "living-room_0/0",
+        "reason": "skip"
+      },
+      {
+        "name": "living-room_0/0.meshed",
+        "reason": "skip"
+      },
+      {
+        "name": "Mesh.012",
+        "reason": "skip"
+      },
+      {
+        "name": "MirrorFactory(2662507).spawn_placeholder(2274093)",
+        "reason": "skip"
+      },
+      {
+        "name": "NatureShelfTrinketsFactory(321562).spawn_placeholder(3131955)",
+        "reason": "skip"
+      },
+      {
+        "name": "NatureShelfTrinketsFactory(4213378).spawn_placeholder(8334249)",
+        "reason": "skip"
+      },
+      {
+        "name": "NatureShelfTrinketsFactory(9699418).spawn_placeholder(1239099)",
+        "reason": "skip"
+      },
+      {
+        "name": "Plane",
+        "reason": "skip"
+      },
+      {
+        "name": "Plane.001",
+        "reason": "skip"
+      },
+      {
+        "name": "Plane.002",
+        "reason": "skip"
+      },
+      {
+        "name": "Plane.003",
+        "reason": "skip"
+      },
+      {
+        "name": "Plane.004",
+        "reason": "skip"
+      },
+      {
+        "name": "Plane.005",
+        "reason": "skip"
+      },
+      {
+        "name": "SingleCabinetFactory(224372).spawn_placeholder(6792200)",
+        "reason": "skip"
+      },
+      {
+        "name": "StandingSinkFactory(4347527).spawn_asset(258605)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "StandingSinkFactory(4347527).spawn_placeholder(258605)",
+        "reason": "skip"
+      },
+      {
+        "name": "ToiletFactory(5608489).spawn_asset(1341699)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "ToiletFactory(5608489).spawn_placeholder(1341699)",
+        "reason": "skip"
+      },
+      {
+        "name": "WallArtFactory(4727068).spawn_asset(2713787)",
+        "reason": "unmatched"
+      },
+      {
+        "name": "WallArtFactory(4727068).spawn_placeholder(2713787)",
+        "reason": "skip"
+      },
+      {
+        "name": "window",
+        "reason": "skip"
+      }
+    ]
+  },
+  "cameras": [
+    {
+      "name": "camera_0_0",
+      "world_pos": [
+        7.058891773223877,
+        3.583958864212036,
+        2.1597607135772705
+      ],
+      "world_quat": [
+        0.3909308910369873,
+        0.29642975330352783,
+        -0.5264939069747925,
+        -0.6943389773368835
+      ]
+    },
+    {
+      "name": "camera_0_1",
+      "world_pos": [
+        7.019996643066406,
+        3.5198328495025635,
+        2.1597607135772705
+      ],
+      "world_quat": [
+        0.3909308910369873,
+        0.29642975330352783,
+        -0.5264939069747925,
+        -0.6943389773368835
+      ]
+    }
+  ],
+  "boulders": [
+    {
+      "name": "prop_concave_large_000_CellShelfFactory(553940)_spawn_asset(1582230)",
+      "source_name": "CellShelfFactory(553940).spawn_asset(1582230)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_000_CellShelfFactory(553940)_spawn_asset(1582230).obj",
+      "world_pos": [
+        8.781587600708008,
+        3.708112955093384,
+        0.1484130620956421
+      ],
+      "world_quat": [
+        7.549790126404332e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.43296051025390625,
+        1.1851022243499756,
+        1.5516026020050049
+      ],
+      "n_tris": 1348
+    },
+    {
+      "name": "prop_concave_large_001_LargeShelfFactory(7187033)_spawn_asset(5070133)",
+      "source_name": "LargeShelfFactory(7187033).spawn_asset(5070133)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_001_LargeShelfFactory(7187033)_spawn_asset(5070133).obj",
+      "world_pos": [
+        8.644207954406738,
+        4.475749969482422,
+        0.14841318130493164
+      ],
+      "world_quat": [
+        7.549790126404332e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.26675987243652344,
+        0.3515200614929199,
+        1.530710220336914
+      ],
+      "n_tris": 2668
+    },
+    {
+      "name": "prop_concave_large_002_LargeShelfFactory(847080)_spawn_asset(5034982)",
+      "source_name": "LargeShelfFactory(847080).spawn_asset(5034982)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_002_LargeShelfFactory(847080)_spawn_asset(5034982).obj",
+      "world_pos": [
+        8.619232177734375,
+        2.865426540374756,
+        0.14841316640377045
+      ],
+      "world_quat": [
+        7.549790126404332e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.3167104721069336,
+        0.3361020088195801,
+        1.9190371185541153
+      ],
+      "n_tris": 3192
+    },
+    {
+      "name": "prop_concave_large_003_MirrorFactory(2662507)_spawn_asset(2274093)",
+      "source_name": "MirrorFactory(2662507).spawn_asset(2274093)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_003_MirrorFactory(2662507)_spawn_asset(2274093).obj",
+      "world_pos": [
+        8.84158706665039,
+        3.786968946456909,
+        2.0619957447052
+      ],
+      "world_quat": [
+        4.371138828673793e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.015979766845703125,
+        0.5135512351989746,
+        0.5984249114990234
+      ],
+      "n_tris": 17
+    },
+    {
+      "name": "prop_concave_large_004_NatureShelfTrinketsFactory(321562)_spawn_asset(3131955)",
+      "source_name": "NatureShelfTrinketsFactory(321562).spawn_asset(3131955)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_004_NatureShelfTrinketsFactory(321562)_spawn_asset(3131955).obj",
+      "world_pos": [
+        8.561433792114258,
+        2.8537819385528564,
+        0.6818135380744934
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "world_size": [
+        0.1394939422607422,
+        0.1290421485900879,
+        0.1238323450088501
+      ],
+      "n_tris": 163840
+    },
+    {
+      "name": "prop_concave_large_005_NatureShelfTrinketsFactory(4213378)_spawn_asset(8334249)",
+      "source_name": "NatureShelfTrinketsFactory(4213378).spawn_asset(8334249)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_005_NatureShelfTrinketsFactory(4213378)_spawn_asset(8334249).obj",
+      "world_pos": [
+        8.548279762268066,
+        2.8506202697753906,
+        1.7746931314468384
+      ],
+      "world_quat": [
+        7.549790126404332e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.14517784118652344,
+        0.13602876663208008,
+        0.1401752233505249
+      ],
+      "n_tris": 528576
+    },
+    {
+      "name": "prop_concave_large_006_NatureShelfTrinketsFactory(9699418)_spawn_asset(1239099)",
+      "source_name": "NatureShelfTrinketsFactory(9699418).spawn_asset(1239099)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_006_NatureShelfTrinketsFactory(9699418)_spawn_asset(1239099).obj",
+      "world_pos": [
+        8.703763961791992,
+        2.8321259021759033,
+        1.7678403854370117
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "world_size": [
+        0.10066413879394531,
+        0.1314716339111328,
+        0.10159611701965332
+      ],
+      "n_tris": 528384
+    },
+    {
+      "name": "prop_concave_large_007_SingleCabinetFactory(224372)_spawn_asset(6792200)",
+      "source_name": "SingleCabinetFactory(224372).spawn_asset(6792200)",
+      "mesh_rel": "prop_concave_large/prop_concave_large_007_SingleCabinetFactory(224372)_spawn_asset(6792200).obj",
+      "world_pos": [
+        6.878554344177246,
+        4.582326412200928,
+        0.1484130620956421
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.32094764709472656,
+        0.4094352722167969,
+        1.4828758239746094
+      ],
+      "n_tris": 44824
+    }
+  ],
+  "vegetation": [],
+  "dynamic_candidates": [
+    {
+      "name": "prop_dynamic_000_BookStackFactory(8500014)_spawn_asset(105580)",
+      "source_name": "BookStackFactory(8500014).spawn_asset(105580)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_000_BookStackFactory(8500014)_spawn_asset(105580).obj",
+      "world_pos": [
+        8.64234447479248,
+        3.3893070220947266,
+        0.5635641813278198
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "world_size": [
+        0.2413005828857422,
+        0.16510009765625,
+        0.23943054676055908
+      ],
+      "n_tris": 399
+    },
+    {
+      "name": "prop_dynamic_001_BottleFactory(1640702)_spawn_asset(8057734)",
+      "source_name": "BottleFactory(1640702).spawn_asset(8057734)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_001_BottleFactory(1640702)_spawn_asset(8057734).obj",
+      "world_pos": [
+        8.672103881835938,
+        2.94254207611084,
+        0.9815454483032227
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.09519386291503906,
+        0.09519338607788086,
+        0.19842547178268433
+      ],
+      "n_tris": 20124
+    },
+    {
+      "name": "prop_dynamic_002_BottleFactory(2218705)_spawn_asset(3053284)",
+      "source_name": "BottleFactory(2218705).spawn_asset(3053284)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_002_BottleFactory(2218705)_spawn_asset(3053284).obj",
+      "world_pos": [
+        8.514963150024414,
+        3.831423759460449,
+        0.9315664172172546
+      ],
+      "world_quat": [
+        7.549790126404332e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.07628440856933594,
+        0.07628345489501953,
+        0.19330769777297974
+      ],
+      "n_tris": 15104
+    },
+    {
+      "name": "prop_dynamic_003_BottleFactory(4562664)_spawn_asset(4069595)",
+      "source_name": "BottleFactory(4562664).spawn_asset(4069595)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_003_BottleFactory(4562664)_spawn_asset(4069595).obj",
+      "world_pos": [
+        6.819485187530518,
+        4.453413009643555,
+        0.2520785927772522
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "world_size": [
+        0.1068267822265625,
+        0.1068267822265625,
+        0.20644131302833557
+      ],
+      "n_tris": 19888
+    },
+    {
+      "name": "prop_dynamic_004_BottleFactory(9524457)_spawn_asset(6552133)",
+      "source_name": "BottleFactory(9524457).spawn_asset(6552133)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_004_BottleFactory(9524457)_spawn_asset(6552133).obj",
+      "world_pos": [
+        6.815073490142822,
+        4.734947204589844,
+        1.629288911819458
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        -0.7071067094802856
+      ],
+      "world_size": [
+        0.058562278747558594,
+        0.058562278747558594,
+        0.15322494506835938
+      ],
+      "n_tris": 10144
+    },
+    {
+      "name": "prop_dynamic_005_BottleFactory(9582200)_spawn_asset(2320883)",
+      "source_name": "BottleFactory(9582200).spawn_asset(2320883)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_005_BottleFactory(9582200)_spawn_asset(2320883).obj",
+      "world_pos": [
+        8.616372108459473,
+        2.929563283920288,
+        0.2487208992242813
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.11073684692382812,
+        0.11073732376098633,
+        0.2312159389257431
+      ],
+      "n_tris": 24652
+    },
+    {
+      "name": "prop_dynamic_006_BottleFactory(9996013)_spawn_asset(9922012)",
+      "source_name": "BottleFactory(9996013).spawn_asset(9922012)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_006_BottleFactory(9996013)_spawn_asset(9922012).obj",
+      "world_pos": [
+        6.913150310516357,
+        4.484738349914551,
+        0.2520785927772522
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.06762409210205078,
+        0.06762409210205078,
+        0.16913428902626038
+      ],
+      "n_tris": 12664
+    },
+    {
+      "name": "prop_dynamic_007_BowlFactory(2682453)_spawn_asset(1162689)",
+      "source_name": "BowlFactory(2682453).spawn_asset(1162689)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_007_BowlFactory(2682453)_spawn_asset(1162689).obj",
+      "world_pos": [
+        8.545092582702637,
+        3.385115385055542,
+        0.9315664172172546
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        -0.7071067094802856
+      ],
+      "world_size": [
+        0.24639225006103516,
+        0.24639225006103516,
+        0.1298370361328125
+      ],
+      "n_tris": 33868
+    },
+    {
+      "name": "prop_dynamic_008_BowlFactory(2682453)_spawn_asset(3986590)",
+      "source_name": "BowlFactory(2682453).spawn_asset(3986590)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_008_BowlFactory(2682453)_spawn_asset(3986590).obj",
+      "world_pos": [
+        6.877954483032227,
+        4.5301055908203125,
+        0.5963811874389648
+      ],
+      "world_quat": [
+        7.549790126404332e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "world_size": [
+        0.24639225006103516,
+        0.24639225006103516,
+        0.12983697652816772
+      ],
+      "n_tris": 33868
+    },
+    {
+      "name": "prop_dynamic_009_BowlFactory(2682453)_spawn_asset(5027323)",
+      "source_name": "BowlFactory(2682453).spawn_asset(5027323)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_009_BowlFactory(2682453)_spawn_asset(5027323).obj",
+      "world_pos": [
+        8.479491233825684,
+        4.119689464569092,
+        1.699515700340271
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.24642181396484375,
+        0.24642086029052734,
+        0.1298513412475586
+      ],
+      "n_tris": 36388
+    },
+    {
+      "name": "prop_dynamic_010_BowlFactory(2682453)_spawn_asset(5911403)",
+      "source_name": "BowlFactory(2682453).spawn_asset(5911403)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_010_BowlFactory(2682453)_spawn_asset(5911403).obj",
+      "world_pos": [
+        8.611639976501465,
+        3.2577474117279053,
+        1.699515700340271
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        -0.7071067094802856
+      ],
+      "world_size": [
+        0.24639225006103516,
+        0.24639225006103516,
+        0.12983691692352295
+      ],
+      "n_tris": 33868
+    },
+    {
+      "name": "prop_dynamic_011_BowlFactory(2682453)_spawn_asset(6200584)",
+      "source_name": "BowlFactory(2682453).spawn_asset(6200584)",
+      "mesh_rel": "prop_dynamic/prop_dynamic_011_BowlFactory(2682453)_spawn_asset(6200584).obj",
+      "world_pos": [
+        8.629231452941895,
+        2.8558132648468018,
+        2.0654501914978027
+      ],
+      "world_quat": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "world_size": [
+        0.24642181396484375,
+        0.24642109870910645,
+        0.1298515796661377
+      ],
+      "n_tris": 36388
+    }
+  ]
+}

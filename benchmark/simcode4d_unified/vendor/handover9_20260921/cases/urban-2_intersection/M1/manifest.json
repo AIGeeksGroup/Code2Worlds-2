@@ -1,0 +1,1904 @@
+{
+  "blend": "../../../tmp_intersection_m3.blend",
+  "groups": {
+    "background_terrain": [
+      {
+        "name": "background_terrain_00",
+        "source_name": "cross_road_x",
+        "visual_obj": "background_terrain_00_visual.obj",
+        "collision_obj": "background_terrain_00_collision.obj",
+        "world_aabb": [
+          -16.0,
+          -4.0,
+          -0.11999999731779099,
+          16.0,
+          4.0,
+          0.0
+        ]
+      },
+      {
+        "name": "background_terrain_01",
+        "source_name": "road",
+        "visual_obj": "background_terrain_01_visual.obj",
+        "collision_obj": "background_terrain_01_collision.obj",
+        "world_aabb": [
+          -4.0,
+          -16.5,
+          -0.11999999731779099,
+          4.0,
+          15.5,
+          0.0
+        ]
+      },
+      {
+        "name": "background_terrain_02",
+        "source_name": "sidewalk_e",
+        "visual_obj": "background_terrain_02_visual.obj",
+        "collision_obj": "background_terrain_02_collision.obj",
+        "world_aabb": [
+          4.300000190734863,
+          -16.5,
+          -0.14000000059604645,
+          5.699999809265137,
+          15.5,
+          0.0
+        ]
+      },
+      {
+        "name": "background_terrain_03",
+        "source_name": "sidewalk_w",
+        "visual_obj": "background_terrain_03_visual.obj",
+        "collision_obj": "background_terrain_03_collision.obj",
+        "world_aabb": [
+          -5.699999809265137,
+          -16.5,
+          -0.14000000059604645,
+          -4.300000190734863,
+          15.5,
+          0.0
+        ]
+      }
+    ],
+    "background_floor": [],
+    "background_wall": [],
+    "prop_concave_large": [],
+    "prop_convex_small": [
+      {
+        "name": "prop_convex_small_000_bldg_BrickBuildingFactory(500)_spawn_asset(500)",
+        "source_name": "bldg_BrickBuildingFactory(500).spawn_asset(500)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_000_bldg_BrickBuildingFactory(500)_spawn_asset(500).obj",
+        "world_pos": [
+          13.71250057220459,
+          -9.0,
+          8.188813209533691
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          13.562500953674316,
+          -14.60283088684082,
+          1.1755790710449219,
+          13.862500190734863,
+          -3.3971691131591797,
+          15.202047348022461
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_001_bldg_BrickBuildingFactory(503)_spawn_asset(503)",
+        "source_name": "bldg_BrickBuildingFactory(503).spawn_asset(503)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_001_bldg_BrickBuildingFactory(503)_spawn_asset(503).obj",
+        "world_pos": [
+          14.0,
+          9.0,
+          8.633354187011719
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          13.850000381469727,
+          3.3971691131591797,
+          1.6201200485229492,
+          14.149999618530273,
+          14.60283088684082,
+          15.646588325500488
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_002_bldg_BrickBuildingFactory(600)_spawn_asset(600)",
+        "source_name": "bldg_BrickBuildingFactory(600).spawn_asset(600)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_002_bldg_BrickBuildingFactory(600)_spawn_asset(600).obj",
+        "world_pos": [
+          -13.712499618530273,
+          -7.0,
+          8.949287414550781
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          -13.862499237060547,
+          -12.60283088684082,
+          1.9360532760620117,
+          -13.5625,
+          -1.3971691131591797,
+          15.96252155303955
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_003_bldg_BrickBuildingFactory(601)_spawn_asset(601)",
+        "source_name": "bldg_BrickBuildingFactory(601).spawn_asset(601)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_003_bldg_BrickBuildingFactory(601)_spawn_asset(601).obj",
+        "world_pos": [
+          -13.712499618530273,
+          1.9999998807907104,
+          7.23203182220459
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          -13.862499237060547,
+          -3.6028308868408203,
+          0.2187976837158203,
+          -13.5625,
+          7.60283088684082,
+          14.24526596069336
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_004_bldg_BrickBuildingFactory(602)_spawn_asset(602)",
+        "source_name": "bldg_BrickBuildingFactory(602).spawn_asset(602)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_004_bldg_BrickBuildingFactory(602)_spawn_asset(602).obj",
+        "world_pos": [
+          -13.712499618530273,
+          10.0,
+          5.158243656158447
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468753814697
+        ],
+        "world_aabb": [
+          -13.862499237060547,
+          4.39716911315918,
+          -1.8549904823303223,
+          -13.5625,
+          15.60283088684082,
+          12.171478271484375
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_005_bldg_BrickBuildingFactory(710)_spawn_asset(710)",
+        "source_name": "bldg_BrickBuildingFactory(710).spawn_asset(710)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_005_bldg_BrickBuildingFactory(710)_spawn_asset(710).obj",
+        "world_pos": [
+          0.0,
+          -16.0,
+          8.209558486938477
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.30000001192092896,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          -0.15000000596046448,
+          -21.60283088684082,
+          1.196324348449707,
+          0.15000000596046448,
+          -10.39716911315918,
+          15.222792625427246
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_006_bldg_BuildingFactory(501)_spawn_asset(501)",
+        "source_name": "bldg_BuildingFactory(501).spawn_asset(501)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_006_bldg_BuildingFactory(501)_spawn_asset(501).obj",
+        "world_pos": [
+          14.0,
+          -4.000000476837158,
+          4.664882659912109
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.205661296844482,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          13.850000381469727,
+          -9.60283088684082,
+          -2.34835147857666,
+          14.149999618530273,
+          1.602830410003662,
+          11.678116798400879
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_007_bldg_ConcreteBuildingFactory(502)_spawn_asset(502)",
+        "source_name": "bldg_ConcreteBuildingFactory(502).spawn_asset(502)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_007_bldg_ConcreteBuildingFactory(502)_spawn_asset(502).obj",
+        "world_pos": [
+          13.712499618530273,
+          4.0,
+          8.972379684448242
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          13.5625,
+          -1.6028308868408203,
+          1.9591455459594727,
+          13.862499237060547,
+          9.60283088684082,
+          15.985613822937012
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_008_bldg_GlassTowerFactory(700)_spawn_asset(700)",
+        "source_name": "bldg_GlassTowerFactory(700).spawn_asset(700)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_008_bldg_GlassTowerFactory(700)_spawn_asset(700).obj",
+        "world_pos": [
+          -14.0,
+          -11.0,
+          6.514638900756836
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          11.20566177368164,
+          14.026468276977539
+        ],
+        "world_aabb": [
+          -14.149999618530273,
+          -16.60283088684082,
+          -0.4985952377319336,
+          -13.850000381469727,
+          -5.39716911315918,
+          13.527873039245605
+        ],
+        "n_tris": 86
+      },
+      {
+        "name": "prop_convex_small_009_lt_e-9_arm",
+        "source_name": "lt_e-9_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_009_lt_e-9_arm.obj",
+        "world_pos": [
+          3.8499999046325684,
+          -9.0,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.3000001907348633,
+          0.10000038146972656,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          3.1999998092651367,
+          -9.050000190734863,
+          4.5,
+          4.5,
+          -8.949999809265137,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_010_lt_e-9_lamp",
+        "source_name": "lt_e-9_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_010_lt_e-9_lamp.obj",
+        "world_pos": [
+          3.25,
+          -9.0,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          2.9749999046325684,
+          -9.09000015258789,
+          4.429999828338623,
+          3.5250000953674316,
+          -8.90999984741211,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_011_lt_e-9_pole",
+        "source_name": "lt_e-9_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_011_lt_e-9_pole.obj",
+        "world_pos": [
+          4.599999904632568,
+          -9.0,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.12000083923339844,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          4.539999961853027,
+          -9.0600004196167,
+          0.0,
+          4.659999847412109,
+          -8.9399995803833,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_012_lt_e0_arm",
+        "source_name": "lt_e0_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_012_lt_e0_arm.obj",
+        "world_pos": [
+          3.8499999046325684,
+          0.0,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.3000001907348633,
+          0.10000000149011612,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          3.1999998092651367,
+          -0.05000000074505806,
+          4.5,
+          4.5,
+          0.05000000074505806,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_013_lt_e0_lamp",
+        "source_name": "lt_e0_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_013_lt_e0_lamp.obj",
+        "world_pos": [
+          3.25,
+          0.0,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000000715255737,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          2.9749999046325684,
+          -0.09000000357627869,
+          4.429999828338623,
+          3.5250000953674316,
+          0.09000000357627869,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_014_lt_e0_pole",
+        "source_name": "lt_e0_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_014_lt_e0_pole.obj",
+        "world_pos": [
+          4.599999904632568,
+          0.0,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999999731779099,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          4.539999961853027,
+          -0.05999999865889549,
+          0.0,
+          4.659999847412109,
+          0.05999999865889549,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_015_lt_e9_arm",
+        "source_name": "lt_e9_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_015_lt_e9_arm.obj",
+        "world_pos": [
+          3.8499999046325684,
+          9.0,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.3000001907348633,
+          0.10000038146972656,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          3.1999998092651367,
+          8.949999809265137,
+          4.5,
+          4.5,
+          9.050000190734863,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_016_lt_e9_lamp",
+        "source_name": "lt_e9_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_016_lt_e9_lamp.obj",
+        "world_pos": [
+          3.25,
+          9.0,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          2.9749999046325684,
+          8.90999984741211,
+          4.429999828338623,
+          3.5250000953674316,
+          9.09000015258789,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_017_lt_e9_pole",
+        "source_name": "lt_e9_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_017_lt_e9_pole.obj",
+        "world_pos": [
+          4.599999904632568,
+          9.0,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.12000083923339844,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          4.539999961853027,
+          8.9399995803833,
+          0.0,
+          4.659999847412109,
+          9.0600004196167,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_018_lt_w-9_arm",
+        "source_name": "lt_w-9_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_018_lt_w-9_arm.obj",
+        "world_pos": [
+          -5.349999904632568,
+          -9.0,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.3000001907348633,
+          0.10000038146972656,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          -6.0,
+          -9.050000190734863,
+          4.5,
+          -4.699999809265137,
+          -8.949999809265137,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_019_lt_w-9_lamp",
+        "source_name": "lt_w-9_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_019_lt_w-9_lamp.obj",
+        "world_pos": [
+          -5.949999809265137,
+          -9.0,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -6.224999904632568,
+          -9.09000015258789,
+          4.429999828338623,
+          -5.674999713897705,
+          -8.90999984741211,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_020_lt_w-9_pole",
+        "source_name": "lt_w-9_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_020_lt_w-9_pole.obj",
+        "world_pos": [
+          -4.599999904632568,
+          -9.0,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.12000083923339844,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -4.659999847412109,
+          -9.0600004196167,
+          0.0,
+          -4.539999961853027,
+          -8.9399995803833,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_021_lt_w0_arm",
+        "source_name": "lt_w0_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_021_lt_w0_arm.obj",
+        "world_pos": [
+          -5.349999904632568,
+          0.0,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.3000001907348633,
+          0.10000000149011612,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          -6.0,
+          -0.05000000074505806,
+          4.5,
+          -4.699999809265137,
+          0.05000000074505806,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_022_lt_w0_lamp",
+        "source_name": "lt_w0_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_022_lt_w0_lamp.obj",
+        "world_pos": [
+          -5.949999809265137,
+          0.0,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000000715255737,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -6.224999904632568,
+          -0.09000000357627869,
+          4.429999828338623,
+          -5.674999713897705,
+          0.09000000357627869,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_023_lt_w0_pole",
+        "source_name": "lt_w0_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_023_lt_w0_pole.obj",
+        "world_pos": [
+          -4.599999904632568,
+          0.0,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999999731779099,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -4.659999847412109,
+          -0.05999999865889549,
+          0.0,
+          -4.539999961853027,
+          0.05999999865889549,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_024_lt_w9_arm",
+        "source_name": "lt_w9_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_024_lt_w9_arm.obj",
+        "world_pos": [
+          -5.349999904632568,
+          9.0,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.3000001907348633,
+          0.10000038146972656,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          -6.0,
+          8.949999809265137,
+          4.5,
+          -4.699999809265137,
+          9.050000190734863,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_025_lt_w9_lamp",
+        "source_name": "lt_w9_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_025_lt_w9_lamp.obj",
+        "world_pos": [
+          -5.949999809265137,
+          9.0,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -6.224999904632568,
+          8.90999984741211,
+          4.429999828338623,
+          -5.674999713897705,
+          9.09000015258789,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_026_lt_w9_pole",
+        "source_name": "lt_w9_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_026_lt_w9_pole.obj",
+        "world_pos": [
+          -4.599999904632568,
+          9.0,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.12000083923339844,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -4.659999847412109,
+          8.9399995803833,
+          0.0,
+          -4.539999961853027,
+          9.0600004196167,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_027_lt_x_n_arm",
+        "source_name": "lt_x_n_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_027_lt_x_n_arm.obj",
+        "world_pos": [
+          -0.75,
+          4.599999904632568,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2999999523162842,
+          0.10000038146972656,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          -1.399999976158142,
+          4.549999713897705,
+          4.5,
+          -0.10000002384185791,
+          4.650000095367432,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_028_lt_x_n_lamp",
+        "source_name": "lt_x_n_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_028_lt_x_n_lamp.obj",
+        "world_pos": [
+          -1.350000023841858,
+          4.599999904632568,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5499999523162842,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -1.625,
+          4.509999752044678,
+          4.429999828338623,
+          -1.0750000476837158,
+          4.690000057220459,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_029_lt_x_n_pole",
+        "source_name": "lt_x_n_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_029_lt_x_n_pole.obj",
+        "world_pos": [
+          0.0,
+          4.599999904632568,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999999731779099,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -0.05999999865889549,
+          4.539999961853027,
+          0.0,
+          0.05999999865889549,
+          4.659999847412109,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_030_lt_x_s_arm",
+        "source_name": "lt_x_s_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_030_lt_x_s_arm.obj",
+        "world_pos": [
+          -0.75,
+          -4.599999904632568,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.2999999523162842,
+          0.10000038146972656,
+          0.10000038146972656
+        ],
+        "world_aabb": [
+          -1.399999976158142,
+          -4.650000095367432,
+          4.5,
+          -0.10000002384185791,
+          -4.549999713897705,
+          4.600000381469727
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_031_lt_x_s_lamp",
+        "source_name": "lt_x_s_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_031_lt_x_s_lamp.obj",
+        "world_pos": [
+          -1.350000023841858,
+          -4.599999904632568,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5499999523162842,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -1.625,
+          -4.690000057220459,
+          4.429999828338623,
+          -1.0750000476837158,
+          -4.509999752044678,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_032_lt_x_s_pole",
+        "source_name": "lt_x_s_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_032_lt_x_s_pole.obj",
+        "world_pos": [
+          0.0,
+          -4.599999904632568,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999999731779099,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -0.05999999865889549,
+          -4.659999847412109,
+          0.0,
+          0.05999999865889549,
+          -4.539999961853027,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_033_tl_0_arm",
+        "source_name": "tl_0_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_033_tl_0_arm.obj",
+        "world_pos": [
+          5.0,
+          -5.0,
+          4.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          0.10000038146972656,
+          1.6000001430511475
+        ],
+        "world_aabb": [
+          4.949999809265137,
+          -5.050000190734863,
+          3.200000047683716,
+          5.050000190734863,
+          -4.949999809265137,
+          4.800000190734863
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_034_tl_0_head",
+        "source_name": "tl_0_head",
+        "mesh_rel": "prop_convex_small/prop_convex_small_034_tl_0_head.obj",
+        "world_pos": [
+          5.0,
+          -5.0,
+          4.400000095367432
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2799997329711914,
+          0.2799997329711914,
+          0.8500001430511475
+        ],
+        "world_aabb": [
+          4.860000133514404,
+          -5.139999866485596,
+          3.9750001430511475,
+          5.139999866485596,
+          -4.860000133514404,
+          4.825000286102295
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_035_tl_0_lamp",
+        "source_name": "tl_0_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_035_tl_0_lamp.obj",
+        "world_pos": [
+          5.0,
+          -5.199999809265137,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.15999984741210938,
+          0.15999984741210938,
+          0.15999984741210938
+        ],
+        "world_aabb": [
+          4.920000076293945,
+          -5.279999732971191,
+          4.470000267028809,
+          5.079999923706055,
+          -5.119999885559082,
+          4.630000114440918
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_036_tl_0_pole",
+        "source_name": "tl_0_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_036_tl_0_pole.obj",
+        "world_pos": [
+          5.0,
+          -5.0,
+          2.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.0
+        ],
+        "world_aabb": [
+          4.940000057220459,
+          -5.059999942779541,
+          0.0,
+          5.059999942779541,
+          -4.940000057220459,
+          4.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_037_tl_1_arm",
+        "source_name": "tl_1_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_037_tl_1_arm.obj",
+        "world_pos": [
+          -5.0,
+          -5.0,
+          4.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          0.10000038146972656,
+          1.6000001430511475
+        ],
+        "world_aabb": [
+          -5.050000190734863,
+          -5.050000190734863,
+          3.200000047683716,
+          -4.949999809265137,
+          -4.949999809265137,
+          4.800000190734863
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_038_tl_1_head",
+        "source_name": "tl_1_head",
+        "mesh_rel": "prop_convex_small/prop_convex_small_038_tl_1_head.obj",
+        "world_pos": [
+          -5.0,
+          -5.0,
+          4.400000095367432
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2799997329711914,
+          0.2799997329711914,
+          0.8500001430511475
+        ],
+        "world_aabb": [
+          -5.139999866485596,
+          -5.139999866485596,
+          3.9750001430511475,
+          -4.860000133514404,
+          -4.860000133514404,
+          4.825000286102295
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_039_tl_1_lamp",
+        "source_name": "tl_1_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_039_tl_1_lamp.obj",
+        "world_pos": [
+          -5.0,
+          -5.199999809265137,
+          4.550000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.15999984741210938,
+          0.15999984741210938,
+          0.15999984741210938
+        ],
+        "world_aabb": [
+          -5.079999923706055,
+          -5.279999732971191,
+          4.470000267028809,
+          -4.920000076293945,
+          -5.119999885559082,
+          4.630000114440918
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_040_tl_1_pole",
+        "source_name": "tl_1_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_040_tl_1_pole.obj",
+        "world_pos": [
+          -5.0,
+          -5.0,
+          2.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.0
+        ],
+        "world_aabb": [
+          -5.059999942779541,
+          -5.059999942779541,
+          0.0,
+          -4.940000057220459,
+          -4.940000057220459,
+          4.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_041_tl_2_arm",
+        "source_name": "tl_2_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_041_tl_2_arm.obj",
+        "world_pos": [
+          5.0,
+          5.0,
+          4.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          0.10000038146972656,
+          1.6000001430511475
+        ],
+        "world_aabb": [
+          4.949999809265137,
+          4.949999809265137,
+          3.200000047683716,
+          5.050000190734863,
+          5.050000190734863,
+          4.800000190734863
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_042_tl_2_head",
+        "source_name": "tl_2_head",
+        "mesh_rel": "prop_convex_small/prop_convex_small_042_tl_2_head.obj",
+        "world_pos": [
+          5.0,
+          5.0,
+          4.400000095367432
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2799997329711914,
+          0.2799997329711914,
+          0.8500001430511475
+        ],
+        "world_aabb": [
+          4.860000133514404,
+          4.860000133514404,
+          3.9750001430511475,
+          5.139999866485596,
+          5.139999866485596,
+          4.825000286102295
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_043_tl_2_lamp",
+        "source_name": "tl_2_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_043_tl_2_lamp.obj",
+        "world_pos": [
+          5.0,
+          4.800000190734863,
+          4.300000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.15999984741210938,
+          0.15999984741210938,
+          0.15999984741210938
+        ],
+        "world_aabb": [
+          4.920000076293945,
+          4.720000267028809,
+          4.220000267028809,
+          5.079999923706055,
+          4.880000114440918,
+          4.380000114440918
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_044_tl_2_pole",
+        "source_name": "tl_2_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_044_tl_2_pole.obj",
+        "world_pos": [
+          5.0,
+          5.0,
+          2.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.0
+        ],
+        "world_aabb": [
+          4.940000057220459,
+          4.940000057220459,
+          0.0,
+          5.059999942779541,
+          5.059999942779541,
+          4.0
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_045_tl_3_arm",
+        "source_name": "tl_3_arm",
+        "mesh_rel": "prop_convex_small/prop_convex_small_045_tl_3_arm.obj",
+        "world_pos": [
+          -5.0,
+          5.0,
+          4.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          0.10000038146972656,
+          1.6000001430511475
+        ],
+        "world_aabb": [
+          -5.050000190734863,
+          4.949999809265137,
+          3.200000047683716,
+          -4.949999809265137,
+          5.050000190734863,
+          4.800000190734863
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_046_tl_3_head",
+        "source_name": "tl_3_head",
+        "mesh_rel": "prop_convex_small/prop_convex_small_046_tl_3_head.obj",
+        "world_pos": [
+          -5.0,
+          5.0,
+          4.400000095367432
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2799997329711914,
+          0.2799997329711914,
+          0.8500001430511475
+        ],
+        "world_aabb": [
+          -5.139999866485596,
+          4.860000133514404,
+          3.9750001430511475,
+          -4.860000133514404,
+          5.139999866485596,
+          4.825000286102295
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_047_tl_3_lamp",
+        "source_name": "tl_3_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_047_tl_3_lamp.obj",
+        "world_pos": [
+          -5.0,
+          4.800000190734863,
+          4.300000190734863
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.15999984741210938,
+          0.15999984741210938,
+          0.15999984741210938
+        ],
+        "world_aabb": [
+          -5.079999923706055,
+          4.720000267028809,
+          4.220000267028809,
+          -4.920000076293945,
+          4.880000114440918,
+          4.380000114440918
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_048_tl_3_pole",
+        "source_name": "tl_3_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_048_tl_3_pole.obj",
+        "world_pos": [
+          -5.0,
+          5.0,
+          2.0
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.0
+        ],
+        "world_aabb": [
+          -5.059999942779541,
+          4.940000057220459,
+          0.0,
+          -4.940000057220459,
+          5.059999942779541,
+          4.0
+        ],
+        "n_tris": 6
+      }
+    ],
+    "prop_dynamic": [],
+    "vegetation": [],
+    "decoration": [
+      {
+        "name": "bar_0",
+        "source_name": "bar_0",
+        "world_pos": [
+          -3.0,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_1",
+        "source_name": "bar_1",
+        "world_pos": [
+          -2.4000000953674316,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_10",
+        "source_name": "bar_10",
+        "world_pos": [
+          3.0,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_2",
+        "source_name": "bar_2",
+        "world_pos": [
+          -1.7999999523162842,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_3",
+        "source_name": "bar_3",
+        "world_pos": [
+          -1.2000000476837158,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_4",
+        "source_name": "bar_4",
+        "world_pos": [
+          -0.6000000238418579,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.3999999761581421,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_5",
+        "source_name": "bar_5",
+        "world_pos": [
+          0.0,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.4000000059604645,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_6",
+        "source_name": "bar_6",
+        "world_pos": [
+          0.6000000238418579,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.3999999761581421,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_7",
+        "source_name": "bar_7",
+        "world_pos": [
+          1.2000000476837158,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_8",
+        "source_name": "bar_8",
+        "world_pos": [
+          1.7999999523162842,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "bar_9",
+        "source_name": "bar_9",
+        "world_pos": [
+          2.4000000953674316,
+          0.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.40000009536743164,
+          7.400000095367432,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "lane_-2",
+        "source_name": "lane_-2",
+        "world_pos": [
+          0.0,
+          -7.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.14000000059604645,
+          2.799999713897705,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "lane_-3",
+        "source_name": "lane_-3",
+        "world_pos": [
+          0.0,
+          -10.5,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.14000000059604645,
+          2.799999237060547,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "lane_-4",
+        "source_name": "lane_-4",
+        "world_pos": [
+          0.0,
+          -14.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.14000000059604645,
+          2.799999237060547,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "lane_2",
+        "source_name": "lane_2",
+        "world_pos": [
+          0.0,
+          7.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.14000000059604645,
+          2.799999713897705,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "lane_3",
+        "source_name": "lane_3",
+        "world_pos": [
+          0.0,
+          10.5,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.14000000059604645,
+          2.799999237060547,
+          0.011999999638646841
+        ]
+      },
+      {
+        "name": "lane_4",
+        "source_name": "lane_4",
+        "world_pos": [
+          0.0,
+          14.0,
+          -0.004000000189989805
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.14000000059604645,
+          2.799999237060547,
+          0.011999999638646841
+        ]
+      }
+    ],
+    "skip": [
+      {
+        "name": "ground.001",
+        "reason": "unmatched"
+      }
+    ]
+  },
+  "cameras": [],
+  "terrain": {
+    "visual_obj": "background_terrain_00_visual.obj",
+    "collision_obj": "background_terrain_00_collision.obj",
+    "world_aabb": [
+      -16.0,
+      -4.0,
+      -0.11999999731779099,
+      16.0,
+      4.0,
+      0.0
+    ]
+  },
+  "boulders": [],
+  "vegetation": [],
+  "dynamic_candidates": []
+}

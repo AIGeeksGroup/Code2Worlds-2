@@ -1,0 +1,158 @@
+{
+  "case_id": "INS-01-agv-aisle",
+  "case_spec_sha256": "492d89b8608d3ad84269611a8520b618dd30aef0d0ca18ca46952212ebd10211",
+  "contact_policy": {
+    "allowed": [
+      [
+        "rover_wheels",
+        "ground"
+      ]
+    ],
+    "forbidden": [
+      [
+        "rover_base",
+        "static_obstacles"
+      ]
+    ],
+    "groups": {
+      "ground": {
+        "geoms": [
+          "floor_*"
+        ]
+      },
+      "rover_base": {
+        "bodies": [
+          "rover_base"
+        ]
+      },
+      "rover_wheels": {
+        "bodies": [
+          "rover_*_wheel"
+        ]
+      },
+      "static_obstacles": {
+        "geoms": [
+          "wall_*",
+          "prop_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "aisle_progress",
+        "goal_entry"
+      ],
+      [
+        "goal_entry",
+        "stop"
+      ]
+    ],
+    "nodes": [
+      "aisle_progress",
+      "goal_entry",
+      "stop"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {
+    "keyframe": "m2_init"
+  },
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": false,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.95
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "rover_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.05
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "rover_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "rover_base": 1.08
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "rover_base": 0.92
+      },
+      "body_xy_offset_m": {
+        "rover_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "rover_base": 0.012
+      }
+    }
+  },
+  "regions": {
+    "goal": {
+      "max_xyz_m": [
+        0.05,
+        0.45,
+        0.8
+      ],
+      "min_xyz_m": [
+        -0.6,
+        -0.45,
+        -0.1
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "Development-only benchmark-authored semantics; source evidence is retained, thresholds are frozen before the reference matrix, and official Core15 admission remains false.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_lateral_span_m": 0.3,
+    "maximum_terminal_speed_mps": 0.12,
+    "maximum_tilt_rad": 0.5,
+    "minimum_travel_m": 1.3,
+    "terminal_hold_s": 0.5
+  }
+}

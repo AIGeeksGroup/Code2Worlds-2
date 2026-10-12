@@ -1,0 +1,41 @@
+{
+  "case_id": "INS-01-agv-aisle",
+  "files": [
+    {
+      "bytes": 1330,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/m2_overlay.json",
+      "sha256": "2d34a38e8461f006abf0d172ea2b470907939a4ea576b428f2421e63a37c343f"
+    },
+    {
+      "bytes": 1325,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/repair_report.json",
+      "sha256": "3ce59314f8a65cf6d1341aa559e8583790ad13040af4ff20693f445fc1c1667d"
+    },
+    {
+      "bytes": 48857,
+      "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/runtime_model.xml",
+      "sha256": "c9c9774d85b62ef97bc00ea9094bdce4a451de30b38f56864fd6b5aa9229444a"
+    },
+    {
+      "bytes": 35526,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/M1/module1/scene_enriched.xml",
+      "sha256": "8a527bd66ecf77612bdba141e3ab822f8ae07648bca1c5184a3236c9151bb3e3"
+    },
+    {
+      "bytes": 38451,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/rollout/scene_m2.xml",
+      "sha256": "88f3ed5c35d2bbc01af3def9ab325cc436b81331bbd3f201c863a066769869c5"
+    },
+    {
+      "bytes": 423,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/rover_assets/rover_body.obj",
+      "sha256": "8b002e7368471aa73bec2666c1c64447b0da6428738c3bdba38e9981188bdad2"
+    },
+    {
+      "bytes": 2831,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/rover_assets/rover_wheel.obj",
+      "sha256": "476216758f15309039ff1d265b9a8e4cbbdacfe46876b6ad39017aa71f9a8811"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

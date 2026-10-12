@@ -1,0 +1,236 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 5780,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/dependency_manifest.json",
+      "sha256": "9aa9a14ba0de073a589718b293d2649e8e5a74c0a2ed92789b2134da74900765"
+    },
+    "m1_base": {
+      "bytes": 11452,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/M1/module1/scene_enriched.xml",
+      "sha256": "80a96a73656699154058a7dc463affe95858461b986b91ca77c423bc8ca490af"
+    },
+    "m2_overlay": {
+      "bytes": 1356,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/m2_overlay.json",
+      "sha256": "09d7c4e005571cad623217e5fddfd1f3ece307ac4c9ec643b1a87a6704745ae5"
+    },
+    "runtime_model": {
+      "bytes": 30146,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/runtime_model.xml",
+      "sha256": "17081a4698a6c3d23f4e473173e6b55a66b9d33fc498bcc02b85482341a4a21a"
+    }
+  },
+  "case_id": "URB-02-intersection",
+  "domain": "urban",
+  "dynamic_subtype": null,
+  "entities": [
+    {
+      "entity_id": "go2",
+      "mobility": "articulated",
+      "model_binding": "base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "intersection_ground",
+      "mobility": "fixed",
+      "model_binding": "terrain_*",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "street_furniture",
+      "mobility": "fixed",
+      "model_binding": "prop_*",
+      "required": true,
+      "role": "obstacle"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "base"
+    ],
+    "joints": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "FL_calf": [
+        -45.43,
+        45.43
+      ],
+      "FL_hip": [
+        -23.7,
+        23.7
+      ],
+      "FL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "FR_calf": [
+        -45.43,
+        45.43
+      ],
+      "FR_hip": [
+        -23.7,
+        23.7
+      ],
+      "FR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RL_calf": [
+        -45.43,
+        45.43
+      ],
+      "RL_hip": [
+        -23.7,
+        23.7
+      ],
+      "RL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RR_calf": [
+        -45.43,
+        45.43
+      ],
+      "RR_hip": [
+        -23.7,
+        23.7
+      ],
+      "RR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "base_force_x_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_y_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_z_ctrl": [
+        -150.0,
+        150.0
+      ],
+      "base_pitch_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_roll_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_yaw_ctrl": [
+        -90.0,
+        90.0
+      ]
+    },
+    "episode_duration_s": 14.0,
+    "log_hz": 30,
+    "move_duration_s": 12.5,
+    "owner": "benchmark",
+    "path": "probes/urb02_intersection.py",
+    "sha256": "c74338a5f3be99967452bde1752f73592d51e263bc14aa139a49e801ad4202cb",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        -5.0,
+        0.8
+      ],
+      [
+        4.7,
+        0.8
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        -5.0,
+        0.8,
+        0.29
+      ],
+      [
+        4.7,
+        0.8,
+        0.29
+      ]
+    ]
+  },
+  "prompt": "Start on the west sidewalk, cross the road east through the frozen corridor, reach the east sidewalk, and stop.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 2151978,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/scene.blend",
+    "sha256": "7d7f7b8255ecb4349a36aa56a88426283d4a857ff25fa9bcec917361174c4269"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 45409,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/M1/manifest.json",
+    "sha256": "5106950a8a453bb8fe0417e5f5481f85f3eedf7b88cf0f06e1e69a31ed55ccce"
+  },
+  "split": "development",
+  "task_family": "obstacle_navigation",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/urb02_intersection.py",
+    "sha256": "19a613c790fa1a33f40504085d823a1469f01e3b711513c678a2357e752160a3",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "urb02-intersection"
+}

@@ -1,0 +1,236 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 1450,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/dependency_manifest.json",
+      "sha256": "a4d4419098f7ccf718118636a1feb389022626b39bd60154d0bd64f7edf6ecbd"
+    },
+    "m1_base": {
+      "bytes": 11652,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-2_go2lr_walk/M1/module1/scene_enriched.xml",
+      "sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50"
+    },
+    "m2_overlay": {
+      "bytes": 1370,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/m2_overlay.json",
+      "sha256": "fc6bb858bdc459a28a28e8789cd1aa9d03c4ecdec4599274568665bba92a2dd5"
+    },
+    "runtime_model": {
+      "bytes": 15711,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-02-go2-living-room/runtime_model.xml",
+      "sha256": "36ee97ed015bd235a151ac2045c8a4945fef2a366f1b4070775a88558eba77aa"
+    }
+  },
+  "case_id": "IND-02-go2-living-room",
+  "domain": "indoor",
+  "dynamic_subtype": null,
+  "entities": [
+    {
+      "entity_id": "go2",
+      "mobility": "articulated",
+      "model_binding": "base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "living_room",
+      "mobility": "fixed",
+      "model_binding": "floor_*",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "room_obstacles",
+      "mobility": "fixed",
+      "model_binding": "wall_*",
+      "required": true,
+      "role": "obstacle"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "base"
+    ],
+    "joints": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "FL_calf": [
+        -45.43,
+        45.43
+      ],
+      "FL_hip": [
+        -23.7,
+        23.7
+      ],
+      "FL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "FR_calf": [
+        -45.43,
+        45.43
+      ],
+      "FR_hip": [
+        -23.7,
+        23.7
+      ],
+      "FR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RL_calf": [
+        -45.43,
+        45.43
+      ],
+      "RL_hip": [
+        -23.7,
+        23.7
+      ],
+      "RL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RR_calf": [
+        -45.43,
+        45.43
+      ],
+      "RR_hip": [
+        -23.7,
+        23.7
+      ],
+      "RR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "base_force_x_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_y_ctrl": [
+        -170.0,
+        170.0
+      ],
+      "base_force_z_ctrl": [
+        -150.0,
+        150.0
+      ],
+      "base_pitch_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_roll_ctrl": [
+        -90.0,
+        90.0
+      ],
+      "base_yaw_ctrl": [
+        -90.0,
+        90.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "move_duration_s": 6.5,
+    "owner": "benchmark",
+    "path": "probes/ind02_go2_living_room.py",
+    "sha256": "4ff3209645e051a3e715d0885ab53999b59fb9d231c1687bc79a2d1a8cc0f937",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        2.5,
+        6.3
+      ],
+      [
+        5.1,
+        6.3
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        2.5,
+        6.3,
+        0.435
+      ],
+      [
+        5.1,
+        6.3,
+        0.435
+      ]
+    ]
+  },
+  "prompt": "Traverse the living room east with the Go2, stay in the frozen corridor, enter the goal, and stop.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 261,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-2_go2lr_walk/scene_SOURCE.txt",
+    "sha256": "fd6b30e348d6f81717e4ea3962343263ad7f52d1335c538be0b959077f6a1745"
+  },
+  "source_lineage_status": "compiled_m1_only_authoring_source_missing",
+  "source_manifest": {
+    "bytes": 70267,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-2_go2lr_walk/M1/manifest.json",
+    "sha256": "0c17c3d26bf0ee67bb10af19f0c54aa6ea8f78ec9bfa3be43a4276ef36338dcf"
+  },
+  "split": "development",
+  "task_family": "obstacle_navigation",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/ind02_go2_living_room.py",
+    "sha256": "ccea11da128a350a1ae0e6dfab14cb68df77f91938eb3be581ff6e0c92839a1f",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "ind02-living-room"
+}

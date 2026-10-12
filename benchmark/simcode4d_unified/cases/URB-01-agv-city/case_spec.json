@@ -1,0 +1,196 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 2859,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-01-agv-city/dependency_manifest.json",
+      "sha256": "3fa3e35f8d800971f7bc0193858d99314d9b152b0cee6a371101aca0843d03b2"
+    },
+    "m1_base": {
+      "bytes": 11802,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/M1/module1/scene_enriched.xml",
+      "sha256": "37db2ed5ad9d00bb53144b4732234796873a55770bd10b640c6681a0f30e6c6f"
+    },
+    "m2_overlay": {
+      "bytes": 1321,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-01-agv-city/m2_overlay.json",
+      "sha256": "3405716b76603e9de11195a895e48e4c386287a754d6b6837ecc61646701cd72"
+    },
+    "runtime_model": {
+      "bytes": 19242,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-01-agv-city/runtime_model.xml",
+      "sha256": "d775c48df7bf181d91270e61c6fe0b7a23a5913929014748c2529c3b42b73ea5"
+    }
+  },
+  "case_id": "URB-01-agv-city",
+  "domain": "urban",
+  "dynamic_subtype": null,
+  "entities": [
+    {
+      "entity_id": "agv",
+      "mobility": "articulated",
+      "model_binding": "rover_base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "city_ground",
+      "mobility": "fixed",
+      "model_binding": "terrain_*",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "city_obstacles",
+      "mobility": "fixed",
+      "model_binding": "prop_*",
+      "required": true,
+      "role": "obstacle"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "rover_base"
+    ],
+    "joints": [
+      "fl_wheel_joint",
+      "fr_wheel_joint",
+      "rl_wheel_joint",
+      "rr_wheel_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_y_ctrl": [
+        -240.0,
+        240.0
+      ],
+      "base_force_z_ctrl": [
+        -180.0,
+        180.0
+      ],
+      "base_pitch_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_roll_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "base_yaw_ctrl": [
+        -130.0,
+        130.0
+      ],
+      "fl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "fr_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rl_wheel": [
+        -8.0,
+        8.0
+      ],
+      "rr_wheel": [
+        -8.0,
+        8.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "move_duration_s": 6.5,
+    "owner": "benchmark",
+    "path": "probes/urb01_agv_city.py",
+    "sha256": "32e577e4ed766b5c81c47e258aeb6f00c1dd88ed1f15d28a0d96fabddd3b3891",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.7,
+        0.0
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        0.0,
+        0.0,
+        0.221
+      ],
+      [
+        1.7,
+        0.0,
+        0.221
+      ]
+    ]
+  },
+  "prompt": "Drive the AGV east along the city pavement, stay in the frozen corridor, enter the goal, and stop.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 6315552,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/scene.blend",
+    "sha256": "e316dcd4accd49fcc820a34f0432ee9d26b7b2b1b1459132c1f480ace306d569"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 100744,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-1_agv_city/M1/manifest.json",
+    "sha256": "012d9b0aed361f8c57fdfeb79bd53e7a1efd49ec30b8cd6e97ca210d790e7bbc"
+  },
+  "split": "development",
+  "task_family": "obstacle_navigation",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/urb01_agv_city.py",
+    "sha256": "5dc9f60a990530929aaa1c38bbbfaca9b4a65606745a6ad6097d2d128ec43597",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "urb01-city-pavement"
+}

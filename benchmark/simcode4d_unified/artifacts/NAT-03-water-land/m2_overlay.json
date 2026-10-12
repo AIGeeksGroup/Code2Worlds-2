@@ -1,0 +1,9 @@
+{
+  "allowed_dynamic_channels": [],
+  "case_id": "NAT-03-water-land",
+  "kind": "noop",
+  "m1_base_sha256": "c151b8290d11436115179aec585423b920fd465e91ec9f0ee7da1146f4ba079e",
+  "note": "No source-declared time-varying M2 component is required. Static contacts and fields remain M1-owned.",
+  "schema_version": "simcode4d.rc3a-dev1.m2-overlay",
+  "task_independent": true
+}

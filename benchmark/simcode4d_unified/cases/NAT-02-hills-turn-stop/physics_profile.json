@@ -1,0 +1,4440 @@
+{
+  "actuators": [
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -1.0,
+        1.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "jackal_front_left_motor",
+      "transmission_ids": [
+        2,
+        -1
+      ],
+      "transmission_target": "jackal_front_left_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -1.0,
+        1.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 1,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "jackal_front_right_motor",
+      "transmission_ids": [
+        4,
+        -1
+      ],
+      "transmission_target": "jackal_front_right_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -1.0,
+        1.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 2,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "jackal_rear_left_motor",
+      "transmission_ids": [
+        6,
+        -1
+      ],
+      "transmission_target": "jackal_rear_left_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -1.0,
+        1.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        400.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 3,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "jackal_rear_right_motor",
+      "transmission_ids": [
+        8,
+        -1
+      ],
+      "transmission_target": "jackal_rear_right_joint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -5000.0,
+        5000.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 4,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_x_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "jackal_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -5000.0,
+        5000.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 5,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_y_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "jackal_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -5500.0,
+        5500.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 6,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_force_z_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "jackal_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -5500.0,
+        5500.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "id": 7,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_roll_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "jackal_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -5500.0,
+        5500.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "id": 8,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_pitch_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "jackal_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    },
+    {
+      "bias_parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": "mjBIAS_NONE",
+      "control_limited": true,
+      "control_range": [
+        -650.0,
+        650.0
+      ],
+      "dynamics_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_type": "mjDYN_NONE",
+      "force_limited": false,
+      "force_range_N_or_Nm": [
+        0.0,
+        0.0
+      ],
+      "gain_parameters": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_type": "mjGAIN_FIXED",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "id": 9,
+      "length_range": [
+        0.0,
+        0.0
+      ],
+      "name": "base_yaw_ctrl",
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "transmission_target": "jackal_freejoint",
+      "transmission_type": "mjTRN_JOINT"
+    }
+  ],
+  "bodies": [
+    {
+      "diagonal_inertia_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamic": false,
+      "id": 0,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 0,
+      "mass_kg": 0.0,
+      "mocap_id": -1,
+      "name": "world",
+      "parent": null
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        109.46710714,
+        95.3019479148,
+        75.7258449451
+      ],
+      "dynamic": true,
+      "id": 1,
+      "inertial_position_m": [
+        0.036,
+        0.006,
+        0.201
+      ],
+      "inertial_quaternion_wxyz": [
+        -0.00882021796264,
+        0.747959070396,
+        -0.00351395713617,
+        0.663676943152
+      ],
+      "joint_count": 1,
+      "mass_kg": 446.121,
+      "mocap_id": -1,
+      "name": "jackal_base",
+      "parent": "world"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.282667230948,
+        0.21523090585,
+        0.21523090585
+      ],
+      "dynamic": true,
+      "id": 2,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.06318
+      ],
+      "inertial_quaternion_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "joint_count": 0,
+      "mass_kg": 19.2334595491,
+      "mocap_id": -1,
+      "name": "jackal_lidar_mount",
+      "parent": "jackal_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        30.6944414675,
+        22.4712459132,
+        8.5752258203
+      ],
+      "dynamic": true,
+      "id": 3,
+      "inertial_position_m": [
+        0.583993013881,
+        -3.53008421455e-07,
+        0.537933586692
+      ],
+      "inertial_quaternion_wxyz": [
+        0.489222884997,
+        0.489222884997,
+        -0.51054967319,
+        0.51054967319
+      ],
+      "joint_count": 0,
+      "mass_kg": 98.3459102849,
+      "mocap_id": -1,
+      "name": "jackal_front_fender",
+      "parent": "jackal_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        30.6944414675,
+        22.4712459132,
+        8.5752258203
+      ],
+      "dynamic": true,
+      "id": 4,
+      "inertial_position_m": [
+        0.583993013881,
+        -3.53008421455e-07,
+        0.537933586692
+      ],
+      "inertial_quaternion_wxyz": [
+        0.489222884997,
+        0.489222884997,
+        -0.51054967319,
+        0.51054967319
+      ],
+      "joint_count": 0,
+      "mass_kg": 98.3459102849,
+      "mocap_id": -1,
+      "name": "jackal_rear_fender",
+      "parent": "jackal_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.3159,
+        0.5832,
+        0.3159
+      ],
+      "dynamic": true,
+      "id": 5,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 2,
+      "mass_kg": 12.879,
+      "mocap_id": -1,
+      "name": "jackal_front_left_wheel",
+      "parent": "jackal_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.3159,
+        0.5832,
+        0.3159
+      ],
+      "dynamic": true,
+      "id": 6,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 2,
+      "mass_kg": 12.879,
+      "mocap_id": -1,
+      "name": "jackal_front_right_wheel",
+      "parent": "jackal_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.3159,
+        0.5832,
+        0.3159
+      ],
+      "dynamic": true,
+      "id": 7,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 2,
+      "mass_kg": 12.879,
+      "mocap_id": -1,
+      "name": "jackal_rear_left_wheel",
+      "parent": "jackal_base"
+    },
+    {
+      "diagonal_inertia_kg_m2": [
+        0.3159,
+        0.5832,
+        0.3159
+      ],
+      "dynamic": true,
+      "id": 8,
+      "inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertial_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_count": 2,
+      "mass_kg": 12.879,
+      "mocap_id": -1,
+      "name": "jackal_rear_right_wheel",
+      "parent": "jackal_base"
+    }
+  ],
+  "case_gold_sha256": "b7d87f09c8fbd84aa62d30b435c2d3bc9b90a0957c83df94278a2a9a342a16be",
+  "case_id": "NAT-02-hills-turn-stop",
+  "case_spec_sha256": "d44a6dac7d6652601365cfb918cdffd9843141738da5a34b29de730cd9f786ba",
+  "collision_geoms": [
+    {
+      "body": "world",
+      "contact_material": "contact_material_001",
+      "group": 0,
+      "id": 0,
+      "name": "terrain_hfield",
+      "position_m": [
+        0.006828,
+        -0.166515,
+        -0.340384
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        75.288704,
+        75.190098,
+        11.568553
+      ],
+      "type": "mjGEOM_HFIELD"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 1,
+      "name": "prop_concave_large_000_BoulderFactory(543568399)_spawn_placeholder(0)",
+      "position_m": [
+        23.757545,
+        -20.643768,
+        4.860768
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.871937,
+        1.225906,
+        0.909898
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 2,
+      "name": "prop_concave_large_001_BoulderFactory(543568399)_spawn_placeholder(1)",
+      "position_m": [
+        34.134712,
+        46.698292,
+        2.18906
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.10218,
+        0.989578,
+        0.773898
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 3,
+      "name": "prop_concave_large_002_BoulderFactory(543568399)_spawn_placeholder(10)",
+      "position_m": [
+        -26.673655,
+        14.726384,
+        14.377733
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.254684,
+        1.389685,
+        0.720733
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 4,
+      "name": "prop_concave_large_003_BoulderFactory(543568399)_spawn_placeholder(100)",
+      "position_m": [
+        41.523972,
+        43.432247,
+        1.176226
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.080919,
+        1.024559,
+        0.50913
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 5,
+      "name": "prop_concave_large_004_BoulderFactory(543568399)_spawn_placeholder(101)",
+      "position_m": [
+        -11.247725,
+        -68.162361,
+        1.922299
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.338055,
+        1.298618,
+        0.678095
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 6,
+      "name": "prop_concave_large_005_BoulderFactory(543568399)_spawn_placeholder(102)",
+      "position_m": [
+        63.233078,
+        -47.994968,
+        5.757268
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.40518,
+        0.841066,
+        0.568083
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 7,
+      "name": "prop_concave_large_006_BoulderFactory(543568399)_spawn_placeholder(103)",
+      "position_m": [
+        45.645992,
+        4.13657,
+        2.85057
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17944,
+        1.004281,
+        0.813572
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 8,
+      "name": "prop_concave_large_007_BoulderFactory(543568399)_spawn_placeholder(104)",
+      "position_m": [
+        70.988029,
+        32.103966,
+        10.335519
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.625923,
+        0.778386,
+        0.831193
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 9,
+      "name": "prop_concave_large_008_BoulderFactory(543568399)_spawn_placeholder(11)",
+      "position_m": [
+        74.146446,
+        49.942947,
+        16.847912
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.134689,
+        1.150843,
+        0.491053
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 10,
+      "name": "prop_concave_large_009_BoulderFactory(543568399)_spawn_placeholder(12)",
+      "position_m": [
+        -0.699335,
+        -66.974197,
+        0.856405
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.917428,
+        0.946259,
+        0.617927
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 11,
+      "name": "prop_concave_large_010_BoulderFactory(543568399)_spawn_placeholder(13)",
+      "position_m": [
+        33.777641,
+        69.799103,
+        9.381008
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.268599,
+        1.263401,
+        0.793139
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 12,
+      "name": "prop_concave_large_011_BoulderFactory(543568399)_spawn_placeholder(14)",
+      "position_m": [
+        -39.219379,
+        0.871012,
+        9.359594
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.586048,
+        1.609197,
+        0.713562
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 13,
+      "name": "prop_concave_large_012_BoulderFactory(543568399)_spawn_placeholder(15)",
+      "position_m": [
+        21.82716,
+        63.900341,
+        7.357033
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.112358,
+        0.98283,
+        1.058612
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 14,
+      "name": "prop_concave_large_013_BoulderFactory(543568399)_spawn_placeholder(16)",
+      "position_m": [
+        55.919167,
+        3.674538,
+        3.985188
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.111485,
+        0.918603,
+        0.576886
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 15,
+      "name": "prop_concave_large_014_BoulderFactory(543568399)_spawn_placeholder(17)",
+      "position_m": [
+        4.404263,
+        -36.435925,
+        4.968698
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.381096,
+        1.727005,
+        0.713547
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 16,
+      "name": "prop_concave_large_015_BoulderFactory(543568399)_spawn_placeholder(18)",
+      "position_m": [
+        54.505695,
+        -53.778503,
+        3.633921
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.73291,
+        1.386723,
+        0.578901
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 17,
+      "name": "prop_concave_large_016_BoulderFactory(543568399)_spawn_placeholder(19)",
+      "position_m": [
+        -57.189087,
+        -54.874817,
+        9.773873
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.486645,
+        1.454233,
+        0.690036
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 18,
+      "name": "prop_concave_large_017_BoulderFactory(543568399)_spawn_placeholder(2)",
+      "position_m": [
+        32.389698,
+        -12.890073,
+        3.001133
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.152526,
+        1.292853,
+        0.820935
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 19,
+      "name": "prop_concave_large_018_BoulderFactory(543568399)_spawn_placeholder(20)",
+      "position_m": [
+        -42.897751,
+        61.408104,
+        13.348931
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.248486,
+        1.657063,
+        0.697775
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 20,
+      "name": "prop_concave_large_019_BoulderFactory(543568399)_spawn_placeholder(21)",
+      "position_m": [
+        -2.816888,
+        -33.477982,
+        4.176998
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.772561,
+        0.851116,
+        0.550822
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 21,
+      "name": "prop_concave_large_020_BoulderFactory(543568399)_spawn_placeholder(22)",
+      "position_m": [
+        51.56002,
+        58.712673,
+        3.787888
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.871662,
+        0.600353,
+        0.669128
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 22,
+      "name": "prop_concave_large_021_BoulderFactory(543568399)_spawn_placeholder(23)",
+      "position_m": [
+        -52.986435,
+        32.485363,
+        20.369534
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.12693,
+        1.224813,
+        0.668062
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 23,
+      "name": "prop_concave_large_022_BoulderFactory(543568399)_spawn_placeholder(24)",
+      "position_m": [
+        53.178085,
+        57.878506,
+        4.809511
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.382362,
+        1.29826,
+        0.694419
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 24,
+      "name": "prop_concave_large_023_BoulderFactory(543568399)_spawn_placeholder(25)",
+      "position_m": [
+        16.917713,
+        -8.573262,
+        5.579656
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.967098,
+        0.80901,
+        0.596681
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 25,
+      "name": "prop_concave_large_024_BoulderFactory(543568399)_spawn_placeholder(26)",
+      "position_m": [
+        43.566483,
+        37.003365,
+        2.637712
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.587067,
+        0.616922,
+        0.912472
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 26,
+      "name": "prop_concave_large_025_BoulderFactory(543568399)_spawn_placeholder(27)",
+      "position_m": [
+        46.577354,
+        -24.232834,
+        6.950819
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.047703,
+        0.741125,
+        0.770896
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 27,
+      "name": "prop_concave_large_026_BoulderFactory(543568399)_spawn_placeholder(28)",
+      "position_m": [
+        -51.304375,
+        -53.994736,
+        10.368177
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.996813,
+        1.001053,
+        0.774096
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 28,
+      "name": "prop_concave_large_027_BoulderFactory(543568399)_spawn_placeholder(29)",
+      "position_m": [
+        58.625305,
+        30.545193,
+        3.631243
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.193996,
+        1.486081,
+        0.485667
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 29,
+      "name": "prop_concave_large_028_BoulderFactory(543568399)_spawn_placeholder(3)",
+      "position_m": [
+        17.972588,
+        61.899429,
+        8.683907
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.785361,
+        0.788038,
+        0.788486
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 30,
+      "name": "prop_concave_large_029_BoulderFactory(543568399)_spawn_placeholder(30)",
+      "position_m": [
+        17.614346,
+        67.597473,
+        8.859777
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.385108,
+        1.319778,
+        0.581525
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 31,
+      "name": "prop_concave_large_030_BoulderFactory(543568399)_spawn_placeholder(31)",
+      "position_m": [
+        -66.85022,
+        -19.17635,
+        12.487468
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.133633,
+        1.508191,
+        0.685361
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 32,
+      "name": "prop_concave_large_031_BoulderFactory(543568399)_spawn_placeholder(32)",
+      "position_m": [
+        49.665024,
+        61.386772,
+        3.347773
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.362434,
+        1.22826,
+        0.642375
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 33,
+      "name": "prop_concave_large_032_BoulderFactory(543568399)_spawn_placeholder(33)",
+      "position_m": [
+        -55.818802,
+        -63.177811,
+        11.435723
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.169708,
+        1.089931,
+        0.646736
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 34,
+      "name": "prop_concave_large_033_BoulderFactory(543568399)_spawn_placeholder(34)",
+      "position_m": [
+        42.520603,
+        33.263012,
+        2.387345
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.99962,
+        2.032967,
+        0.553799
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 35,
+      "name": "prop_concave_large_034_BoulderFactory(543568399)_spawn_placeholder(35)",
+      "position_m": [
+        -66.593834,
+        67.668304,
+        13.247198
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.721348,
+        0.729374,
+        0.496326
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 36,
+      "name": "prop_concave_large_035_BoulderFactory(543568399)_spawn_placeholder(36)",
+      "position_m": [
+        -72.407234,
+        -69.402626,
+        11.167293
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.820042,
+        1.906296,
+        0.7961
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 37,
+      "name": "prop_concave_large_036_BoulderFactory(543568399)_spawn_placeholder(37)",
+      "position_m": [
+        -49.628956,
+        -50.990334,
+        8.771055
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.734955,
+        1.741505,
+        0.620639
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 38,
+      "name": "prop_concave_large_037_BoulderFactory(543568399)_spawn_placeholder(38)",
+      "position_m": [
+        -67.242538,
+        -33.367645,
+        10.867721
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.244133,
+        1.263437,
+        0.506125
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 39,
+      "name": "prop_concave_large_038_BoulderFactory(543568399)_spawn_placeholder(39)",
+      "position_m": [
+        -30.546341,
+        -53.61348,
+        7.474909
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.777127,
+        1.181408,
+        0.716143
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 40,
+      "name": "prop_concave_large_039_BoulderFactory(543568399)_spawn_placeholder(4)",
+      "position_m": [
+        -71.36319,
+        -72.925629,
+        12.177982
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.168056,
+        1.201515,
+        0.450437
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 41,
+      "name": "prop_concave_large_040_BoulderFactory(543568399)_spawn_placeholder(40)",
+      "position_m": [
+        -72.299652,
+        -37.025887,
+        13.910313
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.364952,
+        1.166672,
+        0.675939
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 42,
+      "name": "prop_concave_large_041_BoulderFactory(543568399)_spawn_placeholder(41)",
+      "position_m": [
+        -36.896553,
+        -26.365335,
+        2.736103
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.804764,
+        0.731539,
+        0.569621
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 43,
+      "name": "prop_concave_large_042_BoulderFactory(543568399)_spawn_placeholder(42)",
+      "position_m": [
+        -53.46302,
+        -69.059509,
+        14.328625
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.242283,
+        1.233429,
+        0.890712
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 44,
+      "name": "prop_concave_large_043_BoulderFactory(543568399)_spawn_placeholder(43)",
+      "position_m": [
+        -66.63929,
+        -44.271317,
+        10.875355
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.266178,
+        1.213699,
+        0.478405
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 45,
+      "name": "prop_concave_large_044_BoulderFactory(543568399)_spawn_placeholder(44)",
+      "position_m": [
+        60.229958,
+        -60.747105,
+        4.229438
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.512514,
+        1.151756,
+        0.582798
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 46,
+      "name": "prop_concave_large_045_BoulderFactory(543568399)_spawn_placeholder(45)",
+      "position_m": [
+        10.378288,
+        -69.388901,
+        -0.192925
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.435402,
+        1.440594,
+        0.989298
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 47,
+      "name": "prop_concave_large_046_BoulderFactory(543568399)_spawn_placeholder(46)",
+      "position_m": [
+        73.975235,
+        47.399826,
+        16.64784
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.043957,
+        1.120579,
+        0.61
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 48,
+      "name": "prop_concave_large_047_BoulderFactory(543568399)_spawn_placeholder(47)",
+      "position_m": [
+        -55.605148,
+        -10.693877,
+        13.245096
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.268421,
+        1.27803,
+        0.729048
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 49,
+      "name": "prop_concave_large_048_BoulderFactory(543568399)_spawn_placeholder(48)",
+      "position_m": [
+        28.082314,
+        46.106739,
+        5.529806
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.179838,
+        0.876413,
+        0.556391
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 50,
+      "name": "prop_concave_large_049_BoulderFactory(543568399)_spawn_placeholder(49)",
+      "position_m": [
+        -26.671751,
+        17.976337,
+        16.416912
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.935871,
+        0.925689,
+        0.483793
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 51,
+      "name": "prop_concave_large_050_BoulderFactory(543568399)_spawn_placeholder(5)",
+      "position_m": [
+        -47.798897,
+        45.799812,
+        17.798878
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.023104,
+        0.84104,
+        0.69822
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 52,
+      "name": "prop_concave_large_051_BoulderFactory(543568399)_spawn_placeholder(50)",
+      "position_m": [
+        -39.929398,
+        53.860764,
+        15.285662
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.376888,
+        1.265491,
+        0.648372
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 53,
+      "name": "prop_concave_large_052_BoulderFactory(543568399)_spawn_placeholder(51)",
+      "position_m": [
+        43.412769,
+        -23.260468,
+        5.071249
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.532372,
+        1.649192,
+        0.744047
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 54,
+      "name": "prop_concave_large_053_BoulderFactory(543568399)_spawn_placeholder(52)",
+      "position_m": [
+        -1.867513,
+        -70.259636,
+        -0.058596
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.559057,
+        1.711941,
+        0.574054
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 55,
+      "name": "prop_concave_large_054_BoulderFactory(543568399)_spawn_placeholder(53)",
+      "position_m": [
+        28.319183,
+        -13.398461,
+        3.243415
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.199018,
+        1.16328,
+        0.572576
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 56,
+      "name": "prop_concave_large_055_BoulderFactory(543568399)_spawn_placeholder(54)",
+      "position_m": [
+        45.809654,
+        -43.21291,
+        5.47453
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.689316,
+        0.686172,
+        0.574432
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 57,
+      "name": "prop_concave_large_056_BoulderFactory(543568399)_spawn_placeholder(55)",
+      "position_m": [
+        56.35553,
+        7.749793,
+        4.097685
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.005491,
+        0.95431,
+        0.854646
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 58,
+      "name": "prop_concave_large_057_BoulderFactory(543568399)_spawn_placeholder(56)",
+      "position_m": [
+        35.951607,
+        48.257828,
+        1.218747
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.952494,
+        1.971159,
+        0.563207
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 59,
+      "name": "prop_concave_large_058_BoulderFactory(543568399)_spawn_placeholder(57)",
+      "position_m": [
+        -65.505875,
+        -37.144989,
+        10.265001
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.90197,
+        1.05723,
+        0.938379
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 60,
+      "name": "prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(58)",
+      "position_m": [
+        3.509636,
+        -64.947235,
+        2.188411
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.808174,
+        0.781475,
+        0.676365
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 61,
+      "name": "prop_concave_large_060_BoulderFactory(543568399)_spawn_placeholder(59)",
+      "position_m": [
+        57.020977,
+        31.794027,
+        3.000408
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.277727,
+        1.288594,
+        0.715236
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 62,
+      "name": "prop_concave_large_061_BoulderFactory(543568399)_spawn_placeholder(6)",
+      "position_m": [
+        37.374973,
+        67.123055,
+        7.721266
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.17794,
+        1.362778,
+        0.628107
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 63,
+      "name": "prop_concave_large_062_BoulderFactory(543568399)_spawn_placeholder(60)",
+      "position_m": [
+        39.363159,
+        27.854259,
+        2.235911
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.156883,
+        0.94531,
+        0.682869
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 64,
+      "name": "prop_concave_large_063_BoulderFactory(543568399)_spawn_placeholder(61)",
+      "position_m": [
+        57.048702,
+        -54.10128,
+        4.829887
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.484516,
+        1.221506,
+        0.650804
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 65,
+      "name": "prop_concave_large_064_BoulderFactory(543568399)_spawn_placeholder(62)",
+      "position_m": [
+        -62.185638,
+        -26.076107,
+        10.004206
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.745075,
+        0.799145,
+        0.580843
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 66,
+      "name": "prop_concave_large_065_BoulderFactory(543568399)_spawn_placeholder(63)",
+      "position_m": [
+        43.719742,
+        67.782814,
+        4.958447
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.265163,
+        1.421154,
+        0.681695
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 67,
+      "name": "prop_concave_large_066_BoulderFactory(543568399)_spawn_placeholder(64)",
+      "position_m": [
+        58.584038,
+        -64.190208,
+        7.782553
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.755371,
+        0.779461,
+        0.772536
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 68,
+      "name": "prop_concave_large_067_BoulderFactory(543568399)_spawn_placeholder(65)",
+      "position_m": [
+        -63.805267,
+        14.324916,
+        15.171208
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.04224,
+        0.970414,
+        0.896305
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 69,
+      "name": "prop_concave_large_068_BoulderFactory(543568399)_spawn_placeholder(66)",
+      "position_m": [
+        44.443588,
+        -70.46257,
+        2.591495
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.002932,
+        0.699078,
+        1.021597
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 70,
+      "name": "prop_concave_large_069_BoulderFactory(543568399)_spawn_placeholder(67)",
+      "position_m": [
+        -71.106979,
+        40.5186,
+        24.230148
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.234184,
+        1.209141,
+        0.768928
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 71,
+      "name": "prop_concave_large_070_BoulderFactory(543568399)_spawn_placeholder(68)",
+      "position_m": [
+        -70.835808,
+        9.984982,
+        16.289871
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.489487,
+        1.492187,
+        0.482355
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 72,
+      "name": "prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(69)",
+      "position_m": [
+        44.550819,
+        -35.523678,
+        4.21848
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.998234,
+        1.288311,
+        0.481526
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 73,
+      "name": "prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(7)",
+      "position_m": [
+        -9.936413,
+        47.52438,
+        11.497963
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.335896,
+        1.302612,
+        0.573914
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 74,
+      "name": "prop_concave_large_073_BoulderFactory(543568399)_spawn_placeholder(70)",
+      "position_m": [
+        58.42963,
+        -61.443863,
+        5.181275
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.909424,
+        0.917892,
+        0.87371
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 75,
+      "name": "prop_concave_large_074_BoulderFactory(543568399)_spawn_placeholder(71)",
+      "position_m": [
+        -74.86499,
+        -24.465805,
+        11.662472
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.491924,
+        1.499485,
+        1.05306
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 76,
+      "name": "prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(72)",
+      "position_m": [
+        -30.105036,
+        -19.206955,
+        4.578534
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.041274,
+        0.862528,
+        0.701547
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 77,
+      "name": "prop_concave_large_076_BoulderFactory(543568399)_spawn_placeholder(73)",
+      "position_m": [
+        53.24604,
+        5.740638,
+        3.918614
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.889908,
+        1.10912,
+        0.575664
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 78,
+      "name": "prop_concave_large_077_BoulderFactory(543568399)_spawn_placeholder(74)",
+      "position_m": [
+        -41.13578,
+        69.560104,
+        12.018861
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.945337,
+        0.910027,
+        0.514991
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 79,
+      "name": "prop_concave_large_078_BoulderFactory(543568399)_spawn_placeholder(75)",
+      "position_m": [
+        4.136136,
+        -3.371031,
+        2.221157
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.965226,
+        0.887574,
+        0.555498
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 80,
+      "name": "prop_concave_large_079_BoulderFactory(543568399)_spawn_placeholder(76)",
+      "position_m": [
+        1.131836,
+        -61.673798,
+        -0.089135
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.987703,
+        0.725824,
+        0.588134
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 81,
+      "name": "prop_concave_large_080_BoulderFactory(543568399)_spawn_placeholder(77)",
+      "position_m": [
+        -40.625969,
+        56.832714,
+        14.210449
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.654404,
+        1.640118,
+        0.446991
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 82,
+      "name": "prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(78)",
+      "position_m": [
+        -8.978717,
+        42.132488,
+        8.906712
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.892117,
+        1.642088,
+        0.574248
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 83,
+      "name": "prop_concave_large_082_BoulderFactory(543568399)_spawn_placeholder(79)",
+      "position_m": [
+        -59.002438,
+        -10.920074,
+        14.828032
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.594284,
+        1.379291,
+        0.535733
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 84,
+      "name": "prop_concave_large_083_BoulderFactory(543568399)_spawn_placeholder(8)",
+      "position_m": [
+        -3.132834,
+        -39.617451,
+        4.642201
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.553942,
+        0.654518,
+        0.719346
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 85,
+      "name": "prop_concave_large_084_BoulderFactory(543568399)_spawn_placeholder(80)",
+      "position_m": [
+        29.611387,
+        -12.813011,
+        3.308311
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.600103,
+        0.689581,
+        0.796072
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 86,
+      "name": "prop_concave_large_085_BoulderFactory(543568399)_spawn_placeholder(81)",
+      "position_m": [
+        42.031036,
+        -12.284213,
+        2.622341
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.700697,
+        0.74459,
+        0.571645
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 87,
+      "name": "prop_concave_large_086_BoulderFactory(543568399)_spawn_placeholder(82)",
+      "position_m": [
+        71.753685,
+        -22.81275,
+        9.33728
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.408764,
+        1.520742,
+        0.455323
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 88,
+      "name": "prop_concave_large_087_BoulderFactory(543568399)_spawn_placeholder(83)",
+      "position_m": [
+        70.422928,
+        39.341808,
+        12.138995
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.108391,
+        1.110779,
+        0.62692
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 89,
+      "name": "prop_concave_large_088_BoulderFactory(543568399)_spawn_placeholder(84)",
+      "position_m": [
+        38.676907,
+        32.436504,
+        1.864022
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.969868,
+        1.092978,
+        0.464439
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 90,
+      "name": "prop_concave_large_089_BoulderFactory(543568399)_spawn_placeholder(85)",
+      "position_m": [
+        -73.641251,
+        -74.006134,
+        11.679075
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.358109,
+        1.369102,
+        0.434325
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 91,
+      "name": "prop_concave_large_090_BoulderFactory(543568399)_spawn_placeholder(86)",
+      "position_m": [
+        -70.720688,
+        11.247328,
+        17.294559
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.987221,
+        0.607419,
+        0.701822
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 92,
+      "name": "prop_concave_large_091_BoulderFactory(543568399)_spawn_placeholder(87)",
+      "position_m": [
+        46.108292,
+        -37.859531,
+        4.445444
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.999916,
+        0.994678,
+        0.482316
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 93,
+      "name": "prop_concave_large_092_BoulderFactory(543568399)_spawn_placeholder(88)",
+      "position_m": [
+        24.017849,
+        66.287094,
+        7.545796
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.272854,
+        0.998623,
+        0.711657
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 94,
+      "name": "prop_concave_large_093_BoulderFactory(543568399)_spawn_placeholder(89)",
+      "position_m": [
+        42.46405,
+        5.151417,
+        3.668505
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.012156,
+        1.245707,
+        0.687575
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 95,
+      "name": "prop_concave_large_094_BoulderFactory(543568399)_spawn_placeholder(9)",
+      "position_m": [
+        5.005225,
+        -25.957718,
+        3.864614
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.279377,
+        1.273927,
+        0.86376
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 96,
+      "name": "prop_concave_large_095_BoulderFactory(543568399)_spawn_placeholder(90)",
+      "position_m": [
+        -31.215078,
+        -2.419999,
+        6.255307
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.212258,
+        0.767867,
+        1.016448
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 97,
+      "name": "prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(91)",
+      "position_m": [
+        -52.545372,
+        -0.535742,
+        12.932352
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.644831,
+        0.818852,
+        0.736262
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 98,
+      "name": "prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(92)",
+      "position_m": [
+        70.608932,
+        -46.224297,
+        3.896374
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.385365,
+        1.458633,
+        0.685358
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 99,
+      "name": "prop_concave_large_098_BoulderFactory(543568399)_spawn_placeholder(93)",
+      "position_m": [
+        25.950226,
+        43.073833,
+        7.305264
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.254078,
+        1.133524,
+        0.643705
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 100,
+      "name": "prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(94)",
+      "position_m": [
+        -39.207165,
+        -2.208263,
+        8.535278
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.380972,
+        1.445631,
+        0.77678
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 101,
+      "name": "prop_concave_large_100_BoulderFactory(543568399)_spawn_placeholder(95)",
+      "position_m": [
+        49.053654,
+        54.944893,
+        3.663755
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.879726,
+        0.909948,
+        0.719437
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 102,
+      "name": "prop_concave_large_101_BoulderFactory(543568399)_spawn_placeholder(96)",
+      "position_m": [
+        -14.761189,
+        6.095831,
+        6.563302
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.952839,
+        0.951788,
+        0.744287
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 103,
+      "name": "prop_concave_large_102_BoulderFactory(543568399)_spawn_placeholder(97)",
+      "position_m": [
+        -2.927971,
+        -31.121758,
+        4.223219
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.943339,
+        0.876054,
+        0.45583
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 104,
+      "name": "prop_concave_large_103_BoulderFactory(543568399)_spawn_placeholder(98)",
+      "position_m": [
+        -48.043121,
+        -46.1479,
+        8.181346
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.694321,
+        0.595503,
+        0.731358
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "world",
+      "contact_material": "contact_material_002",
+      "group": 0,
+      "id": 105,
+      "name": "prop_concave_large_104_BoulderFactory(543568399)_spawn_placeholder(99)",
+      "position_m": [
+        70.849419,
+        40.526115,
+        12.946127
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.440826,
+        1.570227,
+        0.688045
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "jackal_base",
+      "contact_material": "contact_material_003",
+      "group": 3,
+      "id": 107,
+      "name": "jackal_chassis_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.3726
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.8505,
+        0.62775,
+        0.3726
+      ],
+      "type": "mjGEOM_BOX"
+    },
+    {
+      "body": "jackal_front_left_wheel",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 124,
+      "name": "jackal_front_left_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3969,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "jackal_front_right_wheel",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 126,
+      "name": "jackal_front_right_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3969,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "jackal_rear_left_wheel",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 128,
+      "name": "jackal_rear_left_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3969,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    },
+    {
+      "body": "jackal_rear_right_wheel",
+      "contact_material": "contact_material_004",
+      "group": 3,
+      "id": 130,
+      "name": "jackal_rear_right_collision",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.3969,
+        0.0,
+        0.0
+      ],
+      "type": "mjGEOM_SPHERE"
+    }
+  ],
+  "contact_material_classes": [
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 4,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.9,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_001",
+      "margin_m": 0.003,
+      "priority": 0,
+      "solver_impedance": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.0025,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 3,
+      "contact_type_mask": 2,
+      "friction": {
+        "rolling": 0.0001,
+        "sliding": 0.6,
+        "torsional": 0.005
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_002",
+      "margin_m": 0.003,
+      "priority": 0,
+      "solver_impedance": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.0025,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 4,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.001,
+        "sliding": 1.4,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_003",
+      "margin_m": 0.003,
+      "priority": 0,
+      "solver_impedance": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.0025,
+        1.0
+      ]
+    },
+    {
+      "contact_affinity_mask": 1,
+      "contact_dimension": 4,
+      "contact_type_mask": 1,
+      "friction": {
+        "rolling": 0.001,
+        "sliding": 0.8,
+        "torsional": 0.02
+      },
+      "gap_m": 0.0,
+      "id": "contact_material_004",
+      "margin_m": 0.003,
+      "priority": 0,
+      "solver_impedance": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "solver_reference": [
+        0.0025,
+        1.0
+      ]
+    }
+  ],
+  "control_loop": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -5000.0,
+        5000.0
+      ],
+      "base_force_y_ctrl": [
+        -5000.0,
+        5000.0
+      ],
+      "base_force_z_ctrl": [
+        -5500.0,
+        5500.0
+      ],
+      "base_pitch_ctrl": [
+        -5500.0,
+        5500.0
+      ],
+      "base_roll_ctrl": [
+        -5500.0,
+        5500.0
+      ],
+      "base_yaw_ctrl": [
+        -650.0,
+        650.0
+      ],
+      "jackal_front_left_motor": [
+        -1.0,
+        1.0
+      ],
+      "jackal_front_right_motor": [
+        -1.0,
+        1.0
+      ],
+      "jackal_rear_left_motor": [
+        -1.0,
+        1.0
+      ],
+      "jackal_rear_right_motor": [
+        -1.0,
+        1.0
+      ]
+    },
+    "benchmark_probe_command_hz": 1000.0,
+    "command_interface": "declared MuJoCo actuators only; probe has no qpos/qvel/model write access",
+    "physics_hz": 1000.0,
+    "record_hz": 30
+  },
+  "diagnostic_contract": {
+    "friction": {
+      "channels": [
+        "sliding/torsional/rolling coefficients",
+        "tangential contact force",
+        "Coulomb-cone utilization",
+        "contact-point tangential slip speed"
+      ],
+      "cone_utilization_failure": 1.25,
+      "cone_utilization_warning": 1.05,
+      "failure_minimum_dwell_s": 0.01,
+      "slip_is_diagnostic_not_global_failure": true,
+      "slip_speed_reporting_threshold_mps": 0.02
+    },
+    "kinematics": {
+      "channels": [
+        "body pose and twist",
+        "quaternion norm",
+        "joint position and velocity",
+        "finite-difference acceleration and jerk",
+        "joint-limit dwell"
+      ],
+      "joint_limit_tolerance": 0.0001,
+      "quaternion_norm_tolerance": 1e-06,
+      "violation_minimum_dwell_s": 0.01
+    },
+    "mechanics": {
+      "channels": [
+        "finite generalized state",
+        "positive body mass and principal inertia",
+        "normal and tangential contact force",
+        "penetration depth",
+        "generalized force-balance residual",
+        "constraint-force solver residual (diagnostic)",
+        "kinetic and potential energy"
+      ],
+      "force_balance_relative_tolerance": 1e-05,
+      "nonphysical_dynamic_bodies": []
+    }
+  },
+  "equalities": [],
+  "joints": [
+    {
+      "armature": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "jackal_base",
+      "damping": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dof_address": 0,
+      "dof_width": 6,
+      "frictionloss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": 0,
+      "limited": false,
+      "margin": 0.0,
+      "name": "jackal_freejoint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 0,
+      "qpos_width": 7,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_FREE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "jackal_front_left_wheel",
+      "damping": [
+        2000.0
+      ],
+      "dof_address": 6,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 1,
+      "limited": true,
+      "margin": 0.0,
+      "name": "jackal_front_left_suspension",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 7,
+      "qpos_width": 1,
+      "range": [
+        -0.08,
+        0.18
+      ],
+      "stiffness": 30000.0,
+      "type": "mjJNT_SLIDE"
+    },
+    {
+      "armature": [
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "jackal_front_left_wheel",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 7,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 2,
+      "limited": false,
+      "margin": 0.0,
+      "name": "jackal_front_left_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 8,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "jackal_front_right_wheel",
+      "damping": [
+        2000.0
+      ],
+      "dof_address": 8,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 3,
+      "limited": true,
+      "margin": 0.0,
+      "name": "jackal_front_right_suspension",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 9,
+      "qpos_width": 1,
+      "range": [
+        -0.08,
+        0.18
+      ],
+      "stiffness": 30000.0,
+      "type": "mjJNT_SLIDE"
+    },
+    {
+      "armature": [
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "jackal_front_right_wheel",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 9,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 4,
+      "limited": false,
+      "margin": 0.0,
+      "name": "jackal_front_right_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 10,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "jackal_rear_left_wheel",
+      "damping": [
+        2000.0
+      ],
+      "dof_address": 10,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 5,
+      "limited": true,
+      "margin": 0.0,
+      "name": "jackal_rear_left_suspension",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 11,
+      "qpos_width": 1,
+      "range": [
+        -0.08,
+        0.18
+      ],
+      "stiffness": 30000.0,
+      "type": "mjJNT_SLIDE"
+    },
+    {
+      "armature": [
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "jackal_rear_left_wheel",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 11,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 6,
+      "limited": false,
+      "margin": 0.0,
+      "name": "jackal_rear_left_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 12,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    },
+    {
+      "armature": [
+        0.01
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "body": "jackal_rear_right_wheel",
+      "damping": [
+        2000.0
+      ],
+      "dof_address": 12,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 7,
+      "limited": true,
+      "margin": 0.0,
+      "name": "jackal_rear_right_suspension",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 13,
+      "qpos_width": 1,
+      "range": [
+        -0.08,
+        0.18
+      ],
+      "stiffness": 30000.0,
+      "type": "mjJNT_SLIDE"
+    },
+    {
+      "armature": [
+        0.08
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "body": "jackal_rear_right_wheel",
+      "damping": [
+        2.0
+      ],
+      "dof_address": 13,
+      "dof_width": 1,
+      "frictionloss": [
+        0.0
+      ],
+      "id": 8,
+      "limited": false,
+      "margin": 0.0,
+      "name": "jackal_rear_right_joint",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpos_address": 14,
+      "qpos_width": 1,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0,
+      "type": "mjJNT_HINGE"
+    }
+  ],
+  "physics_seed_perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "jackal_base": 0.95
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "jackal_base": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "jackal_base": 1.05
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "jackal_base": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "jackal_base": 1.08
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "jackal_base": 0.92
+      },
+      "body_xy_offset_m": {
+        "jackal_base": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "jackal_base": 0.012
+      }
+    }
+  },
+  "provenance": {
+    "estimated_parameter_count": 0,
+    "note": "This profile indexes the frozen Dev15 runtime; unavailable pre-export authoring values are explicitly identified by provenance records.",
+    "parameter_status": "exact_from_frozen_runtime_model",
+    "semantic_contact_status": "exact_from_frozen_case_gold"
+  },
+  "resolved_contact_groups": {
+    "hill_terrain": {
+      "bodies": [],
+      "geoms": [
+        "terrain_hfield"
+      ]
+    },
+    "jackal_chassis": {
+      "bodies": [],
+      "geoms": [
+        "jackal_chassis_collision"
+      ]
+    },
+    "jackal_wheels": {
+      "bodies": [],
+      "geoms": [
+        "jackal_front_left_collision",
+        "jackal_front_right_collision",
+        "jackal_rear_left_collision",
+        "jackal_rear_right_collision"
+      ]
+    },
+    "route_obstacles": {
+      "bodies": [],
+      "geoms": [
+        "prop_concave_large_000_BoulderFactory(543568399)_spawn_placeholder(0)",
+        "prop_concave_large_001_BoulderFactory(543568399)_spawn_placeholder(1)",
+        "prop_concave_large_002_BoulderFactory(543568399)_spawn_placeholder(10)",
+        "prop_concave_large_003_BoulderFactory(543568399)_spawn_placeholder(100)",
+        "prop_concave_large_004_BoulderFactory(543568399)_spawn_placeholder(101)",
+        "prop_concave_large_005_BoulderFactory(543568399)_spawn_placeholder(102)",
+        "prop_concave_large_006_BoulderFactory(543568399)_spawn_placeholder(103)",
+        "prop_concave_large_007_BoulderFactory(543568399)_spawn_placeholder(104)",
+        "prop_concave_large_008_BoulderFactory(543568399)_spawn_placeholder(11)",
+        "prop_concave_large_009_BoulderFactory(543568399)_spawn_placeholder(12)",
+        "prop_concave_large_010_BoulderFactory(543568399)_spawn_placeholder(13)",
+        "prop_concave_large_011_BoulderFactory(543568399)_spawn_placeholder(14)",
+        "prop_concave_large_012_BoulderFactory(543568399)_spawn_placeholder(15)",
+        "prop_concave_large_013_BoulderFactory(543568399)_spawn_placeholder(16)",
+        "prop_concave_large_014_BoulderFactory(543568399)_spawn_placeholder(17)",
+        "prop_concave_large_015_BoulderFactory(543568399)_spawn_placeholder(18)",
+        "prop_concave_large_016_BoulderFactory(543568399)_spawn_placeholder(19)",
+        "prop_concave_large_017_BoulderFactory(543568399)_spawn_placeholder(2)",
+        "prop_concave_large_018_BoulderFactory(543568399)_spawn_placeholder(20)",
+        "prop_concave_large_019_BoulderFactory(543568399)_spawn_placeholder(21)",
+        "prop_concave_large_020_BoulderFactory(543568399)_spawn_placeholder(22)",
+        "prop_concave_large_021_BoulderFactory(543568399)_spawn_placeholder(23)",
+        "prop_concave_large_022_BoulderFactory(543568399)_spawn_placeholder(24)",
+        "prop_concave_large_023_BoulderFactory(543568399)_spawn_placeholder(25)",
+        "prop_concave_large_024_BoulderFactory(543568399)_spawn_placeholder(26)",
+        "prop_concave_large_025_BoulderFactory(543568399)_spawn_placeholder(27)",
+        "prop_concave_large_026_BoulderFactory(543568399)_spawn_placeholder(28)",
+        "prop_concave_large_027_BoulderFactory(543568399)_spawn_placeholder(29)",
+        "prop_concave_large_028_BoulderFactory(543568399)_spawn_placeholder(3)",
+        "prop_concave_large_029_BoulderFactory(543568399)_spawn_placeholder(30)",
+        "prop_concave_large_030_BoulderFactory(543568399)_spawn_placeholder(31)",
+        "prop_concave_large_031_BoulderFactory(543568399)_spawn_placeholder(32)",
+        "prop_concave_large_032_BoulderFactory(543568399)_spawn_placeholder(33)",
+        "prop_concave_large_033_BoulderFactory(543568399)_spawn_placeholder(34)",
+        "prop_concave_large_034_BoulderFactory(543568399)_spawn_placeholder(35)",
+        "prop_concave_large_035_BoulderFactory(543568399)_spawn_placeholder(36)",
+        "prop_concave_large_036_BoulderFactory(543568399)_spawn_placeholder(37)",
+        "prop_concave_large_037_BoulderFactory(543568399)_spawn_placeholder(38)",
+        "prop_concave_large_038_BoulderFactory(543568399)_spawn_placeholder(39)",
+        "prop_concave_large_039_BoulderFactory(543568399)_spawn_placeholder(4)",
+        "prop_concave_large_040_BoulderFactory(543568399)_spawn_placeholder(40)",
+        "prop_concave_large_041_BoulderFactory(543568399)_spawn_placeholder(41)",
+        "prop_concave_large_042_BoulderFactory(543568399)_spawn_placeholder(42)",
+        "prop_concave_large_043_BoulderFactory(543568399)_spawn_placeholder(43)",
+        "prop_concave_large_044_BoulderFactory(543568399)_spawn_placeholder(44)",
+        "prop_concave_large_045_BoulderFactory(543568399)_spawn_placeholder(45)",
+        "prop_concave_large_046_BoulderFactory(543568399)_spawn_placeholder(46)",
+        "prop_concave_large_047_BoulderFactory(543568399)_spawn_placeholder(47)",
+        "prop_concave_large_048_BoulderFactory(543568399)_spawn_placeholder(48)",
+        "prop_concave_large_049_BoulderFactory(543568399)_spawn_placeholder(49)",
+        "prop_concave_large_050_BoulderFactory(543568399)_spawn_placeholder(5)",
+        "prop_concave_large_051_BoulderFactory(543568399)_spawn_placeholder(50)",
+        "prop_concave_large_052_BoulderFactory(543568399)_spawn_placeholder(51)",
+        "prop_concave_large_053_BoulderFactory(543568399)_spawn_placeholder(52)",
+        "prop_concave_large_054_BoulderFactory(543568399)_spawn_placeholder(53)",
+        "prop_concave_large_055_BoulderFactory(543568399)_spawn_placeholder(54)",
+        "prop_concave_large_056_BoulderFactory(543568399)_spawn_placeholder(55)",
+        "prop_concave_large_057_BoulderFactory(543568399)_spawn_placeholder(56)",
+        "prop_concave_large_058_BoulderFactory(543568399)_spawn_placeholder(57)",
+        "prop_concave_large_059_BoulderFactory(543568399)_spawn_placeholder(58)",
+        "prop_concave_large_060_BoulderFactory(543568399)_spawn_placeholder(59)",
+        "prop_concave_large_061_BoulderFactory(543568399)_spawn_placeholder(6)",
+        "prop_concave_large_062_BoulderFactory(543568399)_spawn_placeholder(60)",
+        "prop_concave_large_063_BoulderFactory(543568399)_spawn_placeholder(61)",
+        "prop_concave_large_064_BoulderFactory(543568399)_spawn_placeholder(62)",
+        "prop_concave_large_065_BoulderFactory(543568399)_spawn_placeholder(63)",
+        "prop_concave_large_066_BoulderFactory(543568399)_spawn_placeholder(64)",
+        "prop_concave_large_067_BoulderFactory(543568399)_spawn_placeholder(65)",
+        "prop_concave_large_068_BoulderFactory(543568399)_spawn_placeholder(66)",
+        "prop_concave_large_069_BoulderFactory(543568399)_spawn_placeholder(67)",
+        "prop_concave_large_070_BoulderFactory(543568399)_spawn_placeholder(68)",
+        "prop_concave_large_071_BoulderFactory(543568399)_spawn_placeholder(69)",
+        "prop_concave_large_072_BoulderFactory(543568399)_spawn_placeholder(7)",
+        "prop_concave_large_073_BoulderFactory(543568399)_spawn_placeholder(70)",
+        "prop_concave_large_074_BoulderFactory(543568399)_spawn_placeholder(71)",
+        "prop_concave_large_075_BoulderFactory(543568399)_spawn_placeholder(72)",
+        "prop_concave_large_076_BoulderFactory(543568399)_spawn_placeholder(73)",
+        "prop_concave_large_077_BoulderFactory(543568399)_spawn_placeholder(74)",
+        "prop_concave_large_078_BoulderFactory(543568399)_spawn_placeholder(75)",
+        "prop_concave_large_079_BoulderFactory(543568399)_spawn_placeholder(76)",
+        "prop_concave_large_080_BoulderFactory(543568399)_spawn_placeholder(77)",
+        "prop_concave_large_081_BoulderFactory(543568399)_spawn_placeholder(78)",
+        "prop_concave_large_082_BoulderFactory(543568399)_spawn_placeholder(79)",
+        "prop_concave_large_083_BoulderFactory(543568399)_spawn_placeholder(8)",
+        "prop_concave_large_084_BoulderFactory(543568399)_spawn_placeholder(80)",
+        "prop_concave_large_085_BoulderFactory(543568399)_spawn_placeholder(81)",
+        "prop_concave_large_086_BoulderFactory(543568399)_spawn_placeholder(82)",
+        "prop_concave_large_087_BoulderFactory(543568399)_spawn_placeholder(83)",
+        "prop_concave_large_088_BoulderFactory(543568399)_spawn_placeholder(84)",
+        "prop_concave_large_089_BoulderFactory(543568399)_spawn_placeholder(85)",
+        "prop_concave_large_090_BoulderFactory(543568399)_spawn_placeholder(86)",
+        "prop_concave_large_091_BoulderFactory(543568399)_spawn_placeholder(87)",
+        "prop_concave_large_092_BoulderFactory(543568399)_spawn_placeholder(88)",
+        "prop_concave_large_093_BoulderFactory(543568399)_spawn_placeholder(89)",
+        "prop_concave_large_094_BoulderFactory(543568399)_spawn_placeholder(9)",
+        "prop_concave_large_095_BoulderFactory(543568399)_spawn_placeholder(90)",
+        "prop_concave_large_096_BoulderFactory(543568399)_spawn_placeholder(91)",
+        "prop_concave_large_097_BoulderFactory(543568399)_spawn_placeholder(92)",
+        "prop_concave_large_098_BoulderFactory(543568399)_spawn_placeholder(93)",
+        "prop_concave_large_099_BoulderFactory(543568399)_spawn_placeholder(94)",
+        "prop_concave_large_100_BoulderFactory(543568399)_spawn_placeholder(95)",
+        "prop_concave_large_101_BoulderFactory(543568399)_spawn_placeholder(96)",
+        "prop_concave_large_102_BoulderFactory(543568399)_spawn_placeholder(97)",
+        "prop_concave_large_103_BoulderFactory(543568399)_spawn_placeholder(98)",
+        "prop_concave_large_104_BoulderFactory(543568399)_spawn_placeholder(99)"
+      ]
+    }
+  },
+  "runtime_model": {
+    "bytes": 1506210,
+    "path": "benchmark/simcode4d_unified/artifacts/NAT-02-hills-turn-stop/m1_world.xml",
+    "sha256": "f1d8d12dd0141c9dceb3dae3314a228355ed714fec73f8f6b24c192987446aa6"
+  },
+  "schema_version": "simcode4d.dev15.physics-profile.v1",
+  "semantic_contact_policy": {
+    "allowed": [
+      [
+        "jackal_wheels",
+        "hill_terrain"
+      ]
+    ],
+    "forbidden": [
+      [
+        "jackal_chassis",
+        "route_obstacles"
+      ]
+    ],
+    "groups": {
+      "hill_terrain": {
+        "geoms": [
+          "terrain_hfield"
+        ]
+      },
+      "jackal_chassis": {
+        "geoms": [
+          "jackal_chassis_collision"
+        ]
+      },
+      "jackal_wheels": {
+        "geoms": [
+          "jackal_front_left_collision",
+          "jackal_front_right_collision",
+          "jackal_rear_left_collision",
+          "jackal_rear_right_collision"
+        ]
+      },
+      "route_obstacles": {
+        "geoms": [
+          "prop_concave_large_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "simulator": {
+    "dimensions": {
+      "nbody": 9,
+      "nequality": 0,
+      "ngeom": 131,
+      "njoint": 9,
+      "nq": 15,
+      "nu": 10,
+      "nv": 14
+    },
+    "model_name": "unnamed_model",
+    "name": "mujoco",
+    "options": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "density": 0.0,
+      "friction_cone": "mjCONE_PYRAMIDAL",
+      "gravity_mps2": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": "mjINT_IMPLICITFAST",
+      "iterations": 120,
+      "jacobian": "mjJAC_AUTO",
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic_tesla": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_margin": 0.0,
+      "solver": "mjSOL_NEWTON",
+      "timestep_s": 0.001,
+      "tolerance": 1e-10,
+      "viscosity": 0.0,
+      "wind_mps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "runtime_version": "3.9.0"
+  },
+  "static_field": null,
+  "success_and_safety_thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_terminal_speed_mps": 0.1,
+    "maximum_tilt_rad": 0.7,
+    "minimum_heading_change_rad": 0.6,
+    "terminal_hold_s": 0.5
+  },
+  "world_id": "nat02-hills"
+}

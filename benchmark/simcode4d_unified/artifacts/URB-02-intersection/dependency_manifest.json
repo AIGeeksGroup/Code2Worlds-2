@@ -1,0 +1,131 @@
+{
+  "case_id": "URB-02-intersection",
+  "files": [
+    {
+      "bytes": 1356,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/m2_overlay.json",
+      "sha256": "09d7c4e005571cad623217e5fddfd1f3ece307ac4c9ec643b1a87a6704745ae5"
+    },
+    {
+      "bytes": 1452,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/repair_report.json",
+      "sha256": "cc12bff2fbd3a9fc3bc8bbbbe9a2e52c976e57e5d0c71dabc6c5a2adca04eaf0"
+    },
+    {
+      "bytes": 30146,
+      "path": "benchmark/simcode4d_unified/artifacts/URB-02-intersection/runtime_model.xml",
+      "sha256": "17081a4698a6c3d23f4e473173e6b55a66b9d33fc498bcc02b85482341a4a21a"
+    },
+    {
+      "bytes": 11452,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/M1/module1/scene_enriched.xml",
+      "sha256": "80a96a73656699154058a7dc463affe95858461b986b91ca77c423bc8ca490af"
+    },
+    {
+      "bytes": 23847,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/urban-2_intersection/rollout/scene_m2.xml",
+      "sha256": "af9f661e5e71fa5208a6a8257b30f7855b0f249e3fb44a0ccfcec04705202847"
+    },
+    {
+      "bytes": 351,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_intersection_export5/background_terrain_00_collision.obj",
+      "sha256": "f891354d4b63874aa15cb1f2d6fb21d9ec92116c7b7aeecaceef0f095effbaf0"
+    },
+    {
+      "bytes": 343,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_intersection_export5/background_terrain_01_collision.obj",
+      "sha256": "9b36da8cadcf53798f9f53783f62559bf667bed017f84a148fd5cb2ede80ef37"
+    },
+    {
+      "bytes": 345,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_intersection_export5/background_terrain_02_collision.obj",
+      "sha256": "743ff04dba591f81c94237e7ca839bda5392ed5db6d3ab2dea9aa56a97dc2168"
+    },
+    {
+      "bytes": 353,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/tmp_intersection_export5/background_terrain_03_collision.obj",
+      "sha256": "0f30e2970b9f05eedfca354335563979d8abc3660104cea299c7a365b974f13e"
+    },
+    {
+      "bytes": 1330465,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0"
+    },
+    {
+      "bytes": 811791,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6"
+    },
+    {
+      "bytes": 294090,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095"
+    },
+    {
+      "bytes": 379093,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6"
+    },
+    {
+      "bytes": 7776234,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821"
+    },
+    {
+      "bytes": 877174,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e"
+    },
+    {
+      "bytes": 326865,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817"
+    },
+    {
+      "bytes": 876538,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2"
+    },
+    {
+      "bytes": 327261,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a"
+    },
+    {
+      "bytes": 1144729,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b"
+    },
+    {
+      "bytes": 2863864,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd"
+    },
+    {
+      "bytes": 2767918,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf"
+    },
+    {
+      "bytes": 2841868,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec"
+    },
+    {
+      "bytes": 1491320,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2"
+    },
+    {
+      "bytes": 2817674,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b"
+    },
+    {
+      "bytes": 1482261,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/unitree_go2/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.dependency-manifest.v1"
+}

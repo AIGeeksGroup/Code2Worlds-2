@@ -1,0 +1,12 @@
+# Module 1/2 Python dependencies; Blender is installed separately.
+mujoco==3.9.0
+numpy==1.26.3
+scipy==1.15.3
+trimesh==4.12.2
+coacd==1.0.11
+Pillow==12.3.0
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+openai==2.41.0
+matplotlib==3.8.2
+requests>=2.31

@@ -1,0 +1,96 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: SER-01-medicine
+world_id: ser01-clinic
+canonical_source:
+  bytes: 2237752
+  path: deliverables/final_scene_revision_i04_2026-08-16/blends/scene_indoor_service_final_i04.blend
+  sha256: 8f7f461f42433553543e8fc3e76a5f7c24cae5ad087a8988b1adf800735f4b2f
+  lineage_status: verified
+robot:
+  name: differential-drive service robot with lift and arm
+  entity_id: service_robot
+  model_binding: robot
+  mobility: articulated
+task: Approach, legally grasp, and deliver the medicine pouch to the authored delivery region while retaining a stable grasp.
+task_family: pick_and_place
+dynamic_subtype: null
+start_state:
+  free_body_poses:
+    robot:
+      quaternion_wxyz:
+      - 0.9847265389
+      - 0.0
+      - 0.0
+      - -0.1741081342
+goal:
+  goal:
+    max_xyz_m:
+    - -4.45
+    - -0.62
+    - 1.75
+    min_xyz_m:
+    - -5.15
+    - -1.32
+    - 1.15
+    type: aabb
+required_event_order:
+  edges:
+  - - approach
+    - grasp
+  - - grasp
+    - transport
+  - - transport
+    - goal_hold
+  nodes:
+  - approach
+  - grasp
+  - transport
+  - goal_hold
+allowed_contacts:
+- - gripper
+  - medicine_pouch
+- - robot_wheels
+  - floor
+forbidden_contacts:
+- - robot_body
+  - counter
+- - medicine_pouch
+  - floor
+contact_group_bindings:
+  counter:
+    geoms:
+    - counter_*
+  floor:
+    geoms:
+    - floor
+  gripper:
+    geoms:
+    - gripper_*
+  medicine_pouch:
+    bodies:
+    - task_item
+  robot_body:
+    geoms:
+    - robot_base_collision
+    - robot_body_collision
+  robot_wheels:
+    geoms:
+    - wheel_*_geom
+    - caster_*_geom
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_terminal_speed_mps: 0.1
+  minimum_transport_m: 2.5
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - source Blender animation and source object hierarchy
+  - retained legacy rollout used only to recover intent, not to tune post-freeze scores
+  - task_semantics_confirmation_2026-09-08.csv development draft
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: The source animation retains the pouch at the grasp anchor; release is therefore not required in this development
+    case.

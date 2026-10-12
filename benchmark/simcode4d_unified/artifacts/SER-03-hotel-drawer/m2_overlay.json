@@ -1,0 +1,9 @@
+{
+  "allowed_dynamic_channels": [],
+  "case_id": "SER-03-hotel-drawer",
+  "kind": "noop",
+  "m1_base_sha256": "72b72ef3deeb3664e7c08293340e8b05f9ad7f64a13acd27c2c6bdbb4e18d954",
+  "note": "No source-declared time-varying M2 component is required. Static contacts and fields remain M1-owned.",
+  "schema_version": "simcode4d.rc3a-dev1.m2-overlay",
+  "task_independent": true
+}

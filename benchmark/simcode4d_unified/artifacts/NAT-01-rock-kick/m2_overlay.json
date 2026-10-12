@@ -1,0 +1,9 @@
+{
+  "allowed_dynamic_channels": [],
+  "case_id": "NAT-01-rock-kick",
+  "kind": "noop",
+  "m1_base_sha256": "5c6f63e01052d06664411d27b7e07e6be438d6677bf734c50735acfa388d63dc",
+  "note": "No source-declared time-varying M2 component is required. Static contacts and fields remain M1-owned.",
+  "schema_version": "simcode4d.rc3a-dev1.m2-overlay",
+  "task_independent": true
+}

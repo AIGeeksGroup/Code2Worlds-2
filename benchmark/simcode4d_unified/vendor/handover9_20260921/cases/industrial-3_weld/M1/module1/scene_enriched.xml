@@ -1,0 +1,40 @@
+<mujoco model="scene_enriched">
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+  <visual>
+    <headlight diffuse="0.7 0.65 0.55" ambient="0.35 0.35 0.35" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="720"/>
+  </visual>
+  <asset>
+    
+  </asset>
+  <worldbody>
+    <light name="sun" pos="0 0 30" dir="-0.3 -0.2 -1" directional="true"
+           diffuse="0.9 0.85 0.7" specular="0.2 0.2 0.2"/>
+    <geom name="floor_00" type="box" pos="3.000000 3.000000 0.000000" size="3.000000 3.000000 0.100000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_01" type="box" pos="1.000000 5.500000 0.010000" size="0.750000 0.500000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_02" type="box" pos="3.000000 1.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_03" type="box" pos="3.000000 2.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_04" type="box" pos="3.000000 2.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_05" type="box" pos="3.000000 3.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_06" type="box" pos="3.000000 3.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_07" type="box" pos="3.000000 4.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_08" type="box" pos="3.000000 4.500000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_09" type="box" pos="3.000000 5.000000 0.010000" size="2.000000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="floor_10" type="box" pos="2.500000 3.000000 0.050000" size="0.030000 1.000000 0.030000" contype="2" conaffinity="1" friction="0.700 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_00" type="box" pos="0.000000 0.000000 0.000000" size="3.000000 0.100000 2.000000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_01" type="box" pos="3.000000 3.000000 4.010000" size="0.650000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_02" type="box" pos="3.000000 3.000000 3.950000" size="0.750000 0.150000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_03" type="box" pos="1.000000 5.500000 4.010000" size="0.400000 0.100000 0.010000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_04" type="box" pos="1.000000 5.500000 3.950000" size="0.500000 0.150000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_05" type="box" pos="3.000000 3.000000 4.000000" size="3.000000 3.000000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_06" type="box" pos="5.500000 3.000000 3.800000" size="3.000000 0.050000 0.050000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_07" type="box" pos="0.000000 3.000000 2.000000" size="0.100000 3.000000 2.000000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="wall_08" type="box" pos="6.000000 3.000000 2.000000" size="0.100000 3.000000 2.000000" contype="2" conaffinity="1" friction="0.500 0.005 0.0001" condim="3" rgba="0.7 0.65 0.55 1"/>
+    <geom name="prop_concave_large_000_control_panel" type="box" pos="1.000000 5.200000 0.700000" size="0.445343 0.445343 0.700000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_001_fume_extraction_hood" type="box" pos="3.000000 3.800000 2.900000" size="0.600000 0.600000 0.300000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_002_gas_cylinder_rack" type="box" pos="5.000000 5.200000 0.700000" size="0.400000 0.222500 0.725000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_003_welding_helmet" type="box" pos="1.200000 5.150000 1.575000" size="0.125000 0.212500 0.125000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_004_welding_robot_base" type="box" pos="3.000000 2.000000 0.900000" size="0.600000 0.600000 0.900000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+    <geom name="prop_concave_large_005_welding_table" type="box" pos="2.500000 3.500000 0.800000" size="0.800000 0.500000 0.450000" contype="2" conaffinity="1" friction="0.6 0.005 0.0001" condim="3"/>
+  </worldbody>
+</mujoco>

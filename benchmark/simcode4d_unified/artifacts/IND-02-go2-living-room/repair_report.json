@@ -1,0 +1,31 @@
+{
+  "assertions": {
+    "case_specific_repairs_present": true,
+    "declared_actuators_present": true,
+    "mujoco_load": true,
+    "positive_dynamic_mass_and_inertia": true,
+    "timestep_s": 0.001
+  },
+  "case_id": "IND-02-go2-living-room",
+  "legacy_case_id": "indoor-2_go2lr_walk",
+  "pruned_unmatched_contact_patterns": [],
+  "repairs": [
+    "replaced incorrect vacuum M2 with generated Go2 runtime",
+    "removed invisible non-colliding stone",
+    "made angle units explicitly radian",
+    "raised initialization 0.020 m to remove measured foot-ground overlap",
+    "declared bounded free-joint assist actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep"
+  ],
+  "schema_version": "simcode4d.dev15.runtime-repair.v1",
+  "source_m1": {
+    "bytes": 11652,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-2_go2lr_walk/M1/module1/scene_enriched.xml",
+    "sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50"
+  },
+  "source_runtime": {
+    "bytes": 13076,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/export_singleroom_lr_go2/module2/scene_m2.xml",
+    "sha256": "c3d5b1b176f12c59a39c5c28470c0b35fb8ad9c52985c499e527e1dfd0f76933"
+  }
+}

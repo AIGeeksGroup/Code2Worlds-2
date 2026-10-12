@@ -1,0 +1,1459 @@
+{
+  "blend": "../../../tmp_dgo2_m3.blend",
+  "groups": {
+    "background_terrain": [
+      {
+        "name": "background_terrain_00",
+        "source_name": "road",
+        "visual_obj": "background_terrain_00_visual.obj",
+        "collision_obj": "background_terrain_00_collision.obj",
+        "world_aabb": [
+          -18.0,
+          -4.0,
+          -0.11999999731779099,
+          18.0,
+          4.0,
+          0.0
+        ]
+      },
+      {
+        "name": "background_terrain_01",
+        "source_name": "sidewalk_n",
+        "visual_obj": "background_terrain_01_visual.obj",
+        "collision_obj": "background_terrain_01_collision.obj",
+        "world_aabb": [
+          -18.0,
+          4.300000190734863,
+          -0.14000000059604645,
+          18.0,
+          5.699999809265137,
+          0.0
+        ]
+      },
+      {
+        "name": "background_terrain_02",
+        "source_name": "sidewalk_s",
+        "visual_obj": "background_terrain_02_visual.obj",
+        "collision_obj": "background_terrain_02_collision.obj",
+        "world_aabb": [
+          -18.0,
+          -5.699999809265137,
+          -0.14000000059604645,
+          18.0,
+          -4.300000190734863,
+          0.0
+        ]
+      }
+    ],
+    "background_floor": [],
+    "background_wall": [],
+    "prop_concave_large": [],
+    "prop_convex_small": [
+      {
+        "name": "prop_convex_small_000_bldg_BrickBuildingFactory(600)_spawn_asset(600)",
+        "source_name": "bldg_BrickBuildingFactory(600).spawn_asset(600)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_000_bldg_BrickBuildingFactory(600)_spawn_asset(600).obj",
+        "world_pos": [
+          -13.999999046325684,
+          -11.712499618530273,
+          8.949287414550781
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          9.50121784210205,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          -14.149998664855957,
+          -16.46310806274414,
+          3.97042179107666,
+          -13.84999942779541,
+          -6.96189022064209,
+          13.928153038024902
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_001_bldg_BrickBuildingFactory(601)_spawn_asset(601)",
+        "source_name": "bldg_BrickBuildingFactory(601).spawn_asset(601)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_001_bldg_BrickBuildingFactory(601)_spawn_asset(601).obj",
+        "world_pos": [
+          -6.0,
+          -11.712499618530273,
+          7.23203182220459
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.3000001907348633,
+          9.50121784210205,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          -6.150000095367432,
+          -16.46310806274414,
+          2.2531661987304688,
+          -5.849999904632568,
+          -6.96189022064209,
+          12.210897445678711
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_002_bldg_BrickBuildingFactory(602)_spawn_asset(602)",
+        "source_name": "bldg_BrickBuildingFactory(602).spawn_asset(602)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_002_bldg_BrickBuildingFactory(602)_spawn_asset(602).obj",
+        "world_pos": [
+          2.0,
+          -11.71250057220459,
+          5.158243656158447
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.30000007152557373,
+          9.501218795776367,
+          9.9577317237854
+        ],
+        "world_aabb": [
+          1.850000023841858,
+          -16.463109970092773,
+          0.17937803268432617,
+          2.1500000953674316,
+          -6.961891174316406,
+          10.137109756469727
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_003_bldg_BrickBuildingFactory(603)_spawn_asset(603)",
+        "source_name": "bldg_BrickBuildingFactory(603).spawn_asset(603)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_003_bldg_BrickBuildingFactory(603)_spawn_asset(603).obj",
+        "world_pos": [
+          10.0,
+          -12.0,
+          5.5241475105285645
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          9.501219749450684,
+          9.9577317237854
+        ],
+        "world_aabb": [
+          9.850000381469727,
+          -16.7506103515625,
+          0.5452818870544434,
+          10.149999618530273,
+          -7.249390602111816,
+          10.503013610839844
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_004_bldg_BuildingFactory(500)_spawn_asset(500)",
+        "source_name": "bldg_BuildingFactory(500).spawn_asset(500)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_004_bldg_BuildingFactory(500)_spawn_asset(500).obj",
+        "world_pos": [
+          -16.0,
+          11.712499618530273,
+          8.188813209533691
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          9.50121784210205,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          -16.149999618530273,
+          6.96189022064209,
+          3.2099475860595703,
+          -15.850000381469727,
+          16.46310806274414,
+          13.167678833007812
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_005_bldg_BuildingFactory(501)_spawn_asset(501)",
+        "source_name": "bldg_BuildingFactory(501).spawn_asset(501)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_005_bldg_BuildingFactory(501)_spawn_asset(501).obj",
+        "world_pos": [
+          -8.0,
+          12.0,
+          4.664882659912109
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999997138977051,
+          9.501219749450684,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          -8.149999618530273,
+          7.249390602111816,
+          -0.3139829635620117,
+          -7.849999904632568,
+          16.7506103515625,
+          9.64374828338623
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_006_bldg_BuildingFactory(502)_spawn_asset(502)",
+        "source_name": "bldg_BuildingFactory(502).spawn_asset(502)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_006_bldg_BuildingFactory(502)_spawn_asset(502).obj",
+        "world_pos": [
+          0.0,
+          11.712499618530273,
+          8.972379684448242
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.30000001192092896,
+          9.50121784210205,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          -0.15000000596046448,
+          6.96189022064209,
+          3.993514060974121,
+          0.15000000596046448,
+          16.46310806274414,
+          13.951245307922363
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_007_bldg_BuildingFactory(503)_spawn_asset(503)",
+        "source_name": "bldg_BuildingFactory(503).spawn_asset(503)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_007_bldg_BuildingFactory(503)_spawn_asset(503).obj",
+        "world_pos": [
+          8.0,
+          12.0,
+          8.633354187011719
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999997138977051,
+          9.501219749450684,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          7.849999904632568,
+          7.249390602111816,
+          3.6544885635375977,
+          8.149999618530273,
+          16.7506103515625,
+          13.61221981048584
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_008_bldg_BuildingFactory(504)_spawn_asset(504)",
+        "source_name": "bldg_BuildingFactory(504).spawn_asset(504)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_008_bldg_BuildingFactory(504)_spawn_asset(504).obj",
+        "world_pos": [
+          16.0,
+          11.712499618530273,
+          4.804664134979248
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          9.50121784210205,
+          9.957730770111084
+        ],
+        "world_aabb": [
+          15.850000381469727,
+          6.96189022064209,
+          -0.17420148849487305,
+          16.149999618530273,
+          16.46310806274414,
+          9.783529281616211
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_009_bldg_GlassTowerFactory(700)_spawn_asset(700)",
+        "source_name": "bldg_GlassTowerFactory(700).spawn_asset(700)",
+        "mesh_rel": "prop_convex_small/prop_convex_small_009_bldg_GlassTowerFactory(700)_spawn_asset(700).obj",
+        "world_pos": [
+          19.0,
+          -12.0,
+          6.514638900756836
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.2999992370605469,
+          9.501219749450684,
+          9.957731246948242
+        ],
+        "world_aabb": [
+          18.850000381469727,
+          -16.7506103515625,
+          1.5357732772827148,
+          19.149999618530273,
+          -7.249390602111816,
+          11.493504524230957
+        ],
+        "n_tris": 38
+      },
+      {
+        "name": "prop_convex_small_010_lt_n-12_lamp",
+        "source_name": "lt_n-12_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_010_lt_n-12_lamp.obj",
+        "world_pos": [
+          -12.0,
+          4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5499992370605469,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -12.274999618530273,
+          4.409999847412109,
+          4.429999828338623,
+          -11.725000381469727,
+          4.590000152587891,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_011_lt_n-12_pole",
+        "source_name": "lt_n-12_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_011_lt_n-12_pole.obj",
+        "world_pos": [
+          -12.0,
+          4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.12000083923339844,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -12.0600004196167,
+          4.440000057220459,
+          0.0,
+          -11.9399995803833,
+          4.559999942779541,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_012_lt_n-4_lamp",
+        "source_name": "lt_n-4_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_012_lt_n-4_lamp.obj",
+        "world_pos": [
+          -4.0,
+          4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -4.275000095367432,
+          4.409999847412109,
+          4.429999828338623,
+          -3.7249999046325684,
+          4.590000152587891,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_013_lt_n-4_pole",
+        "source_name": "lt_n-4_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_013_lt_n-4_pole.obj",
+        "world_pos": [
+          -4.0,
+          4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -4.059999942779541,
+          4.440000057220459,
+          0.0,
+          -3.940000057220459,
+          4.559999942779541,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_014_lt_n12_lamp",
+        "source_name": "lt_n12_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_014_lt_n12_lamp.obj",
+        "world_pos": [
+          12.0,
+          4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5499992370605469,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          11.725000381469727,
+          4.409999847412109,
+          4.429999828338623,
+          12.274999618530273,
+          4.590000152587891,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_015_lt_n12_pole",
+        "source_name": "lt_n12_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_015_lt_n12_pole.obj",
+        "world_pos": [
+          12.0,
+          4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.12000083923339844,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          11.9399995803833,
+          4.440000057220459,
+          0.0,
+          12.0600004196167,
+          4.559999942779541,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_016_lt_n4_lamp",
+        "source_name": "lt_n4_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_016_lt_n4_lamp.obj",
+        "world_pos": [
+          4.0,
+          4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          3.7249999046325684,
+          4.409999847412109,
+          4.429999828338623,
+          4.275000095367432,
+          4.590000152587891,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_017_lt_n4_pole",
+        "source_name": "lt_n4_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_017_lt_n4_pole.obj",
+        "world_pos": [
+          4.0,
+          4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          3.940000057220459,
+          4.440000057220459,
+          0.0,
+          4.059999942779541,
+          4.559999942779541,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_018_lt_s-12_lamp",
+        "source_name": "lt_s-12_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_018_lt_s-12_lamp.obj",
+        "world_pos": [
+          -12.0,
+          -4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5499992370605469,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -12.274999618530273,
+          -4.590000152587891,
+          4.429999828338623,
+          -11.725000381469727,
+          -4.409999847412109,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_019_lt_s-12_pole",
+        "source_name": "lt_s-12_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_019_lt_s-12_pole.obj",
+        "world_pos": [
+          -12.0,
+          -4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.12000083923339844,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -12.0600004196167,
+          -4.559999942779541,
+          0.0,
+          -11.9399995803833,
+          -4.440000057220459,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_020_lt_s-4_lamp",
+        "source_name": "lt_s-4_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_020_lt_s-4_lamp.obj",
+        "world_pos": [
+          -4.0,
+          -4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          -4.275000095367432,
+          -4.590000152587891,
+          4.429999828338623,
+          -3.7249999046325684,
+          -4.409999847412109,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_021_lt_s-4_pole",
+        "source_name": "lt_s-4_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_021_lt_s-4_pole.obj",
+        "world_pos": [
+          -4.0,
+          -4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          -4.059999942779541,
+          -4.559999942779541,
+          0.0,
+          -3.940000057220459,
+          -4.440000057220459,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_022_lt_s12_lamp",
+        "source_name": "lt_s12_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_022_lt_s12_lamp.obj",
+        "world_pos": [
+          12.0,
+          -4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5499992370605469,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          11.725000381469727,
+          -4.590000152587891,
+          4.429999828338623,
+          12.274999618530273,
+          -4.409999847412109,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_023_lt_s12_pole",
+        "source_name": "lt_s12_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_023_lt_s12_pole.obj",
+        "world_pos": [
+          12.0,
+          -4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.12000083923339844,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          11.9399995803833,
+          -4.559999942779541,
+          0.0,
+          12.0600004196167,
+          -4.440000057220459,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_024_lt_s4_lamp",
+        "source_name": "lt_s4_lamp",
+        "mesh_rel": "prop_convex_small/prop_convex_small_024_lt_s4_lamp.obj",
+        "world_pos": [
+          4.0,
+          -4.5,
+          4.519999980926514
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.5500001907348633,
+          0.18000030517578125,
+          0.18000030517578125
+        ],
+        "world_aabb": [
+          3.7249999046325684,
+          -4.590000152587891,
+          4.429999828338623,
+          4.275000095367432,
+          -4.409999847412109,
+          4.610000133514404
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_convex_small_025_lt_s4_pole",
+        "source_name": "lt_s4_pole",
+        "mesh_rel": "prop_convex_small/prop_convex_small_025_lt_s4_pole.obj",
+        "world_pos": [
+          4.0,
+          -4.5,
+          2.299999952316284
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.11999988555908203,
+          4.599999904632568
+        ],
+        "world_aabb": [
+          3.940000057220459,
+          -4.559999942779541,
+          0.0,
+          4.059999942779541,
+          -4.440000057220459,
+          4.599999904632568
+        ],
+        "n_tris": 6
+      }
+    ],
+    "prop_dynamic": [],
+    "vegetation": [],
+    "decoration": [
+      {
+        "name": "Cube",
+        "source_name": "Cube",
+        "world_pos": [
+          -17.0,
+          4.900000095367432,
+          0.004999999888241291
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.04000091552734375,
+          1.3500003814697266,
+          0.019999999552965164
+        ]
+      },
+      {
+        "name": "lane_-1",
+        "source_name": "lane_-1",
+        "world_pos": [
+          -1.899999976158142,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1400001049041748,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_-2",
+        "source_name": "lane_-2",
+        "world_pos": [
+          -4.300000190734863,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1400003433227539,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_-3",
+        "source_name": "lane_-3",
+        "world_pos": [
+          -6.699999809265137,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1400003433227539,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_-4",
+        "source_name": "lane_-4",
+        "world_pos": [
+          -9.100000381469727,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_-5",
+        "source_name": "lane_-5",
+        "world_pos": [
+          -11.5,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_-6",
+        "source_name": "lane_-6",
+        "world_pos": [
+          -13.899999618530273,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_-7",
+        "source_name": "lane_-7",
+        "world_pos": [
+          -16.299999237060547,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_0",
+        "source_name": "lane_0",
+        "world_pos": [
+          0.5,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.13999998569488525,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_1",
+        "source_name": "lane_1",
+        "world_pos": [
+          2.9000000953674316,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399998664855957,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_2",
+        "source_name": "lane_2",
+        "world_pos": [
+          5.300000190734863,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1400003433227539,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_3",
+        "source_name": "lane_3",
+        "world_pos": [
+          7.699999809265137,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1400003433227539,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_4",
+        "source_name": "lane_4",
+        "world_pos": [
+          10.100000381469727,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_5",
+        "source_name": "lane_5",
+        "world_pos": [
+          12.5,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      },
+      {
+        "name": "lane_6",
+        "source_name": "lane_6",
+        "world_pos": [
+          14.899999618530273,
+          0.0,
+          0.014999999664723873
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1399993896484375,
+          1.2000000476837158,
+          0.01999999862164259
+        ]
+      }
+    ],
+    "skip": [
+      {
+        "name": "awn_-8",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awn_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awn_8",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnedge_-8",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnedge_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnedge_8",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_-8_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_-8_1",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_-8_2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_-8_3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_0_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_0_1",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_0_2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_0_3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_8_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_8_1",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_8_2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "awnscallop_8_3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "bench_-14_10",
+        "reason": "unmatched"
+      },
+      {
+        "name": "bench_13_-10",
+        "reason": "unmatched"
+      },
+      {
+        "name": "bench_14_10",
+        "reason": "unmatched"
+      },
+      {
+        "name": "benchleg_-14_10a",
+        "reason": "unmatched"
+      },
+      {
+        "name": "benchleg_-14_10b",
+        "reason": "unmatched"
+      },
+      {
+        "name": "benchleg_13_-10a",
+        "reason": "unmatched"
+      },
+      {
+        "name": "benchleg_13_-10b",
+        "reason": "unmatched"
+      },
+      {
+        "name": "benchleg_14_10a",
+        "reason": "unmatched"
+      },
+      {
+        "name": "benchleg_14_10b",
+        "reason": "unmatched"
+      },
+      {
+        "name": "Cube.001",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.002",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.003",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.004",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.005",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.006",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.007",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.008",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.009",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.010",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.011",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.012",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.013",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.014",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.015",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.016",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.017",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.018",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.019",
+        "reason": "skip"
+      },
+      {
+        "name": "Cube.020",
+        "reason": "skip"
+      },
+      {
+        "name": "fastbush_0_sphere_-0.2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_0_sphere_-0.32",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_0_sphere_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_0_sphere_0.12",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_0_sphere_0.38",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_1_sphere_-0.2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_1_sphere_-0.32",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_1_sphere_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_1_sphere_0.12",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_1_sphere_0.38",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_2_sphere_-0.2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_2_sphere_-0.32",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_2_sphere_0",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_2_sphere_0.12",
+        "reason": "unmatched"
+      },
+      {
+        "name": "fastbush_2_sphere_0.38",
+        "reason": "unmatched"
+      },
+      {
+        "name": "ground.001",
+        "reason": "unmatched"
+      },
+      {
+        "name": "hyd_3.6_6.5",
+        "reason": "unmatched"
+      },
+      {
+        "name": "hydcap_3.6_6.5",
+        "reason": "unmatched"
+      },
+      {
+        "name": "mail_0.5_6.3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "mail_6.5_6.3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "mailcap_0.5_6.3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "mailcap_6.5_6.3",
+        "reason": "unmatched"
+      },
+      {
+        "name": "planter_2_6.6",
+        "reason": "unmatched"
+      },
+      {
+        "name": "planter_3_10.2",
+        "reason": "unmatched"
+      },
+      {
+        "name": "planter_7.5_6.6",
+        "reason": "unmatched"
+      }
+    ]
+  },
+  "cameras": [
+    {
+      "name": "Camera",
+      "world_pos": [
+        7.358891487121582,
+        -6.925790786743164,
+        4.958309173583984
+      ],
+      "world_quat": [
+        0.7804827094078064,
+        0.483536034822464,
+        0.20870360732078552,
+        0.33687159419059753
+      ]
+    }
+  ],
+  "terrain": {
+    "visual_obj": "background_terrain_00_visual.obj",
+    "collision_obj": "background_terrain_00_collision.obj",
+    "world_aabb": [
+      -18.0,
+      -4.0,
+      -0.11999999731779099,
+      18.0,
+      4.0,
+      0.0
+    ]
+  },
+  "boulders": [],
+  "vegetation": [],
+  "dynamic_candidates": []
+}

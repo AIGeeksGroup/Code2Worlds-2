@@ -1,0 +1,28 @@
+{
+  "case_id": "INS-01-agv-aisle",
+  "m1_base_sha256": "8a527bd66ecf77612bdba141e3ab822f8ae07648bca1c5184a3236c9151bb3e3",
+  "ownership": "robot/control/constraint repair only; no goal, threshold, seed, or validator logic",
+  "repair_report": {
+    "bytes": 1325,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/repair_report.json",
+    "sha256": "3ce59314f8a65cf6d1341aa559e8583790ad13040af4ff20693f445fc1c1667d"
+  },
+  "repairs": [
+    "declared bounded free-joint stabilization while preserving wheel velocity actuators",
+    "normalized active contact solref/solimp for the frozen 1 ms timestep",
+    "aligned wheel collision cylinders with the y-axis hinges",
+    "initialized wheel tread with 1 mm clearance to avoid exact-tangent box contact degeneracy"
+  ],
+  "runtime_model": {
+    "bytes": 48857,
+    "path": "benchmark/simcode4d_unified/artifacts/INS-01-agv-aisle/runtime_model.xml",
+    "sha256": "c9c9774d85b62ef97bc00ea9094bdce4a451de30b38f56864fd6b5aa9229444a"
+  },
+  "schema_version": "simcode4d.dev15.m2-overlay.v1",
+  "source_runtime": {
+    "bytes": 38451,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/industrial-1_agv_empty/rollout/scene_m2.xml",
+    "sha256": "88f3ed5c35d2bbc01af3def9ab325cc436b81331bbd3f201c863a066769869c5"
+  },
+  "task_independent": true
+}

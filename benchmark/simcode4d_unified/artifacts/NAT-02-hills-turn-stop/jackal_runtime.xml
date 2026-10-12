@@ -1,0 +1,85 @@
+<mujoco model="clearpath_jackal_ugv">
+  <compiler angle="degree" autolimits="true" />
+  <asset>
+    <mesh name="jackal_base" file="../../vendor/jackal_ugv/assets/jackal_base.stl" scale="4.05 4.05 4.05" />
+    <mesh name="jackal_fender" file="../../vendor/jackal_ugv/assets/jackal_fender.stl" scale="4.05 4.05 4.05" />
+    <mesh name="jackal_wheel" file="../../vendor/jackal_ugv/assets/jackal_wheel.stl" scale="4.05 4.05 4.05" />
+    <material name="jackal_black" rgba="0.10 0.11 0.10 1" />
+    <material name="jackal_yellow" rgba="0.80 0.62 0.03 1" />
+    <material name="jackal_tire" rgba="0.035 0.035 0.035 1" />
+    <material name="jackal_sensor" rgba="0.35 0.38 0.39 1" />
+  </asset>
+  <default>
+    <joint damping="0.08" armature="0.01" />
+    <geom friction="1.4 0.02 0.001" condim="4" solref=".0025 1" solimp=".95 .99 .001" margin=".003" />
+  </default>
+  <worldbody>
+    <body name="jackal_base">
+      <freejoint name="jackal_freejoint" />
+      <inertial pos="0.036 0.006 0.201" mass="446.121" fullinertia="76.2048 95.3046 108.9855 -0.1944 3.9852 -0.2187" />
+      <geom name="jackal_body_visual" type="mesh" mesh="jackal_base" pos="0 0 -0.265275" quat="0.5 0.5 0.5 0.5" material="jackal_black" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_chassis_collision" type="box" pos="0 0 0.3726" size="0.8505 0.62775 0.3726" group="3" rgba="0 0 0 0" solref=".0025 1" solimp=".95 .99 .001" margin=".003" />
+      <geom name="jackal_left_guard_visual" type="box" pos="0 0.83025 0.4779" size="0.91125 0.0729 0.162" material="jackal_yellow" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_right_guard_visual" type="box" pos="0 -0.83025 0.4779" size="0.91125 0.0729 0.162" material="jackal_yellow" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_front_bumper_visual" type="box" pos="0.95175 0 0.30375" size="0.10125 0.70875 0.14175" material="jackal_black" group="2" contype="0" conaffinity="0" />
+      <body name="jackal_lidar_mount" pos="0.18225 0 0.87075">
+        <geom name="jackal_lidar_pedestal_visual" type="cylinder" size="0.1296 0.0729" material="jackal_sensor" group="2" contype="0" conaffinity="0" />
+        <geom name="jackal_lidar_visual" type="cylinder" pos="0 0 0.1053" size="0.1944 0.0486" material="jackal_black" group="2" contype="0" conaffinity="0" />
+      </body>
+      <body name="jackal_front_fender">
+        <geom name="jackal_front_fender_visual" type="mesh" mesh="jackal_fender" material="jackal_yellow" group="2" contype="0" conaffinity="0" />
+      </body>
+      <body name="jackal_rear_fender" euler="0 0 180">
+        <geom name="jackal_rear_fender_visual" type="mesh" mesh="jackal_fender" material="jackal_yellow" group="2" contype="0" conaffinity="0" />
+      </body>
+      <body name="jackal_front_left_wheel" pos="0.53055 0.76056975 0.139725">
+        <joint name="jackal_front_left_suspension" type="slide" axis="0 0 1" limited="true" range="-.08 .18" stiffness="30000" damping="2000" springref="0" />
+        <joint name="jackal_front_left_joint" type="hinge" axis="0 1 0" damping="2" armature=".08" />
+        <inertial pos="0 0 0" mass="12.879" diaginertia="0.3159 0.5832 0.3159" />
+        <geom name="jackal_front_left_visual" type="mesh" mesh="jackal_wheel" euler="90 0 0" material="jackal_tire" group="2" contype="0" conaffinity="0" />
+        <geom name="jackal_front_left_collision" type="sphere" size=".3969" group="3" rgba="0 0 0 0" friction=".8 .02 .001" solref=".0025 1" solimp=".95 .99 .001" margin=".003" />
+      </body>
+      <body name="jackal_front_right_wheel" pos="0.53055 -0.76056975 0.139725">
+        <joint name="jackal_front_right_suspension" type="slide" axis="0 0 1" limited="true" range="-.08 .18" stiffness="30000" damping="2000" springref="0" />
+        <joint name="jackal_front_right_joint" type="hinge" axis="0 1 0" damping="2" armature=".08" />
+        <inertial pos="0 0 0" mass="12.879" diaginertia="0.3159 0.5832 0.3159" />
+        <geom name="jackal_front_right_visual" type="mesh" mesh="jackal_wheel" euler="90 0 0" material="jackal_tire" group="2" contype="0" conaffinity="0" />
+        <geom name="jackal_front_right_collision" type="sphere" size=".3969" group="3" rgba="0 0 0 0" friction=".8 .02 .001" solref=".0025 1" solimp=".95 .99 .001" margin=".003" />
+      </body>
+      <body name="jackal_rear_left_wheel" pos="-0.53055 0.76056975 0.139725">
+        <joint name="jackal_rear_left_suspension" type="slide" axis="0 0 1" limited="true" range="-.08 .18" stiffness="30000" damping="2000" springref="0" />
+        <joint name="jackal_rear_left_joint" type="hinge" axis="0 1 0" damping="2" armature=".08" />
+        <inertial pos="0 0 0" mass="12.879" diaginertia="0.3159 0.5832 0.3159" />
+        <geom name="jackal_rear_left_visual" type="mesh" mesh="jackal_wheel" euler="90 0 0" material="jackal_tire" group="2" contype="0" conaffinity="0" />
+        <geom name="jackal_rear_left_collision" type="sphere" size=".3969" group="3" rgba="0 0 0 0" friction=".8 .02 .001" solref=".0025 1" solimp=".95 .99 .001" margin=".003" />
+      </body>
+      <body name="jackal_rear_right_wheel" pos="-0.53055 -0.76056975 0.139725">
+        <joint name="jackal_rear_right_suspension" type="slide" axis="0 0 1" limited="true" range="-.08 .18" stiffness="30000" damping="2000" springref="0" />
+        <joint name="jackal_rear_right_joint" type="hinge" axis="0 1 0" damping="2" armature=".08" />
+        <inertial pos="0 0 0" mass="12.879" diaginertia="0.3159 0.5832 0.3159" />
+        <geom name="jackal_rear_right_visual" type="mesh" mesh="jackal_wheel" euler="90 0 0" material="jackal_tire" group="2" contype="0" conaffinity="0" />
+        <geom name="jackal_rear_right_collision" type="sphere" size=".3969" group="3" rgba="0 0 0 0" friction=".8 .02 .001" solref=".0025 1" solimp=".95 .99 .001" margin=".003" />
+      </body>
+      <geom name="jackal_front_left_rim_visual" type="cylinder" pos="0.53055 0.84757 0.139725" size="0.210 0.024" euler="90 0 0" material="jackal_sensor" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_front_right_rim_visual" type="cylinder" pos="0.53055 -0.84757 0.139725" size="0.210 0.024" euler="90 0 0" material="jackal_sensor" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_rear_left_rim_visual" type="cylinder" pos="-0.53055 0.84757 0.139725" size="0.210 0.024" euler="90 0 0" material="jackal_sensor" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_rear_right_rim_visual" type="cylinder" pos="-0.53055 -0.84757 0.139725" size="0.210 0.024" euler="90 0 0" material="jackal_sensor" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_left_led_visual" type="box" pos="1.0125 0.405 0.450" size="0.030 0.090 0.055" rgba="1 0.82 0.32 1" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_right_led_visual" type="box" pos="1.0125 -0.405 0.450" size="0.030 0.090 0.055" rgba="1 0.82 0.32 1" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_left_roof_rail_visual" type="box" pos="0 0.465 0.810" size="0.465 0.030 0.030" material="jackal_black" group="2" contype="0" conaffinity="0" />
+      <geom name="jackal_right_roof_rail_visual" type="box" pos="0 -0.465 0.810" size="0.465 0.030 0.030" material="jackal_black" group="2" contype="0" conaffinity="0" />
+    </body>
+  </worldbody>
+  <actuator>
+    <motor name="jackal_front_left_motor" joint="jackal_front_left_joint" gear="400" ctrlrange="-1 1" />
+    <motor name="jackal_front_right_motor" joint="jackal_front_right_joint" gear="400" ctrlrange="-1 1" />
+    <motor name="jackal_rear_left_motor" joint="jackal_rear_left_joint" gear="400" ctrlrange="-1 1" />
+    <motor name="jackal_rear_right_motor" joint="jackal_rear_right_joint" gear="400" ctrlrange="-1 1" />
+    <motor name="base_force_x_ctrl" joint="jackal_freejoint" gear="1 0 0 0 0 0" ctrllimited="true" ctrlrange="-5000 5000" />
+    <motor name="base_force_y_ctrl" joint="jackal_freejoint" gear="0 1 0 0 0 0" ctrllimited="true" ctrlrange="-5000 5000" />
+    <motor name="base_force_z_ctrl" joint="jackal_freejoint" gear="0 0 1 0 0 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_roll_ctrl" joint="jackal_freejoint" gear="0 0 0 1 0 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_pitch_ctrl" joint="jackal_freejoint" gear="0 0 0 0 1 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_yaw_ctrl" joint="jackal_freejoint" gear="0 0 0 0 0 1" ctrllimited="true" ctrlrange="-650 650" />
+  </actuator>
+</mujoco>

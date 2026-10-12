@@ -1,0 +1,411 @@
+{
+  "files": [
+    {
+      "bytes": 3055,
+      "path": "benchmark/simcode4d_unified/cases/IND-01-vacuum-living-room/case_gold.json",
+      "sha256": "d7c3a378b09bf4d0362040d3b5b1526eb40fc1118cb5706bdf2f38c60e012030"
+    },
+    {
+      "bytes": 5100,
+      "path": "benchmark/simcode4d_unified/cases/IND-01-vacuum-living-room/case_spec.json",
+      "sha256": "f46621736fc1ee1f7120e4f4781ec08e292c47a110d84b226b87c8cbb6c94de2"
+    },
+    {
+      "bytes": 45486,
+      "path": "benchmark/simcode4d_unified/cases/IND-01-vacuum-living-room/physics_profile.json",
+      "sha256": "276481bc970d42d3dc2b24e6fb933c8abb3a8afb7dbc51e14493efbcda405f1f"
+    },
+    {
+      "bytes": 2037,
+      "path": "benchmark/simcode4d_unified/cases/IND-01-vacuum-living-room/task_confirm.yaml",
+      "sha256": "68c9c48e16bce54901beac12e6f4aded62cdbb238831b84921c97cbac82422bf"
+    },
+    {
+      "bytes": 3348,
+      "path": "benchmark/simcode4d_unified/cases/IND-02-go2-living-room/case_gold.json",
+      "sha256": "b05f3f0e6a96dd75384c3ec93b2998fa0d242481f6ead50b2f84347e1efcc97e"
+    },
+    {
+      "bytes": 6027,
+      "path": "benchmark/simcode4d_unified/cases/IND-02-go2-living-room/case_spec.json",
+      "sha256": "99dd4fdfffb970638d0fdc4afcbf0ec024de701cd77c80f1fb2d3c9a8acee58c"
+    },
+    {
+      "bytes": 83041,
+      "path": "benchmark/simcode4d_unified/cases/IND-02-go2-living-room/physics_profile.json",
+      "sha256": "3074c4c8a7366ca09207b4183a88ceb0d426527a188f33a95c47ad9cd84e9f1b"
+    },
+    {
+      "bytes": 2199,
+      "path": "benchmark/simcode4d_unified/cases/IND-02-go2-living-room/task_confirm.yaml",
+      "sha256": "444b675e19a4cf5a94a175e300e4abc6f7a4a15d6bc574e6a0cd5bb95557c34a"
+    },
+    {
+      "bytes": 3023,
+      "path": "benchmark/simcode4d_unified/cases/IND-03-vacuum-west/case_gold.json",
+      "sha256": "24eaffcfcbeefd94b46e8565c85334bd6c0da24efcc5d6ccf3c6b550f6d6de0d"
+    },
+    {
+      "bytes": 5056,
+      "path": "benchmark/simcode4d_unified/cases/IND-03-vacuum-west/case_spec.json",
+      "sha256": "613dbc31b1ed60befc6fe7dad28940d016702934b3a0c87e2e8a9bce25804233"
+    },
+    {
+      "bytes": 35002,
+      "path": "benchmark/simcode4d_unified/cases/IND-03-vacuum-west/physics_profile.json",
+      "sha256": "691d5fcef4c81de3e8709c57bb649f00fc93bd0a3a219bd672f4b27e1f2acbcf"
+    },
+    {
+      "bytes": 2006,
+      "path": "benchmark/simcode4d_unified/cases/IND-03-vacuum-west/task_confirm.yaml",
+      "sha256": "5882ed44671e4c056636cb5da7bb67d353dab3aa4da25b7bc7af2dfd42cedde0"
+    },
+    {
+      "bytes": 3185,
+      "path": "benchmark/simcode4d_unified/cases/INS-01-agv-aisle/case_gold.json",
+      "sha256": "052d8f5905e0955b4ff2030205f2a3f98b2717e98856ce4a0bb052bbaada9963"
+    },
+    {
+      "bytes": 5360,
+      "path": "benchmark/simcode4d_unified/cases/INS-01-agv-aisle/case_spec.json",
+      "sha256": "492d89b8608d3ad84269611a8520b618dd30aef0d0ca18ca46952212ebd10211"
+    },
+    {
+      "bytes": 110861,
+      "path": "benchmark/simcode4d_unified/cases/INS-01-agv-aisle/physics_profile.json",
+      "sha256": "db931ef03bea1aac0c697cce3635e688263cebf1a37b81b0de12b529d17f26c2"
+    },
+    {
+      "bytes": 2045,
+      "path": "benchmark/simcode4d_unified/cases/INS-01-agv-aisle/task_confirm.yaml",
+      "sha256": "9b9fa99ad747658127c93134a7b981967df4ec6d33cdcd2fbba6d3a6896494ed"
+    },
+    {
+      "bytes": 4065,
+      "path": "benchmark/simcode4d_unified/cases/INS-02-agv-cargo/case_gold.json",
+      "sha256": "745ee70f6c75d14bb8903dd0bff81a567f47bbd8978a690c436c0425c96f9ad8"
+    },
+    {
+      "bytes": 5412,
+      "path": "benchmark/simcode4d_unified/cases/INS-02-agv-cargo/case_spec.json",
+      "sha256": "297e80852fb8e401304a9d19327896ae4cde359e8ecea7fb30bd9a80f7eb2d27"
+    },
+    {
+      "bytes": 54487,
+      "path": "benchmark/simcode4d_unified/cases/INS-02-agv-cargo/physics_profile.json",
+      "sha256": "a04ef1c839b25c6e509b783bef2cb8923bfdf08345cd8c0690cb88a78adf5418"
+    },
+    {
+      "bytes": 2302,
+      "path": "benchmark/simcode4d_unified/cases/INS-02-agv-cargo/task_confirm.yaml",
+      "sha256": "7afea6e4bda805c048b42f19ea2f26161d034d42f681c36a0e6934056fc7b0e1"
+    },
+    {
+      "bytes": 19870,
+      "path": "benchmark/simcode4d_unified/cases/INS-03-weld/case_gold.json",
+      "sha256": "fffb898dbc1ee3e1ad7bf19a075ada296d866966ca71c7d60e48f00d780fe481"
+    },
+    {
+      "bytes": 31098,
+      "path": "benchmark/simcode4d_unified/cases/INS-03-weld/case_spec.json",
+      "sha256": "f051d93826ebe6329a417ce75e2ccc9ff3bbcbe9829ef6cb8377624f70b9c4f9"
+    },
+    {
+      "bytes": 40300,
+      "path": "benchmark/simcode4d_unified/cases/INS-03-weld/physics_profile.json",
+      "sha256": "da0fdc865badbfd26a34c521d295fd7d1615c1b9f87f7f162fc050371e37c818"
+    },
+    {
+      "bytes": 14070,
+      "path": "benchmark/simcode4d_unified/cases/INS-03-weld/task_confirm.yaml",
+      "sha256": "0b8ba51e58c68d94a0285adf6110d48e43a627c428608678336415b9a8b0bf5c"
+    },
+    {
+      "bytes": 3281,
+      "path": "benchmark/simcode4d_unified/cases/NAT-01-rock-kick/case_gold.json",
+      "sha256": "42f14657fd4ef18253098a59e4517a6538298f2ffe7f85cb656edfc1be0efcb8"
+    },
+    {
+      "bytes": 5026,
+      "path": "benchmark/simcode4d_unified/cases/NAT-01-rock-kick/case_spec.json",
+      "sha256": "a7aa6b882aeec91f8f979f2a5dae23ca6fa3d4a9ab671f38de5b5bf004059154"
+    },
+    {
+      "bytes": 379662,
+      "path": "benchmark/simcode4d_unified/cases/NAT-01-rock-kick/physics_profile.json",
+      "sha256": "bd0baa5d22ec4793cff6e0ec11ece8bd912c1cfb348a7b83bc135fafc5395aec"
+    },
+    {
+      "bytes": 1807,
+      "path": "benchmark/simcode4d_unified/cases/NAT-01-rock-kick/task_confirm.yaml",
+      "sha256": "c2ccda48d89d7234629aa6f3b001f2a5964317b51903efd24829dcbb90303abd"
+    },
+    {
+      "bytes": 4293,
+      "path": "benchmark/simcode4d_unified/cases/NAT-02-hills-turn-stop/case_gold.json",
+      "sha256": "b7d87f09c8fbd84aa62d30b435c2d3bc9b90a0957c83df94278a2a9a342a16be"
+    },
+    {
+      "bytes": 21393,
+      "path": "benchmark/simcode4d_unified/cases/NAT-02-hills-turn-stop/case_spec.json",
+      "sha256": "d44a6dac7d6652601365cfb918cdffd9843141738da5a34b29de730cd9f786ba"
+    },
+    {
+      "bytes": 92865,
+      "path": "benchmark/simcode4d_unified/cases/NAT-02-hills-turn-stop/physics_profile.json",
+      "sha256": "3ae52858d8ba51ffb98bd53c3095894019aac0d5bbc0871b532327d0a47f17a9"
+    },
+    {
+      "bytes": 2713,
+      "path": "benchmark/simcode4d_unified/cases/NAT-02-hills-turn-stop/task_confirm.yaml",
+      "sha256": "171fd4ab13dfdca6898e4e219137ce2f1870be7a285b2e50ca04590a611b02f8"
+    },
+    {
+      "bytes": 3137,
+      "path": "benchmark/simcode4d_unified/cases/NAT-03-water-land/case_gold.json",
+      "sha256": "52589b8b8db67193d416b06415f78014cb134a074f5c208b5fd35e23dafbed9d"
+    },
+    {
+      "bytes": 5511,
+      "path": "benchmark/simcode4d_unified/cases/NAT-03-water-land/case_spec.json",
+      "sha256": "77bd546e05b433f252b2055a6427a27e0a56a52d1254358140df1b1139052f51"
+    },
+    {
+      "bytes": 37876,
+      "path": "benchmark/simcode4d_unified/cases/NAT-03-water-land/physics_profile.json",
+      "sha256": "63cfde29348fbd5e58acb8a84648c452587648a3b4df2946dad2bbc3842a58fb"
+    },
+    {
+      "bytes": 2023,
+      "path": "benchmark/simcode4d_unified/cases/NAT-03-water-land/task_confirm.yaml",
+      "sha256": "57baee1bb7ce0fb0a6b9393483624f7781962a5b31a3453ba5e367c77b321dd1"
+    },
+    {
+      "bytes": 3786,
+      "path": "benchmark/simcode4d_unified/cases/SER-01-medicine/case_gold.json",
+      "sha256": "4ed025159edd2e5980c30922e2fc5369feff378272c2330b4145e1dc4a49ed47"
+    },
+    {
+      "bytes": 22928,
+      "path": "benchmark/simcode4d_unified/cases/SER-01-medicine/case_spec.json",
+      "sha256": "e5566554c3a7a72f80049d0379d5061204ca4025080be70c927a6e9589e7e6c2"
+    },
+    {
+      "bytes": 45114,
+      "path": "benchmark/simcode4d_unified/cases/SER-01-medicine/physics_profile.json",
+      "sha256": "27a8f50d9b248d33b01bf8a7c76dd39fd3c149bac18a823856509e2be569981e"
+    },
+    {
+      "bytes": 2215,
+      "path": "benchmark/simcode4d_unified/cases/SER-01-medicine/task_confirm.yaml",
+      "sha256": "8723327d735d224ecfbd5a7a2bf42e17c4e2b4cd2bdd068728b0624e76c755c4"
+    },
+    {
+      "bytes": 3910,
+      "path": "benchmark/simcode4d_unified/cases/SER-02-airport-luggage/case_gold.json",
+      "sha256": "fd1fb65a50e18e6a3dbfec373f0514fd8e89b97e7e3056a3eb6bff1e9cf75de1"
+    },
+    {
+      "bytes": 24938,
+      "path": "benchmark/simcode4d_unified/cases/SER-02-airport-luggage/case_spec.json",
+      "sha256": "958c7b0af71c0998d87e8affa378aa0fb6c71db99f969258624654048cffc010"
+    },
+    {
+      "bytes": 53487,
+      "path": "benchmark/simcode4d_unified/cases/SER-02-airport-luggage/physics_profile.json",
+      "sha256": "88c38af664ad90728acefd3d810fed5d6c43d09f30e2699f1add09a228a70160"
+    },
+    {
+      "bytes": 2294,
+      "path": "benchmark/simcode4d_unified/cases/SER-02-airport-luggage/task_confirm.yaml",
+      "sha256": "baf609ace43e88b0d730498f449d7fa68ae9b001b512742f6a071c0da34687b7"
+    },
+    {
+      "bytes": 3693,
+      "path": "benchmark/simcode4d_unified/cases/SER-03-hotel-drawer/case_gold.json",
+      "sha256": "907e160fa25a264d41c066d9ccbdfc3bc6760e120c1e4717c08564661efcbbaa"
+    },
+    {
+      "bytes": 26032,
+      "path": "benchmark/simcode4d_unified/cases/SER-03-hotel-drawer/case_spec.json",
+      "sha256": "14561443d0e5fa415761c77ef6f4dd739e659a2486430c2d39f7cf377ecaca10"
+    },
+    {
+      "bytes": 40084,
+      "path": "benchmark/simcode4d_unified/cases/SER-03-hotel-drawer/physics_profile.json",
+      "sha256": "040328955cc162309db760fdfdf107dbbeb0508fc53f688f72aceea336427699"
+    },
+    {
+      "bytes": 2213,
+      "path": "benchmark/simcode4d_unified/cases/SER-03-hotel-drawer/task_confirm.yaml",
+      "sha256": "083e3cecbb49d5ee28662506898cf70b8a91c862c75bfee376fcfab8be3f72a3"
+    },
+    {
+      "bytes": 3171,
+      "path": "benchmark/simcode4d_unified/cases/URB-01-agv-city/case_gold.json",
+      "sha256": "2516c74d27c7cbeb5c22747d44f3f18be148fde45348ae2307b56fcd9b575cdb"
+    },
+    {
+      "bytes": 5324,
+      "path": "benchmark/simcode4d_unified/cases/URB-01-agv-city/case_spec.json",
+      "sha256": "f14b190912e7e7839bd72a268d08bc259da647c39829f3a8900beefc6d2aa1a0"
+    },
+    {
+      "bytes": 53988,
+      "path": "benchmark/simcode4d_unified/cases/URB-01-agv-city/physics_profile.json",
+      "sha256": "eff56f84c42148304cbab51d812d9bcab493e51735c044f239a0dd773493c67c"
+    },
+    {
+      "bytes": 2029,
+      "path": "benchmark/simcode4d_unified/cases/URB-01-agv-city/task_confirm.yaml",
+      "sha256": "39beae62c49906339f05e412c38e36817d6599363841501c2989250fb9a1b759"
+    },
+    {
+      "bytes": 3760,
+      "path": "benchmark/simcode4d_unified/cases/URB-02-intersection/case_gold.json",
+      "sha256": "d06acb809e382a833e09e16e13a177f6d38ba22801d796dea84c4b1511a6e8cd"
+    },
+    {
+      "bytes": 6005,
+      "path": "benchmark/simcode4d_unified/cases/URB-02-intersection/case_spec.json",
+      "sha256": "7df3b07844fe422614659db079321d50b825c12dfaa9f4f64622a2ca1ebc16ca"
+    },
+    {
+      "bytes": 80160,
+      "path": "benchmark/simcode4d_unified/cases/URB-02-intersection/physics_profile.json",
+      "sha256": "3a4908d2102d50eba0fcb27ee25fbcecacc29d21aaeedeccb62b9e9394de80fb"
+    },
+    {
+      "bytes": 2451,
+      "path": "benchmark/simcode4d_unified/cases/URB-02-intersection/task_confirm.yaml",
+      "sha256": "4af1217e31cd7e2a443ddec72c9e51a8cd2dedee8ee384bf4b5c992d5e574c2f"
+    },
+    {
+      "bytes": 3720,
+      "path": "benchmark/simcode4d_unified/cases/URB-03-pole-blocking/case_gold.json",
+      "sha256": "96548e7fbd1890a963e0cbbe343372aa6cd04552e0a92581a4de3053e45237a8"
+    },
+    {
+      "bytes": 6040,
+      "path": "benchmark/simcode4d_unified/cases/URB-03-pole-blocking/case_spec.json",
+      "sha256": "8d3ad56cb603555357fee49d987006db84ce73107d419765815eec7aa86f5ea4"
+    },
+    {
+      "bytes": 69984,
+      "path": "benchmark/simcode4d_unified/cases/URB-03-pole-blocking/physics_profile.json",
+      "sha256": "d966b7efa105fc0ca9b3ddb54a745d1f0f5ded88076035c14bba083ecbf73151"
+    },
+    {
+      "bytes": 2452,
+      "path": "benchmark/simcode4d_unified/cases/URB-03-pole-blocking/task_confirm.yaml",
+      "sha256": "86cf8499906a9bfc7f4af45ff6185a6ad336d3a2f6df9e528bf0b24b37fa9fea"
+    },
+    {
+      "bytes": 4114,
+      "path": "benchmark/simcode4d_unified/check_public_release.py",
+      "sha256": "81693d6769edce65ec57ce35dab35505d13e243d215d0d61d2f207abc1f9eda7"
+    },
+    {
+      "bytes": 3533,
+      "path": "benchmark/simcode4d_unified/config/handover9_audit.json",
+      "sha256": "1e8e4114b7f0052e2091c4098dcca6abf12ecfd3c94b109368262d4fd8b0c9dd"
+    },
+    {
+      "bytes": 475,
+      "path": "benchmark/simcode4d_unified/config/initial_support_labels.json",
+      "sha256": "f6499aa8f355cbb8640c4bb9946fbde7c85b028fd79b6fcf9bd9ce0c90f4dc84"
+    },
+    {
+      "bytes": 51425,
+      "path": "benchmark/simcode4d_unified/config/semantic_freeze_v1.json",
+      "sha256": "a902128e07e7d8f7ffa967dd83c41e7e99a4983c459b8dd879bfa064e86d7452"
+    },
+    {
+      "bytes": 20818,
+      "path": "benchmark/simcode4d_unified/config/suite.json",
+      "sha256": "a012061b84c38f0d6e007ba103ea5b30f851eb5224df4aeea41035869e9151b7"
+    },
+    {
+      "bytes": 4077,
+      "path": "benchmark/simcode4d_unified/schemas/case_gold.schema.json",
+      "sha256": "e0422f63899aab0fdb524cd30a7e3c7d364819ceb971172322cc0c855943f22a"
+    },
+    {
+      "bytes": 5711,
+      "path": "benchmark/simcode4d_unified/schemas/case_spec.schema.json",
+      "sha256": "efd95a432f31301df0742755f4781d548da98db048b33250cd4681ed63fc17dc"
+    },
+    {
+      "bytes": 15994,
+      "path": "benchmark/simcode4d_unified/schemas/physics_profile.schema.json",
+      "sha256": "42e4dd3e107650bdbf1f482cc382df9b2f78732311aac2ef043aee097db3d156"
+    },
+    {
+      "bytes": 4507,
+      "path": "benchmark/simcode4d_unified/schemas/task_confirm.schema.json",
+      "sha256": "b83af0837bf8e1777b6be933221ba8078527cfecefd097c8384e910c52dc279e"
+    },
+    {
+      "bytes": 33595,
+      "path": "benchmark/simcode4d_unified/tools/aggregate_results.py",
+      "sha256": "99181ddb8a7d99dd6fca451703c254ee1d465b0f6dd0df24d3a5c5ab3a595c4b"
+    },
+    {
+      "bytes": 61669,
+      "path": "benchmark/simcode4d_unified/tools/bootstrap_dev15.py",
+      "sha256": "626626bbccae987d447df0a35321c69b69526bcae26f86b2d3305d36292e299d"
+    },
+    {
+      "bytes": 34530,
+      "path": "benchmark/simcode4d_unified/tools/bootstrap_dev6.py",
+      "sha256": "98d59bd8d228ed3716705a321b65182b645ac1f744061a815e1140255844e36c"
+    },
+    {
+      "bytes": 20153,
+      "path": "benchmark/simcode4d_unified/tools/dev6_contracts.py",
+      "sha256": "5ca74562d174342b6b0611d9828ed5031e1ef45a1aca449e2e3090cc5eb80811"
+    },
+    {
+      "bytes": 891,
+      "path": "benchmark/simcode4d_unified/tools/episode_worker.py",
+      "sha256": "8a25d5b728b8c2b73dd8ed5cc7eb635e32949442d5f9f97a6a6f3a329f0a1d76"
+    },
+    {
+      "bytes": 2129,
+      "path": "benchmark/simcode4d_unified/tools/make_reference_smoke.py",
+      "sha256": "154a26fab3132a36207f3cd8501e9cb8ee656407afa8a76a30e7aa95ddbc90f8"
+    },
+    {
+      "bytes": 3342,
+      "path": "benchmark/simcode4d_unified/tools/method_metrics.py",
+      "sha256": "92b66feb597293379fe3adc4466c21295f5932a797df933cf537a4d6f053d047"
+    },
+    {
+      "bytes": 6840,
+      "path": "benchmark/simcode4d_unified/tools/physics_diagnostics.py",
+      "sha256": "d13fc99f0bf164f4075e95db0ea739d414603655fa44391dee1e39e6a7ede122"
+    },
+    {
+      "bytes": 11152,
+      "path": "benchmark/simcode4d_unified/tools/run_matrix.py",
+      "sha256": "e0bff2681035ace51255dc41ac9038b9d7f87947e18882feef23fe6723f85369"
+    },
+    {
+      "bytes": 38961,
+      "path": "benchmark/simcode4d_unified/tools/runtime.py",
+      "sha256": "3a4fea7d05e1e3c87e4e089bc3576c84dbe4c91341b75b10a113a2ae1061d78f"
+    },
+    {
+      "bytes": 20732,
+      "path": "benchmark/simcode4d_unified/tools/score_submission.py",
+      "sha256": "d1a84515b58cb5402cb7bead52d9824bfdb9601eed35da818d103ea69af63b3e"
+    },
+    {
+      "bytes": 15557,
+      "path": "benchmark/simcode4d_unified/tools/validate_suite.py",
+      "sha256": "2365220fc18c2725d1b1b73b323bb885aecd0827037660cebca22ac5d8c5d5ac"
+    }
+  ],
+  "schema_version": "simcode4d.dev15.freeze-lock.v1",
+  "suite_id": "SimCode4D-Dev15-RC1"
+}

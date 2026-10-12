@@ -1,0 +1,1063 @@
+{
+  "blend": "../../../tmp_weld_merged.blend",
+  "groups": {
+    "background_terrain": [],
+    "background_floor": [
+      {
+        "name": "floor_00_floor",
+        "source_name": "floor",
+        "mesh_rel": "floor/floor_00_floor.obj",
+        "world_aabb": [
+          0.0,
+          0.0,
+          -0.10000000149011612,
+          6.0,
+          6.0,
+          0.10000000149011612
+        ]
+      },
+      {
+        "name": "floor_01_floor_lane_marking_01",
+        "source_name": "floor_lane_marking_01",
+        "mesh_rel": "floor/floor_01_floor_lane_marking_01.obj",
+        "world_aabb": [
+          0.25,
+          5.0,
+          0.004999999888241291,
+          1.75,
+          6.0,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_02_floor_warning_zone_weld_strip_01",
+        "source_name": "floor_warning_zone_weld_strip_01",
+        "mesh_rel": "floor/floor_02_floor_warning_zone_weld_strip_01.obj",
+        "world_aabb": [
+          1.0,
+          1.399999976158142,
+          0.004999999888241291,
+          5.0,
+          1.600000023841858,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_03_floor_warning_zone_weld_strip_02",
+        "source_name": "floor_warning_zone_weld_strip_02",
+        "mesh_rel": "floor/floor_03_floor_warning_zone_weld_strip_02.obj",
+        "world_aabb": [
+          1.0,
+          1.899999976158142,
+          0.004999999888241291,
+          5.0,
+          2.0999999046325684,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_04_floor_warning_zone_weld_strip_03",
+        "source_name": "floor_warning_zone_weld_strip_03",
+        "mesh_rel": "floor/floor_04_floor_warning_zone_weld_strip_03.obj",
+        "world_aabb": [
+          1.0,
+          2.4000000953674316,
+          0.004999999888241291,
+          5.0,
+          2.5999999046325684,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_05_floor_warning_zone_weld_strip_04",
+        "source_name": "floor_warning_zone_weld_strip_04",
+        "mesh_rel": "floor/floor_05_floor_warning_zone_weld_strip_04.obj",
+        "world_aabb": [
+          1.0,
+          2.9000000953674316,
+          0.004999999888241291,
+          5.0,
+          3.0999999046325684,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_06_floor_warning_zone_weld_strip_05",
+        "source_name": "floor_warning_zone_weld_strip_05",
+        "mesh_rel": "floor/floor_06_floor_warning_zone_weld_strip_05.obj",
+        "world_aabb": [
+          1.0,
+          3.4000000953674316,
+          0.004999999888241291,
+          5.0,
+          3.5999999046325684,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_07_floor_warning_zone_weld_strip_06",
+        "source_name": "floor_warning_zone_weld_strip_06",
+        "mesh_rel": "floor/floor_07_floor_warning_zone_weld_strip_06.obj",
+        "world_aabb": [
+          1.0,
+          3.9000000953674316,
+          0.004999999888241291,
+          5.0,
+          4.099999904632568,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_08_floor_warning_zone_weld_strip_07",
+        "source_name": "floor_warning_zone_weld_strip_07",
+        "mesh_rel": "floor/floor_08_floor_warning_zone_weld_strip_07.obj",
+        "world_aabb": [
+          1.0,
+          4.400000095367432,
+          0.004999999888241291,
+          5.0,
+          4.599999904632568,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_09_floor_warning_zone_weld_strip_08",
+        "source_name": "floor_warning_zone_weld_strip_08",
+        "mesh_rel": "floor/floor_09_floor_warning_zone_weld_strip_08.obj",
+        "world_aabb": [
+          1.0,
+          4.900000095367432,
+          0.004999999888241291,
+          5.0,
+          5.099999904632568,
+          0.014999999664723873
+        ]
+      },
+      {
+        "name": "floor_10_floor_welding_cable_segment_01",
+        "source_name": "floor_welding_cable_segment_01",
+        "mesh_rel": "floor/floor_10_floor_welding_cable_segment_01.obj",
+        "world_aabb": [
+          2.4700000286102295,
+          2.0,
+          0.01999995857477188,
+          2.5299999713897705,
+          4.0,
+          0.08000004291534424
+        ]
+      }
+    ],
+    "background_wall": [
+      {
+        "name": "wall_00_back_wall",
+        "source_name": "back_wall",
+        "mesh_rel": "wall/wall_00_back_wall.obj",
+        "world_aabb": [
+          -3.0,
+          -0.10000000149011612,
+          -2.0,
+          3.0,
+          0.10000000149011612,
+          2.0
+        ]
+      },
+      {
+        "name": "wall_01_ceiling_light_led_01_emitter",
+        "source_name": "ceiling_light_led_01_emitter",
+        "mesh_rel": "wall/wall_01_ceiling_light_led_01_emitter.obj",
+        "world_aabb": [
+          2.3499999046325684,
+          2.9000000953674316,
+          4.0,
+          3.6500000953674316,
+          3.0999999046325684,
+          4.020000457763672
+        ]
+      },
+      {
+        "name": "wall_02_ceiling_light_led_01_housing",
+        "source_name": "ceiling_light_led_01_housing",
+        "mesh_rel": "wall/wall_02_ceiling_light_led_01_housing.obj",
+        "world_aabb": [
+          2.25,
+          2.8499999046325684,
+          3.9000000953674316,
+          3.75,
+          3.1500000953674316,
+          4.0
+        ]
+      },
+      {
+        "name": "wall_03_ceiling_light_led_02_emitter",
+        "source_name": "ceiling_light_led_02_emitter",
+        "mesh_rel": "wall/wall_03_ceiling_light_led_02_emitter.obj",
+        "world_aabb": [
+          0.6000000238418579,
+          5.400000095367432,
+          4.0,
+          1.399999976158142,
+          5.599999904632568,
+          4.020000457763672
+        ]
+      },
+      {
+        "name": "wall_04_ceiling_light_led_02_housing",
+        "source_name": "ceiling_light_led_02_housing",
+        "mesh_rel": "wall/wall_04_ceiling_light_led_02_housing.obj",
+        "world_aabb": [
+          0.5,
+          5.349999904632568,
+          3.9000000953674316,
+          1.5,
+          5.650000095367432,
+          4.0
+        ]
+      },
+      {
+        "name": "wall_05_ceiling_slab",
+        "source_name": "ceiling_slab",
+        "mesh_rel": "wall/wall_05_ceiling_slab.obj",
+        "world_aabb": [
+          0.0,
+          0.0,
+          3.950000047683716,
+          6.0,
+          6.0,
+          4.050000190734863
+        ]
+      },
+      {
+        "name": "wall_06_ceiling_utility_pipe_01",
+        "source_name": "ceiling_utility_pipe_01",
+        "mesh_rel": "wall/wall_06_ceiling_utility_pipe_01.obj",
+        "world_aabb": [
+          2.5,
+          2.950000047683716,
+          3.749999761581421,
+          8.5,
+          3.049999952316284,
+          3.8500001430511475
+        ]
+      },
+      {
+        "name": "wall_07_left_wall",
+        "source_name": "left_wall",
+        "mesh_rel": "wall/wall_07_left_wall.obj",
+        "world_aabb": [
+          -0.10000000149011612,
+          0.0,
+          0.0,
+          0.10000000149011612,
+          6.0,
+          4.0
+        ]
+      },
+      {
+        "name": "wall_08_right_wall",
+        "source_name": "right_wall",
+        "mesh_rel": "wall/wall_08_right_wall.obj",
+        "world_aabb": [
+          5.900000095367432,
+          0.0,
+          0.0,
+          6.099999904632568,
+          6.0,
+          4.0
+        ]
+      }
+    ],
+    "prop_concave_large": [
+      {
+        "name": "prop_concave_large_000_control_panel",
+        "source_name": "control_panel",
+        "mesh_rel": "prop_concave_large/prop_concave_large_000_control_panel.obj",
+        "world_pos": [
+          1.0,
+          5.199999809265137,
+          0.699999988079071
+        ],
+        "world_quat": [
+          0.9238795638084412,
+          0.0,
+          0.0,
+          0.3826834559440613
+        ],
+        "world_size": [
+          0.8906856775283813,
+          0.89068603515625,
+          1.399999976158142
+        ],
+        "world_aabb": [
+          0.6110912561416626,
+          4.81109094619751,
+          0.0,
+          1.501776933670044,
+          5.70177698135376,
+          1.399999976158142
+        ],
+        "n_tris": 30
+      },
+      {
+        "name": "prop_concave_large_001_fume_extraction_hood",
+        "source_name": "fume_extraction_hood",
+        "mesh_rel": "prop_concave_large/prop_concave_large_001_fume_extraction_hood.obj",
+        "world_pos": [
+          3.0,
+          3.799999952316284,
+          2.9000000953674316
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          1.200000286102295,
+          0.6000001430511475
+        ],
+        "world_aabb": [
+          2.4000000953674316,
+          3.1999998092651367,
+          2.5,
+          3.5999999046325684,
+          4.400000095367432,
+          3.1000001430511475
+        ],
+        "n_tris": 66
+      },
+      {
+        "name": "prop_concave_large_002_gas_cylinder_rack",
+        "source_name": "gas_cylinder_rack",
+        "mesh_rel": "prop_concave_large/prop_concave_large_002_gas_cylinder_rack.obj",
+        "world_pos": [
+          5.0,
+          5.199999809265137,
+          0.699999988079071
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.8000001907348633,
+          0.44500017166137695,
+          1.4500000476837158
+        ],
+        "world_aabb": [
+          4.799999713897705,
+          4.974999904632568,
+          0.0,
+          5.599999904632568,
+          5.420000076293945,
+          1.4500000476837158
+        ],
+        "n_tris": 420
+      },
+      {
+        "name": "prop_concave_large_003_welding_helmet",
+        "source_name": "welding_helmet",
+        "mesh_rel": "prop_concave_large/prop_concave_large_003_welding_helmet.obj",
+        "world_pos": [
+          1.2000000476837158,
+          5.150000095367432,
+          1.5750000476837158
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.25,
+          0.4250001907348633,
+          0.25
+        ],
+        "world_aabb": [
+          1.0750000476837158,
+          4.849999904632568,
+          1.4500000476837158,
+          1.3250000476837158,
+          5.275000095367432,
+          1.7000000476837158
+        ],
+        "n_tris": 12
+      },
+      {
+        "name": "prop_concave_large_004_welding_robot_base",
+        "source_name": "welding_robot_base",
+        "mesh_rel": "prop_concave_large/prop_concave_large_004_welding_robot_base.obj",
+        "world_pos": [
+          3.0,
+          2.0,
+          0.8999999761581421
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.1999998092651367,
+          1.1999999284744263,
+          1.7999999523162842
+        ],
+        "world_aabb": [
+          2.4000000953674316,
+          1.399999976158142,
+          0.0,
+          3.5999999046325684,
+          2.5999999046325684,
+          1.7999999523162842
+        ],
+        "n_tris": 6
+      },
+      {
+        "name": "prop_concave_large_005_welding_table",
+        "source_name": "welding_table",
+        "mesh_rel": "prop_concave_large/prop_concave_large_005_welding_table.obj",
+        "world_pos": [
+          2.5,
+          3.5,
+          0.800000011920929
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          1.5999999046325684,
+          1.000000238418579,
+          0.9000000357627869
+        ],
+        "world_aabb": [
+          2.200000047683716,
+          3.299999952316284,
+          0.0,
+          3.799999952316284,
+          4.300000190734863,
+          0.9000000357627869
+        ],
+        "n_tris": 1194
+      }
+    ],
+    "prop_convex_small": [],
+    "prop_dynamic": [],
+    "vegetation": [],
+    "decoration": [
+      {
+        "name": "overhead_cable_tray_main",
+        "source_name": "overhead_cable_tray_main",
+        "world_pos": [
+          3.0,
+          1.0,
+          3.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          4.0,
+          0.40000003576278687,
+          0.19999980926513672
+        ]
+      },
+      {
+        "name": "robot_base",
+        "source_name": "robot_base",
+        "world_pos": [
+          3.0,
+          1.5,
+          0.5199999809265137
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.23999977111816406,
+          0.24000000953674316,
+          0.04999998211860657
+        ]
+      },
+      {
+        "name": "robot_elbow",
+        "source_name": "robot_elbow",
+        "world_pos": [
+          3.0,
+          2.0,
+          1.1799999475479126
+        ],
+        "world_quat": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09000015258789062,
+          0.0700000524520874,
+          0.08999991416931152
+        ]
+      },
+      {
+        "name": "robot_forearm",
+        "source_name": "robot_forearm",
+        "world_pos": [
+          3.0,
+          2.2200000286102295,
+          1.3200000524520874
+        ],
+        "world_quat": [
+          0.9848077893257141,
+          -0.1736481636762619,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.07999992370605469,
+          0.21198368072509766,
+          0.40323877334594727
+        ]
+      },
+      {
+        "name": "robot_pedestal",
+        "source_name": "robot_pedestal",
+        "world_pos": [
+          3.0,
+          1.5,
+          0.25
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.3000001907348633,
+          0.2999999523162842,
+          0.5
+        ]
+      },
+      {
+        "name": "robot_shoulder",
+        "source_name": "robot_shoulder",
+        "world_pos": [
+          3.0,
+          1.5499999523162842,
+          0.7200000286102295
+        ],
+        "world_quat": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.11999988555908203,
+          0.09999990463256836,
+          0.12000000476837158
+        ]
+      },
+      {
+        "name": "robot_torch",
+        "source_name": "robot_torch",
+        "world_pos": [
+          3.0,
+          2.559999942779541,
+          1.3799999952316284
+        ],
+        "world_quat": [
+          0.8660253882408142,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.019999980926513672,
+          0.16588449478149414,
+          0.10732054710388184
+        ]
+      },
+      {
+        "name": "robot_torch_tip",
+        "source_name": "robot_torch_tip",
+        "world_pos": [
+          3.0,
+          2.619999885559082,
+          1.2799999713897705
+        ],
+        "world_quat": [
+          0.8660253882408142,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.010000228881835938,
+          0.0569615364074707,
+          0.038660287857055664
+        ]
+      },
+      {
+        "name": "robot_turret",
+        "source_name": "robot_turret",
+        "world_pos": [
+          3.0,
+          1.5,
+          0.6200000047683716
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.17999982833862305,
+          0.18000006675720215,
+          0.1499999761581421
+        ]
+      },
+      {
+        "name": "robot_upper_arm",
+        "source_name": "robot_upper_arm",
+        "world_pos": [
+          3.0,
+          1.7799999713897705,
+          0.949999988079071
+        ],
+        "world_quat": [
+          0.9537169933319092,
+          0.30070579051971436,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.1100001335144043,
+          0.3768949508666992,
+          0.47266948223114014
+        ]
+      },
+      {
+        "name": "robot_wrist1",
+        "source_name": "robot_wrist1",
+        "world_pos": [
+          3.0,
+          2.4200000762939453,
+          1.5
+        ],
+        "world_quat": [
+          0.7071067690849304,
+          0.7071067690849304,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.07000017166137695,
+          0.05000019073486328,
+          0.06999993324279785
+        ]
+      },
+      {
+        "name": "robot_wrist2",
+        "source_name": "robot_wrist2",
+        "world_pos": [
+          3.0,
+          2.4700000286102295,
+          1.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.059999942779541016,
+          0.059999942779541016,
+          0.07999992370605469
+        ]
+      },
+      {
+        "name": "robot_wrist3",
+        "source_name": "robot_wrist3",
+        "world_pos": [
+          3.0,
+          2.5199999809265137,
+          1.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.05000019073486328,
+          0.05000019073486328,
+          0.039999961853027344
+        ]
+      },
+      {
+        "name": "safety_curtain_01",
+        "source_name": "safety_curtain_01",
+        "world_pos": [
+          1.2000000476837158,
+          3.0,
+          1.100000023841858
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.09999990463256836,
+          3.5,
+          2.200000047683716
+        ]
+      },
+      {
+        "name": "safety_curtain_02",
+        "source_name": "safety_curtain_02",
+        "world_pos": [
+          4.800000190734863,
+          3.0,
+          1.100000023841858
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.10000038146972656,
+          3.5,
+          2.200000047683716
+        ]
+      },
+      {
+        "name": "scene_identity_wall_label",
+        "source_name": "scene_identity_wall_label",
+        "world_pos": [
+          3.0,
+          0.10999999940395355,
+          3.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.19999980926513672,
+          0.01000000536441803,
+          0.09999990463256836
+        ]
+      },
+      {
+        "name": "torch_cable_arc_segment_01",
+        "source_name": "torch_cable_arc_segment_01",
+        "world_pos": [
+          3.0,
+          2.5,
+          1.5
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.039999961853027344,
+          0.039999961853027344,
+          1.5
+        ]
+      },
+      {
+        "name": "welding_cell_floor_id",
+        "source_name": "welding_cell_floor_id",
+        "world_pos": [
+          3.0,
+          3.0,
+          0.10999999940395355
+        ],
+        "world_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_size": [
+          0.15000009536743164,
+          0.15000009536743164,
+          0.01000000536441803
+        ]
+      }
+    ],
+    "skip": [
+      {
+        "name": "Bottle_test_01",
+        "reason": "unmatched"
+      },
+      {
+        "name": "front_wall_left",
+        "reason": "unmatched"
+      },
+      {
+        "name": "front_wall_right",
+        "reason": "unmatched"
+      },
+      {
+        "name": "prop_bottle_01",
+        "reason": "unmatched"
+      },
+      {
+        "name": "prop_metal_part_01",
+        "reason": "unmatched"
+      },
+      {
+        "name": "safety_sign_laser_01",
+        "reason": "unmatched"
+      },
+      {
+        "name": "safety_sign_warning_01",
+        "reason": "unmatched"
+      },
+      {
+        "name": "support_column_steel_01",
+        "reason": "unmatched"
+      },
+      {
+        "name": "support_column_steel_02",
+        "reason": "unmatched"
+      },
+      {
+        "name": "wire_spool",
+        "reason": "unmatched"
+      },
+      {
+        "name": "wrench",
+        "reason": "unmatched"
+      }
+    ]
+  },
+  "cameras": [
+    {
+      "name": "main_camera",
+      "world_pos": [
+        3.0,
+        4.5,
+        1.2000000476837158
+      ],
+      "world_quat": [
+        3.53632572114293e-08,
+        2.5692912686281488e-08,
+        -0.5877853035926819,
+        -0.80901700258255
+      ]
+    }
+  ],
+  "boulders": [
+    {
+      "name": "prop_concave_large_000_control_panel",
+      "source_name": "control_panel",
+      "mesh_rel": "prop_concave_large/prop_concave_large_000_control_panel.obj",
+      "world_pos": [
+        1.0,
+        5.199999809265137,
+        0.699999988079071
+      ],
+      "world_quat": [
+        0.9238795638084412,
+        0.0,
+        0.0,
+        0.3826834559440613
+      ],
+      "world_size": [
+        0.8906856775283813,
+        0.89068603515625,
+        1.399999976158142
+      ],
+      "world_aabb": [
+        0.6110912561416626,
+        4.81109094619751,
+        0.0,
+        1.501776933670044,
+        5.70177698135376,
+        1.399999976158142
+      ],
+      "n_tris": 30
+    },
+    {
+      "name": "prop_concave_large_001_fume_extraction_hood",
+      "source_name": "fume_extraction_hood",
+      "mesh_rel": "prop_concave_large/prop_concave_large_001_fume_extraction_hood.obj",
+      "world_pos": [
+        3.0,
+        3.799999952316284,
+        2.9000000953674316
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        1.1999998092651367,
+        1.200000286102295,
+        0.6000001430511475
+      ],
+      "world_aabb": [
+        2.4000000953674316,
+        3.1999998092651367,
+        2.5,
+        3.5999999046325684,
+        4.400000095367432,
+        3.1000001430511475
+      ],
+      "n_tris": 66
+    },
+    {
+      "name": "prop_concave_large_002_gas_cylinder_rack",
+      "source_name": "gas_cylinder_rack",
+      "mesh_rel": "prop_concave_large/prop_concave_large_002_gas_cylinder_rack.obj",
+      "world_pos": [
+        5.0,
+        5.199999809265137,
+        0.699999988079071
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.8000001907348633,
+        0.44500017166137695,
+        1.4500000476837158
+      ],
+      "world_aabb": [
+        4.799999713897705,
+        4.974999904632568,
+        0.0,
+        5.599999904632568,
+        5.420000076293945,
+        1.4500000476837158
+      ],
+      "n_tris": 420
+    },
+    {
+      "name": "prop_concave_large_003_welding_helmet",
+      "source_name": "welding_helmet",
+      "mesh_rel": "prop_concave_large/prop_concave_large_003_welding_helmet.obj",
+      "world_pos": [
+        1.2000000476837158,
+        5.150000095367432,
+        1.5750000476837158
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        0.25,
+        0.4250001907348633,
+        0.25
+      ],
+      "world_aabb": [
+        1.0750000476837158,
+        4.849999904632568,
+        1.4500000476837158,
+        1.3250000476837158,
+        5.275000095367432,
+        1.7000000476837158
+      ],
+      "n_tris": 12
+    },
+    {
+      "name": "prop_concave_large_004_welding_robot_base",
+      "source_name": "welding_robot_base",
+      "mesh_rel": "prop_concave_large/prop_concave_large_004_welding_robot_base.obj",
+      "world_pos": [
+        3.0,
+        2.0,
+        0.8999999761581421
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        1.1999998092651367,
+        1.1999999284744263,
+        1.7999999523162842
+      ],
+      "world_aabb": [
+        2.4000000953674316,
+        1.399999976158142,
+        0.0,
+        3.5999999046325684,
+        2.5999999046325684,
+        1.7999999523162842
+      ],
+      "n_tris": 6
+    },
+    {
+      "name": "prop_concave_large_005_welding_table",
+      "source_name": "welding_table",
+      "mesh_rel": "prop_concave_large/prop_concave_large_005_welding_table.obj",
+      "world_pos": [
+        2.5,
+        3.5,
+        0.800000011920929
+      ],
+      "world_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_size": [
+        1.5999999046325684,
+        1.000000238418579,
+        0.9000000357627869
+      ],
+      "world_aabb": [
+        2.200000047683716,
+        3.299999952316284,
+        0.0,
+        3.799999952316284,
+        4.300000190734863,
+        0.9000000357627869
+      ],
+      "n_tris": 1194
+    }
+  ],
+  "vegetation": [],
+  "dynamic_candidates": []
+}

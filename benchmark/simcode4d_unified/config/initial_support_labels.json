@@ -1,0 +1,11 @@
+{
+  "schema_version": "simcode4d.dev15.public-support-labels.v1",
+  "scope": "Task-object initial support only. Unannotated background relations are excluded.",
+  "relations": {
+    "INS-02-agv-cargo": [["cargo", "agv"]],
+    "NAT-01-rock-kick": [["rock", "canyon_terrain"]],
+    "SER-01-medicine": [["medicine_pouch", "source_counter"]],
+    "SER-02-airport-luggage": [["blue_luggage", "airport_floor"]],
+    "SER-03-hotel-drawer": [["meal_parcel", "payload_drawer"]]
+  }
+}

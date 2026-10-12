@@ -1,0 +1,206 @@
+{
+  "case_id": "SER-02-airport-luggage",
+  "case_spec_sha256": "958c7b0af71c0998d87e8affa378aa0fb6c71db99f969258624654048cffc010",
+  "contact_policy": {
+    "allowed": [
+      [
+        "luggage_lift",
+        "blue_luggage"
+      ],
+      [
+        "robot_wheels",
+        "floor"
+      ]
+    ],
+    "forbidden": [
+      [
+        "robot_body",
+        "seats"
+      ],
+      [
+        "blue_luggage",
+        "floor_after_lift"
+      ]
+    ],
+    "groups": {
+      "blue_luggage": {
+        "bodies": [
+          "task_item"
+        ]
+      },
+      "floor": {
+        "geoms": [
+          "floor"
+        ]
+      },
+      "floor_after_lift": {
+        "active_when": {
+          "joint": "lift_joint",
+          "minimum_position": 0.2
+        },
+        "geoms": [
+          "floor"
+        ]
+      },
+      "luggage_lift": {
+        "geoms": [
+          "lift_fork_*",
+          "clamp_*"
+        ]
+      },
+      "robot_body": {
+        "geoms": [
+          "robot_base_collision",
+          "robot_body_collision"
+        ]
+      },
+      "robot_wheels": {
+        "geoms": [
+          "wheel_*_geom",
+          "caster_*_geom"
+        ]
+      },
+      "seats": {
+        "geoms": [
+          "seat_*"
+        ]
+      }
+    },
+    "penetration_exemptions": []
+  },
+  "event_dag": {
+    "edges": [
+      [
+        "approach",
+        "grasp"
+      ],
+      [
+        "grasp",
+        "lift"
+      ],
+      [
+        "lift",
+        "transport"
+      ],
+      [
+        "transport",
+        "goal_hold"
+      ]
+    ],
+    "nodes": [
+      "approach",
+      "grasp",
+      "lift",
+      "transport",
+      "goal_hold"
+    ]
+  },
+  "gold_visibility": "development_private_placeholder",
+  "initialization": {},
+  "integrity_rules": {
+    "allow_benchmark_grasp_api": true,
+    "allow_static_field_adapter": false,
+    "forbid_probe_model_handle": true,
+    "forbid_qpos_qvel_write": true,
+    "forbid_runtime_model_mutation": true
+  },
+  "perturbations": {
+    "401": {},
+    "409": {
+      "body_geom_friction_scale": {
+        "robot": 0.95
+      },
+      "body_mass_scale": {
+        "task_item": 0.95
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.01,
+          -0.01
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.015
+      }
+    },
+    "419": {
+      "body_geom_friction_scale": {
+        "robot": 1.05
+      },
+      "body_mass_scale": {
+        "task_item": 1.05
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          -0.012,
+          0.008
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": -0.02
+      }
+    },
+    "421": {
+      "body_geom_friction_scale": {
+        "robot": 1.08
+      },
+      "body_mass_scale": {
+        "task_item": 0.9
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.0,
+          0.015
+        ]
+      }
+    },
+    "431": {
+      "body_geom_friction_scale": {
+        "robot": 0.92
+      },
+      "body_mass_scale": {
+        "task_item": 1.1
+      },
+      "body_xy_offset_m": {
+        "robot": [
+          0.008,
+          0.012
+        ]
+      },
+      "body_yaw_offset_rad": {
+        "robot": 0.012
+      }
+    }
+  },
+  "regions": {
+    "goal": {
+      "max_xyz_m": [
+        5.25,
+        4.0,
+        1.1
+      ],
+      "min_xyz_m": [
+        4.35,
+        3.1,
+        0.4
+      ],
+      "type": "aabb"
+    }
+  },
+  "review": {
+    "adjudicated": false,
+    "formal_annotator_count": 0,
+    "note": "The entire blue Empty-root assembly is one dynamic target. Source animation retains it; release is not required.",
+    "official_use": false,
+    "status": "development_frozen",
+    "thresholds_frozen_before_reference_runs": true
+  },
+  "schema_version": "simcode4d.rc3a-dev1.case-gold",
+  "thresholds": {
+    "illegal_penetration_m": 0.001,
+    "maximum_terminal_speed_mps": 0.1,
+    "minimum_lift_m": 0.25,
+    "minimum_transport_m": 5.0,
+    "terminal_hold_s": 0.5
+  }
+}

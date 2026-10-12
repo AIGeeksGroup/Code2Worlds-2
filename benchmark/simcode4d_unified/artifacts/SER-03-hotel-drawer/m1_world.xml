@@ -1,0 +1,84 @@
+<mujoco model="indoor3_hotel_final_real8s">
+  <compiler angle="radian" autolimits="true" balanceinertia="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" cone="elliptic" iterations="120" tolerance="1e-10" />
+  <default>
+    <geom solref=".002 1" solimp=".995 .9999 .0002" condim="4" friction=".75 .02 .002" margin="0.003" />
+  </default>
+  <asset>
+    <material name="floor_mat" rgba=".55 .57 .59 1" />
+    <material name="wall" rgba=".72 .73 .73 1" />
+    <material name="wood" rgba=".45 .24 .10 1" />
+    <material name="metal" rgba=".34 .38 .40 1" />
+    <material name="fabric" rgba=".10 .30 .42 1" />
+    <material name="package" rgba=".56 .27 .07 1" />
+    <material name="dark" rgba=".03 .04 .05 1" />
+    <material name="robot" rgba=".74 .79 .80 1" />
+    <material name="rubber" rgba=".012 .014 .016 1" />
+    <material name="service" rgba=".12 .58 .50 1" />
+    <material name="airport" rgba=".05 .35 .70 1" />
+    <material name="hotel" rgba=".62 .31 .08 1" />
+  </asset>
+  <worldbody>
+    <light directional="true" pos="-5 -6 11" dir=".3 .35 -1" />
+    <geom name="floor" type="box" pos="0 0 -.05" size="8.0 8.0 .05" material="floor_mat" friction="1.35 .025 .003" condim="6" priority="2" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="wall_back" type="box" pos="0 8.0 2.7" size="8.0 .08 2.7" material="wall" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="wall_left" type="box" pos="-8.0 0 2.7" size=".08 8.0 2.7" material="wall" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="wall_right" type="box" pos="8.0 0 2.7" size=".08 8.0 2.7" material="wall" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="reception" type="box" pos="-3.2 3.9 .66" size="2.7 .72 .66" material="wood" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="reception_top" type="box" pos="-3.2 3.76 1.37" size="2.8 .86 .08" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="elevator_1" type="box" pos="2.6 7.72 1.55" size="1 .08 1.55" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="elevator_2" type="box" pos="5.1 7.72 1.55" size="1 .08 1.55" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="lounge_1" type="box" pos="-5.3 -.15 .46" size=".85 .70 .16" material="fabric" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="lounge_2" type="box" pos="-2.7 -.15 .46" size=".85 .70 .16" material="fabric" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="context_parcel" type="box" pos="2.35 -.95 .28" size=".40 .32 .28" material="package" friction=".62 .02 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <geom name="room_door_1208" type="box" pos="6.84 4.60 1.40" size=".055 .92 1.40" material="wood" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    <body name="meal_parcel" pos="1.1 -5.42 1.01">
+      <freejoint name="meal_parcel_free" />
+      <geom name="meal_parcel_geom" type="box" size=".22 .12 .095" mass="1.2" material="package" friction=".78 .025 .003" condim="6" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+    </body>
+    <body name="robot" pos="1.10000002 -5.59999990 .005">
+      <freejoint name="root_free" />
+      <inertial pos="0 0 .35" mass="78" diaginertia="12 12 6" />
+      <geom name="robot_base_collision" type="cylinder" pos="0 0 .22" size="0.49 .14" material="dark" friction=".55 .015 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      <geom name="robot_body_collision" type="box" pos="0 0 0.52000" size="0.38220 0.31360 0.25000" material="robot" friction=".48 .015 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      <body name="wheel_left" pos="-0.34000 0 0.16000">
+        <joint name="wheel_left_joint" type="hinge" axis="1 0 0" damping=".12" armature=".018" />
+        <geom name="wheel_left_geom" type="cylinder" size="0.16000 .065" quat=".70710678 0 .70710678 0" mass="1.4" material="rubber" friction="1.65 .025 .003" condim="6" priority="1" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="wheel_right" pos="0.34000 0 0.16000">
+        <joint name="wheel_right_joint" type="hinge" axis="1 0 0" damping=".12" armature=".018" />
+        <geom name="wheel_right_geom" type="cylinder" size="0.16000 .065" quat=".70710678 0 .70710678 0" mass="1.4" material="rubber" friction="1.65 .025 .003" condim="6" priority="1" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="caster_front" pos="0 .31 .105">
+        <joint name="caster_front_ball" type="ball" damping=".002" />
+        <geom name="caster_front_geom" type="sphere" size=".095" mass=".45" material="rubber" friction=".10 .01 .001" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="caster_rear" pos="0 -.31 .105">
+        <joint name="caster_rear_ball" type="ball" damping=".002" />
+        <geom name="caster_rear_geom" type="sphere" size=".095" mass=".45" material="rubber" friction=".10 .01 .001" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+      <body name="upper_drawer" pos="0 .37 1.02">
+        <joint name="drawer_joint" type="slide" axis="0 1 0" range="-.01 0.31" damping="120" frictionloss="8" armature=".03" stiffness="0" springref="0" />
+        <geom name="drawer_front" type="box" size=".33 .035 .16" mass="2.2" material="hotel" friction=".62 .02 .002" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+        <geom name="drawer_bottom" type="box" pos="0 -.19 -.14" size=".29 .18 .025" mass="1.4" material="metal" friction=".78 .025 .003" condim="6" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+        <geom name="drawer_left" type="box" pos="-.29 -.19 -.02" size=".025 .18 .12" mass=".5" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+        <geom name="drawer_right" type="box" pos=".29 -.19 -.02" size=".025 .18 .12" mass=".5" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+        <geom name="drawer_back" type="box" pos="0 -.36 -.02" size=".29 .025 .12" mass=".4" material="metal" solref=".002 1" solimp=".995 .9999 .0002" margin="0.003" />
+      </body>
+    </body>
+  </worldbody>
+  <equality>
+    <joint name="drawer_lock" joint1="drawer_joint" polycoef="0 1 0 0 0" active="false" solref=".010 1" />
+  </equality>
+  <actuator>
+    <velocity name="wheel_left_ctrl" joint="wheel_left_joint" kv="18" forcelimited="true" forcerange="-180 180" />
+    <velocity name="wheel_right_ctrl" joint="wheel_right_joint" kv="18" forcelimited="true" forcerange="-180 180" />
+    <position name="drawer_ctrl" joint="drawer_joint" kp="3000" forcelimited="true" forcerange="-420 420" />
+    <motor name="base_force_x_ctrl" joint="root_free" gear="1 0 0 0 0 0" ctrllimited="true" ctrlrange="-900 900" />
+    <motor name="base_force_y_ctrl" joint="root_free" gear="0 1 0 0 0 0" ctrllimited="true" ctrlrange="-900 900" />
+    <motor name="base_force_z_ctrl" joint="root_free" gear="0 0 1 0 0 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_roll_ctrl" joint="root_free" gear="0 0 0 1 0 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_pitch_ctrl" joint="root_free" gear="0 0 0 0 1 0" ctrllimited="true" ctrlrange="-5500 5500" />
+    <motor name="base_yaw_ctrl" joint="root_free" gear="0 0 0 0 0 1" ctrllimited="true" ctrlrange="-520 520" />
+  </actuator>
+</mujoco>

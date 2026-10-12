@@ -1,0 +1,88 @@
+schema_version: simcode4d.dev15.task-confirm.v1
+case_id: SER-03-hotel-drawer
+world_id: ser03-hotel
+canonical_source:
+  bytes: 1823403
+  path: deliverables/final_scene_revision_i04_2026-08-16/blends/indoor3_hotel_final_i04.blend
+  sha256: c00b8cfed9a7acbfc0622d336ea1985df2aca5cab4b4a6869fe88af79154d9b1
+  lineage_status: verified
+robot:
+  name: differential-drive hotel service robot with payload drawer
+  entity_id: hotel_robot
+  model_binding: robot
+  mobility: articulated
+task: Navigate the hotel robot to the terminal region, stop, open its payload drawer, and keep the meal parcel supported for
+  0.5 seconds.
+task_family: dynamic_interaction
+dynamic_subtype: articulated
+start_state: {}
+goal:
+  robot_goal:
+    max_xyz_m:
+    - 6.15
+    - 5.1
+    - 1.0
+    min_xyz_m:
+    - 5.15
+    - 4.1
+    - -0.1
+    type: aabb
+required_event_order:
+  edges:
+  - - robot_goal_arrival
+    - drawer_open
+  - - drawer_open
+    - parcel_supported
+  nodes:
+  - robot_goal_arrival
+  - drawer_open
+  - parcel_supported
+allowed_contacts:
+- - meal_parcel
+  - payload_drawer
+- - robot_wheels
+  - floor
+forbidden_contacts:
+- - robot_body
+  - room_door
+- - meal_parcel
+  - floor
+contact_group_bindings:
+  floor:
+    geoms:
+    - floor
+  meal_parcel:
+    bodies:
+    - meal_parcel
+  payload_drawer:
+    bodies:
+    - upper_drawer
+  robot_body:
+    geoms:
+    - robot_base_collision
+    - robot_body_collision
+  robot_wheels:
+    geoms:
+    - wheel_*_geom
+    - caster_*_geom
+  room_door:
+    geoms:
+    - room_door_1208
+timeout_s: 8.0
+success_tolerance:
+  illegal_penetration_m: 0.001
+  maximum_parcel_drawer_z_offset_m: 0.2
+  maximum_terminal_speed_mps: 0.1
+  minimum_drawer_extension_m: 0.27
+  minimum_parcel_height_m: 0.85
+  terminal_hold_s: 0.5
+review:
+  status: benchmark_authored_development_frozen
+  basis:
+  - source Blender animation and source object hierarchy
+  - retained legacy rollout used only to recover intent, not to tune post-freeze scores
+  - task_semantics_confirmation_2026-09-08.csv development draft
+  frozen_before_reference_runs: true
+  formal_annotator_count: 0
+  official_core15_use: false
+  note: This is the robot's own payload drawer; opening uses its declared actuator, not a remote equality unlock.

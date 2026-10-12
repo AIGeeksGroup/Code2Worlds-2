@@ -1,0 +1,175 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 1268,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-01-vacuum-living-room/dependency_manifest.json",
+      "sha256": "ce68b724f86b9381f660b74b1a517d3c7b0ebe49c4bef7723e914090798f849e"
+    },
+    "m1_base": {
+      "bytes": 11652,
+      "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/M1/module1/scene_enriched.xml",
+      "sha256": "fb33b21c02602f781b34fac2a1a5febd5398a007ca27cadff1938060c4e99f50"
+    },
+    "m2_overlay": {
+      "bytes": 1183,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-01-vacuum-living-room/m2_overlay.json",
+      "sha256": "36c0c7ed058d02773e33fedbce1b2029b585c486629241490c19cbdb58d28be1"
+    },
+    "runtime_model": {
+      "bytes": 16877,
+      "path": "benchmark/simcode4d_unified/artifacts/IND-01-vacuum-living-room/runtime_model.xml",
+      "sha256": "c8790dc30c5fd4d82dd863f2089f218d4689b9c5ef9de5595cdd799676f1b1e6"
+    }
+  },
+  "case_id": "IND-01-vacuum-living-room",
+  "domain": "indoor",
+  "dynamic_subtype": null,
+  "entities": [
+    {
+      "entity_id": "vacuum",
+      "mobility": "free",
+      "model_binding": "robot",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "entity_id": "living_room",
+      "mobility": "fixed",
+      "model_binding": "floor_*",
+      "required": true,
+      "role": "support"
+    },
+    {
+      "entity_id": "room_obstacles",
+      "mobility": "fixed",
+      "model_binding": "wall_*",
+      "required": true,
+      "role": "obstacle"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "robot"
+    ],
+    "joints": []
+  },
+  "ownership": {
+    "benchmark_overlay": "initial perturbation, benchmark-owned actuator probe, validator, and diagnostics",
+    "m1": "immutable supplied static geometry and material/contact scene",
+    "m2": "task-independent robot, actuator, mount, and physical-constraint repair bound to M1"
+  },
+  "probe": {
+    "actuator_limits": {
+      "base_force_x_ctrl": [
+        -120.0,
+        120.0
+      ],
+      "base_force_y_ctrl": [
+        -120.0,
+        120.0
+      ],
+      "base_force_z_ctrl": [
+        -80.0,
+        80.0
+      ],
+      "base_pitch_ctrl": [
+        -35.0,
+        35.0
+      ],
+      "base_roll_ctrl": [
+        -35.0,
+        35.0
+      ],
+      "base_yaw_ctrl": [
+        -35.0,
+        35.0
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "move_duration_s": 6.5,
+    "owner": "benchmark",
+    "path": "probes/ind01_vacuum_living_room.py",
+    "sha256": "35760c2e51e1aa6d594327b72955097716bb1abfe36fa0398d6e7db1a04755b2",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/mobile_control.py",
+        "sha256": "f9ea7328779b7d655d520ed1c547b3863e556914dab146e84e055dad86fa9f9b"
+      }
+    ],
+    "waypoints_xy": [
+      [
+        8.5,
+        5.5
+      ],
+      [
+        10.9,
+        5.5
+      ]
+    ],
+    "waypoints_xyz": [
+      [
+        8.5,
+        5.5,
+        0.16
+      ],
+      [
+        10.9,
+        5.5,
+        0.16
+      ]
+    ]
+  },
+  "prompt": "Drive the vacuum east through the living-room corridor, enter the frozen goal, and remain stopped for 0.5 seconds.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "supplied M1 scene, robot assets, source trajectory, and retained rollout provenance",
+      "benchmark-owned live-simulation probe and independent validator",
+      "handover defects recorded in config/handover9_audit.json",
+      "thresholds frozen before Dev15 reference matrix execution"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 264,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/scene_SOURCE.txt",
+    "sha256": "469e19670ff37e9727d0c94809bcf8e69309b232fa5a348ed96529ecc10afcb0"
+  },
+  "source_lineage_status": "compiled_m1_only_authoring_source_missing",
+  "source_manifest": {
+    "bytes": 70267,
+    "path": "benchmark/simcode4d_unified/vendor/handover9_20260921/cases/indoor-1_vacuum_real/M1/manifest.json",
+    "sha256": "0c17c3d26bf0ee67bb10af19f0c54aa6ea8f78ec9bfa3be43a4276ef36338dcf"
+  },
+  "split": "development",
+  "task_family": "obstacle_navigation",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/ind01_vacuum_living_room.py",
+    "sha256": "eee51c4137cd5e07b9987bf3532b6f45289afa066f557be65b2b0464ad6a9d3f",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      },
+      {
+        "path": "validators/dev15_common.py",
+        "sha256": "b91c65bf661c5e2ac186a7886c4e20f0073cf9873d2b4cb350e99699b2b1b1d9"
+      }
+    ]
+  },
+  "world_id": "ind01-living-room"
+}

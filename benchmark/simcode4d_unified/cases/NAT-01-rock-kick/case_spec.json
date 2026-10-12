@@ -1,0 +1,189 @@
+{
+  "artifacts": {
+    "dependency_manifest": {
+      "bytes": 145242,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-01-rock-kick/dependency_manifest.json",
+      "sha256": "8eb9c4869aea5723a2de8e0610467836552ac7a233c5c87ed6fd16b6807139fc"
+    },
+    "m1_base": {
+      "bytes": 290488,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-01-rock-kick/m1_world.xml",
+      "sha256": "d80a9a32eb686fce093d7b1a7cb5d9b006b55edfc9335dc5c2df7725d2644711"
+    },
+    "m2_overlay": {
+      "bytes": 373,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-01-rock-kick/m2_overlay.json",
+      "sha256": "bf232398e925893bfce824576fc6474e49af4cc2f1299998028eaa92870f5c92"
+    },
+    "runtime_model": {
+      "bytes": 290488,
+      "path": "benchmark/simcode4d_unified/artifacts/NAT-01-rock-kick/m1_world.xml",
+      "sha256": "d80a9a32eb686fce093d7b1a7cb5d9b006b55edfc9335dc5c2df7725d2644711"
+    }
+  },
+  "case_id": "NAT-01-rock-kick",
+  "domain": "natural_outdoor",
+  "dynamic_subtype": "contact_dynamic",
+  "entities": [
+    {
+      "entity_id": "go2",
+      "mobility": "articulated",
+      "model_binding": "base",
+      "required": true,
+      "role": "robot"
+    },
+    {
+      "assembly_members": [
+        "stone_col_*"
+      ],
+      "entity_id": "rock",
+      "mobility": "free",
+      "model_binding": "stone",
+      "required": true,
+      "role": "target_object"
+    },
+    {
+      "entity_id": "canyon_terrain",
+      "mobility": "fixed",
+      "model_binding": "terrain_*",
+      "required": true,
+      "role": "support"
+    }
+  ],
+  "observation": {
+    "bodies": [
+      "base",
+      "stone"
+    ],
+    "joints": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ]
+  },
+  "ownership": {
+    "benchmark_overlay": "robot actuator probe, perturbation, grasp API, validator, and records",
+    "m1": "immutable geometry, physical properties, canonical initial state, and static fields",
+    "m2": "task-independent source dynamics overlay bound to the M1 hash; NoOp in Dev6"
+  },
+  "probe": {
+    "actuator_limits": {
+      "FL_calf": [
+        -45.43,
+        45.43
+      ],
+      "FL_hip": [
+        -23.7,
+        23.7
+      ],
+      "FL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "FR_calf": [
+        -45.43,
+        45.43
+      ],
+      "FR_hip": [
+        -23.7,
+        23.7
+      ],
+      "FR_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RL_calf": [
+        -45.43,
+        45.43
+      ],
+      "RL_hip": [
+        -23.7,
+        23.7
+      ],
+      "RL_thigh": [
+        -23.7,
+        23.7
+      ],
+      "RR_calf": [
+        -45.43,
+        45.43
+      ],
+      "RR_hip": [
+        -23.7,
+        23.7
+      ],
+      "RR_thigh": [
+        -23.7,
+        23.7
+      ]
+    },
+    "episode_duration_s": 8.0,
+    "log_hz": 30,
+    "owner": "benchmark",
+    "path": "probes/nat01_rock_kick.py",
+    "sha256": "1b41e9c92984b9f9ddfc455e21a4f16fbd11636f1fed39e68f599819e9653e40",
+    "support_modules": [
+      {
+        "path": "probes/probe_api.py",
+        "sha256": "ad76d63bddb6e23ca2946c233a56096913968daa7401afa33fab65c395de1613"
+      },
+      {
+        "path": "probes/base_control.py",
+        "sha256": "0fe482c1da62df77155d95be7b5f4af69c93659acc088e01c6fd26641bf2a5e0"
+      }
+    ],
+    "waypoints_xy": []
+  },
+  "prompt": "Use the Go2 feet to make the source-bound rock move physically in the uneven canyon, then let it settle.",
+  "schema_version": "simcode4d.rc3a-dev1.case-spec",
+  "semantic_review": {
+    "basis": [
+      "source Blender animation and source object hierarchy",
+      "retained legacy rollout used only to recover intent, not to tune post-freeze scores",
+      "task_semantics_confirmation_2026-09-08.csv development draft"
+    ],
+    "formal_double_annotation": false,
+    "frozen_before_runs": true,
+    "official_admission": false,
+    "status": "development_frozen"
+  },
+  "simulator": {
+    "name": "mujoco",
+    "timestep_s": 0.001,
+    "version": "3.9.0"
+  },
+  "source": {
+    "bytes": 2149691568,
+    "path": "scene_1.blend",
+    "sha256": "b406f9b08c75870f2c9efedf6b2d6398d30640fd10e0c9807d2b7bc8eda39f85"
+  },
+  "source_lineage_status": "verified",
+  "source_manifest": {
+    "bytes": 599665,
+    "path": "benchmark/simcode4d_unified/assets/nat01_meshes/manifest.json",
+    "sha256": "b7dd1a63d5805306a6fcf4329421070bcfd312b5819828a494844e30ec7768d0"
+  },
+  "split": "development",
+  "task_family": "dynamic_interaction",
+  "validator": {
+    "owner": "benchmark",
+    "path": "validators/nat01_rock_kick.py",
+    "sha256": "515240a48157990a739852a15c57aebbf241276514017e6564cbf9d8bbdebbf8",
+    "support_modules": [
+      {
+        "path": "validators/common.py",
+        "sha256": "89378167ca7a9162ca195b8f21b4ee6f8a679b6628152884bde8b6651c5bc4fc"
+      }
+    ]
+  },
+  "world_id": "nat01-canyon"
+}
