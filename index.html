@@ -109,6 +109,59 @@
       line-height: 0.96;
     }
 
+    .publication-meta {
+      max-width: 1180px;
+      margin-top: 32px;
+    }
+
+    .publication-authors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 26px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: clamp(1.05rem, 1.3vw, 1.25rem);
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    .publication-authors li { white-space: nowrap; }
+    .publication-authors a { color: inherit; text-decoration: none; }
+    .publication-authors a:hover { color: var(--muted); }
+    .publication-authors a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .publication-meta sup { color: var(--accent-dark); font-size: 0.72em; }
+
+    .publication-affiliations,
+    .publication-contributions {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 15px 0 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .publication-affiliations { gap: 8px 28px; font-size: 0.92rem; }
+    .publication-contributions { gap: 6px 20px; margin-top: 10px; font-size: 0.82rem; }
+
+    .publication-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .publication-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 22px;
+      border: 1px solid var(--ink);
+      border-radius: 3px;
+      color: var(--paper);
+      background: var(--ink);
+      font-size: 0.84rem;
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .publication-links a:hover { border-color: var(--accent-dark); background: var(--accent-dark); }
+    .publication-links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
     .hero-rule {
       width: min(620px, 100%);
       height: 1px;
@@ -120,6 +173,50 @@
     main {
       border-top: 1px solid var(--line);
     }
+
+    .method-section {
+      padding: clamp(56px, 8vw, 110px) 0 80px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .method-figures { display: grid; gap: 64px; }
+    .method-figure { min-width: 0; margin: 0; }
+    .method-image-link {
+      display: block;
+      width: min(1280px, 100%);
+      margin: 0 auto;
+      padding: clamp(12px, 2vw, 24px);
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .method-image-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .method-image-link img { display: block; width: 100%; height: auto; }
+    .method-figure--feedback .method-image-link { width: min(840px, 100%); }
+    .method-figure--exports .method-image-link { width: min(940px, 100%); }
+    .method-figure--wide .method-image-link { width: 100%; padding: 12px; }
+    .method-figure-pair {
+      display: grid;
+      /* Match column widths to the image aspect ratios for equal image heights. */
+      grid-template-columns: minmax(0, 1.205387fr) minmax(0, 1.773649fr);
+      gap: 28px;
+      align-items: start;
+    }
+    .method-figure-pair .method-image-link {
+      width: 100%;
+      padding: 0;
+      border: 0;
+      outline: 1px solid var(--line);
+    }
+    .method-figure-pair .method-image-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .method-figure figcaption {
+      max-width: 1120px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+      line-height: 1.85;
+    }
+    .method-figure figcaption strong { color: var(--ink); font-weight: 600; }
+    .benchmark-name { font-variant: small-caps; }
 
     .simulation-section {
       padding: clamp(56px, 8vw, 110px) 0 120px;
@@ -232,6 +329,12 @@
       .topbar-inner { justify-content: center; padding: 18px 0; }
       .section-note { white-space: normal; }
       .video-row { grid-template-columns: 1fr; gap: 18px; }
+      .publication-meta { margin-top: 26px; }
+      .publication-authors { gap: 10px 20px; font-size: 1rem; }
+      .method-section { padding-bottom: 56px; }
+      .method-figures { gap: 42px; }
+      .method-figure-pair { grid-template-columns: minmax(0, 1fr); gap: 42px; }
+      .method-figure figcaption { font-size: 0.88rem; }
     }
   </style>
 </head>
@@ -246,10 +349,85 @@
   <section class="hero page-shell" aria-labelledby="page-title">
     <p class="eyebrow">Physically Plausible Agent Harness</p>
     <h1 id="page-title"><span class="title-name">Code2Worlds</span><span class="title-version">-2</span>: Physically Plausible Agent Harness for Embodied World Simulation</h1>
+    <div class="publication-meta" aria-label="Authors, affiliations, and contributions">
+      <ul class="publication-authors" aria-label="Authors">
+        <li><a href="https://github.com/KagUYa66" target="_blank" rel="noopener noreferrer">Haoyu Zhang</a><sup>1*</sup></li>
+        <li><a href="https://github.com/James-Harden1" target="_blank" rel="noopener noreferrer">Siming Li</a><sup>1*</sup></li>
+        <li><a href="https://steve-zeyu-zhang.github.io/" target="_blank" rel="noopener noreferrer">Zeyu Zhang</a><sup>1*†</sup></li>
+        <li><a href="https://scholar.google.com/citations?user=bnLsGp4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Yi Zhang</a><sup>1</sup></li>
+        <li><a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Tat-Seng Chua</a><sup>2</sup></li>
+        <li><a href="https://ha0tang.github.io/" target="_blank" rel="noopener noreferrer">Hao Tang</a><sup>1‡</sup></li>
+      </ul>
+      <p class="publication-affiliations">
+        <span><sup>1</sup> School of Computer Science, Peking University</span>
+        <span><sup>2</sup> School of Computing, National University of Singapore</span>
+      </p>
+      <p class="publication-contributions">
+        <span><sup>*</sup> Equal contribution.</span>
+        <span><sup>†</sup> Project lead.</span>
+        <span><sup>‡</sup> Corresponding author.</span>
+      </p>
+      <nav class="publication-links" aria-label="Project resources">
+        <a href="https://arxiv.org/abs/2600.00000" target="_blank" rel="noopener noreferrer">Paper</a>
+        <a href="https://github.com/AIGeeksGroup/Code2Worlds-2" target="_blank" rel="noopener noreferrer">Code</a>
+        <a href="https://huggingface.co/datasets/AIGeeksGroup/SimCode4D" target="_blank" rel="noopener noreferrer">SimCode4D</a>
+      </nav>
+    </div>
     <div class="hero-rule" aria-hidden="true"></div>
   </section>
 
   <main>
+    <section class="method-section page-shell" id="method" aria-labelledby="method-title">
+      <div class="section-heading">
+        <h2 id="method-title">Method</h2>
+      </div>
+      <div class="method-figures">
+        <div class="method-figure-pair">
+          <figure class="method-figure method-figure--feedback">
+            <a class="method-image-link" href="image/fig1_horizontal_single_column_v4.png" target="_blank" rel="noopener noreferrer" title="Open full-resolution image">
+              <img src="image/fig1_horizontal_single_column_v4.png" width="2148" height="1782" alt="Comparison of the Code2Worlds visual feedback loop and the Code2Worlds-2 simulator feedback loop." loading="lazy" decoding="async">
+            </a>
+            <figcaption><strong>The feedback loops of the two systems.</strong> (a) Code2Worlds corrects a scene by rewriting its code from rendered images—a <em>visual</em> loop, which cannot guarantee physical validity. (b) Code2Worlds-2 instead closes the loop through the simulator: Module 1 compiles a SimReady scene, Module 2 critiques the rollout, and simulator feedback guides the revisions to the <em>physical settings</em> and dynamics.</figcaption>
+          </figure>
+
+          <figure class="method-figure method-figure--exports">
+            <a class="method-image-link" href="image/fig6_original_stacked_landscape.png" target="_blank" rel="noopener noreferrer" title="Open full-resolution image">
+              <img src="image/fig6_original_stacked_landscape.png" width="1050" height="592" alt="Default convex-hull colliders create phantom support, while SimReady CoACD colliders preserve the chair seat and the space beneath the table." loading="lazy" decoding="async">
+            </a>
+            <figcaption><strong>Schematic comparison of default (top) and SimReady (bottom) scene exports.</strong> A single convex hull fills concave spaces, creating phantom support and embedding the box. CoACD colliders preserve these spaces, allowing the sphere to rest on the seat after settling and the box to fit beneath the table. Dashed outlines denote collision geometry; green dots mark contact points.</figcaption>
+          </figure>
+        </div>
+
+        <figure class="method-figure">
+          <a class="method-image-link" href="image/overview_code2worlds2.png" target="_blank" rel="noopener noreferrer" title="Open full-resolution image">
+            <img src="image/overview_code2worlds2.png" width="4016" height="1654" alt="Overview of the Code2Worlds-2 pipeline and examples from five simulation domains." loading="lazy" decoding="async">
+          </a>
+          <figcaption><strong>Overview of Code2Worlds-2.</strong> Two modules are appended to the original Code2Worlds pipeline to produce a simulator-compatible, interactable 4D world, and the illustrated scenes span five domains.</figcaption>
+        </figure>
+
+        <figure class="method-figure">
+          <a class="method-image-link" href="image/harness_agent_loop.png" target="_blank" rel="noopener noreferrer" title="Open full-resolution image">
+            <img src="image/harness_agent_loop.png" width="4016" height="1417" alt="The generation agent emits code and dynamics, receives simulator measurements, and revises physical settings until validation passes." loading="lazy" decoding="async">
+          </a>
+          <figcaption><strong>The Code2Worlds-2 agent harness.</strong> The generation agent closes a loop through the simulator: it emits code and a dynamics program, which are compiled, executed, and measured by physical signals; the fused verdict then revises the <em>physical</em> settings until validation passes.</figcaption>
+        </figure>
+
+        <figure class="method-figure method-figure--wide">
+          <a class="method-image-link" href="image/module1_compiler_stages.png" target="_blank" rel="noopener noreferrer" title="Open full-resolution image">
+            <img src="image/module1_compiler_stages.png" width="4488" height="709" alt="Module 1 compiler stages: collision decomposition, physical attributes, support graph, contact constraints and settling, followed by MJCF export." loading="lazy" decoding="async">
+          </a>
+          <figcaption><strong>The stages of Module 1.</strong> Collision geometry is obtained by convex decomposition; density, friction, and restitution are estimated by a vision–language model, while mass and inertia are computed from mesh geometry; a support graph separates supported from floating bodies; and the engine’s contact model, together with a gravity settling pass, produces a simulator-compatible scene exported as MJCF.</figcaption>
+        </figure>
+
+        <figure class="method-figure method-figure--wide">
+          <a class="method-image-link" href="image/image.png" target="_blank" rel="noopener noreferrer" title="Open full-resolution image">
+            <img src="image/image.png" width="2017" height="402" alt="Dev15 benchmark charts showing five-domain task composition, executable artifact coverage, penetration measurements below a one-millimeter gate, and normalized physical diagnostics below their failure thresholds." loading="lazy" decoding="async">
+          </a>
+          <figcaption><strong><span class="benchmark-name">Dev15</span> benchmark composition and execution diagnostics.</strong> (a) The 15 cases span five domains and three realized task families (N: navigation, D: dynamic interaction, P: pick/transport). (b) All 15 cases have complete executable contracts; 12 additionally retain their authoring scenes. (c) For each domain, bars show the 95th percentile of per-episode penetration P95 values, whereas diamonds show the maximum penetration observed in any episode; both remain below the frozen 1&nbsp;mm gate, and lower is better. (d) Maximum penetration, Coulomb utilization, generalized-force residual, and quaternion error are normalized by their failure thresholds; lower is better, and all values remain below one.</figcaption>
+        </figure>
+      </div>
+    </section>
+
     <section class="simulation-section page-shell" aria-labelledby="simulation-title">
       <div class="section-heading">
         <h2 id="simulation-title">MuJoCo Simulation</h2>
