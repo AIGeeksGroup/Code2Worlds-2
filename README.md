@@ -1,10 +1,22 @@
-# Code2Worlds-2
+# Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation
 
-**Physically Plausible Agent Harness for Embodied World Simulation**
+This is the official repository for the paper:
+
+> **Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation**
+>
+> [Haoyu Zhang](https://github.com/KagUYa66)<sup>1*</sup>, [Siming Li](https://github.com/James-Harden1)<sup>1*</sup>, [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)<sup>1*†</sup>, [Yi Zhang](https://scholar.google.com/citations?hl=en&user=bnLsGp4AAAAJ)<sup>1</sup>, [Tat-Seng Chua](https://www.chuatatseng.com/)<sup>2</sup>, and [Hao Tang](https://ha0tang.github.io/)<sup>1‡</sup>
+>
+> <sup>1</sup>School of Computer Science, Peking University
+>
+> <sup>2</sup>School of Computing, National University of Singapore
+>
+> \*Equal contribution. <sup>†</sup>Project lead. <sup>‡</sup>Corresponding author.
+>
+> ### [Website](https://aigeeksgroup.github.io/Code2Worlds-2/) | [Code](https://github.com/AIGeeksGroup/Code2Worlds-2) | [SimCode4D](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D)
 
 Code2Worlds-2 extends [Code2Worlds](https://github.com/AIGeeksGroup/Code2Worlds) with two stages that turn a generated Blender scene into an executable MuJoCo world. **Module 1** compiles visual geometry into a SimReady scene with collision meshes, physical attributes, support relations, and MJCF. **Module 2** adds executable rigid and articulated dynamics, runs the scene in MuJoCo, and evaluates simulator signals. The repository also contains the **SimCode4D DEV15** benchmark: 15 state-based tasks across indoor, industrial, natural, service, and urban domains.
 
-> This repository accompanies the submitted TPAMI manuscript *Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation*. Benchmark reference-package checks and generated-method scores are different evaluations; see [Benchmark](#benchmark).
+> This repository accompanies the manuscript *Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation*. Benchmark reference-package checks and generated-method scores are different evaluations; see [Benchmark](#benchmark).
 
 ![Code2Worlds-2 compile, simulate, critique, and refine harness](assets/code2worlds2_harness.png)
 
@@ -95,6 +107,6 @@ first-output metrics, see the [benchmark guide](benchmark/simcode4d_unified/READ
   title={Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation},
   author={Zhang, Haoyu and Li, Siming and Zhang, Zeyu and Zhang, Yi and Chua, Tat-Seng and Tang, Hao},
   year={2026},
-  note={Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence}
+  note={manuscript}
 }
 ```
