@@ -12,7 +12,7 @@ This is the official repository for the paper:
 >
 > \*Equal contribution. <sup>†</sup>Project lead. <sup>‡</sup>Corresponding author.
 >
-> ### [Website](https://aigeeksgroup.github.io/Code2Worlds-2/) | [SimCode4D](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D)
+> ### [Paper]() | [Website](https://aigeeksgroup.github.io/Code2Worlds-2/) | [SimCode4D](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D)
 
 Code2Worlds-2 extends [Code2Worlds](https://github.com/AIGeeksGroup/Code2Worlds) with two stages that turn a generated Blender scene into an executable MuJoCo world. **Module 1** compiles visual geometry into a SimReady scene with collision meshes, physical attributes, support relations, and MJCF. **Module 2** adds executable rigid and articulated dynamics, runs the scene in MuJoCo, and evaluates simulator signals. The repository also contains the **SimCode4D DEV15** benchmark: 15 state-based tasks across indoor, industrial, natural, service, and urban domains.
 
