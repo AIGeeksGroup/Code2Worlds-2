@@ -75,7 +75,7 @@ python benchmark/simcode4d_unified/tools/run_matrix.py \
   --skip-preflight
 ```
 
-The public integrity check verifies the included hash-bound artifacts and loads all 15 MuJoCo models. `--skip-preflight` skips the original authoring-archive preflight; the runner still checks registered toolchain, case, and runtime hashes. The 15 case-aligned Blender scene files are available separately in the [SimCode4D dataset](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D/tree/main/blender_sources) and are not needed to run the frozen runtime packages. Three case packages were [rebound to relative mesh paths](benchmark/simcode4d_unified/PORTABILITY.md) for this GitHub release. See the [benchmark guide](benchmark/simcode4d_unified/README.md) for the full 225-execution matrix and aggregation.
+The public integrity check verifies the included hash-bound artifacts and loads all 15 MuJoCo models. Three case packages were [rebound to relative mesh paths](benchmark/simcode4d_unified/PORTABILITY.md) for this GitHub release. See the [benchmark guide](benchmark/simcode4d_unified/README.md) for the full 225-execution matrix and aggregation.
 
 ## Adapt the method to another scene
 
