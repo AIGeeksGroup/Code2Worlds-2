@@ -24,8 +24,9 @@ package must stay separate from the evaluator-owned code.
 
 ## Boundaries of the public package
 
-The 15 frozen compiled worlds are runnable without the original Blender
-authoring scenes. The [`demo_scene/`](demo_scene/) directory supplies a small
+The 15 frozen compiled worlds are runnable without Blender authoring scenes.
+The [SimCode4D dataset](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D/tree/main/blender_sources) hosts case-aligned Blender files separately.
+The [`demo_scene/`](demo_scene/) directory supplies a small
 editable Blender input and dynamics program; the bundled benchmark Go2 model
 supports its offline M1/M2 physics run. A different scene needs its own
 Blender input and compatible robot model, with an optional model API for
@@ -37,9 +38,10 @@ robot paths have their own executors and are not claimed to use one generic
 repair policy.
 
 Method scoring uses the frozen runtime interface and checks runtime entity
-bindings. The manuscript's *source-name* binding F1 requires the original
-authoring-source catalogs for the 12 fixed-source cases. Those large source
-bundles are absent here, so the public scorer labels its runtime binding F1
+bindings. The manuscript's *source-name* binding F1 requires source-name
+annotation catalogs for the 12 fixed-source cases. These catalogs are not
+supplied by the published `.blend` files, so the public scorer labels its
+runtime binding F1
 separately. Initial support F1 covers the five cases with published task-object
 support labels; unannotated background relations are excluded. The metric
 functions in `method_metrics.py` can pool source-name counts if separately

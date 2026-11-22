@@ -75,7 +75,7 @@ python benchmark/simcode4d_unified/tools/run_matrix.py \
   --skip-preflight
 ```
 
-The public integrity check verifies the included hash-bound artifacts and loads all 15 MuJoCo models. `--skip-preflight` skips the original archive preflight, which also requires the omitted multi-gigabyte Blender authoring scenes; the runner still checks registered toolchain, case, and runtime hashes. Three case packages were [rebound to relative mesh paths](benchmark/simcode4d_unified/PORTABILITY.md) for this GitHub release. See the [benchmark guide](benchmark/simcode4d_unified/README.md) for the full 225-execution matrix and aggregation.
+The public integrity check verifies the included hash-bound artifacts and loads all 15 MuJoCo models. `--skip-preflight` skips the original authoring-archive preflight; the runner still checks registered toolchain, case, and runtime hashes. The 15 case-aligned Blender scene files are available separately in the [SimCode4D dataset](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D/tree/main/blender_sources) and are not needed to run the frozen runtime packages. Three case packages were [rebound to relative mesh paths](benchmark/simcode4d_unified/PORTABILITY.md) for this GitHub release. See the [benchmark guide](benchmark/simcode4d_unified/README.md) for the full 225-execution matrix and aggregation.
 
 ## Adapt the method to another scene
 
@@ -89,7 +89,7 @@ For bounded Go2 simulator feedback after preparing a program, use `module2/run_r
 
 SimCode4D defines five task templates; the released DEV15 suite instantiates navigation, dynamic interaction, and pick/transport tasks. Each case has a frozen specification, gold predicates, physics profile, task confirmation, independent probe, validator, and runnable model. The paper's **225/225** result measures the supplied *reference packages* over 15 cases × 3 deterministic rebuild replicates × 5 physics seeds. It is a benchmark readiness check, **not** a Code2Worlds-2 method success rate. Use the same evaluator for a method-generated world package only after binding that package to a case's required entities and task overlay.
 
-The release omits large authoring `.blend` scenes, experiment outputs, ablation runs, and demo videos. It retains the simulator assets necessary to execute the frozen DEV15 runtime packages. Source manifests preserve historical provenance pointers; some point to authoring files that are intentionally absent from this code release.
+The [SimCode4D dataset](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D) hosts the 15 case-aligned `.blend` files and a [scene index](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D/blob/main/data/scenes.jsonl). This code repository retains the simulator assets needed to execute all 15 frozen DEV15 runtime packages, while omitting large Blender sources, experiment outputs, ablation runs, and demo videos. Source manifests preserve historical authoring paths rather than the dataset's published layout.
 
 For a self-contained test of the **method submission** interface and its
 first-output metrics, see the [benchmark guide](benchmark/simcode4d_unified/README.md).
@@ -98,7 +98,7 @@ first-output metrics, see the [benchmark guide](benchmark/simcode4d_unified/READ
 
 - The original Code2Worlds source comes from [`AIGeeksGroup/Code2Worlds`](https://github.com/AIGeeksGroup/Code2Worlds). Its snapshot has no top-level license file. This repository does not assign a new license to that source.
 - The bundled Unitree Go2 and UR5e benchmark meshes retain their respective license and README files beside the assets. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
-- Infinigen, robot models beyond the benchmark's included assets, and full paper authoring scenes are not bundled. Follow upstream installation and asset terms if you use them for new-scene generation.
+- Infinigen and robot models beyond the benchmark's included assets are not bundled. Follow upstream installation and asset terms if you use them for new-scene generation.
 
 ## Citation
 

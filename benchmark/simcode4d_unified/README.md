@@ -13,7 +13,9 @@ This directory is the frozen 15-case development suite described in Sec. 4 of th
 | `tools/` | Runtime, isolated episode worker, matrix runner, method scorer, physical diagnostics, result aggregation |
 | `vendor/` and `assets/nat01_meshes/` | Exact model meshes needed by the frozen runtime |
 
-The 12 archived Blender authoring scenes are omitted from this GitHub code release. Three indoor authoring scenes were not archived in the original benchmark. All 15 compiled M1 worlds and task runtimes are included. Three cases required [path-only portability repairs](PORTABILITY.md), so their published hashes differ from the original server archive. The original `tools/validate_suite.py` checks source archives in addition to executable contracts, so it cannot pass on this compact release. Run the public integrity check below, then use `--skip-preflight` with the unchanged matrix runner. This still checks hashes for the registered toolchain, selected cases, models, and overlays during execution.
+The [SimCode4D dataset](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D/tree/main/blender_sources) hosts a `.blend` file for each of the 15 case IDs; its [scene index](https://huggingface.co/datasets/AIGeeksGroup/SimCode4D/blob/main/data/scenes.jsonl) maps cases to files. IND-01 and IND-02 share one original authoring scene; IND-03 is reconstructed from retained geometry export. Frozen case specifications preserve their historical source-lineage fields from the original archive.
+
+This GitHub release contains all 15 compiled M1 worlds and task runtimes, so evaluation does not require the Blender files. Three cases required [path-only portability repairs](PORTABILITY.md), so their published hashes differ from the original server archive. The original `tools/validate_suite.py` checks the original source archives in addition to executable contracts, so it cannot pass on this compact release. Run the public integrity check below, then use `--skip-preflight` with the unchanged matrix runner. This still checks hashes for the registered toolchain, selected cases, models, and overlays during execution.
 
 ## Verify and run
 
@@ -91,8 +93,9 @@ The scorer also isolates each case and episode in a fresh process to avoid
 retaining large compiled worlds in memory.
 `method_metrics.py` computes WorldBuildPass@1, TaskOverlayPass@1, pooled F1,
 and RTS. Runtime entity-binding F1 checks the compiled model interface; the
-paper's source-name binding F1 additionally needs the 12 authoring-source
-catalogs, which are outside this compact release. Initial support F1 uses
+paper's source-name binding F1 additionally needs the 12 source-name annotation
+catalogs, which are not supplied by the published `.blend` files. Initial
+support F1 uses
 only five annotated task-object relations; unannotated relations are not
 treated as negatives.
 
